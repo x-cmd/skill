@@ -1,0 +1,38 @@
+# shellcheck shell=dash
+
+release()(
+    local x_cmd_skill_version="${1:-"v0.0.1"}"
+    local root_path="$(x wsroot)"
+    x:info "run cmd -> x cd $root_path"
+
+    x cd "$root_path"
+    x ws bundle
+
+    x:info "Release on github."
+    (
+        x gh repo release create -r x-cmd/skill --tag "$x_cmd_skill_version" --target_commitish test --body "# $x_cmd_skill_version"
+        x gh repo release attachment upload "dist/${x_cmd_skill_version}.tar.gz"
+        x gh repo release attachment upload "dist/${x_cmd_skill_version}_hash.txt"
+        x:info "release github"
+    ) || return
+
+    x:info "Release on oss."
+    local oss_host="res@world.hub.x-cmd.com"
+    local oss_home="/home/res"
+    local oss_skill="${oss_home}/res/data/x-cmd/skill/dist"
+    (
+        x mkdirp ./skill.tmp/
+        x cp  "dist/${x_cmd_skill_version}.tar.gz" ./skill.tmp/
+        x cp  "dist/${x_cmd_skill_version}_hash.txt" ./skill.tmp/
+        scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
+            -r ./skill.tmp "${oss_host}:${oss_skill}/"
+        ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
+            "$oss_host" "mv ${oss_skill}/skill.tmp/${x_cmd_skill_version}.tar.gz ${oss_skill}/ && mv ${oss_skill}/skill.tmp/${x_cmd_skill_version}_hash.txt ${oss_skill}/ && rm -rf  ${oss_skill}/skill.tmp"
+        ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
+            "$oss_host"  'cd $HOME/res && . $HOME/.x-cmd.root/X && x ws upload_skill'
+    ) 1>&2 >/dev/null || return
+
+    x:info "Finish"
+)
+
+release "$___X_CMD_SKILL_RELEASE_VERSION"

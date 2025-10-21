@@ -1,0 +1,81 @@
+# shellcheck shell=dash disable=2016
+___X_CMD_ZUZ_QUIET=true
+
+bundle_tmp2tgz()(
+    x cd "$(x wsroot)/.tmp"
+    x rmrf web_data/tmp
+    # x ws onemin_data
+    x z "$x_cmd_skill_version.tar.gz"  * || return
+    x rmrf "${output}/$x_cmd_skill_version.tar.gz"
+    x mkdirp "${output}"
+    x mv "$x_cmd_skill_version.tar.gz" "${output}/$x_cmd_skill_version.tar.gz"
+    touch "${output}/${x_cmd_skill_version}_hash.txt"
+    sha512sum "${output}/$x_cmd_skill_version.tar.gz" > "${output}/${x_cmd_skill_version}_hash.txt"
+
+    x:info "Generate $x_cmd_skill_version.tar.gz file, size: $(du -h "${output}/$x_cmd_skill_version.tar.gz" | awk '{print $1}')"
+)
+
+bundle_xcmd_skill_data()(
+    local tgtprefix=; tgtprefix="$(x wsroot)/.tmp"
+    x:info "BEGIN ==== > bundle x-cmd/skill data"
+    x:info "Clone repo x-cmd/skill"
+    x gh cl x-cmd/skill || return
+
+    (
+        ___x_cmd_cmds_cd skill || return
+        x mkdirp "$tgtprefix"
+        x cp -rf "data/"* "$tgtprefix/" || {
+            x:error "wrong: data/"
+            return 1
+        }
+    ) || return
+    x rmrf skill
+    x:info "END ==== > bundle skill data"
+)
+
+bundle()(
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.1"}";
+
+    local root; root="$(x wsroot)"
+    local output; output="$root/dist"
+    local skip_version_sh
+    while [ $# -gt 0 ]; do
+        case "$1" in
+            --version)   shift; x_cmd_skill_version="$1";              shift ;;
+            -o|--output) shift; output="$root/$1";                   shift ;;
+            --skip_version_sh)  skip_version_sh="--skip_version_sh"; shift ;;
+            *)           break ;;
+        esac
+    done
+
+    x:info "bundle $x_cmd_skill_version to $output, skip_version_sh=$skip_version_sh"
+
+    case "$1" in
+        "") ;;
+        *)
+            if ! command -v "bundle_$1" >/dev/null 2>&1; then
+                x:error "Unexisted bundle command: $1"
+                return 1
+            fi
+            local op="$1"; shift;
+            "bundle_$op" "$@" ; return
+    esac
+
+    x rmrf .tmp
+
+    if ! bundle_xcmd_skill_data ; then
+        x:error "bundle_xcmd_se_data failed"
+        return 1
+    fi
+
+    if ! bundle_tmp2tgz ; then
+        x:error "bundle_yml2tgz failed"
+        return 1
+    fi
+)
+
+
+(
+    x cd "$(x wsroot)"
+    bundle "$@"
+) || return
