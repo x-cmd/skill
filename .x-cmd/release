@@ -19,6 +19,16 @@ release()(
         x:info "release github"
     ) || return
 
+    x:info "Release on codeberg."
+    (
+        x cb --cfg token="$CODEBERG_TOKEN"
+        x cb repo release create -r x-cmd/skill --tag "$x_cmd_skill_version" 
+        release_id="$(x cb repo release ls -r x-cmd/skill --csv | x awk -F, -v tag="$x_cmd_skill_version" 'NR>1 && $3 == tag {print $1}')"
+        x cb repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills.tar.gz"
+        x cb repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills_hash.txt"
+        x:info "release codeberg"
+    ) || return
+
     # x:info "Release on oss."
     # local oss_host="res@world.hub.x-cmd.com"
     # local oss_home="/home/res"
