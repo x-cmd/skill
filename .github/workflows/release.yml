@@ -16,7 +16,7 @@ jobs:
       ___X_CMD_SKILL_RELEASE_VERSION: ${{ github.event.inputs.x-cmd-skill-version }}
       ___X_CMD_GHACTION_X: x6
       WEBHOOK_URL: ${{ secrets.ROBOT }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.XGITHUB_TOKEN }}
       ssh_key: ${{ secrets.SSH_PRIVATE_KEY_SKILL }}
       git_user: lunrenyi
       git_email: liaoxuanbin@x-cmd.com
