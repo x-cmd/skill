@@ -1,0 +1,32 @@
+name: release
+
+on:
+  workflow_dispatch:
+    inputs:
+      x-cmd-skill-version:
+          description: 'x-cmd skill version'
+          required: true
+          default: 'v0.0.1'
+
+jobs:
+  Bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ___X_CMD_SKILL_RELEASE_VERSION: ${{ github.event.inputs.x-cmd-skill-version }}
+      ___X_CMD_GHACTION_X: x6
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ssh_key: ${{ secrets.SSH_PRIVATE_KEY_SKILL }}
+      git_user: lunrenyi
+      git_email: liaoxuanbin@x-cmd.com
+      CONCURRENCY: 10
+    steps:
+      - name: main
+        uses: x-cmd/action@main
+        with:
+          code: |
+            x ws bundle  || return
+            x ws release || return
+
+
+

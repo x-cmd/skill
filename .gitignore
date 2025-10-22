@@ -3,3 +3,4 @@ res/
 .*/
 !.x-cmd/
 !.vscode/
+!.github/
