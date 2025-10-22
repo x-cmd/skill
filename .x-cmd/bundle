@@ -5,14 +5,14 @@ bundle_tmp2tgz()(
     x cd "$(x wsroot)/.tmp"
     x rmrf web_data/tmp
     # x ws onemin_data
-    x z "$x_cmd_skill_version.tar.gz"  * || return
-    x rmrf "${output}/$x_cmd_skill_version.tar.gz"
+    x z "skills.tar.gz"  * || return
+    x rmrf "${output}/skills.tar.gz"
     x mkdirp "${output}"
-    x mv "$x_cmd_skill_version.tar.gz" "${output}/$x_cmd_skill_version.tar.gz"
-    touch "${output}/${x_cmd_skill_version}_hash.txt"
-    sha512sum "${output}/$x_cmd_skill_version.tar.gz" > "${output}/${x_cmd_skill_version}_hash.txt"
+    x mv "skills.tar.gz" "${output}/skills.tar.gz"
+    touch "${output}/skills_hash.txt"
+    sha512sum "${output}/skills.tar.gz" > "${output}/skills_hash.txt"
 
-    x:info "Generate $x_cmd_skill_version.tar.gz file, size: $(du -h "${output}/$x_cmd_skill_version.tar.gz" | awk '{print $1}')"
+    x:info "Generate skills.tar.gz file, size: $(du -h "${output}/skills.tar.gz" | awk '{print $1}')"
 )
 
 bundle_xcmd_skill_data()(
