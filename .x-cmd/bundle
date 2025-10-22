@@ -9,8 +9,8 @@ bundle_tmp2tgz()(
     x rmrf "${output}/skills.tar.gz"
     x mkdirp "${output}"
     x mv "skills.tar.gz" "${output}/skills.tar.gz"
-    touch "${output}/skills_hash.txt"
-    sha512sum "${output}/skills.tar.gz" > "${output}/skills_hash.txt"
+    x touch "${output}/skills_hash.txt"
+    x hash sha512 "${output}/skills.tar.gz" > "${output}/skills_hash.txt"
 
     x:info "Generate skills.tar.gz file, size: $(du -h "${output}/skills.tar.gz" | awk '{print $1}')"
 )
