@@ -11,7 +11,7 @@ release()(
     x:info "Release on github."
     (
         x gh --cfg token="$GITHUB_TOKEN"
-        x gh repo release create -r x-cmd/skill --tag "$x_cmd_skill_version" --target_commitish test --body "# $x_cmd_skill_version"
+        x gh repo release create -r x-cmd/skill --tag "$x_cmd_skill_version" 
         x gh repo release attachment upload "dist/${x_cmd_skill_version}.tar.gz"
         x gh repo release attachment upload "dist/${x_cmd_skill_version}_hash.txt"
         x:info "release github"
