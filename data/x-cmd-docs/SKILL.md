@@ -69,8 +69,8 @@ x-cmd rfc 8446  # TLS 1.3
 
 **Check Vulnerabilities:**
 ```bash
-x-cmd osv CVE-2024-3094  # XZ backdoor
-x-cmd osv CVE-2021-44228  # Log4Shell
+x-cmd osv vuln --yml CVE-2024-3094  # XZ backdoor
+x-cmd osv vuln --yml CVE-2021-44228  # Log4Shell
 ```
 
 ## Quick Reference
