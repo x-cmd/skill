@@ -17,6 +17,7 @@ jobs:
       ___X_CMD_GHACTION_X: x6
       WEBHOOK_URL: ${{ secrets.ROBOT }}
       GITHUB_TOKEN: ${{ secrets.XGITHUB_TOKEN }}
+      CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
       ssh_key: ${{ secrets.SSH_PRIVATE_KEY_SKILL }}
       git_user: lunrenyi
       git_email: liaoxuanbin@x-cmd.com
