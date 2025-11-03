@@ -12,7 +12,7 @@ fork_from_anthropic(){
 }
 
 fork_from_notion(){
-    g
+    :
 }
 
 fork_from_sci(){
