@@ -1,0 +1,327 @@
+- id: k-dense-ai/scientific-databases/metabolomics-workbench-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/metabolomics-workbench-database
+
+- id: k-dense-ai/scientific-databases/uspto-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/uspto-database
+
+- id: k-dense-ai/scientific-databases/kegg-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/kegg-database
+
+- id: k-dense-ai/scientific-databases/zinc-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/zinc-database
+
+- id: k-dense-ai/scientific-databases/alphafold-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/alphafold-database
+
+- id: k-dense-ai/scientific-databases/cosmic-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/cosmic-database
+
+- id: k-dense-ai/scientific-databases/gene-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/gene-database
+
+- id: k-dense-ai/scientific-databases/biorxiv-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/biorxiv-database
+
+- id: k-dense-ai/scientific-databases/geo-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/geo-database
+
+- id: k-dense-ai/scientific-databases/hmdb-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/hmdb-database
+
+- id: k-dense-ai/scientific-databases/clinvar-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinvar-database
+
+- id: k-dense-ai/scientific-databases/pubchem-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubchem-database
+
+- id: k-dense-ai/scientific-databases/drugbank-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/drugbank-database
+
+- id: k-dense-ai/scientific-databases/fda-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/fda-database
+
+- id: k-dense-ai/scientific-databases/ensembl-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/ensembl-database
+
+- id: k-dense-ai/scientific-databases/clinpgx-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinpgx-database
+
+- id: k-dense-ai/scientific-databases/gwas-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/gwas-database
+
+- id: k-dense-ai/scientific-databases/string-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/string-database
+
+- id: k-dense-ai/scientific-databases/uniprot-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/uniprot-database
+
+- id: k-dense-ai/scientific-databases/reactome-database/reactome-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/reactome-database/reactome-database
+
+- id: k-dense-ai/scientific-databases/pubmed-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubmed-database
+
+- id: k-dense-ai/scientific-databases/chembl-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/chembl-database
+
+- id: k-dense-ai/scientific-databases/clinicaltrials-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinicaltrials-database
+
+- id: k-dense-ai/scientific-databases/ena-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/ena-database
+
+- id: k-dense-ai/scientific-databases/pdb-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/pdb-database
+
+- id: k-dense-ai/scientific-databases/opentargets-database
+  url: x-cmd-skill-data:k-dense-ai/scientific-databases/opentargets-database
+
+- id: k-dense-ai/scientific-integrations/benchling-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/benchling-integration
+
+- id: k-dense-ai/scientific-integrations/protocolsio-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/protocolsio-integration
+
+- id: k-dense-ai/scientific-integrations/opentrons-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/opentrons-integration
+
+- id: k-dense-ai/scientific-integrations/omero-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/omero-integration
+
+- id: k-dense-ai/scientific-integrations/dnanexus-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/dnanexus-integration
+
+- id: k-dense-ai/scientific-integrations/labarchive-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/labarchive-integration
+
+- id: k-dense-ai/scientific-integrations/latchbio-integration
+  url: x-cmd-skill-data:k-dense-ai/scientific-integrations/latchbio-integration
+
+- id: k-dense-ai/scientific-helpers/get-available-resources
+  url: x-cmd-skill-data:k-dense-ai/scientific-helpers/get-available-resources
+
+- id: k-dense-ai/scientific-helpers/scientific-context-initialization
+  url: x-cmd-skill-data:k-dense-ai/scientific-helpers/scientific-context-initialization
+
+- id: k-dense-ai/scientific-packages/networkx
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/networkx
+
+- id: k-dense-ai/scientific-packages/anndata
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/anndata
+
+- id: k-dense-ai/scientific-packages/scikit-survival
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-survival
+
+- id: k-dense-ai/scientific-packages/pymc
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymc
+
+- id: k-dense-ai/scientific-packages/paper-2-web
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/paper-2-web
+
+- id: k-dense-ai/scientific-packages/shap
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/shap
+
+- id: k-dense-ai/scientific-packages/tooluniverse
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/tooluniverse
+
+- id: k-dense-ai/scientific-packages/umap-learn
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/umap-learn
+
+- id: k-dense-ai/scientific-packages/sympy
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/sympy
+
+- id: k-dense-ai/scientific-packages/vaex
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/vaex
+
+- id: k-dense-ai/scientific-packages/dask
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/dask
+
+- id: k-dense-ai/scientific-packages/esm
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/esm
+
+- id: k-dense-ai/scientific-packages/arboreto
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/arboreto
+
+- id: k-dense-ai/scientific-packages/seaborn
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/seaborn
+
+- id: k-dense-ai/scientific-packages/deeptools
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/deeptools
+
+- id: k-dense-ai/scientific-packages/medchem
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/medchem
+
+- id: k-dense-ai/scientific-packages/pymatgen
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymatgen
+
+- id: k-dense-ai/scientific-packages/molfeat
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/molfeat
+
+- id: k-dense-ai/scientific-packages/pydicom
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydicom
+
+- id: k-dense-ai/scientific-packages/markitdown
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/markitdown
+
+- id: k-dense-ai/scientific-packages/pytdc
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytdc
+
+- id: k-dense-ai/scientific-packages/histolab
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/histolab
+
+- id: k-dense-ai/scientific-packages/cobrapy
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/cobrapy
+
+- id: k-dense-ai/scientific-packages/biopython
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/biopython
+
+- id: k-dense-ai/scientific-packages/scvi-tools
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/scvi-tools
+
+- id: k-dense-ai/scientific-packages/lamindb
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/lamindb
+
+- id: k-dense-ai/scientific-packages/datamol
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/datamol
+
+- id: k-dense-ai/scientific-packages/matchms
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/matchms
+
+- id: k-dense-ai/scientific-packages/diffdock
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/diffdock
+
+- id: k-dense-ai/scientific-packages/neurokit2
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/neurokit2
+
+- id: k-dense-ai/scientific-packages/pydeseq2
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydeseq2
+
+- id: k-dense-ai/scientific-packages/bioservices
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/bioservices
+
+- id: k-dense-ai/scientific-packages/scikit-bio
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-bio
+
+- id: k-dense-ai/scientific-packages/gget
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/gget
+
+- id: k-dense-ai/scientific-packages/pyhealth
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyhealth
+
+- id: k-dense-ai/scientific-packages/transformers
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/transformers
+
+- id: k-dense-ai/scientific-packages/torch_geometric
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/torch_geometric
+
+- id: k-dense-ai/scientific-packages/deepchem
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/deepchem
+
+- id: k-dense-ai/scientific-packages/pathml
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pathml
+
+- id: k-dense-ai/scientific-packages/zarr-python
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/zarr-python
+
+- id: k-dense-ai/scientific-packages/simpy
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/simpy
+
+- id: k-dense-ai/scientific-packages/biomni
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/biomni
+
+- id: k-dense-ai/scientific-packages/pyopenms
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyopenms
+
+- id: k-dense-ai/scientific-packages/pysam
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pysam
+
+- id: k-dense-ai/scientific-packages/matplotlib
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/matplotlib
+
+- id: k-dense-ai/scientific-packages/pytorch-lightning
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytorch-lightning
+
+- id: k-dense-ai/scientific-packages/hypogenic
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/hypogenic
+
+- id: k-dense-ai/scientific-packages/torchdrug
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/torchdrug
+
+- id: k-dense-ai/scientific-packages/flowio
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/flowio
+
+- id: k-dense-ai/scientific-packages/datacommons-client
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/datacommons-client
+
+- id: k-dense-ai/scientific-packages/rdkit
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/rdkit
+
+- id: k-dense-ai/scientific-packages/stable-baselines3
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/stable-baselines3
+
+- id: k-dense-ai/scientific-packages/pylabrobot
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pylabrobot
+
+- id: k-dense-ai/scientific-packages/aeon
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/aeon
+
+- id: k-dense-ai/scientific-packages/polars
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/polars
+
+- id: k-dense-ai/scientific-packages/statsmodels
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/statsmodels
+
+- id: k-dense-ai/scientific-packages/scanpy
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/scanpy
+
+- id: k-dense-ai/scientific-packages/astropy
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/astropy
+
+- id: k-dense-ai/scientific-packages/reportlab
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/reportlab
+
+- id: k-dense-ai/scientific-packages/pufferlib
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pufferlib
+
+- id: k-dense-ai/scientific-packages/pymoo
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymoo
+
+- id: k-dense-ai/scientific-packages/scikit-learn
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-learn
+
+- id: k-dense-ai/scientific-packages/etetoolkit
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/etetoolkit
+
+- id: k-dense-ai/scientific-packages/cellxgene-census
+  url: x-cmd-skill-data:k-dense-ai/scientific-packages/cellxgene-census
+
+- id: k-dense-ai/scientific-thinking/scientific-brainstorming
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-brainstorming
+
+- id: k-dense-ai/scientific-thinking/exploratory-data-analysis
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/exploratory-data-analysis
+
+- id: k-dense-ai/scientific-thinking/scientific-critical-thinking
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-critical-thinking
+
+- id: k-dense-ai/scientific-thinking/statistical-analysis
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/statistical-analysis
+
+- id: k-dense-ai/scientific-thinking/scientific-writing
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-writing
+
+- id: k-dense-ai/scientific-thinking/literature-review
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/literature-review
+
+- id: k-dense-ai/scientific-thinking/scholar-evaluation
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scholar-evaluation
+
+- id: k-dense-ai/scientific-thinking/scientific-visualization
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-visualization
+
+- id: k-dense-ai/scientific-thinking/hypothesis-generation
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/hypothesis-generation
+
+- id: k-dense-ai/scientific-thinking/peer-review
+  url: x-cmd-skill-data:k-dense-ai/scientific-thinking/peer-review
+

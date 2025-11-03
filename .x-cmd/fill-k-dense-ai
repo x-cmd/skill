@@ -1,0 +1,22 @@
+(
+    cd $(x wsroot)/data/k-dense-ai/
+
+    find . -name SKILL.md | while read -r line; do
+        line="${line#./}"
+        line="${line%/*}"
+
+        # namespace="${line#*-}"
+
+        # name="${line%/*}"
+        # name="${name#*/}"
+
+        # name="${name%-"$namespace"}"
+        # name="${name%-"${namespace%s}"}"
+
+        # printf "%s %s\n" "$namespace" "$name"
+        printf "- id: k-dense-ai/%s\n" "$line"
+        printf "  url: x-cmd-skill-data:k-dense-ai/%s\n" "$line"
+        printf "\n"
+
+    done >"$(x wsroot)/index/k-dense-ai/index.yml"
+)

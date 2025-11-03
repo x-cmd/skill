@@ -1,0 +1,25 @@
+
+(
+
+___x_cmd_cmds cat <<A
+- id: anthropic/document/docx
+  url: gh:anthropic/skills:document/docx
+  tag: office
+
+- id: anthropic/document/xlsx
+  url: gh:anthropic/skills:document/xlsx
+  tag: office
+
+- id: anthropic/document/pptx
+  url: gh:anthropic/skills:document/pptx
+  tag: office
+
+- id: anthropic/document/pdf
+  url: gh:anthropic/skills:document/pdf
+  tag: office
+A
+
+xw index-gen anthropic
+
+) >"$(x wsroot)/index/anthropic/index.yml"
+

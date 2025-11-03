@@ -1,0 +1,48 @@
+- id: anthropic/document/docx
+  url: gh:anthropic/skills:document/docx
+  tag: office
+
+- id: anthropic/document/xlsx
+  url: gh:anthropic/skills:document/xlsx
+  tag: office
+
+- id: anthropic/document/pptx
+  url: gh:anthropic/skills:document/pptx
+  tag: office
+
+- id: anthropic/document/pdf
+  url: gh:anthropic/skills:document/pdf
+  tag: office
+- id: anthropic/template-skill
+  url: x-cmd-skill-data:anthropic/template-skill
+
+- id: anthropic/theme-factory
+  url: x-cmd-skill-data:anthropic/theme-factory
+
+- id: anthropic/algorithmic-art
+  url: x-cmd-skill-data:anthropic/algorithmic-art
+
+- id: anthropic/internal-comms
+  url: x-cmd-skill-data:anthropic/internal-comms
+
+- id: anthropic/skill-creator
+  url: x-cmd-skill-data:anthropic/skill-creator
+
+- id: anthropic/canvas-design
+  url: x-cmd-skill-data:anthropic/canvas-design
+
+- id: anthropic/slack-gif-creator
+  url: x-cmd-skill-data:anthropic/slack-gif-creator
+
+- id: anthropic/artifacts-builder
+  url: x-cmd-skill-data:anthropic/artifacts-builder
+
+- id: anthropic/webapp-testing
+  url: x-cmd-skill-data:anthropic/webapp-testing
+
+- id: anthropic/mcp-builder
+  url: x-cmd-skill-data:anthropic/mcp-builder
+
+- id: anthropic/brand-guidelines
+  url: x-cmd-skill-data:anthropic/brand-guidelines
+

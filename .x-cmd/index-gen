@@ -1,0 +1,25 @@
+(
+    provider="$1"
+    ___x_cmd mkdirp "$(x wsroot)/index/$provider"
+
+    cd $(x wsroot)/data/$provider/
+
+    find . -name SKILL.md | while read -r line; do
+        line="${line#./}"
+        line="${line%/*}"
+
+        # namespace="${line#*-}"
+
+        # name="${line%/*}"
+        # name="${name#*/}"
+
+        # name="${name%-"$namespace"}"
+        # name="${name%-"${namespace%s}"}"
+
+        # printf "%s %s\n" "$namespace" "$name"
+        printf "- id: $provider/%s\n" "$line"
+        printf "  url: x-cmd-skill-data:$provider/%s\n" "$line"
+        printf "\n"
+
+    done
+)
