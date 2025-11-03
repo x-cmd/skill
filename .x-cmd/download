@@ -1,10 +1,18 @@
 
 fork_from_anthropic(){
-    :
+    git clone https://github.com/anthropics/skills
+    (
+        ___x_cmd cd skills
+        ___x_cmd rm -rf .* README.md .gitignore docs agent_skills_spec.md
+    )
+    ___x_cmd rm -rf data/anthropic
+    ___x_cmd mv skills data/anthropic
+
+    ___x_cmd rm -rf data/anthropic/document-skills
 }
 
 fork_from_notion(){
-    :
+    g
 }
 
 fork_from_sci(){
