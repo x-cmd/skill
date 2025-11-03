@@ -1,6 +1,5 @@
 
 (
-    git push ${force+-f} git@codeberg.org:"$(x git meta path)"
-    git push ${force+-f} git@gitee.com:"$(x git meta path)"
+    git push ${force+-f} x:"$(x git meta path)"
     git push ${force+-f} git@github.com:"$(x git meta path)"
 )

@@ -1,0 +1,19 @@
+
+fork_from_anthropic(){
+    :
+}
+
+fork_from_notion(){
+    :
+}
+
+fork_from_sci(){
+    git clone https://github.com/K-Dense-AI/claude-scientific-skills
+    rm -rf claude-scientific-skills/.* README.md .gitignore docs
+    rm -rf data/k-dense-ai
+    mv claude-scientific-skills data/k-dense-ai
+}
+
+fork_from_xcmd(){
+    :
+}

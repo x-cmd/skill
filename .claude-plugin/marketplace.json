@@ -1,0 +1,22 @@
+{
+  "name": "x-cmd-skill",
+  "owner": {
+    "name": "x-cmd",
+    "email": "op@x-cmd.com"
+  },
+  "metadata": {
+    "description": "Claude skills from X-CMD",
+    "version": "0.0.1"
+  },
+  "plugins": [
+    {
+      "name": "x-cmd",
+      "description": "Collection of x-cmd utilities",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./data/x-cmd/git"
+      ]
+    }
+  ]
+}

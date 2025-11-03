@@ -1,0 +1,6 @@
+
+- name: git 
+  url: gh:x-cmd/skill:data/x-cmd-git
+  tag: 
+
+- name:

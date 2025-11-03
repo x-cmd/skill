@@ -1,5 +1,6 @@
 ---
 name: x-cmd-git
+tag: git
 description: This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.
 ---
 

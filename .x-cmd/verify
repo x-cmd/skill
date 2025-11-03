@@ -1,0 +1,7 @@
+
+# Ensure the skills dosenot contains malicous prompt and code.
+
+verify_all_skill(){
+    :
+}
+
