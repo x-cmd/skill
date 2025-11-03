@@ -1,0 +1,7 @@
+
+x:info "Generate the dist v0.json v0.tsv"
+
+
+x:info 'Generate the v0.detail.json and v1.detail.json using `x skill detail <skill name>`'
+
+

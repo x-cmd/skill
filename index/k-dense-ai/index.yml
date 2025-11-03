@@ -1,5 +1,6 @@
 - id: k-dense-ai/scientific-databases/metabolomics-workbench-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/metabolomics-workbench-database
+  reviewer:
 
 - id: k-dense-ai/scientific-databases/uspto-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/uspto-database
