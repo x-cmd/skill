@@ -1,26 +1,24 @@
-# Skills Repository
+# Awesome Skills: Free, Ready-to-Use Toolkit
 
-Welcome to the `x-cmd/skill` repository! This project serves as a centralized, curated collection of valuable skills designed to enhance thecapabilities of various AI agents. While initially conceived with Claude Code in mind, these versatile skills are equally effective in guiding andempowering other AI agents to perform tasks more efficiently and effectively.
+Welcome to the `x-cmd/skill` repository! This is a curated collection of skills designed to boost what AI agents can do. While we started with Claude Code in mind, you'll find these skills work just as well with other AI agents, helping them tackle tasks more efficiently.
 
-## Guiding Principlespre
+## What Guides Us
 
-Our commitment to quality and utility is underpinned by the following principles:
+We're building this repository with a clear focus on quality and collaboration:
 
-1.  **Human-Curated Excellence:** All skills included in this repository are meticulously reviewed and vetted by humans to ensure their quality,reliability, and practical utility.
-2.  **Community-Driven Sharing:** We believe in the power of collective intelligence. Skills are contributed and shared by the community, fosteringa collaborative environment for innovation.
+- **Human-Curated Quality:** Every skill here gets careful human review to make sure it's reliable and actually useful in practice.
+- **Community-Powered:** We're growing through community contributions, creating a space where we can all learn and build together.
 
-**Handling Non-Apache Licensed Skills**
+**A Note on Licensing**
 
-While the repository primarily adheres to the Apache License 2.0, we acknowledge that some highly valuable skills, such as those related toAnthropic documentation or Notion, may not be compatible with this license. In such cases, if a skill demonstrates exceptional utility and hasundergone thorough human review, we may still include it. Our decision to incorporate these skills is based on their proven usefulness and our trustin their quality, even if their individual licensing differs.
+Most of what you'll find here uses the Apache License 2.0. However, some skills like the Anthropic document skills or Notion skills have different licenses. For these, we include them in our index but don't store copies in the data folder. When using these skills, please respect their specific license terms.
 
-## Acknowledgements
+## Thanks to Our Contributors
 
-We extend our sincere gratitude to all contributors who have helped build and improve this repository. Your efforts are invaluable!
+This project wouldn't be possible without the people who've shared their skills and improvements. Your contributions make this repository valuable!
 
 ![contributors](https://contrib.rocks/image?repo=x-cmd/skill)
 
 ## License
 
-This repository is licensed under the Apache License 2.0.
-Please note that individual folders or specific skill implementations within this repository may carry different licenses. Always check therespective folder or file for precise licensing information.
-
+The main repository operates under the Apache License 2.0. Do check individual folders or files though, as some skills may have different licensing terms.
