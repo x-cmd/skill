@@ -10,6 +10,15 @@
   },
   "plugins": [
     {
+      "name": "x-cmd-skill-sage",
+      "description": "Your intelligent guide to AI skills. It wisely discerns and recommends the most suitable capabilities for your needs, without execution.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./data/x-cmd/sage"
+      ]
+    },
+    {
       "name": "x-cmd",
       "description": "Collection of x-cmd utilities",
       "source": "./",
