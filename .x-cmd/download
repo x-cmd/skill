@@ -9,9 +9,14 @@ fork_from_notion(){
 
 fork_from_sci(){
     git clone https://github.com/K-Dense-AI/claude-scientific-skills
-    rm -rf claude-scientific-skills/.* README.md .gitignore docs
-    rm -rf data/k-dense-ai
-    mv claude-scientific-skills data/k-dense-ai
+    (
+        ___x_cmd cd claude-scientific-skills
+        ___x_cmd rm -rf .* README.md .gitignore docs
+    )
+    ___x_cmd rm -rf data/k-dense-ai
+    ___x_cmd mv claude-scientific-skills data/k-dense-ai
+
+    ___x_cmd rm -rf data/k-dense-ai/scientific-thinking/document-skills
 }
 
 fork_from_xcmd(){
