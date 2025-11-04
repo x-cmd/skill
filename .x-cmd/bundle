@@ -19,26 +19,21 @@ bundle_xcmd_skill_data()(
     local tgtprefix=; tgtprefix="$(x wsroot)/.tmp"
     x:info "BEGIN ==== > bundle x-cmd/skill data"
     x:info "Clone repo x-cmd/skill"
-    x gh cl x-cmd/skill || return
 
-    (
-        ___x_cmd_cmds_cd skill || return
-        x mkdirp "$tgtprefix"
-        x cp -rf "data" "$tgtprefix/" || {
-            x:error "wrong: data"
-            return 1
-        }
-        x cp -rf "index" "$tgtprefix/" || {
-            x:error "wrong: index"
-            return 1
-        }
-    ) || return
-    x rmrf skill
+    x mkdirp "$tgtprefix"
+    x cp -rf "data" "$tgtprefix/" || {
+        x:error "wrong: data"
+        return 1
+    }
+    x yq eval-all -o=tsv '[.[] | del(.path,.tag)]' "$WORK_DIR/index"/**/index.yml > "$tgtprefix/index.tsv" || {
+        x:error "wrong: index"
+        return 1
+    }
     x:info "END ==== > bundle skill data"
 )
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.3"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.4"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
