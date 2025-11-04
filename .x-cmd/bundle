@@ -25,7 +25,7 @@ bundle_xcmd_skill_data()(
         x:error "wrong: data"
         return 1
     }
-    x yq eval-all -o=tsv '[.[] | del(.path,.tag)]' "$WORK_DIR/index"/**/index.yml > "$tgtprefix/index.tsv" || {
+    x yq eval-all -o=tsv '[.[] | del(.path,.tag)]' "index"/**/index.yml > "$tgtprefix/index.tsv" || {
         x:error "wrong: index"
         return 1
     }
