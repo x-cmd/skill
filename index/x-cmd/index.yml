@@ -2,36 +2,55 @@
 - id: x-cmd/x-cmd-git
   url: x-cmd-skill-data:x-cmd/x-cmd-git
   reference: https://github.com/x-cmd/skill
-  tags:
+  tag:
     - X-CMD
   license: Apache-2.0
+  name: x-cmd-git
+  description: This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.
+  author: X-CMD
+  path: /x-cmd/x-cmd-git
 
 - id: x-cmd/x-cmd-kowledge
   url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
   reference: https://github.com/x-cmd/skill
-  tags:
+  tag:
     - X-CMD
   license: Apache-2.0
+  name: x-cmd-knowledge
+  description: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
+  author: X-CMD
+  path: /x-cmd/x-cmd-kowledge
 
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
   reference: https://github.com/x-cmd/skill
-  tags:
+  tag:
     - X-CMD
   license: Apache-2.0
+  name: x-cmd-network
+  description: This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.
+  author: X-CMD
+  path: /x-cmd/x-cmd-network
 
 - id: x-cmd/x-cmd-security
   url: x-cmd-skill-data:x-cmd/x-cmd-security
   reference: https://github.com/x-cmd/skill
-  tags:
+  tag:
     - X-CMD
   license: Apache-2.0
+  name: x-cmd-security
+  description: This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.
+  author: X-CMD
+  path: /x-cmd/x-cmd-security
 
 - id: x-cmd/x-cmd-system
   url: x-cmd-skill-data:x-cmd/x-cmd-system
   reference: https://github.com/x-cmd/skill
-  tags:
+  tag:
   - X-CMD
-  owner: X-CMD
   license: Apache-2.0
+  name: x-cmd-system
+  description: This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.
+  author: X-CMD
+  path: /x-cmd/x-cmd-system
 

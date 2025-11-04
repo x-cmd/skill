@@ -3,3 +3,7 @@
   url: https://file.skillshunt.io/skills/notion-spec-to-implementation/notion-spec-to-implementation.zip
   reference: https://skillshunt.io/skills/notion/notion-spec-to-implementation
   license: no license
+  name: spec-to-implementation
+  description: Convert specifications to implementation using Notion
+  author: Notion
+  path: /
