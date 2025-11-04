@@ -8,12 +8,14 @@
       /plugin marketplace add anthropics/skills
       /plugin install document-skills@anthropic-agent-skills
   reference: https://github.com/anthropics/skills
+  license: https://github.com/anthropics/skills/blob/main/document-skills/docx/LICENSE.txt
 
 - id: anthropic/document/xlsx
   url: gh:anthropic/skills:document/xlsx
   tag:
     - office
   reference: https://github.com/anthropics/skills
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -24,6 +26,7 @@
   tag:
     - office
   reference: https://github.com/anthropics/skills
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pptx/LICENSE.txt
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -34,15 +37,16 @@
   tag:
     - office
   reference: https://github.com/anthropics/skills
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
       /plugin install document-skills@anthropic-agent-skills
 
-
 - id: anthropic/template-skill
   url: x-cmd-skill-data:anthropic/template-skill
   reference: https://github.com/anthropics/skills
+  license: no license
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -51,6 +55,7 @@
 - id: anthropic/theme-factory
   url: x-cmd-skill-data:anthropic/theme-factory
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -59,16 +64,16 @@
 - id: anthropic/algorithmic-art
   url: x-cmd-skill-data:anthropic/algorithmic-art
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
       /plugin install example-skills@anthropic-agent-skills
-  license: Apache-2.0
-
 
 - id: anthropic/internal-comms
   url: x-cmd-skill-data:anthropic/internal-comms
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -77,6 +82,7 @@
 - id: anthropic/skill-creator
   url: x-cmd-skill-data:anthropic/skill-creator
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -85,6 +91,7 @@
 - id: anthropic/canvas-design
   url: x-cmd-skill-data:anthropic/canvas-design
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -93,6 +100,7 @@
 - id: anthropic/slack-gif-creator
   url: x-cmd-skill-data:anthropic/slack-gif-creator
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -101,6 +109,7 @@
 - id: anthropic/artifacts-builder
   url: x-cmd-skill-data:anthropic/artifacts-builder
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -109,6 +118,7 @@
 - id: anthropic/webapp-testing
   url: x-cmd-skill-data:anthropic/webapp-testing
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -117,6 +127,7 @@
 - id: anthropic/mcp-builder
   url: x-cmd-skill-data:anthropic/mcp-builder
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
@@ -125,6 +136,7 @@
 - id: anthropic/brand-guidelines
   url: x-cmd-skill-data:anthropic/brand-guidelines
   reference: https://github.com/anthropics/skills
+  license: Apache-2.0
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills

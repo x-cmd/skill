@@ -1,436 +1,544 @@
 - id: k-dense-ai/scientific-databases/metabolomics-workbench-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/metabolomics-workbench-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
-  # reviewer:
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/uspto-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/uspto-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/kegg-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/kegg-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/zinc-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/zinc-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/alphafold-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/alphafold-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/cosmic-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/cosmic-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/gene-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/gene-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/biorxiv-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/biorxiv-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/geo-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/geo-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/hmdb-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/hmdb-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/clinvar-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinvar-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/pubchem-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubchem-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/drugbank-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/drugbank-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/fda-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/fda-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/ensembl-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/ensembl-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/clinpgx-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinpgx-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/gwas-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/gwas-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/string-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/string-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/uniprot-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/uniprot-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/reactome-database/reactome-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/reactome-database/reactome-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/pubmed-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubmed-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/chembl-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/chembl-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/clinicaltrials-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinicaltrials-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/ena-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/ena-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/pdb-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pdb-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-databases/opentargets-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/opentargets-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/benchling-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/benchling-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/protocolsio-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/protocolsio-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/opentrons-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/opentrons-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/omero-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/omero-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/dnanexus-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/dnanexus-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/labarchive-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/labarchive-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-integrations/latchbio-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/latchbio-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-helpers/get-available-resources
   url: x-cmd-skill-data:k-dense-ai/scientific-helpers/get-available-resources
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-helpers/scientific-context-initialization
   url: x-cmd-skill-data:k-dense-ai/scientific-helpers/scientific-context-initialization
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/networkx
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/networkx
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/anndata
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/anndata
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/scikit-survival
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-survival
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pymc
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymc
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/paper-2-web
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/paper-2-web
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/shap
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/shap
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/tooluniverse
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/tooluniverse
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/umap-learn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/umap-learn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/sympy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/sympy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/vaex
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/vaex
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/dask
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/dask
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/esm
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/esm
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/arboreto
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/arboreto
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/seaborn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/seaborn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/deeptools
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/deeptools
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/medchem
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/medchem
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pymatgen
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymatgen
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/molfeat
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/molfeat
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pydicom
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydicom
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/markitdown
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/markitdown
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pytdc
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytdc
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/histolab
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/histolab
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/cobrapy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/cobrapy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/biopython
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/biopython
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/scvi-tools
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scvi-tools
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/lamindb
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/lamindb
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/datamol
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/datamol
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/matchms
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/matchms
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/diffdock
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/diffdock
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/neurokit2
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/neurokit2
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pydeseq2
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydeseq2
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/bioservices
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/bioservices
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/scikit-bio
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-bio
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/gget
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/gget
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pyhealth
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyhealth
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/transformers
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/transformers
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/torch_geometric
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/torch_geometric
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/deepchem
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/deepchem
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pathml
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pathml
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/zarr-python
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/zarr-python
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/simpy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/simpy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/biomni
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/biomni
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pyopenms
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyopenms
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pysam
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pysam
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/matplotlib
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/matplotlib
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pytorch-lightning
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytorch-lightning
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/hypogenic
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/hypogenic
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/torchdrug
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/torchdrug
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/flowio
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/flowio
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/datacommons-client
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/datacommons-client
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/rdkit
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/rdkit
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/stable-baselines3
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/stable-baselines3
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pylabrobot
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pylabrobot
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/aeon
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/aeon
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/polars
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/polars
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/statsmodels
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/statsmodels
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/scanpy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scanpy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/astropy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/astropy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/reportlab
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/reportlab
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pufferlib
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pufferlib
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/pymoo
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymoo
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/scikit-learn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-learn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/etetoolkit
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/etetoolkit
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-packages/cellxgene-census
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/cellxgene-census
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/scientific-brainstorming
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-brainstorming
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/exploratory-data-analysis
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/exploratory-data-analysis
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/scientific-critical-thinking
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-critical-thinking
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/statistical-analysis
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/statistical-analysis
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/scientific-writing
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-writing
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/literature-review
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/literature-review
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/scholar-evaluation
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scholar-evaluation
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/scientific-visualization
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-visualization
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/hypothesis-generation
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/hypothesis-generation
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
 
 - id: k-dense-ai/scientific-thinking/peer-review
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/peer-review
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  license: MIT
