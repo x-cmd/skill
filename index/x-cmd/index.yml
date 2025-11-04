@@ -1,16 +1,21 @@
 
 - id: x-cmd/x-cmd-git
   url: x-cmd-skill-data:x-cmd/x-cmd-git
+  reference: https://github.com/x-cmd/skill
 
 - id: x-cmd/x-cmd-kowledge
   url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
+  reference: https://github.com/x-cmd/skill
 
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
+  reference: https://github.com/x-cmd/skill
 
 - id: x-cmd/x-cmd-security
   url: x-cmd-skill-data:x-cmd/x-cmd-security
+  reference: https://github.com/x-cmd/skill
 
 - id: x-cmd/x-cmd-system
   url: x-cmd-skill-data:x-cmd/x-cmd-system
+  reference: https://github.com/x-cmd/skill
 

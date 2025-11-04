@@ -39,34 +39,89 @@
 
 - id: anthropic/template-skill
   url: x-cmd-skill-data:anthropic/template-skill
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/theme-factory
   url: x-cmd-skill-data:anthropic/theme-factory
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/algorithmic-art
   url: x-cmd-skill-data:anthropic/algorithmic-art
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/internal-comms
   url: x-cmd-skill-data:anthropic/internal-comms
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/skill-creator
   url: x-cmd-skill-data:anthropic/skill-creator
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/canvas-design
   url: x-cmd-skill-data:anthropic/canvas-design
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/slack-gif-creator
   url: x-cmd-skill-data:anthropic/slack-gif-creator
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/artifacts-builder
   url: x-cmd-skill-data:anthropic/artifacts-builder
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/webapp-testing
   url: x-cmd-skill-data:anthropic/webapp-testing
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/mcp-builder
   url: x-cmd-skill-data:anthropic/mcp-builder
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
 - id: anthropic/brand-guidelines
   url: x-cmd-skill-data:anthropic/brand-guidelines
+  reference: https://github.com/anthropics/skills
+  hint: |
+    Install using claude code marketplace.
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
 
