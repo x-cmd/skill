@@ -11,7 +11,7 @@ release()(
 
     x:info "Release on github."
     (
-        x gh --cfg token="$GITHUB_TOKEN"
+        x gh --cfg token="$XGITHUB_TOKEN"
         x gh repo release create -r x-cmd/skill --tag "$x_cmd_skill_version"
         release_id="$(x gh repo release ls -r x-cmd/skill --csv | x awk -F, -v tag="$x_cmd_skill_version" 'NR>1 && $3 == tag {print $1}')"
         [ -n "$release_id" ] || exit
