@@ -1,4 +1,16 @@
 
 - id: x-cmd/x-cmd-git
-  url: x-cmd-git
+  url: x-cmd-skill-data:x-cmd/x-cmd-git
+
+- id: x-cmd/x-cmd-kowledge
+  url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
+
+- id: x-cmd/x-cmd-network
+  url: x-cmd-skill-data:x-cmd/x-cmd-network
+
+- id: x-cmd/x-cmd-security
+  url: x-cmd-skill-data:x-cmd/x-cmd-security
+
+- id: x-cmd/x-cmd-system
+  url: x-cmd-skill-data:x-cmd/x-cmd-system
 
