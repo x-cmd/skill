@@ -1,17 +1,18 @@
 
 - id: anthropic/document/docx
   url: gh:anthropic/skills:document/docx
-  tag: office
+  tag:
+    - office
   hint: |
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
       /plugin install document-skills@anthropic-agent-skills
   reference: https://github.com/anthropics/skills
 
-
 - id: anthropic/document/xlsx
   url: gh:anthropic/skills:document/xlsx
-  tag: office
+  tag:
+    - office
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
@@ -20,7 +21,8 @@
 
 - id: anthropic/document/pptx
   url: gh:anthropic/skills:document/pptx
-  tag: office
+  tag:
+    - office
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
@@ -29,7 +31,8 @@
 
 - id: anthropic/document/pdf
   url: gh:anthropic/skills:document/pdf
-  tag: office
+  tag:
+    - office
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
@@ -60,6 +63,8 @@
     Install using claude code marketplace.
       /plugin marketplace add anthropics/skills
       /plugin install example-skills@anthropic-agent-skills
+  license: Apache-2.0
+
 
 - id: anthropic/internal-comms
   url: x-cmd-skill-data:anthropic/internal-comms
