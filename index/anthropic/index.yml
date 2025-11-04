@@ -4,9 +4,8 @@
   tag: office
   hint: |
     Install using claude code marketplace.
-      /plugin install document-skills@anthropic-agent-skills
-    Or install all anthropic skills
       /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
   reference: https://github.com/anthropics/skills
 
 
@@ -16,10 +15,8 @@
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
-      /plugin install document-skills@anthropic-agent-skills
-    Or install all anthropic skills
       /plugin marketplace add anthropics/skills
-
+      /plugin install document-skills@anthropic-agent-skills
 
 - id: anthropic/document/pptx
   url: gh:anthropic/skills:document/pptx
@@ -27,9 +24,8 @@
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
-      /plugin install document-skills@anthropic-agent-skills
-    Or install all anthropic skills
       /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
 
 - id: anthropic/document/pdf
   url: gh:anthropic/skills:document/pdf
@@ -37,9 +33,8 @@
   reference: https://github.com/anthropics/skills
   hint: |
     Install using claude code marketplace.
-      /plugin install document-skills@anthropic-agent-skills
-    Or install all anthropic skills
       /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
 
 
 - id: anthropic/template-skill
