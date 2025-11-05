@@ -9,6 +9,7 @@
     "name": "docx",
     "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/"
   },
   {
@@ -21,6 +22,7 @@
     "name": "xlsx",
     "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/"
   },
   {
@@ -33,6 +35,7 @@
     "name": "pptx",
     "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/"
   },
   {
@@ -45,6 +48,7 @@
     "name": "pdf",
     "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/"
   },
   {
@@ -54,6 +58,7 @@
     "name": "template-skill",
     "description": "Replace with description of the skill and when Claude should use it.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/template-skill"
   },
   {
@@ -63,6 +68,7 @@
     "name": "theme-factory",
     "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/theme-factory"
   },
   {
@@ -72,6 +78,7 @@
     "name": "algorithmic-art",
     "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/algorithmic-art"
   },
   {
@@ -81,6 +88,7 @@
     "name": "internal-comms",
     "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/internal-comms"
   },
   {
@@ -90,6 +98,7 @@
     "name": "skill-creator",
     "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/skill-creator"
   },
   {
@@ -99,6 +108,7 @@
     "name": "canvas-design",
     "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/canvas-design"
   },
   {
@@ -108,6 +118,7 @@
     "name": "slack-gif-creator",
     "description": "Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like \"make me a GIF for Slack of X doing Y\".",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/slack-gif-creator"
   },
   {
@@ -117,6 +128,7 @@
     "name": "artifacts-builder",
     "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/artifacts-builder"
   },
   {
@@ -126,6 +138,7 @@
     "name": "webapp-testing",
     "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/webapp-testing"
   },
   {
@@ -135,6 +148,7 @@
     "name": "mcp-builder",
     "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/mcp-builder"
   },
   {
@@ -144,6 +158,7 @@
     "name": "brand-guidelines",
     "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
     "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropic/brand-guidelines"
   },
   {
@@ -153,6 +168,7 @@
     "name": "metabolomics-workbench-database",
     "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/metabolomics-workbench-database"
   },
   {
@@ -162,6 +178,7 @@
     "name": "uspto-database",
     "description": "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/uspto-database"
   },
   {
@@ -171,6 +188,7 @@
     "name": "kegg-database",
     "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/kegg-database"
   },
   {
@@ -180,6 +198,7 @@
     "name": "zinc-database",
     "description": "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/zinc-database"
   },
   {
@@ -189,6 +208,7 @@
     "name": "alphafold-database",
     "description": "Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/alphafold-database"
   },
   {
@@ -198,6 +218,7 @@
     "name": "cosmic-database",
     "description": "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/cosmic-database"
   },
   {
@@ -207,6 +228,7 @@
     "name": "gene-database",
     "description": "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/gene-database"
   },
   {
@@ -216,6 +238,7 @@
     "name": "biorxiv-database",
     "description": "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/biorxiv-database"
   },
   {
@@ -225,6 +248,7 @@
     "name": "geo-database",
     "description": "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/geo-database"
   },
   {
@@ -234,6 +258,7 @@
     "name": "hmdb-database",
     "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/hmdb-database"
   },
   {
@@ -243,6 +268,7 @@
     "name": "clinvar-database",
     "description": "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinvar-database"
   },
   {
@@ -252,6 +278,7 @@
     "name": "pubchem-database",
     "description": "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pubchem-database"
   },
   {
@@ -261,6 +288,7 @@
     "name": "drugbank-database",
     "description": "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/drugbank-database"
   },
   {
@@ -270,6 +298,7 @@
     "name": "fda-database",
     "description": "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/fda-database"
   },
   {
@@ -279,6 +308,7 @@
     "name": "ensembl-database",
     "description": "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/ensembl-database"
   },
   {
@@ -288,6 +318,7 @@
     "name": "clinpgx-database",
     "description": "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinpgx-database"
   },
   {
@@ -297,6 +328,7 @@
     "name": "gwas-database",
     "description": "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/gwas-database"
   },
   {
@@ -306,6 +338,7 @@
     "name": "string-database",
     "description": "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/string-database"
   },
   {
@@ -315,6 +348,7 @@
     "name": "uniprot-database",
     "description": "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/uniprot-database"
   },
   {
@@ -324,6 +358,7 @@
     "name": "reactome-database",
     "description": "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/reactome-database/reactome-database"
   },
   {
@@ -333,6 +368,7 @@
     "name": "pubmed-database",
     "description": "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pubmed-database"
   },
   {
@@ -342,6 +378,7 @@
     "name": "chembl-database",
     "description": "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/chembl-database"
   },
   {
@@ -351,6 +388,7 @@
     "name": "clinicaltrials-database",
     "description": "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinicaltrials-database"
   },
   {
@@ -360,6 +398,7 @@
     "name": "ena-database",
     "description": "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/ena-database"
   },
   {
@@ -369,6 +408,7 @@
     "name": "pdb-database",
     "description": "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pdb-database"
   },
   {
@@ -378,6 +418,7 @@
     "name": "opentargets-database",
     "description": "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/opentargets-database"
   },
   {
@@ -387,6 +428,7 @@
     "name": "benchling-integration",
     "description": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/benchling-integration"
   },
   {
@@ -396,6 +438,7 @@
     "name": "protocolsio-integration",
     "description": "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/protocolsio-integration"
   },
   {
@@ -405,6 +448,7 @@
     "name": "opentrons-integration",
     "description": "Lab automation platform for Flex/OT-2 robots. Write Protocol API v2 protocols, liquid handling, hardware modules (heater-shaker, thermocycler), labware management, for automated pipetting workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/opentrons-integration"
   },
   {
@@ -414,6 +458,7 @@
     "name": "omero-integration",
     "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/omero-integration"
   },
   {
@@ -423,6 +468,7 @@
     "name": "dnanexus-integration",
     "description": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/dnanexus-integration"
   },
   {
@@ -432,6 +478,7 @@
     "name": "labarchive-integration",
     "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/labarchive-integration"
   },
   {
@@ -441,6 +488,7 @@
     "name": "latchbio-integration",
     "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/latchbio-integration"
   },
   {
@@ -450,6 +498,7 @@
     "name": "get-available-resources",
     "description": "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-helpers/get-available-resources"
   },
   {
@@ -459,6 +508,7 @@
     "name": "context-initialization",
     "description": "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-helpers/scientific-context-initialization"
   },
   {
@@ -468,6 +518,7 @@
     "name": "networkx",
     "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/networkx"
   },
   {
@@ -477,6 +528,7 @@
     "name": "anndata",
     "description": "Manipulate AnnData objects for single-cell genomics. Load/save .h5ad files, manage obs/var metadata, layers, embeddings (PCA/UMAP), concatenate datasets, for scRNA-seq workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/anndata"
   },
   {
@@ -486,6 +538,7 @@
     "name": "scikit-survival",
     "description": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-survival"
   },
   {
@@ -495,6 +548,7 @@
     "name": "pymc-bayesian-modeling",
     "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymc"
   },
   {
@@ -504,6 +558,7 @@
     "name": "paper-2-web",
     "description": "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/paper-2-web"
   },
   {
@@ -513,6 +568,7 @@
     "name": "shap",
     "description": "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/shap"
   },
   {
@@ -522,6 +578,7 @@
     "name": "tooluniverse",
     "description": "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/tooluniverse"
   },
   {
@@ -531,6 +588,7 @@
     "name": "umap-learn",
     "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/umap-learn"
   },
   {
@@ -540,6 +598,7 @@
     "name": "sympy",
     "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/sympy"
   },
   {
@@ -549,6 +608,7 @@
     "name": "vaex",
     "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that don't fit in memory.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/vaex"
   },
   {
@@ -558,6 +618,7 @@
     "name": "dask",
     "description": "Parallel/distributed computing. Scale pandas/NumPy beyond memory, parallel DataFrames/Arrays, multi-file processing, task graphs, for larger-than-RAM datasets and parallel workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/dask"
   },
   {
@@ -567,6 +628,7 @@
     "name": "esm",
     "description": "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/esm"
   },
   {
@@ -576,6 +638,7 @@
     "name": "arboreto",
     "description": "Gene regulatory network inference with GRNBoost2/GENIE3 algorithms. Infer TF-target relationships from expression data, scalable with Dask, for scRNA-seq and GRN analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/arboreto"
   },
   {
@@ -585,6 +648,7 @@
     "name": "seaborn",
     "description": "Statistical visualization. Scatter, box, violin, heatmaps, pair plots, regression, correlation matrices, KDE, faceted plots, for exploratory analysis and publication figures.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/seaborn"
   },
   {
@@ -594,6 +658,7 @@
     "name": "deeptools",
     "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/deeptools"
   },
   {
@@ -603,6 +668,7 @@
     "name": "medchem",
     "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/medchem"
   },
   {
@@ -612,6 +678,7 @@
     "name": "pymatgen",
     "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymatgen"
   },
   {
@@ -621,6 +688,7 @@
     "name": "molfeat",
     "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/molfeat"
   },
   {
@@ -630,6 +698,7 @@
     "name": "pydicom",
     "description": "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pydicom"
   },
   {
@@ -639,6 +708,7 @@
     "name": "markitdown",
     "description": "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, performing OCR on images, extracting YouTube transcripts, or processing batches of files. Supports 20+ formats including DOCX, XLSX, PPTX, PDF, HTML, EPUB, CSV, JSON, images with OCR, and audio with transcription.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/markitdown"
   },
   {
@@ -648,6 +718,7 @@
     "name": "pytdc",
     "description": "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pytdc"
   },
   {
@@ -657,6 +728,7 @@
     "name": "histolab",
     "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/histolab"
   },
   {
@@ -666,6 +738,7 @@
     "name": "cobrapy",
     "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/cobrapy"
   },
   {
@@ -675,6 +748,7 @@
     "name": "biopython",
     "description": "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/biopython"
   },
   {
@@ -684,6 +758,7 @@
     "name": "scvi-tools",
     "description": "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential expression, cell type annotation, multimodal integration, and spatial analysis tasks.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scvi-tools"
   },
   {
@@ -693,6 +768,7 @@
     "name": "lamindb",
     "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/lamindb"
   },
   {
@@ -702,6 +778,7 @@
     "name": "datamol",
     "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery: SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/datamol"
   },
   {
@@ -711,6 +788,7 @@
     "name": "matchms",
     "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/matchms"
   },
   {
@@ -720,6 +798,7 @@
     "name": "diffdock",
     "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/diffdock"
   },
   {
@@ -729,6 +808,7 @@
     "name": "neurokit2",
     "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/neurokit2"
   },
   {
@@ -738,6 +818,7 @@
     "name": "pydeseq2",
     "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pydeseq2"
   },
   {
@@ -747,6 +828,7 @@
     "name": "bioservices",
     "description": "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database).",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/bioservices"
   },
   {
@@ -756,6 +838,7 @@
     "name": "scikit-bio",
     "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-bio"
   },
   {
@@ -765,6 +848,7 @@
     "name": "gget",
     "description": "CLI/Python toolkit for rapid bioinformatics queries. Preferred for quick BLAST searches. Access to 20+ databases: gene info (Ensembl/UniProt), AlphaFold, ARCHS4, Enrichr, OpenTargets, COSMIC, genome downloads. For advanced BLAST/batch processing, use biopython. For multi-database integration, use bioservices.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/gget"
   },
   {
@@ -774,6 +858,7 @@
     "name": "pyhealth",
     "description": "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN).",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pyhealth"
   },
   {
@@ -783,6 +868,7 @@
     "name": "transformers",
     "description": "Work with state-of-the-art machine learning models for NLP, computer vision, audio, and multimodal tasks using HuggingFace Transformers. This skill should be used when fine-tuning pre-trained models, performing inference with pipelines, generating text, training sequence models, or working with BERT, GPT, T5, ViT, and other transformer architectures. Covers model loading, tokenization, training with Trainer API, text generation strategies, and task-specific patterns for classification, NER, QA, summarization, translation, and image tasks. (plugin:scientific-packages@claude-scientific-skills)",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/transformers"
   },
   {
@@ -792,6 +878,7 @@
     "name": "torch-geometric",
     "description": "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/torch_geometric"
   },
   {
@@ -801,6 +888,7 @@
     "name": "deepchem",
     "description": "Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/deepchem"
   },
   {
@@ -810,6 +898,7 @@
     "name": "pathml",
     "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pathml"
   },
   {
@@ -819,6 +908,7 @@
     "name": "zarr-python",
     "description": "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/zarr-python"
   },
   {
@@ -828,6 +918,7 @@
     "name": "simpy",
     "description": "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/simpy"
   },
   {
@@ -837,6 +928,7 @@
     "name": "biomni",
     "description": "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/biomni"
   },
   {
@@ -846,6 +938,7 @@
     "name": "pyopenms",
     "description": "Mass spectrometry toolkit (OpenMS Python). Process mzML/mzXML, peak picking, feature detection, peptide ID, proteomics/metabolomics workflows, for LC-MS/MS analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pyopenms"
   },
   {
@@ -855,6 +948,7 @@
     "name": "pysam",
     "description": "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pysam"
   },
   {
@@ -864,6 +958,7 @@
     "name": "matplotlib",
     "description": "Foundational plotting library. Create line plots, scatter, bar, histograms, heatmaps, 3D, subplots, export PNG/PDF/SVG, for scientific visualization and publication figures.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/matplotlib"
   },
   {
@@ -873,6 +968,7 @@
     "name": "pytorch-lightning",
     "description": "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pytorch-lightning"
   },
   {
@@ -882,6 +978,7 @@
     "name": "hypogenic",
     "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/hypogenic"
   },
   {
@@ -891,6 +988,7 @@
     "name": "torchdrug",
     "description": "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/torchdrug"
   },
   {
@@ -900,6 +998,7 @@
     "name": "flowio",
     "description": "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/flowio"
   },
   {
@@ -909,6 +1008,7 @@
     "name": "datacommons-client",
     "description": "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/datacommons-client"
   },
   {
@@ -918,6 +1018,7 @@
     "name": "rdkit",
     "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/rdkit"
   },
   {
@@ -927,6 +1028,7 @@
     "name": "stable-baselines3",
     "description": "Use this skill for reinforcement learning tasks including training RL agents (PPO, SAC, DQN, TD3, DDPG, A2C, etc.), creating custom Gym environments, implementing callbacks for monitoring and control, using vectorized environments for parallel training, and integrating with deep RL workflows. This skill should be used when users request RL algorithm implementation, agent training, environment design, or RL experimentation.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/stable-baselines3"
   },
   {
@@ -936,6 +1038,7 @@
     "name": "pylabrobot",
     "description": "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pylabrobot"
   },
   {
@@ -945,6 +1048,7 @@
     "name": "aeon",
     "description": "Time series machine learning toolkit for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use this skill when working with temporal data, performing time series analysis, building predictive models on sequential data, or implementing workflows that involve distance metrics (DTW), transformations (ROCKET, Catch22), or deep learning for time series. Applicable for tasks like ECG classification, stock price forecasting, sensor anomaly detection, or activity recognition from wearable devices.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/aeon"
   },
   {
@@ -954,6 +1058,7 @@
     "name": "polars",
     "description": "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/polars"
   },
   {
@@ -963,6 +1068,7 @@
     "name": "statsmodels",
     "description": "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/statsmodels"
   },
   {
@@ -972,6 +1078,7 @@
     "name": "scanpy",
     "description": "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scanpy"
   },
   {
@@ -981,6 +1088,7 @@
     "name": "astropy",
     "description": "Astronomy toolkit. FITS I/O, celestial coordinate transforms, cosmology calculations, time systems, WCS, units, astronomical tables, for astronomical data analysis and imaging.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/astropy"
   },
   {
@@ -990,6 +1098,7 @@
     "name": "reportlab",
     "description": "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/reportlab"
   },
   {
@@ -999,6 +1108,7 @@
     "name": "pufferlib",
     "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pufferlib"
   },
   {
@@ -1008,6 +1118,7 @@
     "name": "pymoo",
     "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymoo"
   },
   {
@@ -1017,6 +1128,7 @@
     "name": "scikit-learn",
     "description": "ML toolkit. Classification, regression, clustering, PCA, preprocessing, pipelines, GridSearch, cross-validation, RandomForest, SVM, for general machine learning workflows.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-learn"
   },
   {
@@ -1026,6 +1138,7 @@
     "name": "etetoolkit",
     "description": "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/etetoolkit"
   },
   {
@@ -1035,6 +1148,7 @@
     "name": "cellxgene-census",
     "description": "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/cellxgene-census"
   },
   {
@@ -1044,6 +1158,7 @@
     "name": "scientific-brainstorming",
     "description": "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-brainstorming"
   },
   {
@@ -1053,6 +1168,7 @@
     "name": "exploratory-data-analysis",
     "description": "EDA toolkit. Analyze CSV/Excel/JSON/Parquet files, statistical summaries, distributions, correlations, outliers, missing data, visualizations, markdown reports, for data profiling and insights.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/exploratory-data-analysis"
   },
   {
@@ -1062,6 +1178,7 @@
     "name": "scientific-critical-thinking",
     "description": "Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-critical-thinking"
   },
   {
@@ -1071,6 +1188,7 @@
     "name": "statistical-analysis",
     "description": "Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/statistical-analysis"
   },
   {
@@ -1080,6 +1198,7 @@
     "name": "scientific-writing",
     "description": "Write scientific manuscripts. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), abstracts, for research papers and journal submissions.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-writing"
   },
   {
@@ -1089,6 +1208,7 @@
     "name": "literature-review",
     "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/literature-review"
   },
   {
@@ -1098,6 +1218,7 @@
     "name": "scholar-evaluation",
     "description": "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scholar-evaluation"
   },
   {
@@ -1107,6 +1228,7 @@
     "name": "scientific-visualization",
     "description": "Create publication figures with matplotlib/seaborn/plotly. Multi-panel layouts, error bars, significance markers, colorblind-safe, export PDF/EPS/TIFF, for journal-ready scientific plots.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-visualization"
   },
   {
@@ -1116,6 +1238,7 @@
     "name": "hypothesis-generation",
     "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/hypothesis-generation"
   },
   {
@@ -1125,6 +1248,7 @@
     "name": "peer-review",
     "description": "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.",
     "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/peer-review"
   },
   {
@@ -1134,6 +1258,7 @@
     "name": "spec-to-implementation",
     "description": "Convert specifications to implementation using Notion",
     "author": "Notion",
+    "avatar": "",
     "path": "/"
   },
   {
@@ -1146,6 +1271,7 @@
     "name": "x-cmd-git",
     "description": "This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.",
     "author": "X-CMD",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-git"
   },
   {
@@ -1158,6 +1284,7 @@
     "name": "x-cmd-knowledge",
     "description": "This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.",
     "author": "X-CMD",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-kowledge"
   },
   {
@@ -1170,6 +1297,7 @@
     "name": "x-cmd-network",
     "description": "This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.",
     "author": "X-CMD",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-network"
   },
   {
@@ -1182,6 +1310,7 @@
     "name": "x-cmd-security",
     "description": "This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.",
     "author": "X-CMD",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-security"
   },
   {
@@ -1194,6 +1323,7 @@
     "name": "x-cmd-system",
     "description": "This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.",
     "author": "X-CMD",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-system"
   }
 ]
