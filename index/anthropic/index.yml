@@ -1,94 +1,4 @@
 
-- id: anthropic/document/docx
-  url: gh:anthropic/skills:document/docx
-  reference: https://github.com/anthropics/skills
-  # review
-  tag:
-    - office
-  license: https://github.com/anthropics/skills/blob/main/document-skills/docx/LICENSE.txt
-  name: docx
-  description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /
-
-- id: anthropic/document/xlsx
-  url: gh:anthropic/skills:document/xlsx
-  reference: https://github.com/anthropics/skills
-  tag:
-    - office
-  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
-  name: xlsx
-  description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /
-
-
-- id: anthropic/document/pptx
-  url: gh:anthropic/skills:document/pptx
-  reference: https://github.com/anthropics/skills
-  tag:
-    - office
-  license: https://github.com/anthropics/skills/blob/main/document-skills/pptx/LICENSE.txt
-  name: pptx
-  description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /
-
-- id: anthropic/document/pdf
-  url: gh:anthropic/skills:document/pdf
-  reference: https://github.com/anthropics/skills
-  tag:
-    - office
-  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
-  name: pdf
-  description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /
-
-- id: anthropic/template-skill
-  url: x-cmd-skill-data:anthropic/template-skill
-  reference: https://github.com/anthropics/skills
-  license: no license
-  name: template-skill
-  description: Replace with description of the skill and when Claude should use it.
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropic/template-skill
-
-- id: anthropic/theme-factory
-  url: x-cmd-skill-data:anthropic/theme-factory
-  reference: https://github.com/anthropics/skills
-  license: Apache-2.0
-  name: theme-factory
-  description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropic/theme-factory
-
-- id: anthropic/algorithmic-art
-  url: x-cmd-skill-data:anthropic/algorithmic-art
-  reference: https://github.com/anthropics/skills
-  license: Apache-2.0
-  name: algorithmic-art
-  description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropic/algorithmic-art
-
-- id: anthropic/internal-comms
-  url: x-cmd-skill-data:anthropic/internal-comms
-  reference: https://github.com/anthropics/skills
-  license: Apache-2.0
-  name: internal-comms
-  description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropic/internal-comms
-
 - id: anthropic/skill-creator
   url: x-cmd-skill-data:anthropic/skill-creator
   reference: https://github.com/anthropics/skills
@@ -159,3 +69,92 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropic/brand-guidelines
 
+- id: anthropic/template-skill
+  url: x-cmd-skill-data:anthropic/template-skill
+  reference: https://github.com/anthropics/skills
+  license: no license
+  name: template-skill
+  description: Replace with description of the skill and when Claude should use it.
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /anthropic/template-skill
+
+- id: anthropic/theme-factory
+  url: x-cmd-skill-data:anthropic/theme-factory
+  reference: https://github.com/anthropics/skills
+  license: Apache-2.0
+  name: theme-factory
+  description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /anthropic/theme-factory
+
+- id: anthropic/algorithmic-art
+  url: x-cmd-skill-data:anthropic/algorithmic-art
+  reference: https://github.com/anthropics/skills
+  license: Apache-2.0
+  name: algorithmic-art
+  description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /anthropic/algorithmic-art
+
+- id: anthropic/internal-comms
+  url: x-cmd-skill-data:anthropic/internal-comms
+  reference: https://github.com/anthropics/skills
+  license: Apache-2.0
+  name: internal-comms
+  description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /anthropic/internal-comms
+
+- id: anthropic/document/docx
+  url: gh:anthropic/skills:document/docx
+  reference: https://github.com/anthropics/skills
+  # review
+  tag:
+    - office
+  license: https://github.com/anthropics/skills/blob/main/document-skills/docx/LICENSE.txt
+  name: docx
+  description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /
+
+- id: anthropic/document/xlsx
+  url: gh:anthropic/skills:document/xlsx
+  reference: https://github.com/anthropics/skills
+  tag:
+    - office
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
+  name: xlsx
+  description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /
+
+
+- id: anthropic/document/pptx
+  url: gh:anthropic/skills:document/pptx
+  reference: https://github.com/anthropics/skills
+  tag:
+    - office
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pptx/LICENSE.txt
+  name: pptx
+  description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /
+
+- id: anthropic/document/pdf
+  url: gh:anthropic/skills:document/pdf
+  reference: https://github.com/anthropics/skills
+  tag:
+    - office
+  license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
+  name: pdf
+  description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /
