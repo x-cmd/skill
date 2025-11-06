@@ -25,7 +25,7 @@ bundle_xcmd_skill_data()(
         x:error "wrong: data"
         return 1
     }
-    x yq eval-all -o=tsv '[.[] | del(.path,.tag)]' "index"/**/index.yml > "$tgtprefix/index.tsv" || {
+    x yq eval-all -o=tsv '[.[] | del(.path,.tag,.avatar)]' "index"/**/index.yml > "$tgtprefix/index.tsv" || {
         x:error "wrong: index"
         return 1
     }
@@ -33,7 +33,7 @@ bundle_xcmd_skill_data()(
 )
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.4"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.5"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
