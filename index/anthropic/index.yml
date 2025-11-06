@@ -110,7 +110,7 @@
   path: /anthropic/internal-comms
 
 - id: anthropic/document/docx
-  url: gh:anthropic/skills:document/docx
+  url: gh:anthropics/skills:document/docx
   reference: https://github.com/anthropics/skills
   # review
   tag:
@@ -123,7 +123,7 @@
   path: /
 
 - id: anthropic/document/xlsx
-  url: gh:anthropic/skills:document/xlsx
+  url: gh:anthropics/skills:document/xlsx
   reference: https://github.com/anthropics/skills
   tag:
     - office
@@ -136,7 +136,7 @@
 
 
 - id: anthropic/document/pptx
-  url: gh:anthropic/skills:document/pptx
+  url: gh:anthropics/skills:document/pptx
   reference: https://github.com/anthropics/skills
   tag:
     - office
@@ -148,7 +148,7 @@
   path: /
 
 - id: anthropic/document/pdf
-  url: gh:anthropic/skills:document/pdf
+  url: gh:anthropics/skills:document/pdf
   reference: https://github.com/anthropics/skills
   tag:
     - office
