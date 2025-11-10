@@ -26,7 +26,7 @@ bundle_xcmd_skill_data()(
         return 1
     }
     x yq eval-all -o=tsv '[.[]
-        | del(.path,.tag,.avatar)
+        | del(.path,.tag,.avatar,.installation)
         | (. as $item | with_entries(select(.key != "description")) + {"description": $item.description})
       ]' index/**/index.yml  \
     > "$tgtprefix/index.tsv" || {

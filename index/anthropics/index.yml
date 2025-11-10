@@ -1,3 +1,4 @@
+# review
 
 - id: anthropics/skill-creator
   url: x-cmd-skill-data:anthropics/skill-creator
@@ -8,6 +9,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/skill-creator
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=development/skill-creator --yes
 
 - id: anthropics/canvas-design
   url: x-cmd-skill-data:anthropics/canvas-design
@@ -18,6 +24,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/canvas-design
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=creative-design/canvas-design --yes
 
 - id: anthropics/slack-gif-creator
   url: x-cmd-skill-data:anthropics/slack-gif-creator
@@ -28,6 +39,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/slack-gif-creator
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes
 
 - id: anthropics/artifacts-builder
   url: x-cmd-skill-data:anthropics/artifacts-builder
@@ -38,6 +54,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/artifacts-builder
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=development/artifacts-builder --yes
 
 - id: anthropics/webapp-testing
   url: x-cmd-skill-data:anthropics/webapp-testing
@@ -48,6 +69,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/webapp-testing
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=development/webapp-testing --yes
 
 - id: anthropics/mcp-builder
   url: x-cmd-skill-data:anthropics/mcp-builder
@@ -58,6 +84,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/mcp-builder
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=development/mcp-builder --yes
 
 - id: anthropics/brand-guidelines
   url: x-cmd-skill-data:anthropics/brand-guidelines
@@ -68,16 +99,21 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/brand-guidelines
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes
 
-- id: anthropics/template-skill
-  url: x-cmd-skill-data:anthropics/template-skill
-  reference: https://github.com/anthropics/skills
-  license: no license
-  name: template-skill
-  description: Replace with description of the skill and when Claude should use it.
-  author: Anthropic
-  avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropics/template-skill
+# - id: anthropics/template-skill
+#   url: x-cmd-skill-data:anthropics/template-skill
+#   reference: https://github.com/anthropics/skills
+#   license: no license
+#   name: template-skill
+#   description: Replace with description of the skill and when Claude should use it.
+#   author: Anthropic
+#   avatar: https://avatars.githubusercontent.com/u/76263028
+#   path: /anthropics/template-skill
 
 - id: anthropics/theme-factory
   url: x-cmd-skill-data:anthropics/theme-factory
@@ -88,6 +124,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/theme-factory
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=creative-design/theme-factory --yes
 
 - id: anthropics/algorithmic-art
   url: x-cmd-skill-data:anthropics/algorithmic-art
@@ -98,6 +139,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/algorithmic-art
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes
 
 - id: anthropics/internal-comms
   url: x-cmd-skill-data:anthropics/internal-comms
@@ -108,11 +154,15 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/internal-comms
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install example-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes
 
 - id: anthropics/document/docx
   url: gh:anthropics/skills:document-skills/docx
   reference: https://github.com/anthropics/skills
-  # review
   tag:
     - office
   license: https://github.com/anthropics/skills/blob/main/document-skills/docx/LICENSE.txt
@@ -121,6 +171,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=document-processing/docx --yes
 
 - id: anthropics/document/xlsx
   url: gh:anthropics/skills:document-skills/xlsx
@@ -133,7 +188,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
-
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=document-processing/xlsx --yes
 
 - id: anthropics/document/pptx
   url: gh:anthropics/skills:document-skills/pptx
@@ -146,6 +205,11 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=document-processing/pptx --yes
 
 - id: anthropics/document/pdf
   url: gh:anthropics/skills:document-skills/pdf
@@ -158,3 +222,8 @@
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
+  installation:
+    claude_plugin: |
+      /plugin marketplace add anthropics/skills
+      /plugin install document-skills@anthropic-agent-skills
+    npx: npx claude-code-templates@latest --skill=document-processing/pdf-anthropic --yes
