@@ -20,7 +20,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=development/skill-creator --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip"
       }
@@ -47,7 +47,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=creative-design/canvas-design --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip"
       }
@@ -74,7 +74,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip"
       }
@@ -101,7 +101,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=development/artifacts-builder --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip"
       }
@@ -128,7 +128,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=development/webapp-testing --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/webapp-testing.zip"
       }
@@ -155,7 +155,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=development/mcp-builder --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/mcp-builder.zip"
       }
@@ -182,7 +182,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip"
       }
@@ -209,7 +209,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=creative-design/theme-factory --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/theme-factory.zip"
       }
@@ -236,7 +236,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/algorithmic-art.zip"
       }
@@ -263,7 +263,7 @@
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
       "npx": "npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes",
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip"
       }
@@ -381,7 +381,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/metabolomics-workbench-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/metabolomics-workbench-database.zip"
       }
@@ -407,7 +407,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uspto-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uspto-database.zip"
       }
@@ -433,7 +433,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-kegg-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-kegg-database.zip"
       }
@@ -459,7 +459,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-zinc-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-zinc-database.zip"
       }
@@ -485,7 +485,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-alphafold-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-alphafold-database.zip"
       }
@@ -511,7 +511,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-cosmic-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-cosmic-database.zip"
       }
@@ -537,7 +537,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gene-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gene-database.zip"
       }
@@ -563,7 +563,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-biorxiv-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-biorxiv-database.zip"
       }
@@ -589,7 +589,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-geo-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-geo-database.zip"
       }
@@ -615,7 +615,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-hmdb-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-hmdb-database.zip"
       }
@@ -641,7 +641,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinvar-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinvar-database.zip"
       }
@@ -667,7 +667,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubchem-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubchem-database.zip"
       }
@@ -693,7 +693,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-drugbank-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-drugbank-database.zip"
       }
@@ -719,7 +719,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-fda-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-fda-database.zip"
       }
@@ -745,7 +745,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ensembl-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ensembl-database.zip"
       }
@@ -771,7 +771,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinpgx-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinpgx-database.zip"
       }
@@ -797,7 +797,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gwas-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gwas-database.zip"
       }
@@ -823,7 +823,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-string-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-string-database.zip"
       }
@@ -849,7 +849,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uniprot-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uniprot-database.zip"
       }
@@ -875,7 +875,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-reactome-database-reactome-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-reactome-database-reactome-database.zip"
       }
@@ -901,7 +901,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubmed-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubmed-database.zip"
       }
@@ -927,7 +927,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-chembl-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-chembl-database.zip"
       }
@@ -953,7 +953,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinicaltrials-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinicaltrials-database.zip"
       }
@@ -979,7 +979,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ena-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ena-database.zip"
       }
@@ -1005,7 +1005,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pdb-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pdb-database.zip"
       }
@@ -1031,7 +1031,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-databases@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-opentargets-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-opentargets-database.zip"
       }
@@ -1057,7 +1057,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-benchling-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-benchling-integration.zip"
       }
@@ -1083,7 +1083,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-protocolsio-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-protocolsio-integration.zip"
       }
@@ -1109,7 +1109,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-opentrons-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-opentrons-integration.zip"
       }
@@ -1135,7 +1135,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-omero-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-omero-integration.zip"
       }
@@ -1161,7 +1161,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-dnanexus-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-dnanexus-integration.zip"
       }
@@ -1187,7 +1187,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-labarchive-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-labarchive-integration.zip"
       }
@@ -1213,7 +1213,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-integrations@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-latchbio-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-latchbio-integration.zip"
       }
@@ -1239,7 +1239,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-context-initialization@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-get-available-resources.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-get-available-resources.zip"
       }
@@ -1265,7 +1265,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-context-initialization@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-scientific-context-initialization.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-scientific-context-initialization.zip"
       }
@@ -1291,7 +1291,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-networkx.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-networkx.zip"
       }
@@ -1317,7 +1317,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-anndata.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-anndata.zip"
       }
@@ -1343,7 +1343,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-survival.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-survival.zip"
       }
@@ -1369,7 +1369,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymc.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymc.zip"
       }
@@ -1395,7 +1395,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-paper-2-web.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-paper-2-web.zip"
       }
@@ -1421,7 +1421,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-shap.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-shap.zip"
       }
@@ -1447,7 +1447,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-tooluniverse.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-tooluniverse.zip"
       }
@@ -1473,7 +1473,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-umap-learn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-umap-learn.zip"
       }
@@ -1499,7 +1499,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-sympy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-sympy.zip"
       }
@@ -1525,7 +1525,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-vaex.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-vaex.zip"
       }
@@ -1551,7 +1551,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-dask.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-dask.zip"
       }
@@ -1577,7 +1577,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-esm.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-esm.zip"
       }
@@ -1603,7 +1603,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-arboreto.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-arboreto.zip"
       }
@@ -1629,7 +1629,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-seaborn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-seaborn.zip"
       }
@@ -1655,7 +1655,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deeptools.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deeptools.zip"
       }
@@ -1681,7 +1681,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-medchem.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-medchem.zip"
       }
@@ -1707,7 +1707,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymatgen.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymatgen.zip"
       }
@@ -1733,7 +1733,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-molfeat.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-molfeat.zip"
       }
@@ -1759,7 +1759,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydicom.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydicom.zip"
       }
@@ -1785,7 +1785,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-markitdown.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-markitdown.zip"
       }
@@ -1811,7 +1811,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytdc.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytdc.zip"
       }
@@ -1837,7 +1837,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-histolab.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-histolab.zip"
       }
@@ -1863,7 +1863,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cobrapy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cobrapy.zip"
       }
@@ -1889,7 +1889,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biopython.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biopython.zip"
       }
@@ -1915,7 +1915,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scvi-tools.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scvi-tools.zip"
       }
@@ -1941,7 +1941,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-lamindb.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-lamindb.zip"
       }
@@ -1967,7 +1967,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datamol.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datamol.zip"
       }
@@ -1993,7 +1993,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matchms.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matchms.zip"
       }
@@ -2019,7 +2019,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-diffdock.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-diffdock.zip"
       }
@@ -2045,7 +2045,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-neurokit2.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-neurokit2.zip"
       }
@@ -2071,7 +2071,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydeseq2.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydeseq2.zip"
       }
@@ -2097,7 +2097,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-bioservices.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-bioservices.zip"
       }
@@ -2123,7 +2123,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-bio.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-bio.zip"
       }
@@ -2149,7 +2149,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gget.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gget.zip"
       }
@@ -2175,7 +2175,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyhealth.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyhealth.zip"
       }
@@ -2201,7 +2201,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-transformers.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-transformers.zip"
       }
@@ -2227,7 +2227,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torch_geometric.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torch_geometric.zip"
       }
@@ -2253,7 +2253,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deepchem.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deepchem.zip"
       }
@@ -2279,7 +2279,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pathml.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pathml.zip"
       }
@@ -2305,7 +2305,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-zarr-python.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-zarr-python.zip"
       }
@@ -2331,7 +2331,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-simpy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-simpy.zip"
       }
@@ -2357,7 +2357,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biomni.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biomni.zip"
       }
@@ -2383,7 +2383,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyopenms.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyopenms.zip"
       }
@@ -2409,7 +2409,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pysam.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pysam.zip"
       }
@@ -2435,7 +2435,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matplotlib.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matplotlib.zip"
       }
@@ -2461,7 +2461,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytorch-lightning.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytorch-lightning.zip"
       }
@@ -2487,7 +2487,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-hypogenic.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-hypogenic.zip"
       }
@@ -2513,7 +2513,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torchdrug.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torchdrug.zip"
       }
@@ -2539,7 +2539,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-flowio.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-flowio.zip"
       }
@@ -2565,7 +2565,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datacommons-client.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datacommons-client.zip"
       }
@@ -2591,7 +2591,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-rdkit.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-rdkit.zip"
       }
@@ -2617,7 +2617,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-stable-baselines3.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-stable-baselines3.zip"
       }
@@ -2643,7 +2643,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pylabrobot.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pylabrobot.zip"
       }
@@ -2669,7 +2669,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-aeon.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-aeon.zip"
       }
@@ -2695,7 +2695,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-polars.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-polars.zip"
       }
@@ -2721,7 +2721,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-statsmodels.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-statsmodels.zip"
       }
@@ -2747,7 +2747,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scanpy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scanpy.zip"
       }
@@ -2773,7 +2773,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-astropy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-astropy.zip"
       }
@@ -2799,7 +2799,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-reportlab.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-reportlab.zip"
       }
@@ -2825,7 +2825,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pufferlib.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pufferlib.zip"
       }
@@ -2851,7 +2851,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymoo.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymoo.zip"
       }
@@ -2877,7 +2877,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-learn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-learn.zip"
       }
@@ -2903,7 +2903,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-etetoolkit.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-etetoolkit.zip"
       }
@@ -2929,7 +2929,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-packages@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cellxgene-census.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cellxgene-census.zip"
       }
@@ -2955,7 +2955,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-brainstorming.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-brainstorming.zip"
       }
@@ -2981,7 +2981,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-exploratory-data-analysis.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-exploratory-data-analysis.zip"
       }
@@ -3007,7 +3007,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-critical-thinking.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-critical-thinking.zip"
       }
@@ -3033,7 +3033,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-statistical-analysis.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-statistical-analysis.zip"
       }
@@ -3059,7 +3059,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-writing.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-writing.zip"
       }
@@ -3085,7 +3085,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-literature-review.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-literature-review.zip"
       }
@@ -3111,7 +3111,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scholar-evaluation.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scholar-evaluation.zip"
       }
@@ -3137,7 +3137,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-visualization.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-visualization.zip"
       }
@@ -3163,7 +3163,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-hypothesis-generation.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-hypothesis-generation.zip"
       }
@@ -3189,7 +3189,7 @@
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
         "install": "/plugin install scientific-thinking@claude-scientific-skills"
       },
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-peer-review.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-peer-review.zip"
       }
@@ -3227,7 +3227,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-git",
     "installation": {
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip"
       }
@@ -3249,7 +3249,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-kowledge",
     "installation": {
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip"
       }
@@ -3271,7 +3271,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-network",
     "installation": {
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip"
       }
@@ -3293,7 +3293,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-security",
     "installation": {
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip"
       }
@@ -3315,7 +3315,7 @@
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
     "path": "/x-cmd/x-cmd-system",
     "installation": {
-      "package_download": {
+      "zipball": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip"
       }

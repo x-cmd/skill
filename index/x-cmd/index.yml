@@ -14,7 +14,7 @@
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-git
   installation:
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
 
@@ -33,7 +33,7 @@
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-kowledge
   installation:
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip
 
@@ -52,7 +52,7 @@
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-network
   installation:
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip
 
@@ -71,7 +71,7 @@
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-security
   installation:
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip
 
@@ -90,7 +90,7 @@
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-system
   installation:
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip
 

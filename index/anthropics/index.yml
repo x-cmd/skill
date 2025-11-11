@@ -19,7 +19,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/skill-creator --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
 
@@ -42,7 +42,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/canvas-design --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip
 
@@ -65,7 +65,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip
 
@@ -88,7 +88,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/artifacts-builder --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip
 
@@ -111,7 +111,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/webapp-testing --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/webapp-testing.zip
 
@@ -134,7 +134,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/mcp-builder --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/mcp-builder.zip
 
@@ -157,7 +157,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip
 
@@ -190,7 +190,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/theme-factory --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/theme-factory.zip
 
@@ -213,7 +213,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/algorithmic-art.zip
 
@@ -236,7 +236,7 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes
-    package_download:
+    zipball:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
       codeberg: https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip
 
