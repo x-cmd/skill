@@ -1,0 +1,15 @@
+name: ➕ Add New Skill
+description: Share your Claude Skill with the community.
+title: "Add: "
+labels:
+  - enhancement
+assignees: lunrenyi
+body:
+  - type: input
+    id: url
+    validations:
+      required: true
+    attributes:
+      label: 🔗 Source
+      description: GitHub repo or URL
+      placeholder: https://github.com/?/?
