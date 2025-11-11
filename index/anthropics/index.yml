@@ -15,9 +15,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/skill-creator
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/skill-creator --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
@@ -38,9 +38,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/canvas-design
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/canvas-design --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
@@ -61,9 +61,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/slack-gif-creator
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
@@ -84,9 +84,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/artifacts-builder
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/artifacts-builder --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
@@ -107,9 +107,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/webapp-testing
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/webapp-testing --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip
@@ -130,9 +130,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/mcp-builder
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/mcp-builder --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip
@@ -153,9 +153,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/brand-guidelines
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
@@ -186,9 +186,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/theme-factory
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/theme-factory --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip
@@ -209,9 +209,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/algorithmic-art
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip
@@ -232,9 +232,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/internal-comms
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install example-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes
     package_download:
       github: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
@@ -255,9 +255,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install document-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/docx --yes
 
 - id: anthropics/document/xlsx
@@ -275,9 +275,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install document-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/xlsx --yes
 
 - id: anthropics/document/pptx
@@ -295,9 +295,9 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install document-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/pptx --yes
 
 - id: anthropics/document/pdf
@@ -315,7 +315,7 @@
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
   installation:
-    claude_plugin: |
-      /plugin marketplace add anthropics/skills
-      /plugin install document-skills@anthropic-agent-skills
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/pdf-anthropic --yes

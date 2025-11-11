@@ -15,7 +15,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/skill-creator",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=development/skill-creator --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip",
@@ -39,7 +42,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/canvas-design",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=creative-design/canvas-design --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip",
@@ -63,7 +69,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/slack-gif-creator",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip",
@@ -87,7 +96,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/artifacts-builder",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=development/artifacts-builder --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip",
@@ -111,7 +123,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/webapp-testing",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=development/webapp-testing --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip",
@@ -135,7 +150,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/mcp-builder",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=development/mcp-builder --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip",
@@ -159,7 +177,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/brand-guidelines",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip",
@@ -183,7 +204,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/theme-factory",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=creative-design/theme-factory --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip",
@@ -207,7 +231,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/algorithmic-art",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip",
@@ -231,7 +258,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/internal-comms",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install example-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes",
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip",
@@ -255,7 +285,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install document-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install document-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=document-processing/docx --yes"
     }
   },
@@ -275,7 +308,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install document-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install document-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=document-processing/xlsx --yes"
     }
   },
@@ -295,7 +331,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install document-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install document-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=document-processing/pptx --yes"
     }
   },
@@ -315,7 +354,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/",
     "installation": {
-      "claude_plugin": "/plugin marketplace add anthropics/skills\n/plugin install document-skills@anthropic-agent-skills\n",
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install document-skills@anthropic-agent-skills"
+      },
       "npx": "npx claude-code-templates@latest --skill=document-processing/pdf-anthropic --yes"
     }
   },
@@ -335,6 +377,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/metabolomics-workbench-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/metabolomics-workbench-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/metabolomics-workbench-database.zip"
@@ -357,6 +403,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/uspto-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uspto-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uspto-database.zip"
@@ -379,6 +429,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/kegg-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-kegg-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-kegg-database.zip"
@@ -401,6 +455,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/zinc-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-zinc-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-zinc-database.zip"
@@ -423,6 +481,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/alphafold-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-alphafold-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-alphafold-database.zip"
@@ -445,6 +507,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/cosmic-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-cosmic-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-cosmic-database.zip"
@@ -467,6 +533,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/gene-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gene-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gene-database.zip"
@@ -489,6 +559,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/biorxiv-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-biorxiv-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-biorxiv-database.zip"
@@ -511,6 +585,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/geo-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-geo-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-geo-database.zip"
@@ -533,6 +611,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/hmdb-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-hmdb-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-hmdb-database.zip"
@@ -555,6 +637,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinvar-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinvar-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinvar-database.zip"
@@ -577,6 +663,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pubchem-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubchem-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubchem-database.zip"
@@ -599,6 +689,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/drugbank-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-drugbank-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-drugbank-database.zip"
@@ -621,6 +715,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/fda-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-fda-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-fda-database.zip"
@@ -643,6 +741,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/ensembl-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ensembl-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ensembl-database.zip"
@@ -665,6 +767,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinpgx-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinpgx-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinpgx-database.zip"
@@ -687,6 +793,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/gwas-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gwas-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gwas-database.zip"
@@ -709,6 +819,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/string-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-string-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-string-database.zip"
@@ -731,6 +845,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/uniprot-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uniprot-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uniprot-database.zip"
@@ -753,6 +871,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/reactome-database/reactome-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-reactome-database-reactome-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-reactome-database-reactome-database.zip"
@@ -775,6 +897,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pubmed-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubmed-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubmed-database.zip"
@@ -797,6 +923,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/chembl-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-chembl-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-chembl-database.zip"
@@ -819,6 +949,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/clinicaltrials-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinicaltrials-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinicaltrials-database.zip"
@@ -841,6 +975,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/ena-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ena-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ena-database.zip"
@@ -863,6 +1001,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/pdb-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pdb-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pdb-database.zip"
@@ -885,6 +1027,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-databases/opentargets-database",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-databases@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-opentargets-database.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-opentargets-database.zip"
@@ -907,6 +1053,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/benchling-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-benchling-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-benchling-integration.zip"
@@ -929,6 +1079,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/protocolsio-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-protocolsio-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-protocolsio-integration.zip"
@@ -951,6 +1105,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/opentrons-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-opentrons-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-opentrons-integration.zip"
@@ -973,6 +1131,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/omero-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-omero-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-omero-integration.zip"
@@ -995,6 +1157,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/dnanexus-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-dnanexus-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-dnanexus-integration.zip"
@@ -1017,6 +1183,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/labarchive-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-labarchive-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-labarchive-integration.zip"
@@ -1039,6 +1209,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-integrations/latchbio-integration",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-integrations@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-latchbio-integration.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-latchbio-integration.zip"
@@ -1061,6 +1235,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-helpers/get-available-resources",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-context-initialization@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-get-available-resources.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-get-available-resources.zip"
@@ -1083,6 +1261,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-helpers/scientific-context-initialization",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-context-initialization@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-scientific-context-initialization.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-scientific-context-initialization.zip"
@@ -1105,6 +1287,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/networkx",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-networkx.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-networkx.zip"
@@ -1127,6 +1313,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/anndata",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-anndata.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-anndata.zip"
@@ -1149,6 +1339,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-survival",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-survival.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-survival.zip"
@@ -1171,6 +1365,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymc",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymc.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymc.zip"
@@ -1193,6 +1391,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/paper-2-web",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-paper-2-web.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-paper-2-web.zip"
@@ -1215,6 +1417,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/shap",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-shap.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-shap.zip"
@@ -1237,6 +1443,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/tooluniverse",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-tooluniverse.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-tooluniverse.zip"
@@ -1259,6 +1469,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/umap-learn",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-umap-learn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-umap-learn.zip"
@@ -1281,6 +1495,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/sympy",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-sympy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-sympy.zip"
@@ -1303,6 +1521,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/vaex",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-vaex.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-vaex.zip"
@@ -1325,6 +1547,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/dask",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-dask.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-dask.zip"
@@ -1347,6 +1573,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/esm",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-esm.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-esm.zip"
@@ -1369,6 +1599,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/arboreto",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-arboreto.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-arboreto.zip"
@@ -1391,6 +1625,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/seaborn",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-seaborn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-seaborn.zip"
@@ -1413,6 +1651,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/deeptools",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deeptools.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deeptools.zip"
@@ -1435,6 +1677,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/medchem",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-medchem.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-medchem.zip"
@@ -1457,6 +1703,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymatgen",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymatgen.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymatgen.zip"
@@ -1479,6 +1729,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/molfeat",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-molfeat.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-molfeat.zip"
@@ -1501,6 +1755,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pydicom",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydicom.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydicom.zip"
@@ -1523,6 +1781,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/markitdown",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-markitdown.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-markitdown.zip"
@@ -1545,6 +1807,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pytdc",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytdc.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytdc.zip"
@@ -1567,6 +1833,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/histolab",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-histolab.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-histolab.zip"
@@ -1589,6 +1859,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/cobrapy",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cobrapy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cobrapy.zip"
@@ -1611,6 +1885,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/biopython",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biopython.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biopython.zip"
@@ -1633,6 +1911,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scvi-tools",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scvi-tools.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scvi-tools.zip"
@@ -1655,6 +1937,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/lamindb",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-lamindb.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-lamindb.zip"
@@ -1677,6 +1963,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/datamol",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datamol.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datamol.zip"
@@ -1699,6 +1989,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/matchms",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matchms.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matchms.zip"
@@ -1721,6 +2015,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/diffdock",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-diffdock.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-diffdock.zip"
@@ -1743,6 +2041,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/neurokit2",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-neurokit2.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-neurokit2.zip"
@@ -1765,6 +2067,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pydeseq2",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydeseq2.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydeseq2.zip"
@@ -1787,6 +2093,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/bioservices",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-bioservices.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-bioservices.zip"
@@ -1809,6 +2119,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-bio",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-bio.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-bio.zip"
@@ -1831,6 +2145,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/gget",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gget.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gget.zip"
@@ -1853,6 +2171,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pyhealth",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyhealth.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyhealth.zip"
@@ -1875,6 +2197,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/transformers",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-transformers.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-transformers.zip"
@@ -1897,6 +2223,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/torch_geometric",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torch_geometric.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torch_geometric.zip"
@@ -1919,6 +2249,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/deepchem",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deepchem.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deepchem.zip"
@@ -1941,6 +2275,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pathml",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pathml.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pathml.zip"
@@ -1963,6 +2301,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/zarr-python",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-zarr-python.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-zarr-python.zip"
@@ -1985,6 +2327,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/simpy",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-simpy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-simpy.zip"
@@ -2007,6 +2353,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/biomni",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biomni.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biomni.zip"
@@ -2029,6 +2379,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pyopenms",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyopenms.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyopenms.zip"
@@ -2051,6 +2405,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pysam",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pysam.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pysam.zip"
@@ -2073,6 +2431,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/matplotlib",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matplotlib.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matplotlib.zip"
@@ -2095,6 +2457,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pytorch-lightning",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytorch-lightning.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytorch-lightning.zip"
@@ -2117,6 +2483,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/hypogenic",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-hypogenic.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-hypogenic.zip"
@@ -2139,6 +2509,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/torchdrug",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torchdrug.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torchdrug.zip"
@@ -2161,6 +2535,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/flowio",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-flowio.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-flowio.zip"
@@ -2183,6 +2561,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/datacommons-client",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datacommons-client.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datacommons-client.zip"
@@ -2205,6 +2587,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/rdkit",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-rdkit.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-rdkit.zip"
@@ -2227,6 +2613,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/stable-baselines3",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-stable-baselines3.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-stable-baselines3.zip"
@@ -2249,6 +2639,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pylabrobot",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pylabrobot.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pylabrobot.zip"
@@ -2271,6 +2665,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/aeon",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-aeon.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-aeon.zip"
@@ -2293,6 +2691,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/polars",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-polars.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-polars.zip"
@@ -2315,6 +2717,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/statsmodels",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-statsmodels.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-statsmodels.zip"
@@ -2337,6 +2743,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scanpy",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scanpy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scanpy.zip"
@@ -2359,6 +2769,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/astropy",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-astropy.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-astropy.zip"
@@ -2381,6 +2795,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/reportlab",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-reportlab.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-reportlab.zip"
@@ -2403,6 +2821,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pufferlib",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pufferlib.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pufferlib.zip"
@@ -2425,6 +2847,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/pymoo",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymoo.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymoo.zip"
@@ -2447,6 +2873,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/scikit-learn",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-learn.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-learn.zip"
@@ -2469,6 +2899,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/etetoolkit",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-etetoolkit.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-etetoolkit.zip"
@@ -2491,6 +2925,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-packages/cellxgene-census",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-packages@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cellxgene-census.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cellxgene-census.zip"
@@ -2513,6 +2951,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-brainstorming",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-brainstorming.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-brainstorming.zip"
@@ -2535,6 +2977,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/exploratory-data-analysis",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-exploratory-data-analysis.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-exploratory-data-analysis.zip"
@@ -2557,6 +3003,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-critical-thinking",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-critical-thinking.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-critical-thinking.zip"
@@ -2579,6 +3029,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/statistical-analysis",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-statistical-analysis.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-statistical-analysis.zip"
@@ -2601,6 +3055,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-writing",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-writing.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-writing.zip"
@@ -2623,6 +3081,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/literature-review",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-literature-review.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-literature-review.zip"
@@ -2645,6 +3107,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scholar-evaluation",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scholar-evaluation.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scholar-evaluation.zip"
@@ -2667,6 +3133,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/scientific-visualization",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-visualization.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-visualization.zip"
@@ -2689,6 +3159,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/hypothesis-generation",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-hypothesis-generation.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-hypothesis-generation.zip"
@@ -2711,6 +3185,10 @@
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
     "path": "/k-dense-ai/scientific-thinking/peer-review",
     "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-thinking@claude-scientific-skills"
+      },
       "package_download": {
         "github": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-peer-review.zip",
         "codeberg": "https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-peer-review.zip"
