@@ -1,9 +1,9 @@
 # shellcheck shell=dash
 
 release()(
-    local x_cmd_skill_version="${1:-"v0.0.6"}"
+    local x_cmd_skill_version="${1:-"v0.0.7"}"
     local root_path="$(x wsroot)"
-    local release_id=
+    local release_id; local skill_zip
     x:info "run cmd -> x cd $root_path"
 
     x cd "$root_path"
@@ -18,6 +18,9 @@ release()(
         [ -n "$release_id" ] || exit
         x gh repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills.tar.gz"
         x gh repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills_hash.txt"
+        x find ".release" -maxdepth 1 -type f -name "*.zip" | while read -r skill_zip; do
+           x gh repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "$skill_zip"
+        done
         x:info "release github"
     ) || return $?
 
@@ -30,24 +33,11 @@ release()(
         [ -n "$release_id" ] || exit
         x cb repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills.tar.gz"
         x cb repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "dist/skills_hash.txt"
+        x find ".release" -maxdepth 1 -type f -name "*.zip" | while read -r skill_zip; do
+           x cb repo release attachment upload --repo x-cmd/skill --release_id "$release_id" "$skill_zip"
+        done
         x:info "release codeberg"
     ) || return $?
-
-    # x:info "Release on oss."
-    # local oss_host="res@world.hub.x-cmd.com"
-    # local oss_home="/home/res"
-    # local oss_skill="${oss_home}/res/data/x-cmd/skill/dist"
-    # (
-    #     x mkdirp ./skill.tmp/
-    #     x cp  "dist/${x_cmd_skill_version}.tar.gz" ./skill.tmp/
-    #     x cp  "dist/${x_cmd_skill_version}_hash.txt" ./skill.tmp/
-    #     scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
-    #         -r ./skill.tmp "${oss_host}:${oss_skill}/"
-    #     ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
-    #         "$oss_host" "mv ${oss_skill}/skill.tmp/${x_cmd_skill_version}.tar.gz ${oss_skill}/ && mv ${oss_skill}/skill.tmp/${x_cmd_skill_version}_hash.txt ${oss_skill}/ && rm -rf  ${oss_skill}/skill.tmp"
-    #     ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no \
-    #         "$oss_host"  'cd $HOME/res && . $HOME/.x-cmd.root/X && x ws upload_skill'
-    # ) 1>&2 >/dev/null || return
 
     x:info "Finish"
 )

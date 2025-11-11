@@ -18,7 +18,6 @@ bundle_tmp2tgz()(
 bundle_xcmd_skill_data()(
     local tgtprefix=; tgtprefix="$(x wsroot)/.tmp"
     x:info "BEGIN ==== > bundle x-cmd/skill data"
-    x:info "Clone repo x-cmd/skill"
 
     x mkdirp "$tgtprefix"
     x cp -rf "data" "$tgtprefix/" || {
@@ -36,8 +35,29 @@ bundle_xcmd_skill_data()(
     x:info "END ==== > bundle skill data"
 )
 
+bundle_xcmd_skill_packages(){
+    local tgtprefix=; tgtprefix="$(x wsroot)/.release"
+    x:info "BEGIN ==== > bundle x-cmd/skill ZIP file"
+
+    x mkdirp "$tgtprefix"
+    local skill_name; local skill_file; local skill_dir
+    x find data -name "SKILL.md" -type f | while read -r skill_file;do
+        skill_dir="${skill_file%/SKILL.md}"
+        skill_name="${skill_dir##*/}"
+        x rmrf "$tgtprefix/.tmp"
+        x cp -rf "$skill_dir" "$tgtprefix/.tmp/$skill_name"
+        case "$skill_dir" in
+            */k-dense-ai/*)   x cp -rf "data/k-dense-ai/LICENSE.md" "$tgtprefix/.tmp/$skill_name/";;
+            */x-cmd/*)        x cp -rf LICENSE "$tgtprefix/.tmp/$skill_name/";;
+        esac
+        x z "$tgtprefix/${skill_name}.zip" "$tgtprefix/.tmp/$skill_name"
+    done
+
+    x:info "END ==== > bundle skill ZIP file"
+}
+
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.6"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.7"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
@@ -67,7 +87,12 @@ bundle()(
     x rmrf .tmp
 
     if ! bundle_xcmd_skill_data ; then
-        x:error "bundle_xcmd_se_data failed"
+        x:error "bundle_xcmd_skill_data failed"
+        return 1
+    fi
+
+    if ! bundle_xcmd_skill_packages ; then
+        x:error "bundle_skill_zip_file failed"
         return 1
     fi
 
