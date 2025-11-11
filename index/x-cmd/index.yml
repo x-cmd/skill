@@ -15,8 +15,8 @@
   path: /x-cmd/x-cmd-git
   installation:
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
 
 - id: x-cmd/x-cmd-kowledge
   url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
@@ -34,8 +34,8 @@
   path: /x-cmd/x-cmd-kowledge
   installation:
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip
 
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
@@ -53,8 +53,8 @@
   path: /x-cmd/x-cmd-network
   installation:
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip
 
 - id: x-cmd/x-cmd-security
   url: x-cmd-skill-data:x-cmd/x-cmd-security
@@ -72,8 +72,8 @@
   path: /x-cmd/x-cmd-security
   installation:
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip
 
 - id: x-cmd/x-cmd-system
   url: x-cmd-skill-data:x-cmd/x-cmd-system
@@ -91,6 +91,6 @@
   path: /x-cmd/x-cmd-system
   installation:
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip
 

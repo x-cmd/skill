@@ -20,8 +20,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/skill-creator --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
 
 - id: anthropics/canvas-design
   url: x-cmd-skill-data:anthropics/canvas-design
@@ -43,8 +43,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/canvas-design --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip
 
 - id: anthropics/slack-gif-creator
   url: x-cmd-skill-data:anthropics/slack-gif-creator
@@ -66,8 +66,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/slack-gif-creator --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip
 
 - id: anthropics/artifacts-builder
   url: x-cmd-skill-data:anthropics/artifacts-builder
@@ -89,8 +89,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/artifacts-builder --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip
 
 - id: anthropics/webapp-testing
   url: x-cmd-skill-data:anthropics/webapp-testing
@@ -112,8 +112,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/webapp-testing --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/webapp-testing.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/webapp-testing.zip
 
 - id: anthropics/mcp-builder
   url: x-cmd-skill-data:anthropics/mcp-builder
@@ -135,8 +135,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/mcp-builder --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/mcp-builder.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/mcp-builder.zip
 
 - id: anthropics/brand-guidelines
   url: x-cmd-skill-data:anthropics/brand-guidelines
@@ -158,8 +158,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/brand-guidelines --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip
 
 # - id: anthropics/template-skill
 #   url: x-cmd-skill-data:anthropics/template-skill
@@ -191,8 +191,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/theme-factory --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/theme-factory.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/theme-factory.zip
 
 - id: anthropics/algorithmic-art
   url: x-cmd-skill-data:anthropics/algorithmic-art
@@ -214,8 +214,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/algorithmic-art --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/algorithmic-art.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/algorithmic-art.zip
 
 - id: anthropics/internal-comms
   url: x-cmd-skill-data:anthropics/internal-comms
@@ -237,8 +237,8 @@
       install: /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=enterprise-communication/internal-comms --yes
     zipball:
-      github: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
-      codeberg: https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip
 
 - id: anthropics/document/docx
   url: gh:anthropics/skills:document-skills/docx
