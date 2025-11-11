@@ -4,58 +4,93 @@
   reference: https://github.com/x-cmd/skill
   tag:
     - X-CMD
+    - git
+    - version-control
+    - code-hosting
   license: Apache-2.0
   name: x-cmd-git
   description: This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-git
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
 
 - id: x-cmd/x-cmd-kowledge
   url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
   reference: https://github.com/x-cmd/skill
   tag:
     - X-CMD
+    - knowledge-search
+    - documentation
+    - technical-research
   license: Apache-2.0
   name: x-cmd-knowledge
   description: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-kowledge
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip
 
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
   reference: https://github.com/x-cmd/skill
   tag:
     - X-CMD
+    - network-administration
+    - diagnostics
+    - connectivity
   license: Apache-2.0
   name: x-cmd-network
   description: This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-network
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip
 
 - id: x-cmd/x-cmd-security
   url: x-cmd-skill-data:x-cmd/x-cmd-security
   reference: https://github.com/x-cmd/skill
   tag:
     - X-CMD
+    - security-assessment
+    - vulnerability-management
+    - network-reconnaissance
   license: Apache-2.0
   name: x-cmd-security
   description: This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-security
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip
 
 - id: x-cmd/x-cmd-system
   url: x-cmd-skill-data:x-cmd/x-cmd-system
   reference: https://github.com/x-cmd/skill
   tag:
-  - X-CMD
+    - X-CMD
+    - system-administration
+    - system-monitoring
+    - performance-management
   license: Apache-2.0
   name: x-cmd-system
   description: This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd-system
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip
 

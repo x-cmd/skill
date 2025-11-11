@@ -2,6 +2,11 @@
 - id: notion/spec-to-implementation
   url: https://file.skillshunt.io/skills/notion-spec-to-implementation/notion-spec-to-implementation.zip
   reference: https://skillshunt.io/skills/notion/notion-spec-to-implementation
+  tag:
+    - notion
+    - specification
+    - implementation
+    - workflow-automation
   license: no license
   name: spec-to-implementation
   description: Convert specifications to implementation using Notion

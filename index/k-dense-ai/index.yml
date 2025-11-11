@@ -1,981 +1,1962 @@
 - id: k-dense-ai/scientific-databases/metabolomics-workbench-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/metabolomics-workbench-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - metabolomics
+    - bioinformatics
+    - biomarker-discovery
+    - mass-spectrometry
   license: MIT
   name: "metabolomics-workbench-database"
   description: "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/metabolomics-workbench-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/metabolomics-workbench-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/metabolomics-workbench-database.zip
 - id: k-dense-ai/scientific-databases/uspto-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/uspto-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - patents
+    - intellectual-property
+    - legal
+    - research
   license: MIT
   name: "uspto-database"
   description: "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/uspto-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uspto-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uspto-database.zip
 - id: k-dense-ai/scientific-databases/kegg-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/kegg-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - pathway-analysis
+    - bioinformatics
+    - metabolic-pathways
+    - drug-interactions
   license: MIT
   name: "kegg-database"
   description: "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/kegg-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-kegg-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-kegg-database.zip
 - id: k-dense-ai/scientific-databases/zinc-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/zinc-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cheminformatics
+    - drug-discovery
+    - virtual-screening
+    - compounds
   license: MIT
   name: "zinc-database"
   description: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/zinc-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-zinc-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-zinc-database.zip
 - id: k-dense-ai/scientific-databases/alphafold-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/alphafold-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - protein-structure
+    - structural-biology
+    - ai-prediction
+    - bioinformatics
   license: MIT
   name: "alphafold-database"
   description: "Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/alphafold-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-alphafold-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-alphafold-database.zip
 - id: k-dense-ai/scientific-databases/cosmic-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/cosmic-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cancer
+    - mutations
+    - genomics
+    - oncology
   license: MIT
   name: "cosmic-database"
   description: "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/cosmic-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-cosmic-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-cosmic-database.zip
 - id: k-dense-ai/scientific-databases/gene-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/gene-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - gene-annotation
+    - ncbi
+    - bioinformatics
   license: MIT
   name: "gene-database"
   description: "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/gene-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gene-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gene-database.zip
 - id: k-dense-ai/scientific-databases/biorxiv-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/biorxiv-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - preprints
+    - literature
+    - research
+    - life-sciences
   license: MIT
   name: "biorxiv-database"
   description: "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/biorxiv-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-biorxiv-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-biorxiv-database.zip
 - id: k-dense-ai/scientific-databases/geo-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/geo-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - gene-expression
+    - microarray
+    - rna-seq
+    - transcriptomics
   license: MIT
   name: "geo-database"
   description: "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/geo-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-geo-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-geo-database.zip
 - id: k-dense-ai/scientific-databases/hmdb-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/hmdb-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - metabolomics
+    - metabolites
+    - chemical-properties
+    - biomarkers
   license: MIT
   name: "hmdb-database"
   description: "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/hmdb-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-hmdb-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-hmdb-database.zip
 - id: k-dense-ai/scientific-databases/clinvar-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinvar-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - variants
+    - clinical-significance
+    - medical-genetics
   license: MIT
   name: "clinvar-database"
   description: "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/clinvar-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinvar-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinvar-database.zip
 - id: k-dense-ai/scientific-databases/pubchem-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubchem-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cheminformatics
+    - compounds
+    - chemical-properties
+    - bioactivity
   license: MIT
   name: "pubchem-database"
   description: "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/pubchem-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubchem-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubchem-database.zip
 - id: k-dense-ai/scientific-databases/drugbank-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/drugbank-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - drug-discovery
+    - pharmacology
+    - drug-interactions
+    - chemical-structures
   license: MIT
   name: "drugbank-database"
   description: "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/drugbank-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-drugbank-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-drugbank-database.zip
 - id: k-dense-ai/scientific-databases/fda-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/fda-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - regulatory
+    - drugs
+    - devices
+    - safety-research
   license: MIT
   name: "fda-database"
   description: "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/fda-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-fda-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-fda-database.zip
 - id: k-dense-ai/scientific-databases/ensembl-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/ensembl-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - gene-lookups
+    - variant-analysis
+    - comparative-genomics
   license: MIT
   name: "ensembl-database"
   description: "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/ensembl-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ensembl-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ensembl-database.zip
 - id: k-dense-ai/scientific-databases/clinpgx-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinpgx-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - pharmacogenomics
+    - precision-medicine
+    - gene-drug-interactions
+    - dosing
   license: MIT
   name: "clinpgx-database"
   description: "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/clinpgx-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinpgx-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinpgx-database.zip
 - id: k-dense-ai/scientific-databases/gwas-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/gwas-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genetics
+    - snp-trait-associations
+    - genetic-epidemiology
+    - polygenic-risk
   license: MIT
   name: "gwas-database"
   description: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/gwas-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gwas-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gwas-database.zip
 - id: k-dense-ai/scientific-databases/string-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/string-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - protein-interactions
+    - systems-biology
+    - network-analysis
+    - go-enrichment
   license: MIT
   name: "string-database"
   description: "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/string-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-string-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-string-database.zip
 - id: k-dense-ai/scientific-databases/uniprot-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/uniprot-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - proteins
+    - bioinformatics
+    - id-mapping
+    - sequence-analysis
   license: MIT
   name: "uniprot-database"
   description: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/uniprot-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uniprot-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uniprot-database.zip
 - id: k-dense-ai/scientific-databases/reactome-database/reactome-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/reactome-database/reactome-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - pathway-analysis
+    - systems-biology
+    - gene-pathway-mapping
+    - molecular-interactions
   license: MIT
   name: "reactome-database"
   description: "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/reactome-database/reactome-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-reactome-database-reactome-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-reactome-database-reactome-database.zip
 - id: k-dense-ai/scientific-databases/pubmed-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pubmed-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - literature
+    - bibliography
+    - research
+    - medical-literature
   license: MIT
   name: "pubmed-database"
   description: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/pubmed-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubmed-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubmed-database.zip
 - id: k-dense-ai/scientific-databases/chembl-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/chembl-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - drug-discovery
+    - bioactive-molecules
+    - medicinal-chemistry
+    - sar-studies
   license: MIT
   name: "chembl-database"
   description: "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/chembl-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-chembl-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-chembl-database.zip
 - id: k-dense-ai/scientific-databases/clinicaltrials-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/clinicaltrials-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - clinical-research
+    - trials
+    - patient-matching
+    - drug-development
   license: MIT
   name: "clinicaltrials-database"
   description: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/clinicaltrials-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinicaltrials-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinicaltrials-database.zip
 - id: k-dense-ai/scientific-databases/ena-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/ena-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - dna-sequences
+    - bioinformatics
+    - genome-assemblies
   license: MIT
   name: "ena-database"
   description: "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/ena-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ena-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ena-database.zip
 - id: k-dense-ai/scientific-databases/pdb-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/pdb-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - structural-biology
+    - protein-structures
+    - drug-discovery
+    - molecular-biology
   license: MIT
   name: "pdb-database"
   description: "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/pdb-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pdb-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pdb-database.zip
 - id: k-dense-ai/scientific-databases/opentargets-database
   url: x-cmd-skill-data:k-dense-ai/scientific-databases/opentargets-database
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - drug-target-discovery
+    - therapeutic-targets
+    - genetics
+    - omics
   license: MIT
   name: "opentargets-database"
   description: "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-databases/opentargets-database
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-opentargets-database.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-opentargets-database.zip
 - id: k-dense-ai/scientific-integrations/benchling-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/benchling-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - lab-automation
+    - rd-platform
+    - data-management
+    - workflows
   license: MIT
   name: "benchling-integration"
   description: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/benchling-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-benchling-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-benchling-integration.zip
 - id: k-dense-ai/scientific-integrations/protocolsio-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/protocolsio-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - protocols
+    - experimental-design
+    - collaboration
+    - scientific-documentation
   license: MIT
   name: "protocolsio-integration"
   description: "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/protocolsio-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-protocolsio-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-protocolsio-integration.zip
 - id: k-dense-ai/scientific-integrations/opentrons-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/opentrons-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - lab-automation
+    - liquid-handling
+    - robotics
+    - pipetting
   license: MIT
   name: "opentrons-integration"
   description: "Lab automation platform for Flex/OT-2 robots. Write Protocol API v2 protocols, liquid handling, hardware modules (heater-shaker, thermocycler), labware management, for automated pipetting workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/opentrons-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-opentrons-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-opentrons-integration.zip
 - id: k-dense-ai/scientific-integrations/omero-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/omero-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - microscopy
+    - image-analysis
+    - high-content-screening
+    - data-management
   license: MIT
   name: "omero-integration"
   description: "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/omero-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-omero-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-omero-integration.zip
 - id: k-dense-ai/scientific-integrations/dnanexus-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/dnanexus-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - cloud-computing
+    - bioinformatics
+    - pipelines
   license: MIT
   name: "dnanexus-integration"
   description: "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/dnanexus-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-dnanexus-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-dnanexus-integration.zip
 - id: k-dense-ai/scientific-integrations/labarchive-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/labarchive-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - electronic-lab-notebook
+    - data-management
+    - workflows
+    - documentation
   license: MIT
   name: "labarchive-integration"
   description: "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/labarchive-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-labarchive-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-labarchive-integration.zip
 - id: k-dense-ai/scientific-integrations/latchbio-integration
   url: x-cmd-skill-data:k-dense-ai/scientific-integrations/latchbio-integration
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - bioinformatics
+    - workflows
+    - pipeline-development
+    - serverless
   license: MIT
   name: "latchbio-integration"
   description: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-integrations/latchbio-integration
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-latchbio-integration.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-latchbio-integration.zip
 - id: k-dense-ai/scientific-helpers/get-available-resources
   url: x-cmd-skill-data:k-dense-ai/scientific-helpers/get-available-resources
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - system-resources
+    - computational-planning
+    - performance
+    - optimization
   license: MIT
   name: "get-available-resources"
   description: "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-helpers/get-available-resources
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-get-available-resources.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-get-available-resources.zip
 - id: k-dense-ai/scientific-helpers/scientific-context-initialization
   url: x-cmd-skill-data:k-dense-ai/scientific-helpers/scientific-context-initialization
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - workflow
+    - skill-discovery
+    - automation
+    - setup
   license: MIT
   name: "context-initialization"
   description: "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-helpers/scientific-context-initialization
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-scientific-context-initialization.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-scientific-context-initialization.zip
 - id: k-dense-ai/scientific-packages/networkx
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/networkx
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - graph-analysis
+    - network-analysis
+    - complex-networks
+    - algorithms
   license: MIT
   name: "networkx"
   description: "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/networkx
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-networkx.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-networkx.zip
 - id: k-dense-ai/scientific-packages/anndata
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/anndata
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - single-cell
+    - genomics
+    - data-structures
+    - bioinformatics
   license: MIT
   name: "anndata"
   description: "Manipulate AnnData objects for single-cell genomics. Load/save .h5ad files, manage obs/var metadata, layers, embeddings (PCA/UMAP), concatenate datasets, for scRNA-seq workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/anndata
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-anndata.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-anndata.zip
 - id: k-dense-ai/scientific-packages/scikit-survival
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-survival
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - survival-analysis
+    - statistics
+    - time-to-event
+    - medical-research
   license: MIT
   name: "scikit-survival"
   description: "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/scikit-survival
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-survival.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-survival.zip
 - id: k-dense-ai/scientific-packages/pymc
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymc
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - bayesian-modeling
+    - statistics
+    - probabilistic-programming
+    - inference
   license: MIT
   name: "pymc-bayesian-modeling"
   description: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pymc
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymc.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymc.zip
 - id: k-dense-ai/scientific-packages/paper-2-web
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/paper-2-web
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - academic-dissemination
+    - presentation
+    - conference
+    - publication
   license: MIT
   name: "paper-2-web"
   description: "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/paper-2-web
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-paper-2-web.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-paper-2-web.zip
 - id: k-dense-ai/scientific-packages/shap
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/shap
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - model-interpretability
+    - machine-learning
+    - explainable-ai
+    - feature-importance
   license: MIT
   name: "shap"
   description: "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/shap
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-shap.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-shap.zip
 - id: k-dense-ai/scientific-packages/tooluniverse
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/tooluniverse
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - scientific-tools
+    - research-pipelines
+    - bioinformatics
+    - cheminformatics
   license: MIT
   name: "tooluniverse"
   description: "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/tooluniverse
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-tooluniverse.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-tooluniverse.zip
 - id: k-dense-ai/scientific-packages/umap-learn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/umap-learn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - dimensionality-reduction
+    - visualization
+    - clustering
+    - manifold-learning
   license: MIT
   name: "umap-learn"
   description: "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/umap-learn
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-umap-learn.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-umap-learn.zip
 - id: k-dense-ai/scientific-packages/sympy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/sympy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - symbolic-mathematics
+    - calculus
+    - algebra
+    - physics
   license: MIT
   name: "sympy"
   description: "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/sympy
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-sympy.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-sympy.zip
 - id: k-dense-ai/scientific-packages/vaex
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/vaex
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - big-data
+    - data-analysis
+    - out-of-core
+    - performance
   license: MIT
   name: "vaex"
   description: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that don't fit in memory."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/vaex
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-vaex.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-vaex.zip
 - id: k-dense-ai/scientific-packages/dask
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/dask
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - parallel-computing
+    - distributed
+    - big-data
+    - performance
   license: MIT
   name: "dask"
   description: "Parallel/distributed computing. Scale pandas/NumPy beyond memory, parallel DataFrames/Arrays, multi-file processing, task graphs, for larger-than-RAM datasets and parallel workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/dask
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-dask.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-dask.zip
 - id: k-dense-ai/scientific-packages/esm
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/esm
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - protein-language-models
+    - protein-design
+    - bioinformatics
+    - ai
   license: MIT
   name: "esm"
   description: "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/esm
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-esm.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-esm.zip
 - id: k-dense-ai/scientific-packages/arboreto
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/arboreto
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - gene-regulatory-networks
+    - transcriptomics
+    - network-inference
+    - systems-biology
   license: MIT
   name: "arboreto"
   description: "Gene regulatory network inference with GRNBoost2/GENIE3 algorithms. Infer TF-target relationships from expression data, scalable with Dask, for scRNA-seq and GRN analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/arboreto
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-arboreto.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-arboreto.zip
 - id: k-dense-ai/scientific-packages/seaborn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/seaborn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-visualization
+    - statistics
+    - plotting
+    - exploratory-analysis
   license: MIT
   name: "seaborn"
   description: "Statistical visualization. Scatter, box, violin, heatmaps, pair plots, regression, correlation matrices, KDE, faceted plots, for exploratory analysis and publication figures."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/seaborn
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-seaborn.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-seaborn.zip
 - id: k-dense-ai/scientific-packages/deeptools
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/deeptools
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - ngs-analysis
+    - genomics
+    - visualization
+    - chip-seq
   license: MIT
   name: "deeptools"
   description: "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/deeptools
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deeptools.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deeptools.zip
 - id: k-dense-ai/scientific-packages/medchem
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/medchem
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - medicinal-chemistry
+    - drug-likeness
+    - compound-filtering
+    - cheminformatics
   license: MIT
   name: "medchem"
   description: "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/medchem
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-medchem.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-medchem.zip
 - id: k-dense-ai/scientific-packages/pymatgen
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymatgen
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - materials-science
+    - crystal-structures
+    - computational-materials
+    - phase-diagrams
   license: MIT
   name: "pymatgen"
   description: "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pymatgen
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymatgen.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymatgen.zip
 - id: k-dense-ai/scientific-packages/molfeat
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/molfeat
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - molecular-featurization
+    - cheminformatics
+    - machine-learning
+    - qsar
   license: MIT
   name: "molfeat"
   description: "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/molfeat
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-molfeat.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-molfeat.zip
 - id: k-dense-ai/scientific-packages/pydicom
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydicom
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - medical-imaging
+    - dicom
+    - radiology
+    - healthcare
   license: MIT
   name: "pydicom"
   description: "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pydicom
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydicom.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydicom.zip
 - id: k-dense-ai/scientific-packages/markitdown
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/markitdown
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - document-conversion
+    - text-extraction
+    - ocr
+    - data-processing
   license: MIT
   name: "markitdown"
   description: "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, performing OCR on images, extracting YouTube transcripts, or processing batches of files. Supports 20+ formats including DOCX, XLSX, PPTX, PDF, HTML, EPUB, CSV, JSON, images with OCR, and audio with transcription."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/markitdown
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-markitdown.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-markitdown.zip
 - id: k-dense-ai/scientific-packages/pytdc
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytdc
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - drug-discovery
+    - datasets
+    - machine-learning
+    - pharmacology
   license: MIT
   name: "pytdc"
   description: "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pytdc
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytdc.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytdc.zip
 - id: k-dense-ai/scientific-packages/histolab
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/histolab
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - digital-pathology
+    - whole-slide-images
+    - image-processing
+    - medical-imaging
   license: MIT
   name: "histolab"
   description: "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/histolab
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-histolab.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-histolab.zip
 - id: k-dense-ai/scientific-packages/cobrapy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/cobrapy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - metabolic-modeling
+    - systems-biology
+    - flux-analysis
+    - metabolic-engineering
   license: MIT
   name: "cobrapy"
   description: "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/cobrapy
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cobrapy.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cobrapy.zip
 - id: k-dense-ai/scientific-packages/biopython
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/biopython
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - molecular-biology
+    - sequence-analysis
+    - bioinformatics
+    - ncbi
   license: MIT
   name: "biopython"
   description: "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/biopython
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biopython.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biopython.zip
 - id: k-dense-ai/scientific-packages/scvi-tools
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scvi-tools
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - single-cell
+    - probabilistic-modeling
+    - batch-correction
+    - transcriptomics
   license: MIT
   name: "scvi-tools"
   description: "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential expression, cell type annotation, multimodal integration, and spatial analysis tasks."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/scvi-tools
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scvi-tools.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scvi-tools.zip
 - id: k-dense-ai/scientific-packages/lamindb
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/lamindb
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-management
+    - biology
+    - reproducibility
+    - workflow-tracking
   license: MIT
   name: "lamindb"
   description: "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/lamindb
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-lamindb.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-lamindb.zip
 - id: k-dense-ai/scientific-packages/datamol
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/datamol
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cheminformatics
+    - molecular-manipulation
+    - drug-discovery
+    - rdkit
   license: MIT
   name: "datamol"
   description: "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery: SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/datamol
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datamol.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datamol.zip
 - id: k-dense-ai/scientific-packages/matchms
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/matchms
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - mass-spectrometry
+    - metabolomics
+    - spectral-analysis
+    - compound-identification
   license: MIT
   name: "matchms"
   description: "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/matchms
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matchms.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matchms.zip
 - id: k-dense-ai/scientific-packages/diffdock
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/diffdock
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - molecular-docking
+    - drug-discovery
+    - protein-ligand
+    - structure-based-design
   license: MIT
   name: "diffdock"
   description: "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/diffdock
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-diffdock.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-diffdock.zip
 - id: k-dense-ai/scientific-packages/neurokit2
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/neurokit2
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - biosignal-processing
+    - physiology
+    - ecg
+    - eeg
   license: MIT
   name: "neurokit2"
   description: "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/neurokit2
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-neurokit2.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-neurokit2.zip
 - id: k-dense-ai/scientific-packages/pydeseq2
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pydeseq2
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - differential-expression
+    - rna-seq
+    - statistics
+    - genomics
   license: MIT
   name: "pydeseq2"
   description: "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pydeseq2
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydeseq2.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydeseq2.zip
 - id: k-dense-ai/scientific-packages/bioservices
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/bioservices
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - bioinformatics
+    - multi-database
+    - api-integration
+    - data-access
   license: MIT
   name: "bioservices"
   description: "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database)."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/bioservices
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-bioservices.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-bioservices.zip
 - id: k-dense-ai/scientific-packages/scikit-bio
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-bio
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - biological-data
+    - sequence-analysis
+    - phylogenetics
+    - microbiome
   license: MIT
   name: "scikit-bio"
   description: "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/scikit-bio
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-bio.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-bio.zip
 - id: k-dense-ai/scientific-packages/gget
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/gget
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - bioinformatics
+    - quick-queries
+    - blast
+    - genomics
   license: MIT
   name: "gget"
   description: "CLI/Python toolkit for rapid bioinformatics queries. Preferred for quick BLAST searches. Access to 20+ databases: gene info (Ensembl/UniProt), AlphaFold, ARCHS4, Enrichr, OpenTargets, COSMIC, genome downloads. For advanced BLAST/batch processing, use biopython. For multi-database integration, use bioservices."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/gget
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gget.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gget.zip
 - id: k-dense-ai/scientific-packages/pyhealth
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyhealth
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - healthcare-ai
+    - clinical-data
+    - ehr
+    - medical-prediction
   license: MIT
   name: "pyhealth"
   description: "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN)."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pyhealth
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyhealth.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyhealth.zip
 - id: k-dense-ai/scientific-packages/transformers
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/transformers
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - nlp
+    - machine-learning
+    - deep-learning
+    - ai-models
   license: MIT
   name: "transformers"
   description: "Work with state-of-the-art machine learning models for NLP, computer vision, audio, and multimodal tasks using HuggingFace Transformers. This skill should be used when fine-tuning pre-trained models, performing inference with pipelines, generating text, training sequence models, or working with BERT, GPT, T5, ViT, and other transformer architectures. Covers model loading, tokenization, training with Trainer API, text generation strategies, and task-specific patterns for classification, NER, QA, summarization, translation, and image tasks. (plugin:scientific-packages@claude-scientific-skills)"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/transformers
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-transformers.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-transformers.zip
 - id: k-dense-ai/scientific-packages/torch_geometric
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/torch_geometric
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - graph-neural-networks
+    - deep-learning
+    - molecular-property
+    - geometric-dl
   license: MIT
   name: "torch-geometric"
   description: "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/torch_geometric
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torch_geometric.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torch_geometric.zip
 - id: k-dense-ai/scientific-packages/deepchem
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/deepchem
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - molecular-ml
+    - drug-discovery
+    - gnns
+    - admet
   license: MIT
   name: "deepchem"
   description: "Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/deepchem
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deepchem.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deepchem.zip
 - id: k-dense-ai/scientific-packages/pathml
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pathml
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - computational-pathology
+    - whole-slide-images
+    - medical-imaging
+    - tissue-analysis
   license: MIT
   name: "pathml"
   description: "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pathml
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pathml.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pathml.zip
 - id: k-dense-ai/scientific-packages/zarr-python
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/zarr-python
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - big-data
+    - cloud-storage
+    - parallel-io
+    - scientific-computing
   license: MIT
   name: "zarr-python"
   description: "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/zarr-python
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-zarr-python.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-zarr-python.zip
 - id: k-dense-ai/scientific-packages/simpy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/simpy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - simulation
+    - discrete-event
+    - process-modeling
+    - system-analysis
   license: MIT
   name: "simpy"
   description: "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/simpy
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-simpy.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-simpy.zip
 - id: k-dense-ai/scientific-packages/biomni
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/biomni
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - biomedical-ai
+    - autonomous-research
+    - multi-step
+    - scientific-workflows
   license: MIT
   name: "biomni"
   description: "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/biomni
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biomni.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biomni.zip
 - id: k-dense-ai/scientific-packages/pyopenms
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pyopenms
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - mass-spectrometry
+    - proteomics
+    - metabolomics
+    - lc-ms
   license: MIT
   name: "pyopenms"
   description: "Mass spectrometry toolkit (OpenMS Python). Process mzML/mzXML, peak picking, feature detection, peptide ID, proteomics/metabolomics workflows, for LC-MS/MS analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pyopenms
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyopenms.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyopenms.zip
 - id: k-dense-ai/scientific-packages/pysam
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pysam
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - ngs
+    - alignment-files
+    - variant-analysis
   license: MIT
   name: "pysam"
   description: "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pysam
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pysam.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pysam.zip
 - id: k-dense-ai/scientific-packages/matplotlib
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/matplotlib
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-visualization
+    - plotting
+    - scientific-figures
+    - publication
   license: MIT
   name: "matplotlib"
   description: "Foundational plotting library. Create line plots, scatter, bar, histograms, heatmaps, 3D, subplots, export PNG/PDF/SVG, for scientific visualization and publication figures."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/matplotlib
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matplotlib.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matplotlib.zip
 - id: k-dense-ai/scientific-packages/pytorch-lightning
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pytorch-lightning
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - deep-learning
+    - neural-networks
+    - training
+    - scalable-ml
   license: MIT
   name: "pytorch-lightning"
   description: "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pytorch-lightning
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytorch-lightning.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytorch-lightning.zip
 - id: k-dense-ai/scientific-packages/hypogenic
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/hypogenic
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - hypothesis-generation
+    - research-discovery
+    - scientific-inquiry
+    - data-analysis
   license: MIT
   name: "hypogenic"
   description: "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/hypogenic
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-hypogenic.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-hypogenic.zip
 - id: k-dense-ai/scientific-packages/torchdrug
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/torchdrug
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - drug-discovery
+    - graph-neural-networks
+    - molecular-property
+    - retrosynthesis
   license: MIT
   name: "torchdrug"
   description: "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/torchdrug
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torchdrug.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torchdrug.zip
 - id: k-dense-ai/scientific-packages/flowio
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/flowio
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - flow-cytometry
+    - fcs-files
+    - cell-analysis
+    - immunology
   license: MIT
   name: "flowio"
   description: "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/flowio
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-flowio.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-flowio.zip
 - id: k-dense-ai/scientific-packages/datacommons-client
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/datacommons-client
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - public-data
+    - statistics
+    - demographics
+    - economic-indicators
   license: MIT
   name: "datacommons-client"
   description: "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/datacommons-client
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datacommons-client.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datacommons-client.zip
 - id: k-dense-ai/scientific-packages/rdkit
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/rdkit
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cheminformatics
+    - molecular-manipulation
+    - descriptors
+    - fingerprints
   license: MIT
   name: "rdkit"
   description: "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/rdkit
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-rdkit.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-rdkit.zip
 - id: k-dense-ai/scientific-packages/stable-baselines3
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/stable-baselines3
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - reinforcement-learning
+    - machine-learning
+    - training
+    - algorithms
   license: MIT
   name: "stable-baselines3"
   description: "Use this skill for reinforcement learning tasks including training RL agents (PPO, SAC, DQN, TD3, DDPG, A2C, etc.), creating custom Gym environments, implementing callbacks for monitoring and control, using vectorized environments for parallel training, and integrating with deep RL workflows. This skill should be used when users request RL algorithm implementation, agent training, environment design, or RL experimentation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/stable-baselines3
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-stable-baselines3.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-stable-baselines3.zip
 - id: k-dense-ai/scientific-packages/pylabrobot
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pylabrobot
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - lab-automation
+    - liquid-handling
+    - robotics
+    - protocols
   license: MIT
   name: "pylabrobot"
   description: "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pylabrobot
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pylabrobot.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pylabrobot.zip
 - id: k-dense-ai/scientific-packages/aeon
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/aeon
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - time-series
+    - machine-learning
+    - classification
+    - forecasting
   license: MIT
   name: "aeon"
   description: "Time series machine learning toolkit for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use this skill when working with temporal data, performing time series analysis, building predictive models on sequential data, or implementing workflows that involve distance metrics (DTW), transformations (ROCKET, Catch22), or deep learning for time series. Applicable for tasks like ECG classification, stock price forecasting, sensor anomaly detection, or activity recognition from wearable devices."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/aeon
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-aeon.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-aeon.zip
 - id: k-dense-ai/scientific-packages/polars
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/polars
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-analysis
+    - dataframes
+    - performance
+    - big-data
   license: MIT
   name: "polars"
   description: "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/polars
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-polars.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-polars.zip
 - id: k-dense-ai/scientific-packages/statsmodels
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/statsmodels
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - statistics
+    - regression
+    - time-series
+    - econometrics
   license: MIT
   name: "statsmodels"
   description: "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/statsmodels
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-statsmodels.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-statsmodels.zip
 - id: k-dense-ai/scientific-packages/scanpy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scanpy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - single-cell
+    - rna-seq
+    - bioinformatics
+    - clustering
   license: MIT
   name: "scanpy"
   description: "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/scanpy
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scanpy.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scanpy.zip
 - id: k-dense-ai/scientific-packages/astropy
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/astropy
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - astronomy
+    - astrophysics
+    - data-analysis
+    - imaging
   license: MIT
   name: "astropy"
   description: "Astronomy toolkit. FITS I/O, celestial coordinate transforms, cosmology calculations, time systems, WCS, units, astronomical tables, for astronomical data analysis and imaging."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/astropy
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-astropy.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-astropy.zip
 - id: k-dense-ai/scientific-packages/reportlab
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/reportlab
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - pdf-generation
+    - document-automation
+    - reporting
+    - charts
   license: MIT
   name: "reportlab"
   description: "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/reportlab
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-reportlab.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-reportlab.zip
 - id: k-dense-ai/scientific-packages/pufferlib
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pufferlib
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - reinforcement-learning
+    - multi-agent
+    - simulation
+    - training
   license: MIT
   name: "pufferlib"
   description: "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pufferlib
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pufferlib.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pufferlib.zip
 - id: k-dense-ai/scientific-packages/pymoo
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/pymoo
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - optimization
+    - multi-objective
+    - engineering-design
+    - pareto-fronts
   license: MIT
   name: "pymoo"
   description: "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/pymoo
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymoo.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymoo.zip
 - id: k-dense-ai/scientific-packages/scikit-learn
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/scikit-learn
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - machine-learning
+    - classification
+    - regression
+    - clustering
   license: MIT
   name: "scikit-learn"
   description: "ML toolkit. Classification, regression, clustering, PCA, preprocessing, pipelines, GridSearch, cross-validation, RandomForest, SVM, for general machine learning workflows."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/scikit-learn
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-learn.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-learn.zip
 - id: k-dense-ai/scientific-packages/etetoolkit
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/etetoolkit
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - phylogenetics
+    - evolutionary-biology
+    - tree-analysis
+    - taxonomy
   license: MIT
   name: "etetoolkit"
   description: "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/etetoolkit
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-etetoolkit.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-etetoolkit.zip
 - id: k-dense-ai/scientific-packages/cellxgene-census
   url: x-cmd-skill-data:k-dense-ai/scientific-packages/cellxgene-census
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - single-cell
+    - population-scale
+    - expression-data
+    - cell-types
   license: MIT
   name: "cellxgene-census"
   description: "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-packages/cellxgene-census
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cellxgene-census.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cellxgene-census.zip
 - id: k-dense-ai/scientific-thinking/scientific-brainstorming
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-brainstorming
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - research-ideation
+    - hypothesis-generation
+    - problem-solving
+    - creativity
   license: MIT
   name: "scientific-brainstorming"
   description: "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/scientific-brainstorming
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-brainstorming.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-brainstorming.zip
 - id: k-dense-ai/scientific-thinking/exploratory-data-analysis
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/exploratory-data-analysis
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-analysis
+    - statistics
+    - visualization
+    - insights
   license: MIT
   name: "exploratory-data-analysis"
   description: "EDA toolkit. Analyze CSV/Excel/JSON/Parquet files, statistical summaries, distributions, correlations, outliers, missing data, visualizations, markdown reports, for data profiling and insights."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/exploratory-data-analysis
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-exploratory-data-analysis.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-exploratory-data-analysis.zip
 - id: k-dense-ai/scientific-thinking/scientific-critical-thinking
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-critical-thinking
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - research-evaluation
+    - methodology
+    - statistical-validity
+    - bias-assessment
   license: MIT
   name: "scientific-critical-thinking"
   description: "Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/scientific-critical-thinking
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-critical-thinking.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-critical-thinking.zip
 - id: k-dense-ai/scientific-thinking/statistical-analysis
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/statistical-analysis
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - statistics
+    - hypothesis-testing
+    - regression
+    - research-methods
   license: MIT
   name: "statistical-analysis"
   description: "Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/statistical-analysis
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-statistical-analysis.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-statistical-analysis.zip
 - id: k-dense-ai/scientific-thinking/scientific-writing
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-writing
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - academic-writing
+    - manuscripts
+    - publication
+    - research-communication
   license: MIT
   name: "scientific-writing"
   description: "Write scientific manuscripts. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), abstracts, for research papers and journal submissions."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/scientific-writing
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-writing.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-writing.zip
 - id: k-dense-ai/scientific-thinking/literature-review
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/literature-review
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - research-synthesis
+    - bibliography
+    - systematic-review
+    - academic-literature
   license: MIT
   name: "literature-review"
   description: "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.)."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/literature-review
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-literature-review.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-literature-review.zip
 - id: k-dense-ai/scientific-thinking/scholar-evaluation
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scholar-evaluation
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - research-assessment
+    - methodology-evaluation
+    - academic-quality
+    - peer-review
   license: MIT
   name: "scholar-evaluation"
   description: "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/scholar-evaluation
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scholar-evaluation.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scholar-evaluation.zip
 - id: k-dense-ai/scientific-thinking/scientific-visualization
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/scientific-visualization
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - data-visualization
+    - publication-figures
+    - plotting
+    - scientific-communication
   license: MIT
   name: "scientific-visualization"
   description: "Create publication figures with matplotlib/seaborn/plotly. Multi-panel layouts, error bars, significance markers, colorblind-safe, export PDF/EPS/TIFF, for journal-ready scientific plots."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/scientific-visualization
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-visualization.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-visualization.zip
 - id: k-dense-ai/scientific-thinking/hypothesis-generation
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/hypothesis-generation
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - scientific-inquiry
+    - research-design
+    - experimental-design
+    - theory-development
   license: MIT
   name: "hypothesis-generation"
   description: "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/hypothesis-generation
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-hypothesis-generation.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-hypothesis-generation.zip
 - id: k-dense-ai/scientific-thinking/peer-review
   url: x-cmd-skill-data:k-dense-ai/scientific-thinking/peer-review
   reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - academic-review
+    - manuscript-evaluation
+    - research-quality
+    - scientific-standards
   license: MIT
   name: "peer-review"
   description: "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-thinking/peer-review
+  installation:
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-peer-review.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-peer-review.zip
