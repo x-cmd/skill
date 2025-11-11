@@ -14,6 +14,9 @@
       /plugin marketplace add anthropics/skills
       /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=development/skill-creator --yes
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
 
 - id: anthropics/canvas-design
   url: x-cmd-skill-data:anthropics/canvas-design
@@ -29,6 +32,9 @@
       /plugin marketplace add anthropics/skills
       /plugin install example-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=creative-design/canvas-design --yes
+    package_download:
+      github: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
+      codeberg: https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip
 
 - id: anthropics/slack-gif-creator
   url: x-cmd-skill-data:anthropics/slack-gif-creator
