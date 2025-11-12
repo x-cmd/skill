@@ -18,8 +18,8 @@
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
 
-- id: x-cmd/x-cmd-kowledge
-  url: x-cmd-skill-data:x-cmd/x-cmd-kowledge
+- id: x-cmd/x-cmd-knowledge
+  url: x-cmd-skill-data:x-cmd/x-cmd-knowledge
   reference: https://github.com/x-cmd/skill
   tag:
     - X-CMD
@@ -31,11 +31,11 @@
   description: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
-  path: /x-cmd/x-cmd-kowledge
+  path: /x-cmd/x-cmd-knowledge
   installation:
     zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-kowledge.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-kowledge.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-knowledge.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-knowledge.zip
 
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
