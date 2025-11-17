@@ -27,6 +27,32 @@
     }
   },
   {
+    "id": "frontend-design",
+    "reference": "https://github.com/anthropics/skills",
+    "tag": [
+      "frontend",
+      "web-development",
+      "ui-design",
+      "creative"
+    ],
+    "license": "Apache-2.0",
+    "name": "frontend-design",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.",
+    "author": "Anthropic",
+    "avatar": "https://avatars.githubusercontent.com/u/76263028",
+    "path": "/anthropics/frontend-design",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add anthropics/skills",
+        "install": "/plugin install example-skills@anthropic-agent-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/frontend-design.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/frontend-design.zip"
+      }
+    }
+  },
+  {
     "id": "anthropics/canvas-design",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
