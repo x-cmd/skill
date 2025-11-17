@@ -1,2 +1,42 @@
 
 # TODO: Synchronize the name and description of index.yml based on the data directory.
+
+sync_index(){
+    local xwroot=; xwroot="$(x wsroot)/.release"
+    x:info "BEGIN ==== > sync x-cmd/skill index"
+
+    local category;  local name; local description; local id
+    local skill_dir; local skill_file
+    x find data -name "SKILL.md" -type f | while read -r skill_file;do
+        skill_dir="${skill_file%/SKILL.md}"
+        id="${skill_dir#*data/}"
+        category="${id%/*}"
+
+        name="$(sed -n 's/^name: *//p' "$skill_file" | head -1)"
+        [ "$id" = "$category/$name" ] || {
+            x:warn "[$id] name mismatch with SKILL.md -> [$category][$name]"
+        }
+
+        description="$(sed -n 's/^description: *//p' "$skill_file" | head -1)"
+
+        if [[ -n "$name" && -n "$description" ]]; then
+            index_file="index/$category/index.yml"
+            if [ -f "$index_file" ]; then
+                grep -q "\- id: $id" "$index_file" || {
+                    x:warn "[$id] has not been added to $category/index.yml"
+                    continue
+                }
+                ID="$id" NAME="$name" DESC="$description" x yq -i '(.[] | select(.id == env(ID))) |= ( .name = env(NAME) | .description = env(DESC) )' "$index_file"
+            else
+                x:warn "Index file $index_file not found for category $category"
+            fi
+        else
+            x:warn "Could not extract name or description from $skill_file"
+        fi
+    done
+
+    x:info "END ==== > sync x-cmd/skill index"
+}
+
+sync_index "$@"
+

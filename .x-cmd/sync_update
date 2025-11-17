@@ -1,0 +1,8 @@
+# shellcheck shell=dash
+
+(
+    x cd "$(x wsroot)"
+    x ws download
+    fork_from_anthropic
+    fork_from_sci
+) || return $?

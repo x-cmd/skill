@@ -1,6 +1,0 @@
-
-(
-
-xw index-gen k-dense-ai
-
-) >"$(x wsroot)/index/k-dense-ai/index.yml"
