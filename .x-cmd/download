@@ -1,14 +1,14 @@
 
 fork_from_anthropic(){
-    git clone https://github.com/anthropics/skills
+    ___x_cmd git clone --depth 1 https://github.com/anthropics/skills
     (
         ___x_cmd cd skills
         ___x_cmd rm -rf .* README.md .gitignore docs agent_skills_spec.md
     )
-    ___x_cmd rm -rf data/anthropic
-    ___x_cmd mv skills data/anthropic
+    ___x_cmd rm -rf data/anthropics
+    ___x_cmd mv skills data/anthropics
 
-    ___x_cmd rm -rf data/anthropic/document-skills
+    ___x_cmd rm -rf data/anthropics/document-skills
 }
 
 fork_from_notion(){
@@ -16,15 +16,17 @@ fork_from_notion(){
 }
 
 fork_from_sci(){
-    git clone https://github.com/K-Dense-AI/claude-scientific-skills
+    ___x_cmd git clone --depth 1 https://github.com/K-Dense-AI/claude-scientific-skills
     (
-        ___x_cmd cd claude-scientific-skills
+        ___x_cmd cd claude-scientific-skills/scientific-skills
         ___x_cmd rm -rf .* README.md .gitignore docs
     )
     ___x_cmd rm -rf data/k-dense-ai
-    ___x_cmd mv claude-scientific-skills data/k-dense-ai
+    ___x_cmd mv claude-scientific-skills/scientific-skills data/k-dense-ai
+    ___x_cmd mv claude-scientific-skills/LICENSE.md data/k-dense-ai/LICENSE.md
 
-    ___x_cmd rm -rf data/k-dense-ai/scientific-thinking/document-skills
+    ___x_cmd rm -rf data/k-dense-ai/document-skills
+    ___x_cmd rm -rf claude-scientific-skills
 }
 
 fork_from_xcmd(){
