@@ -301,7 +301,7 @@
       "data-analysis",
       "formulas"
     ],
-    "license": "https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt",
+    "license": "https://github.com/anthropics/skills/blob/main/document-skills/xlsx/LICENSE.txt",
     "name": "xlsx",
     "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
     "author": "Anthropic",
@@ -362,7 +362,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/metabolomics-workbench-database",
+    "id": "k-dense-ai/metabolomics-workbench-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "metabolomics",
@@ -375,7 +375,7 @@
     "description": "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/metabolomics-workbench-database",
+    "path": "/k-dense-ai/metabolomics-workbench-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -388,7 +388,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/uspto-database",
+    "id": "k-dense-ai/uspto-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "patents",
@@ -401,7 +401,7 @@
     "description": "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/uspto-database",
+    "path": "/k-dense-ai/uspto-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -414,7 +414,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/kegg-database",
+    "id": "k-dense-ai/kegg-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "pathway-analysis",
@@ -427,7 +427,7 @@
     "description": "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/kegg-database",
+    "path": "/k-dense-ai/kegg-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -440,7 +440,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/zinc-database",
+    "id": "k-dense-ai/zinc-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "cheminformatics",
@@ -453,7 +453,7 @@
     "description": "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/zinc-database",
+    "path": "/k-dense-ai/zinc-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -466,7 +466,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/alphafold-database",
+    "id": "k-dense-ai/alphafold-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "protein-structure",
@@ -479,7 +479,7 @@
     "description": "Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/alphafold-database",
+    "path": "/k-dense-ai/alphafold-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -492,7 +492,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/cosmic-database",
+    "id": "k-dense-ai/cosmic-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "cancer",
@@ -505,7 +505,7 @@
     "description": "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/cosmic-database",
+    "path": "/k-dense-ai/cosmic-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -518,7 +518,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/gene-database",
+    "id": "k-dense-ai/gene-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -531,7 +531,7 @@
     "description": "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/gene-database",
+    "path": "/k-dense-ai/gene-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -544,7 +544,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/biorxiv-database",
+    "id": "k-dense-ai/biorxiv-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "preprints",
@@ -557,7 +557,7 @@
     "description": "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/biorxiv-database",
+    "path": "/k-dense-ai/biorxiv-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -570,7 +570,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/geo-database",
+    "id": "k-dense-ai/geo-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "gene-expression",
@@ -583,7 +583,7 @@
     "description": "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/geo-database",
+    "path": "/k-dense-ai/geo-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -596,7 +596,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/hmdb-database",
+    "id": "k-dense-ai/hmdb-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "metabolomics",
@@ -609,7 +609,7 @@
     "description": "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/hmdb-database",
+    "path": "/k-dense-ai/hmdb-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -622,7 +622,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/clinvar-database",
+    "id": "k-dense-ai/clinvar-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -635,7 +635,7 @@
     "description": "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/clinvar-database",
+    "path": "/k-dense-ai/clinvar-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -648,7 +648,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/pubchem-database",
+    "id": "k-dense-ai/pubchem-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "cheminformatics",
@@ -661,7 +661,7 @@
     "description": "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/pubchem-database",
+    "path": "/k-dense-ai/pubchem-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -674,7 +674,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/drugbank-database",
+    "id": "k-dense-ai/drugbank-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "drug-discovery",
@@ -687,7 +687,7 @@
     "description": "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/drugbank-database",
+    "path": "/k-dense-ai/drugbank-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -700,7 +700,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/fda-database",
+    "id": "k-dense-ai/fda-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "regulatory",
@@ -713,7 +713,7 @@
     "description": "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/fda-database",
+    "path": "/k-dense-ai/fda-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -726,7 +726,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/ensembl-database",
+    "id": "k-dense-ai/ensembl-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -739,7 +739,7 @@
     "description": "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/ensembl-database",
+    "path": "/k-dense-ai/ensembl-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -752,7 +752,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/clinpgx-database",
+    "id": "k-dense-ai/clinpgx-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "pharmacogenomics",
@@ -765,7 +765,7 @@
     "description": "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/clinpgx-database",
+    "path": "/k-dense-ai/clinpgx-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -778,7 +778,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/gwas-database",
+    "id": "k-dense-ai/gwas-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genetics",
@@ -791,7 +791,7 @@
     "description": "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/gwas-database",
+    "path": "/k-dense-ai/gwas-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -804,7 +804,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/string-database",
+    "id": "k-dense-ai/string-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "protein-interactions",
@@ -817,7 +817,7 @@
     "description": "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/string-database",
+    "path": "/k-dense-ai/string-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -830,7 +830,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/uniprot-database",
+    "id": "k-dense-ai/uniprot-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "proteins",
@@ -843,7 +843,7 @@
     "description": "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/uniprot-database",
+    "path": "/k-dense-ai/uniprot-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -856,7 +856,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/reactome-database/reactome-database",
+    "id": "k-dense-ai/reactome-database/reactome-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "pathway-analysis",
@@ -869,7 +869,7 @@
     "description": "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/reactome-database/reactome-database",
+    "path": "/k-dense-ai/reactome-database/reactome-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -882,7 +882,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/pubmed-database",
+    "id": "k-dense-ai/pubmed-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "literature",
@@ -895,7 +895,7 @@
     "description": "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/pubmed-database",
+    "path": "/k-dense-ai/pubmed-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -908,7 +908,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/chembl-database",
+    "id": "k-dense-ai/chembl-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "drug-discovery",
@@ -921,7 +921,7 @@
     "description": "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/chembl-database",
+    "path": "/k-dense-ai/chembl-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -934,7 +934,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/clinicaltrials-database",
+    "id": "k-dense-ai/clinicaltrials-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "clinical-research",
@@ -947,7 +947,7 @@
     "description": "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/clinicaltrials-database",
+    "path": "/k-dense-ai/clinicaltrials-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -960,7 +960,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/ena-database",
+    "id": "k-dense-ai/ena-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -973,7 +973,7 @@
     "description": "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/ena-database",
+    "path": "/k-dense-ai/ena-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -986,7 +986,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/pdb-database",
+    "id": "k-dense-ai/pdb-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "structural-biology",
@@ -999,7 +999,7 @@
     "description": "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/pdb-database",
+    "path": "/k-dense-ai/pdb-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1012,7 +1012,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-databases/opentargets-database",
+    "id": "k-dense-ai/opentargets-database",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "drug-target-discovery",
@@ -1025,7 +1025,7 @@
     "description": "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-databases/opentargets-database",
+    "path": "/k-dense-ai/opentargets-database",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1038,7 +1038,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/benchling-integration",
+    "id": "k-dense-ai/benchling-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "lab-automation",
@@ -1051,7 +1051,7 @@
     "description": "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/benchling-integration",
+    "path": "/k-dense-ai/benchling-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1064,7 +1064,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/protocolsio-integration",
+    "id": "k-dense-ai/protocolsio-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "protocols",
@@ -1077,7 +1077,7 @@
     "description": "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/protocolsio-integration",
+    "path": "/k-dense-ai/protocolsio-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1090,7 +1090,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/opentrons-integration",
+    "id": "k-dense-ai/opentrons-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "lab-automation",
@@ -1103,7 +1103,7 @@
     "description": "Lab automation platform for Flex/OT-2 robots. Write Protocol API v2 protocols, liquid handling, hardware modules (heater-shaker, thermocycler), labware management, for automated pipetting workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/opentrons-integration",
+    "path": "/k-dense-ai/opentrons-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1116,7 +1116,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/omero-integration",
+    "id": "k-dense-ai/omero-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "microscopy",
@@ -1129,7 +1129,7 @@
     "description": "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/omero-integration",
+    "path": "/k-dense-ai/omero-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1142,7 +1142,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/dnanexus-integration",
+    "id": "k-dense-ai/dnanexus-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -1155,7 +1155,7 @@
     "description": "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/dnanexus-integration",
+    "path": "/k-dense-ai/dnanexus-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1168,7 +1168,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/labarchive-integration",
+    "id": "k-dense-ai/labarchive-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "electronic-lab-notebook",
@@ -1181,7 +1181,7 @@
     "description": "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/labarchive-integration",
+    "path": "/k-dense-ai/labarchive-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1194,7 +1194,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-integrations/latchbio-integration",
+    "id": "k-dense-ai/latchbio-integration",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "bioinformatics",
@@ -1207,7 +1207,7 @@
     "description": "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-integrations/latchbio-integration",
+    "path": "/k-dense-ai/latchbio-integration",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1220,7 +1220,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-helpers/get-available-resources",
+    "id": "k-dense-ai/get-available-resources",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "system-resources",
@@ -1233,7 +1233,7 @@
     "description": "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-helpers/get-available-resources",
+    "path": "/k-dense-ai/get-available-resources",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1246,7 +1246,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-helpers/scientific-context-initialization",
+    "id": "k-dense-ai/scientific-context-initialization",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "workflow",
@@ -1259,7 +1259,7 @@
     "description": "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-helpers/scientific-context-initialization",
+    "path": "/k-dense-ai/scientific-context-initialization",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1272,7 +1272,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/networkx",
+    "id": "k-dense-ai/networkx",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "graph-analysis",
@@ -1285,7 +1285,7 @@
     "description": "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/networkx",
+    "path": "/k-dense-ai/networkx",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1298,7 +1298,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/anndata",
+    "id": "k-dense-ai/anndata",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "single-cell",
@@ -1308,10 +1308,10 @@
     ],
     "license": "MIT",
     "name": "anndata",
-    "description": "Manipulate AnnData objects for single-cell genomics. Load/save .h5ad files, manage obs/var metadata, layers, embeddings (PCA/UMAP), concatenate datasets, for scRNA-seq workflows.",
+    "description": "This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects, h5ad files, single-cell RNA-seq data, or integration with scanpy/scverse tools.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/anndata",
+    "path": "/k-dense-ai/anndata",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1324,7 +1324,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/scikit-survival",
+    "id": "k-dense-ai/scikit-survival",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "survival-analysis",
@@ -1337,7 +1337,7 @@
     "description": "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/scikit-survival",
+    "path": "/k-dense-ai/scikit-survival",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1350,7 +1350,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pymc",
+    "id": "k-dense-ai/pymc",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "bayesian-modeling",
@@ -1363,7 +1363,7 @@
     "description": "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pymc",
+    "path": "/k-dense-ai/pymc",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1376,7 +1376,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/paper-2-web",
+    "id": "k-dense-ai/paper-2-web",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "academic-dissemination",
@@ -1389,7 +1389,7 @@
     "description": "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/paper-2-web",
+    "path": "/k-dense-ai/paper-2-web",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1402,7 +1402,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/shap",
+    "id": "k-dense-ai/shap",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "model-interpretability",
@@ -1415,7 +1415,7 @@
     "description": "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/shap",
+    "path": "/k-dense-ai/shap",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1428,7 +1428,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/tooluniverse",
+    "id": "k-dense-ai/tooluniverse",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "scientific-tools",
@@ -1441,7 +1441,7 @@
     "description": "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/tooluniverse",
+    "path": "/k-dense-ai/tooluniverse",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1454,7 +1454,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/umap-learn",
+    "id": "k-dense-ai/umap-learn",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "dimensionality-reduction",
@@ -1467,7 +1467,7 @@
     "description": "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/umap-learn",
+    "path": "/k-dense-ai/umap-learn",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1480,7 +1480,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/sympy",
+    "id": "k-dense-ai/sympy",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "symbolic-mathematics",
@@ -1493,7 +1493,7 @@
     "description": "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/sympy",
+    "path": "/k-dense-ai/sympy",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1506,7 +1506,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/vaex",
+    "id": "k-dense-ai/vaex",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "big-data",
@@ -1519,7 +1519,7 @@
     "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that don't fit in memory.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/vaex",
+    "path": "/k-dense-ai/vaex",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1532,7 +1532,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/dask",
+    "id": "k-dense-ai/dask",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "parallel-computing",
@@ -1545,7 +1545,7 @@
     "description": "Parallel/distributed computing. Scale pandas/NumPy beyond memory, parallel DataFrames/Arrays, multi-file processing, task graphs, for larger-than-RAM datasets and parallel workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/dask",
+    "path": "/k-dense-ai/dask",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1558,7 +1558,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/esm",
+    "id": "k-dense-ai/esm",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "protein-language-models",
@@ -1571,7 +1571,7 @@
     "description": "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/esm",
+    "path": "/k-dense-ai/esm",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1584,7 +1584,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/arboreto",
+    "id": "k-dense-ai/arboreto",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "gene-regulatory-networks",
@@ -1594,10 +1594,10 @@
     ],
     "license": "MIT",
     "name": "arboreto",
-    "description": "Gene regulatory network inference with GRNBoost2/GENIE3 algorithms. Infer TF-target relationships from expression data, scalable with Dask, for scRNA-seq and GRN analysis.",
+    "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/arboreto",
+    "path": "/k-dense-ai/arboreto",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1610,7 +1610,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/seaborn",
+    "id": "k-dense-ai/seaborn",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-visualization",
@@ -1623,7 +1623,7 @@
     "description": "Statistical visualization. Scatter, box, violin, heatmaps, pair plots, regression, correlation matrices, KDE, faceted plots, for exploratory analysis and publication figures.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/seaborn",
+    "path": "/k-dense-ai/seaborn",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1636,7 +1636,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/deeptools",
+    "id": "k-dense-ai/deeptools",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "ngs-analysis",
@@ -1649,7 +1649,7 @@
     "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/deeptools",
+    "path": "/k-dense-ai/deeptools",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1662,7 +1662,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/medchem",
+    "id": "k-dense-ai/medchem",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "medicinal-chemistry",
@@ -1675,7 +1675,7 @@
     "description": "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/medchem",
+    "path": "/k-dense-ai/medchem",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1688,7 +1688,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pymatgen",
+    "id": "k-dense-ai/pymatgen",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "materials-science",
@@ -1701,7 +1701,7 @@
     "description": "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pymatgen",
+    "path": "/k-dense-ai/pymatgen",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1714,7 +1714,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/molfeat",
+    "id": "k-dense-ai/molfeat",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "molecular-featurization",
@@ -1727,7 +1727,7 @@
     "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/molfeat",
+    "path": "/k-dense-ai/molfeat",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1740,7 +1740,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pydicom",
+    "id": "k-dense-ai/pydicom",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "medical-imaging",
@@ -1753,7 +1753,7 @@
     "description": "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pydicom",
+    "path": "/k-dense-ai/pydicom",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1766,7 +1766,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/markitdown",
+    "id": "k-dense-ai/markitdown",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "document-conversion",
@@ -1779,7 +1779,7 @@
     "description": "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, performing OCR on images, extracting YouTube transcripts, or processing batches of files. Supports 20+ formats including DOCX, XLSX, PPTX, PDF, HTML, EPUB, CSV, JSON, images with OCR, and audio with transcription.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/markitdown",
+    "path": "/k-dense-ai/markitdown",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1792,7 +1792,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pytdc",
+    "id": "k-dense-ai/pytdc",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "drug-discovery",
@@ -1805,7 +1805,7 @@
     "description": "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pytdc",
+    "path": "/k-dense-ai/pytdc",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1818,7 +1818,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/histolab",
+    "id": "k-dense-ai/histolab",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "digital-pathology",
@@ -1831,7 +1831,7 @@
     "description": "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/histolab",
+    "path": "/k-dense-ai/histolab",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1844,7 +1844,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/cobrapy",
+    "id": "k-dense-ai/cobrapy",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "metabolic-modeling",
@@ -1857,7 +1857,7 @@
     "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/cobrapy",
+    "path": "/k-dense-ai/cobrapy",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1870,7 +1870,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/biopython",
+    "id": "k-dense-ai/biopython",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "molecular-biology",
@@ -1883,7 +1883,7 @@
     "description": "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/biopython",
+    "path": "/k-dense-ai/biopython",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1896,7 +1896,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/scvi-tools",
+    "id": "k-dense-ai/scvi-tools",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "single-cell",
@@ -1909,7 +1909,7 @@
     "description": "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential expression, cell type annotation, multimodal integration, and spatial analysis tasks.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/scvi-tools",
+    "path": "/k-dense-ai/scvi-tools",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1922,7 +1922,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/lamindb",
+    "id": "k-dense-ai/lamindb",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-management",
@@ -1935,7 +1935,7 @@
     "description": "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/lamindb",
+    "path": "/k-dense-ai/lamindb",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1948,7 +1948,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/datamol",
+    "id": "k-dense-ai/datamol",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "cheminformatics",
@@ -1961,7 +1961,7 @@
     "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery: SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/datamol",
+    "path": "/k-dense-ai/datamol",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -1974,7 +1974,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/matchms",
+    "id": "k-dense-ai/matchms",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "mass-spectrometry",
@@ -1987,7 +1987,7 @@
     "description": "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/matchms",
+    "path": "/k-dense-ai/matchms",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2000,7 +2000,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/diffdock",
+    "id": "k-dense-ai/diffdock",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "molecular-docking",
@@ -2013,7 +2013,7 @@
     "description": "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/diffdock",
+    "path": "/k-dense-ai/diffdock",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2026,7 +2026,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/neurokit2",
+    "id": "k-dense-ai/neurokit2",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "biosignal-processing",
@@ -2039,7 +2039,7 @@
     "description": "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/neurokit2",
+    "path": "/k-dense-ai/neurokit2",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2052,7 +2052,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pydeseq2",
+    "id": "k-dense-ai/pydeseq2",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "differential-expression",
@@ -2065,7 +2065,7 @@
     "description": "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pydeseq2",
+    "path": "/k-dense-ai/pydeseq2",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2078,7 +2078,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/bioservices",
+    "id": "k-dense-ai/bioservices",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "bioinformatics",
@@ -2091,7 +2091,7 @@
     "description": "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database).",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/bioservices",
+    "path": "/k-dense-ai/bioservices",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2104,7 +2104,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/scikit-bio",
+    "id": "k-dense-ai/scikit-bio",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "biological-data",
@@ -2117,7 +2117,7 @@
     "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/scikit-bio",
+    "path": "/k-dense-ai/scikit-bio",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2130,7 +2130,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/gget",
+    "id": "k-dense-ai/gget",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "bioinformatics",
@@ -2143,7 +2143,7 @@
     "description": "CLI/Python toolkit for rapid bioinformatics queries. Preferred for quick BLAST searches. Access to 20+ databases: gene info (Ensembl/UniProt), AlphaFold, ARCHS4, Enrichr, OpenTargets, COSMIC, genome downloads. For advanced BLAST/batch processing, use biopython. For multi-database integration, use bioservices.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/gget",
+    "path": "/k-dense-ai/gget",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2156,7 +2156,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pyhealth",
+    "id": "k-dense-ai/pyhealth",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "healthcare-ai",
@@ -2169,7 +2169,7 @@
     "description": "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN).",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pyhealth",
+    "path": "/k-dense-ai/pyhealth",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2182,7 +2182,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/transformers",
+    "id": "k-dense-ai/transformers",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "nlp",
@@ -2192,10 +2192,10 @@
     ],
     "license": "MIT",
     "name": "transformers",
-    "description": "Work with state-of-the-art machine learning models for NLP, computer vision, audio, and multimodal tasks using HuggingFace Transformers. This skill should be used when fine-tuning pre-trained models, performing inference with pipelines, generating text, training sequence models, or working with BERT, GPT, T5, ViT, and other transformer architectures. Covers model loading, tokenization, training with Trainer API, text generation strategies, and task-specific patterns for classification, NER, QA, summarization, translation, and image tasks. (plugin:scientific-packages@claude-scientific-skills)",
+    "description": "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/transformers",
+    "path": "/k-dense-ai/transformers",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2208,7 +2208,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/torch_geometric",
+    "id": "k-dense-ai/torch_geometric",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "graph-neural-networks",
@@ -2221,7 +2221,7 @@
     "description": "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/torch_geometric",
+    "path": "/k-dense-ai/torch_geometric",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2234,7 +2234,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/deepchem",
+    "id": "k-dense-ai/deepchem",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "molecular-ml",
@@ -2247,7 +2247,7 @@
     "description": "Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/deepchem",
+    "path": "/k-dense-ai/deepchem",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2260,7 +2260,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pathml",
+    "id": "k-dense-ai/pathml",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "computational-pathology",
@@ -2273,7 +2273,7 @@
     "description": "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pathml",
+    "path": "/k-dense-ai/pathml",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2286,7 +2286,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/zarr-python",
+    "id": "k-dense-ai/zarr-python",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "big-data",
@@ -2299,7 +2299,7 @@
     "description": "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/zarr-python",
+    "path": "/k-dense-ai/zarr-python",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2312,7 +2312,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/simpy",
+    "id": "k-dense-ai/simpy",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "simulation",
@@ -2325,7 +2325,7 @@
     "description": "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/simpy",
+    "path": "/k-dense-ai/simpy",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2338,7 +2338,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/biomni",
+    "id": "k-dense-ai/biomni",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "biomedical-ai",
@@ -2351,7 +2351,7 @@
     "description": "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/biomni",
+    "path": "/k-dense-ai/biomni",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2364,7 +2364,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pyopenms",
+    "id": "k-dense-ai/pyopenms",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "mass-spectrometry",
@@ -2374,10 +2374,10 @@
     ],
     "license": "MIT",
     "name": "pyopenms",
-    "description": "Mass spectrometry toolkit (OpenMS Python). Process mzML/mzXML, peak picking, feature detection, peptide ID, proteomics/metabolomics workflows, for LC-MS/MS analysis.",
+    "description": "Python interface to OpenMS for mass spectrometry data analysis. Use for LC-MS/MS proteomics and metabolomics workflows including file handling (mzML, mzXML, mzTab, FASTA, pepXML, protXML, mzIdentML), signal processing, feature detection, peptide identification, and quantitative analysis. Apply when working with mass spectrometry data, analyzing proteomics experiments, or processing metabolomics datasets.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pyopenms",
+    "path": "/k-dense-ai/pyopenms",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2390,7 +2390,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pysam",
+    "id": "k-dense-ai/pysam",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "genomics",
@@ -2403,7 +2403,7 @@
     "description": "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pysam",
+    "path": "/k-dense-ai/pysam",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2416,7 +2416,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/matplotlib",
+    "id": "k-dense-ai/matplotlib",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-visualization",
@@ -2429,7 +2429,7 @@
     "description": "Foundational plotting library. Create line plots, scatter, bar, histograms, heatmaps, 3D, subplots, export PNG/PDF/SVG, for scientific visualization and publication figures.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/matplotlib",
+    "path": "/k-dense-ai/matplotlib",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2442,7 +2442,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pytorch-lightning",
+    "id": "k-dense-ai/pytorch-lightning",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "deep-learning",
@@ -2455,7 +2455,7 @@
     "description": "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pytorch-lightning",
+    "path": "/k-dense-ai/pytorch-lightning",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2468,7 +2468,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/hypogenic",
+    "id": "k-dense-ai/hypogenic",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "hypothesis-generation",
@@ -2481,7 +2481,7 @@
     "description": "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/hypogenic",
+    "path": "/k-dense-ai/hypogenic",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2494,7 +2494,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/torchdrug",
+    "id": "k-dense-ai/torchdrug",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "drug-discovery",
@@ -2507,7 +2507,7 @@
     "description": "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/torchdrug",
+    "path": "/k-dense-ai/torchdrug",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2520,7 +2520,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/flowio",
+    "id": "k-dense-ai/flowio",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "flow-cytometry",
@@ -2533,7 +2533,7 @@
     "description": "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/flowio",
+    "path": "/k-dense-ai/flowio",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2546,7 +2546,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/datacommons-client",
+    "id": "k-dense-ai/datacommons-client",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "public-data",
@@ -2559,7 +2559,7 @@
     "description": "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/datacommons-client",
+    "path": "/k-dense-ai/datacommons-client",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2572,7 +2572,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/rdkit",
+    "id": "k-dense-ai/rdkit",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "cheminformatics",
@@ -2585,7 +2585,7 @@
     "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/rdkit",
+    "path": "/k-dense-ai/rdkit",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2598,7 +2598,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/stable-baselines3",
+    "id": "k-dense-ai/stable-baselines3",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "reinforcement-learning",
@@ -2611,7 +2611,7 @@
     "description": "Use this skill for reinforcement learning tasks including training RL agents (PPO, SAC, DQN, TD3, DDPG, A2C, etc.), creating custom Gym environments, implementing callbacks for monitoring and control, using vectorized environments for parallel training, and integrating with deep RL workflows. This skill should be used when users request RL algorithm implementation, agent training, environment design, or RL experimentation.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/stable-baselines3",
+    "path": "/k-dense-ai/stable-baselines3",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2624,7 +2624,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pylabrobot",
+    "id": "k-dense-ai/pylabrobot",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "lab-automation",
@@ -2637,7 +2637,7 @@
     "description": "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pylabrobot",
+    "path": "/k-dense-ai/pylabrobot",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2650,7 +2650,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/aeon",
+    "id": "k-dense-ai/aeon",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "time-series",
@@ -2660,10 +2660,10 @@
     ],
     "license": "MIT",
     "name": "aeon",
-    "description": "Time series machine learning toolkit for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use this skill when working with temporal data, performing time series analysis, building predictive models on sequential data, or implementing workflows that involve distance metrics (DTW), transformations (ROCKET, Catch22), or deep learning for time series. Applicable for tasks like ECG classification, stock price forecasting, sensor anomaly detection, or activity recognition from wearable devices.",
+    "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/aeon",
+    "path": "/k-dense-ai/aeon",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2676,7 +2676,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/polars",
+    "id": "k-dense-ai/polars",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-analysis",
@@ -2689,7 +2689,7 @@
     "description": "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/polars",
+    "path": "/k-dense-ai/polars",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2702,7 +2702,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/statsmodels",
+    "id": "k-dense-ai/statsmodels",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "statistics",
@@ -2715,7 +2715,7 @@
     "description": "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/statsmodels",
+    "path": "/k-dense-ai/statsmodels",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2728,7 +2728,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/scanpy",
+    "id": "k-dense-ai/scanpy",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "single-cell",
@@ -2741,7 +2741,7 @@
     "description": "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/scanpy",
+    "path": "/k-dense-ai/scanpy",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2754,7 +2754,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/astropy",
+    "id": "k-dense-ai/astropy",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "astronomy",
@@ -2764,10 +2764,10 @@
     ],
     "license": "MIT",
     "name": "astropy",
-    "description": "Astronomy toolkit. FITS I/O, celestial coordinate transforms, cosmology calculations, time systems, WCS, units, astronomical tables, for astronomical data analysis and imaging.",
+    "description": "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/astropy",
+    "path": "/k-dense-ai/astropy",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2780,7 +2780,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/reportlab",
+    "id": "k-dense-ai/reportlab",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "pdf-generation",
@@ -2793,7 +2793,7 @@
     "description": "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/reportlab",
+    "path": "/k-dense-ai/reportlab",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2806,7 +2806,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pufferlib",
+    "id": "k-dense-ai/pufferlib",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "reinforcement-learning",
@@ -2819,7 +2819,7 @@
     "description": "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pufferlib",
+    "path": "/k-dense-ai/pufferlib",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2832,7 +2832,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/pymoo",
+    "id": "k-dense-ai/pymoo",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "optimization",
@@ -2845,7 +2845,7 @@
     "description": "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/pymoo",
+    "path": "/k-dense-ai/pymoo",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2858,7 +2858,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/scikit-learn",
+    "id": "k-dense-ai/scikit-learn",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "machine-learning",
@@ -2868,10 +2868,10 @@
     ],
     "license": "MIT",
     "name": "scikit-learn",
-    "description": "ML toolkit. Classification, regression, clustering, PCA, preprocessing, pipelines, GridSearch, cross-validation, RandomForest, SVM, for general machine learning workflows.",
+    "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/scikit-learn",
+    "path": "/k-dense-ai/scikit-learn",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2884,7 +2884,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/etetoolkit",
+    "id": "k-dense-ai/etetoolkit",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "phylogenetics",
@@ -2897,7 +2897,7 @@
     "description": "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/etetoolkit",
+    "path": "/k-dense-ai/etetoolkit",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2910,7 +2910,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-packages/cellxgene-census",
+    "id": "k-dense-ai/cellxgene-census",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "single-cell",
@@ -2923,7 +2923,7 @@
     "description": "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-packages/cellxgene-census",
+    "path": "/k-dense-ai/cellxgene-census",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2936,7 +2936,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/scientific-brainstorming",
+    "id": "k-dense-ai/scientific-brainstorming",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "research-ideation",
@@ -2949,7 +2949,7 @@
     "description": "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/scientific-brainstorming",
+    "path": "/k-dense-ai/scientific-brainstorming",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2962,7 +2962,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/exploratory-data-analysis",
+    "id": "k-dense-ai/exploratory-data-analysis",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-analysis",
@@ -2972,10 +2972,10 @@
     ],
     "license": "MIT",
     "name": "exploratory-data-analysis",
-    "description": "EDA toolkit. Analyze CSV/Excel/JSON/Parquet files, statistical summaries, distributions, correlations, outliers, missing data, visualizations, markdown reports, for data profiling and insights.",
+    "description": "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/exploratory-data-analysis",
+    "path": "/k-dense-ai/exploratory-data-analysis",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -2988,7 +2988,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/scientific-critical-thinking",
+    "id": "k-dense-ai/scientific-critical-thinking",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "research-evaluation",
@@ -3001,7 +3001,7 @@
     "description": "Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/scientific-critical-thinking",
+    "path": "/k-dense-ai/scientific-critical-thinking",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3014,7 +3014,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/statistical-analysis",
+    "id": "k-dense-ai/statistical-analysis",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "statistics",
@@ -3027,7 +3027,7 @@
     "description": "Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/statistical-analysis",
+    "path": "/k-dense-ai/statistical-analysis",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3040,7 +3040,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/scientific-writing",
+    "id": "k-dense-ai/scientific-writing",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "academic-writing",
@@ -3053,7 +3053,7 @@
     "description": "Write scientific manuscripts. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), abstracts, for research papers and journal submissions.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/scientific-writing",
+    "path": "/k-dense-ai/scientific-writing",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3066,7 +3066,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/literature-review",
+    "id": "k-dense-ai/literature-review",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "research-synthesis",
@@ -3079,7 +3079,7 @@
     "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/literature-review",
+    "path": "/k-dense-ai/literature-review",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3092,7 +3092,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/scholar-evaluation",
+    "id": "k-dense-ai/scholar-evaluation",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "research-assessment",
@@ -3105,7 +3105,7 @@
     "description": "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/scholar-evaluation",
+    "path": "/k-dense-ai/scholar-evaluation",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3118,7 +3118,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/scientific-visualization",
+    "id": "k-dense-ai/scientific-visualization",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "data-visualization",
@@ -3131,7 +3131,7 @@
     "description": "Create publication figures with matplotlib/seaborn/plotly. Multi-panel layouts, error bars, significance markers, colorblind-safe, export PDF/EPS/TIFF, for journal-ready scientific plots.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/scientific-visualization",
+    "path": "/k-dense-ai/scientific-visualization",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3144,7 +3144,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/hypothesis-generation",
+    "id": "k-dense-ai/hypothesis-generation",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "scientific-inquiry",
@@ -3157,7 +3157,7 @@
     "description": "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/hypothesis-generation",
+    "path": "/k-dense-ai/hypothesis-generation",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
@@ -3170,7 +3170,7 @@
     }
   },
   {
-    "id": "k-dense-ai/scientific-thinking/peer-review",
+    "id": "k-dense-ai/peer-review",
     "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
     "tag": [
       "academic-review",
@@ -3183,7 +3183,7 @@
     "description": "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines.",
     "author": "K-Dense-AI",
     "avatar": "https://avatars.githubusercontent.com/u/238572432",
-    "path": "/k-dense-ai/scientific-thinking/peer-review",
+    "path": "/k-dense-ai/peer-review",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
