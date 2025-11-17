@@ -15,7 +15,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/metabolomics-workbench-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/metabolomics-workbench-database.zip
@@ -36,7 +36,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uspto-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uspto-database.zip
@@ -57,7 +57,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-kegg-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-kegg-database.zip
@@ -78,7 +78,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-zinc-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-zinc-database.zip
@@ -99,7 +99,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-alphafold-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-alphafold-database.zip
@@ -120,7 +120,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-cosmic-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-cosmic-database.zip
@@ -141,7 +141,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gene-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gene-database.zip
@@ -162,7 +162,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-biorxiv-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-biorxiv-database.zip
@@ -183,7 +183,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-geo-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-geo-database.zip
@@ -204,7 +204,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-hmdb-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-hmdb-database.zip
@@ -225,7 +225,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinvar-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinvar-database.zip
@@ -246,7 +246,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubchem-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubchem-database.zip
@@ -267,7 +267,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-drugbank-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-drugbank-database.zip
@@ -288,7 +288,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-fda-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-fda-database.zip
@@ -309,7 +309,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ensembl-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ensembl-database.zip
@@ -330,7 +330,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinpgx-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinpgx-database.zip
@@ -351,7 +351,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-gwas-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-gwas-database.zip
@@ -372,7 +372,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-string-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-string-database.zip
@@ -393,7 +393,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-uniprot-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-uniprot-database.zip
@@ -414,7 +414,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-reactome-database-reactome-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-reactome-database-reactome-database.zip
@@ -435,7 +435,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pubmed-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pubmed-database.zip
@@ -456,7 +456,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-chembl-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-chembl-database.zip
@@ -477,7 +477,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-clinicaltrials-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-clinicaltrials-database.zip
@@ -498,7 +498,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-ena-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-ena-database.zip
@@ -519,7 +519,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-pdb-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-pdb-database.zip
@@ -540,7 +540,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-databases@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-opentargets-database.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-opentargets-database.zip
@@ -561,7 +561,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-benchling-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-benchling-integration.zip
@@ -582,7 +582,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-protocolsio-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-protocolsio-integration.zip
@@ -603,7 +603,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-opentrons-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-opentrons-integration.zip
@@ -624,7 +624,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-omero-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-omero-integration.zip
@@ -645,7 +645,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-dnanexus-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-dnanexus-integration.zip
@@ -666,7 +666,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-labarchive-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-labarchive-integration.zip
@@ -687,7 +687,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-integrations@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-integrations-latchbio-integration.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-integrations-latchbio-integration.zip
@@ -708,7 +708,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-context-initialization@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-get-available-resources.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-get-available-resources.zip
@@ -729,7 +729,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-context-initialization@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-helpers-scientific-context-initialization.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-helpers-scientific-context-initialization.zip
@@ -750,7 +750,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-networkx.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-networkx.zip
@@ -771,7 +771,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-anndata.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-anndata.zip
@@ -792,7 +792,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-survival.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-survival.zip
@@ -813,7 +813,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymc.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymc.zip
@@ -834,7 +834,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-paper-2-web.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-paper-2-web.zip
@@ -855,7 +855,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-shap.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-shap.zip
@@ -876,7 +876,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-tooluniverse.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-tooluniverse.zip
@@ -897,7 +897,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-umap-learn.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-umap-learn.zip
@@ -918,7 +918,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-sympy.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-sympy.zip
@@ -939,7 +939,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-vaex.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-vaex.zip
@@ -960,7 +960,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-dask.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-dask.zip
@@ -981,7 +981,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-esm.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-esm.zip
@@ -1002,7 +1002,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-arboreto.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-arboreto.zip
@@ -1023,7 +1023,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-seaborn.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-seaborn.zip
@@ -1044,7 +1044,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deeptools.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deeptools.zip
@@ -1065,7 +1065,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-medchem.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-medchem.zip
@@ -1086,7 +1086,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymatgen.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymatgen.zip
@@ -1107,7 +1107,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-molfeat.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-molfeat.zip
@@ -1128,7 +1128,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydicom.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydicom.zip
@@ -1149,7 +1149,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-markitdown.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-markitdown.zip
@@ -1170,7 +1170,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytdc.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytdc.zip
@@ -1191,7 +1191,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-histolab.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-histolab.zip
@@ -1212,7 +1212,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cobrapy.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cobrapy.zip
@@ -1233,7 +1233,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biopython.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biopython.zip
@@ -1254,7 +1254,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scvi-tools.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scvi-tools.zip
@@ -1275,7 +1275,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-lamindb.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-lamindb.zip
@@ -1296,7 +1296,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datamol.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datamol.zip
@@ -1317,7 +1317,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matchms.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matchms.zip
@@ -1338,7 +1338,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-diffdock.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-diffdock.zip
@@ -1359,7 +1359,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-neurokit2.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-neurokit2.zip
@@ -1380,7 +1380,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pydeseq2.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pydeseq2.zip
@@ -1401,7 +1401,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-bioservices.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-bioservices.zip
@@ -1422,7 +1422,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-bio.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-bio.zip
@@ -1443,7 +1443,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gget.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gget.zip
@@ -1464,7 +1464,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyhealth.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyhealth.zip
@@ -1485,7 +1485,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-transformers.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-transformers.zip
@@ -1506,7 +1506,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torch_geometric.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torch_geometric.zip
@@ -1527,7 +1527,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-deepchem.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-deepchem.zip
@@ -1548,7 +1548,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pathml.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pathml.zip
@@ -1569,7 +1569,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-zarr-python.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-zarr-python.zip
@@ -1590,7 +1590,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-simpy.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-simpy.zip
@@ -1611,7 +1611,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-biomni.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-biomni.zip
@@ -1632,7 +1632,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pyopenms.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pyopenms.zip
@@ -1653,7 +1653,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pysam.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pysam.zip
@@ -1674,7 +1674,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-matplotlib.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-matplotlib.zip
@@ -1695,7 +1695,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pytorch-lightning.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pytorch-lightning.zip
@@ -1716,7 +1716,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-hypogenic.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-hypogenic.zip
@@ -1737,7 +1737,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-torchdrug.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-torchdrug.zip
@@ -1758,7 +1758,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-flowio.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-flowio.zip
@@ -1779,7 +1779,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-datacommons-client.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-datacommons-client.zip
@@ -1800,7 +1800,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-rdkit.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-rdkit.zip
@@ -1821,7 +1821,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-stable-baselines3.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-stable-baselines3.zip
@@ -1842,7 +1842,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pylabrobot.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pylabrobot.zip
@@ -1863,7 +1863,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-aeon.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-aeon.zip
@@ -1884,7 +1884,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-polars.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-polars.zip
@@ -1905,7 +1905,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-statsmodels.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-statsmodels.zip
@@ -1926,7 +1926,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scanpy.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scanpy.zip
@@ -1947,7 +1947,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-astropy.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-astropy.zip
@@ -1968,7 +1968,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-reportlab.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-reportlab.zip
@@ -1989,7 +1989,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pufferlib.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pufferlib.zip
@@ -2010,7 +2010,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-pymoo.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-pymoo.zip
@@ -2031,7 +2031,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-scikit-learn.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-scikit-learn.zip
@@ -2052,7 +2052,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-etetoolkit.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-etetoolkit.zip
@@ -2073,7 +2073,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-packages@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-cellxgene-census.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-cellxgene-census.zip
@@ -2094,7 +2094,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-brainstorming.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-brainstorming.zip
@@ -2115,7 +2115,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-exploratory-data-analysis.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-exploratory-data-analysis.zip
@@ -2136,7 +2136,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-critical-thinking.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-critical-thinking.zip
@@ -2157,7 +2157,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-statistical-analysis.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-statistical-analysis.zip
@@ -2178,7 +2178,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-writing.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-writing.zip
@@ -2199,7 +2199,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-literature-review.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-literature-review.zip
@@ -2220,7 +2220,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scholar-evaluation.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scholar-evaluation.zip
@@ -2241,7 +2241,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-scientific-visualization.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-scientific-visualization.zip
@@ -2262,7 +2262,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-hypothesis-generation.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-hypothesis-generation.zip
@@ -2283,7 +2283,7 @@
   installation:
     claude_plugin:
       registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
-      install: /plugin install scientific-thinking@claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-peer-review.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-peer-review.zip
