@@ -764,7 +764,7 @@
     - bioinformatics
   license: MIT
   name: "anndata"
-  description: "Manipulate AnnData objects for single-cell genomics. Load/save .h5ad files, manage obs/var metadata, layers, embeddings (PCA/UMAP), concatenate datasets, for scRNA-seq workflows."
+  description: "This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects, h5ad files, single-cell RNA-seq data, or integration with scanpy/scverse tools."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/anndata
@@ -995,7 +995,7 @@
     - systems-biology
   license: MIT
   name: "arboreto"
-  description: "Gene regulatory network inference with GRNBoost2/GENIE3 algorithms. Infer TF-target relationships from expression data, scalable with Dask, for scRNA-seq and GRN analysis."
+  description: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/arboreto
@@ -1478,7 +1478,7 @@
     - ai-models
   license: MIT
   name: "transformers"
-  description: "Work with state-of-the-art machine learning models for NLP, computer vision, audio, and multimodal tasks using HuggingFace Transformers. This skill should be used when fine-tuning pre-trained models, performing inference with pipelines, generating text, training sequence models, or working with BERT, GPT, T5, ViT, and other transformer architectures. Covers model loading, tokenization, training with Trainer API, text generation strategies, and task-specific patterns for classification, NER, QA, summarization, translation, and image tasks. (plugin:scientific-packages@claude-scientific-skills)"
+  description: "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/transformers
@@ -1625,7 +1625,7 @@
     - lc-ms
   license: MIT
   name: "pyopenms"
-  description: "Mass spectrometry toolkit (OpenMS Python). Process mzML/mzXML, peak picking, feature detection, peptide ID, proteomics/metabolomics workflows, for LC-MS/MS analysis."
+  description: "Python interface to OpenMS for mass spectrometry data analysis. Use for LC-MS/MS proteomics and metabolomics workflows including file handling (mzML, mzXML, mzTab, FASTA, pepXML, protXML, mzIdentML), signal processing, feature detection, peptide identification, and quantitative analysis. Apply when working with mass spectrometry data, analyzing proteomics experiments, or processing metabolomics datasets."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pyopenms
@@ -1856,7 +1856,7 @@
     - forecasting
   license: MIT
   name: "aeon"
-  description: "Time series machine learning toolkit for classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use this skill when working with temporal data, performing time series analysis, building predictive models on sequential data, or implementing workflows that involve distance metrics (DTW), transformations (ROCKET, Catch22), or deep learning for time series. Applicable for tasks like ECG classification, stock price forecasting, sensor anomaly detection, or activity recognition from wearable devices."
+  description: "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/aeon
@@ -1940,7 +1940,7 @@
     - imaging
   license: MIT
   name: "astropy"
-  description: "Astronomy toolkit. FITS I/O, celestial coordinate transforms, cosmology calculations, time systems, WCS, units, astronomical tables, for astronomical data analysis and imaging."
+  description: "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/astropy
@@ -2024,7 +2024,7 @@
     - clustering
   license: MIT
   name: "scikit-learn"
-  description: "ML toolkit. Classification, regression, clustering, PCA, preprocessing, pipelines, GridSearch, cross-validation, RandomForest, SVM, for general machine learning workflows."
+  description: "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scikit-learn
@@ -2108,7 +2108,7 @@
     - insights
   license: MIT
   name: "exploratory-data-analysis"
-  description: "EDA toolkit. Analyze CSV/Excel/JSON/Parquet files, statistical summaries, distributions, correlations, outliers, missing data, visualizations, markdown reports, for data profiling and insights."
+  description: "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/exploratory-data-analysis

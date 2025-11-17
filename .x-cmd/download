@@ -8,7 +8,7 @@ fork_from_anthropic(){
     ___x_cmd rm -rf data/anthropics
     ___x_cmd mv skills data/anthropics
 
-    ___x_cmd rm -rf data/anthropics/document-skills
+    ___x_cmd rm -rf data/anthropics/document-skills data/anthropics/template-skill
 }
 
 fork_from_notion(){

@@ -17,7 +17,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip
-
 - id: x-cmd/x-cmd-knowledge
   url: x-cmd-skill-data:x-cmd/x-cmd-knowledge
   reference: https://github.com/x-cmd/skill
@@ -36,7 +35,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-knowledge.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-knowledge.zip
-
 - id: x-cmd/x-cmd-network
   url: x-cmd-skill-data:x-cmd/x-cmd-network
   reference: https://github.com/x-cmd/skill
@@ -55,7 +53,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip
-
 - id: x-cmd/x-cmd-security
   url: x-cmd-skill-data:x-cmd/x-cmd-security
   reference: https://github.com/x-cmd/skill
@@ -74,7 +71,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip
-
 - id: x-cmd/x-cmd-system
   url: x-cmd-skill-data:x-cmd/x-cmd-system
   reference: https://github.com/x-cmd/skill
@@ -93,4 +89,3 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip
-

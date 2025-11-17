@@ -22,7 +22,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
-
 - id: anthropics/canvas-design
   url: x-cmd-skill-data:anthropics/canvas-design
   reference: https://github.com/anthropics/skills
@@ -45,7 +44,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/canvas-design.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/canvas-design.zip
-
 - id: anthropics/slack-gif-creator
   url: x-cmd-skill-data:anthropics/slack-gif-creator
   reference: https://github.com/anthropics/skills
@@ -68,7 +66,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip
-
 - id: anthropics/artifacts-builder
   url: x-cmd-skill-data:anthropics/artifacts-builder
   reference: https://github.com/anthropics/skills
@@ -91,7 +88,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip
-
 - id: anthropics/webapp-testing
   url: x-cmd-skill-data:anthropics/webapp-testing
   reference: https://github.com/anthropics/skills
@@ -114,7 +110,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/webapp-testing.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/webapp-testing.zip
-
 - id: anthropics/mcp-builder
   url: x-cmd-skill-data:anthropics/mcp-builder
   reference: https://github.com/anthropics/skills
@@ -137,7 +132,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/mcp-builder.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/mcp-builder.zip
-
 - id: anthropics/brand-guidelines
   url: x-cmd-skill-data:anthropics/brand-guidelines
   reference: https://github.com/anthropics/skills
@@ -160,7 +154,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip
-
 # - id: anthropics/template-skill
 #   url: x-cmd-skill-data:anthropics/template-skill
 #   reference: https://github.com/anthropics/skills
@@ -170,7 +163,6 @@
 #   author: Anthropic
 #   avatar: https://avatars.githubusercontent.com/u/76263028
 #   path: /anthropics/template-skill
-
 - id: anthropics/theme-factory
   url: x-cmd-skill-data:anthropics/theme-factory
   reference: https://github.com/anthropics/skills
@@ -193,7 +185,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/theme-factory.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/theme-factory.zip
-
 - id: anthropics/algorithmic-art
   url: x-cmd-skill-data:anthropics/algorithmic-art
   reference: https://github.com/anthropics/skills
@@ -216,7 +207,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/algorithmic-art.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/algorithmic-art.zip
-
 - id: anthropics/internal-comms
   url: x-cmd-skill-data:anthropics/internal-comms
   reference: https://github.com/anthropics/skills
@@ -239,7 +229,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip
-
 - id: anthropics/document/docx
   url: gh:anthropics/skills:document-skills/docx
   reference: https://github.com/anthropics/skills
@@ -259,7 +248,6 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/docx --yes
-
 - id: anthropics/document/xlsx
   url: gh:anthropics/skills:document-skills/xlsx
   reference: https://github.com/anthropics/skills
@@ -279,7 +267,6 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/xlsx --yes
-
 - id: anthropics/document/pptx
   url: gh:anthropics/skills:document-skills/pptx
   reference: https://github.com/anthropics/skills
@@ -299,7 +286,6 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/pptx --yes
-
 - id: anthropics/document/pdf
   url: gh:anthropics/skills:document-skills/pdf
   reference: https://github.com/anthropics/skills
