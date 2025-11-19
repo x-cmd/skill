@@ -22,7 +22,7 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
-- id: frontend-design
+- id: anthropics/frontend-design
   url: x-cmd-skill-data:anthropics/frontend-design
   reference: https://github.com/anthropics/skills
   tag:
