@@ -1,7 +1,7 @@
 # shellcheck shell=dash
 
 release()(
-    local x_cmd_skill_version="${1:-"v0.0.7"}"
+    local x_cmd_skill_version="${1:-"v0.0.8"}"
     local root_path="$(x wsroot)"
     local release_id; local skill_zip
     x:info "run cmd -> x cd $root_path"
