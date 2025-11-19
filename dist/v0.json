@@ -27,7 +27,7 @@
     }
   },
   {
-    "id": "frontend-design",
+    "id": "anthropics/frontend-design",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "frontend",
