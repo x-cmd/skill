@@ -3,7 +3,7 @@ fork_from_anthropic(){
     ___x_cmd git clone --depth 1 https://github.com/anthropics/skills
     (
         ___x_cmd cd skills
-        ___x_cmd rm -rf .* README.md .gitignore docs agent_skills_spec.md
+        ___x_cmd rm -rf .claude-plugin README.md .gitignore docs agent_skills_spec.md
     )
     ___x_cmd rm -rf data/anthropics
     ___x_cmd mv skills data/anthropics
@@ -11,15 +11,10 @@ fork_from_anthropic(){
     ___x_cmd rm -rf data/anthropics/document-skills data/anthropics/template-skill
 }
 
-fork_from_notion(){
-    :
-}
-
 fork_from_sci(){
     ___x_cmd git clone --depth 1 https://github.com/K-Dense-AI/claude-scientific-skills
     (
         ___x_cmd cd claude-scientific-skills/scientific-skills
-        ___x_cmd rm -rf .* README.md .gitignore docs
     )
     ___x_cmd rm -rf data/k-dense-ai
     ___x_cmd mv claude-scientific-skills/scientific-skills data/k-dense-ai
@@ -29,6 +24,14 @@ fork_from_sci(){
     ___x_cmd rm -rf claude-scientific-skills
 }
 
-fork_from_xcmd(){
-    :
+fork_from_superpowers(){
+    ___x_cmd git clone --depth 1 https://github.com/obra/superpowers
+    (
+        ___x_cmd superpowers/skills
+    )
+    ___x_cmd rm -rf data/superpowers
+    ___x_cmd mv superpowers/skills data/superpowers
+    ___x_cmd mv superpowers/LICENSE data/superpowers/LICENSE
+
+    ___x_cmd rm -rf superpowers
 }

@@ -75,7 +75,7 @@
     - social-media
   license: Apache-2.0
   name: slack-gif-creator
-  description: Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like "make me a GIF for Slack of X doing Y".
+  description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/slack-gif-creator
@@ -87,8 +87,8 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/slack-gif-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/slack-gif-creator.zip
-- id: anthropics/artifacts-builder
-  url: x-cmd-skill-data:anthropics/artifacts-builder
+- id: anthropics/web-artifacts-builder
+  url: x-cmd-skill-data:anthropics/web-artifacts-builder
   reference: https://github.com/anthropics/skills
   tag:
     - web-development
@@ -96,19 +96,18 @@
     - react
     - ui-components
   license: Apache-2.0
-  name: artifacts-builder
+  name: web-artifacts-builder
   description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
-  path: /anthropics/artifacts-builder
+  path: /anthropics/web-artifacts-builder
   installation:
     claude_plugin:
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install example-skills@anthropic-agent-skills
-    npx: npx claude-code-templates@latest --skill=development/artifacts-builder --yes
     zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/web-artifacts-builder.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/web-artifacts-builder.zip
 - id: anthropics/webapp-testing
   url: x-cmd-skill-data:anthropics/webapp-testing
   reference: https://github.com/anthropics/skills

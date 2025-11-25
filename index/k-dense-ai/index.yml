@@ -2287,3 +2287,171 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-thinking-peer-review.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/scientific-thinking-peer-review.zip
+- id: k-dense-ai/perplexity-search
+  url: x-cmd-skill-data:k-dense-ai/perplexity-search
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - web-search
+    - real-time-information
+    - literature-search
+    - ai-models
+  license: MIT
+  name: "perplexity-search"
+  description: "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model's knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/perplexity-search
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-perplexity-search.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-perplexity-search.zip
+- id: k-dense-ai/geniml
+  url: x-cmd-skill-data:k-dense-ai/geniml
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - machine-learning
+    - genomic-intervals
+    - atac-seq
+  license: MIT
+  name: "geniml"
+  description: "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/geniml
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-geniml.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-geniml.zip
+- id: k-dense-ai/fluidsim
+  url: x-cmd-skill-data:k-dense-ai/fluidsim
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - fluid-dynamics
+    - simulation
+    - computational-physics
+    - hpc
+  license: MIT
+  name: "fluidsim"
+  description: "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/fluidsim
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-fluidsim.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-fluidsim.zip
+- id: k-dense-ai/gtars
+  url: x-cmd-skill-data:k-dense-ai/gtars
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - genomics
+    - rust
+    - high-performance
+    - interval-analysis
+  license: MIT
+  name: "gtars"
+  description: "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/gtars
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gtars.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gtars.zip
+- id: k-dense-ai/denario
+  url: x-cmd-skill-data:k-dense-ai/denario
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - multiagent-ai
+    - research-automation
+    - scientific-workflows
+    - publication
+  license: MIT
+  name: "denario"
+  description: "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research methodologies, executing computational experiments, performing literature searches, or generating publication-ready papers in LaTeX format. Supports end-to-end research pipelines with customizable agent orchestration."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/denario
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-denario.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-denario.zip
+- id: k-dense-ai/adaptyv
+  url: x-cmd-skill-data:k-dense-ai/adaptyv
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - protein-design
+    - cloud-laboratory
+    - experimental-validation
+    - bioengineering
+  license: MIT
+  name: "adaptyv"
+  description: "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing protein design workflows with wet-lab validation."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/adaptyv
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-adaptyv.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-adaptyv.zip
+- id: k-dense-ai/openalex-database
+  url: x-cmd-skill-data:k-dense-ai/openalex-database
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - literature
+    - academic-databases
+    - bibliometrics
+    - research-analysis
+  license: MIT
+  name: "openalex-database"
+  description: "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/openalex-database
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-openalex-database.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-openalex-database.zip
+- id: k-dense-ai/modal
+  url: x-cmd-skill-data:k-dense-ai/modal
+  reference: https://github.com/K-Dense-AI/claude-scientific-skills
+  tag:
+    - cloud-computing
+    - serverless
+    - gpu
+    - deployment
+  license: MIT
+  name: "modal"
+  description: "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU acceleration or dynamic scaling."
+  author: K-Dense-AI
+  avatar: https://avatars.githubusercontent.com/u/238572432
+  path: /k-dense-ai/modal
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add K-Dense-AI/claude-scientific-skills
+      install: /plugin install scientific-skills@claude-scientific-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-modal.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-modal.zip
