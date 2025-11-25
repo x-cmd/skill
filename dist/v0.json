@@ -90,7 +90,7 @@
     ],
     "license": "Apache-2.0",
     "name": "slack-gif-creator",
-    "description": "Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation primitives. This skill applies when users request animated GIFs or emoji animations for Slack from descriptions like \"make me a GIF for Slack of X doing Y\".",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
     "author": "Anthropic",
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
     "path": "/anthropics/slack-gif-creator",
@@ -107,7 +107,7 @@
     }
   },
   {
-    "id": "anthropics/artifacts-builder",
+    "id": "anthropics/web-artifacts-builder",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "web-development",
@@ -116,20 +116,19 @@
       "ui-components"
     ],
     "license": "Apache-2.0",
-    "name": "artifacts-builder",
+    "name": "web-artifacts-builder",
     "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
     "author": "Anthropic",
     "avatar": "https://avatars.githubusercontent.com/u/76263028",
-    "path": "/anthropics/artifacts-builder",
+    "path": "/anthropics/web-artifacts-builder",
     "installation": {
       "claude_plugin": {
         "registry": "/plugin marketplace add anthropics/skills",
         "install": "/plugin install example-skills@anthropic-agent-skills"
       },
-      "npx": "npx claude-code-templates@latest --skill=development/artifacts-builder --yes",
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/artifacts-builder.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/artifacts-builder.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/web-artifacts-builder.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/web-artifacts-builder.zip"
       }
     }
   },
@@ -3222,6 +3221,214 @@
     }
   },
   {
+    "id": "k-dense-ai/perplexity-search",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "web-search",
+      "real-time-information",
+      "literature-search",
+      "ai-models"
+    ],
+    "license": "MIT",
+    "name": "perplexity-search",
+    "description": "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model's knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/perplexity-search",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-perplexity-search.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-perplexity-search.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/geniml",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "genomics",
+      "machine-learning",
+      "genomic-intervals",
+      "atac-seq"
+    ],
+    "license": "MIT",
+    "name": "geniml",
+    "description": "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/geniml",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-geniml.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-geniml.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/fluidsim",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "fluid-dynamics",
+      "simulation",
+      "computational-physics",
+      "hpc"
+    ],
+    "license": "MIT",
+    "name": "fluidsim",
+    "description": "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/fluidsim",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-fluidsim.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-fluidsim.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/gtars",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "genomics",
+      "rust",
+      "high-performance",
+      "interval-analysis"
+    ],
+    "license": "MIT",
+    "name": "gtars",
+    "description": "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/gtars",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-gtars.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-gtars.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/denario",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "multiagent-ai",
+      "research-automation",
+      "scientific-workflows",
+      "publication"
+    ],
+    "license": "MIT",
+    "name": "denario",
+    "description": "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research methodologies, executing computational experiments, performing literature searches, or generating publication-ready papers in LaTeX format. Supports end-to-end research pipelines with customizable agent orchestration.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/denario",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-denario.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-denario.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/adaptyv",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "protein-design",
+      "cloud-laboratory",
+      "experimental-validation",
+      "bioengineering"
+    ],
+    "license": "MIT",
+    "name": "adaptyv",
+    "description": "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing protein design workflows with wet-lab validation.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/adaptyv",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-adaptyv.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-adaptyv.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/openalex-database",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "literature",
+      "academic-databases",
+      "bibliometrics",
+      "research-analysis"
+    ],
+    "license": "MIT",
+    "name": "openalex-database",
+    "description": "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/openalex-database",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-databases-openalex-database.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-databases-openalex-database.zip"
+      }
+    }
+  },
+  {
+    "id": "k-dense-ai/modal",
+    "reference": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "tag": [
+      "cloud-computing",
+      "serverless",
+      "gpu",
+      "deployment"
+    ],
+    "license": "MIT",
+    "name": "modal",
+    "description": "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU acceleration or dynamic scaling.",
+    "author": "K-Dense-AI",
+    "avatar": "https://avatars.githubusercontent.com/u/238572432",
+    "path": "/k-dense-ai/modal",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add K-Dense-AI/claude-scientific-skills",
+        "install": "/plugin install scientific-skills@claude-scientific-skills"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/scientific-packages-modal.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/scientific-packages-modal.zip"
+      }
+    }
+  },
+  {
     "id": "notion/spec-to-implementation",
     "reference": "https://skillshunt.io/skills/notion/notion-spec-to-implementation",
     "tag": [
@@ -3236,6 +3443,526 @@
     "author": "Notion",
     "avatar": "https://avatars.githubusercontent.com/u/4792552",
     "path": "/"
+  },
+  {
+    "id": "superpowers/brainstorming",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "ideation",
+      "design",
+      "collaboration",
+      "requirements"
+    ],
+    "license": "MIT",
+    "name": "brainstorming",
+    "description": "Use when creating or developing, before writing code or implementation plans - refines rough ideas into fully-formed designs through collaborative questioning, alternative exploration, and incremental validation. Don't use during clear 'mechanical' processes",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/brainstorming",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-brainstorming.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-brainstorming.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/using-git-worktrees",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "git",
+      "workflow",
+      "isolation",
+      "development"
+    ],
+    "license": "MIT",
+    "name": "using-git-worktrees",
+    "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/using-git-worktrees",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-using-git-worktrees.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-using-git-worktrees.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/test-driven-development",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "testing",
+      "development",
+      "quality",
+      "automation"
+    ],
+    "license": "MIT",
+    "name": "test-driven-development",
+    "description": "Use when implementing any feature or bugfix, before writing implementation code - write the test first, watch it fail, write minimal code to pass; ensures tests actually verify behavior by requiring failure first",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/test-driven-development",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-test-driven-development.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-test-driven-development.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/testing-anti-patterns",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "testing",
+      "quality",
+      "anti-patterns",
+      "best-practices"
+    ],
+    "license": "MIT",
+    "name": "testing-anti-patterns",
+    "description": "Use when writing or changing tests, adding mocks, or tempted to add test-only methods to production code - prevents testing mock behavior, production pollution with test-only methods, and mocking without understanding dependencies",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/testing-anti-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-testing-anti-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-testing-anti-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/systematic-debugging",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "debugging",
+      "troubleshooting",
+      "root-cause",
+      "investigation"
+    ],
+    "license": "MIT",
+    "name": "systematic-debugging",
+    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes - four-phase framework (root cause investigation, pattern analysis, hypothesis testing, implementation) that ensures understanding before attempting solutions",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/systematic-debugging",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-systematic-debugging.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-systematic-debugging.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/sharing-skills",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "collaboration",
+      "knowledge-sharing",
+      "documentation",
+      "team-work"
+    ],
+    "license": "MIT",
+    "name": "sharing-skills",
+    "description": "Use when you've developed a broadly useful skill and want to contribute it upstream via pull request - guides process of branching, committing, pushing, and creating PR to contribute skills back to upstream repository",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/sharing-skills",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-sharing-skills.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-sharing-skills.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/using-superpowers",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "workflow",
+      "methodology",
+      "process",
+      "skills"
+    ],
+    "license": "MIT",
+    "name": "using-superpowers",
+    "description": "Use when starting any conversation - establishes mandatory workflows for finding and using skills, including using Skill tool before announcing usage, following brainstorming before coding, and creating TodoWrite todos for checklists",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/using-superpowers",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-using-superpowers.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-using-superpowers.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/dispatching-parallel-agents",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "parallelism",
+      "agents",
+      "efficiency",
+      "coordination"
+    ],
+    "license": "MIT",
+    "name": "dispatching-parallel-agents",
+    "description": "Use when facing 3+ independent failures that can be investigated without shared state or dependencies - dispatches multiple Claude agents to investigate and fix independent problems concurrently",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/dispatching-parallel-agents",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-dispatching-parallel-agents.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-dispatching-parallel-agents.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/executing-plans",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "planning",
+      "execution",
+      "project-management",
+      "workflow"
+    ],
+    "license": "MIT",
+    "name": "executing-plans",
+    "description": "Use when partner provides a complete implementation plan to execute in controlled batches with review checkpoints - loads plan, reviews critically, executes tasks in batches, reports for review between batches",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/executing-plans",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-executing-plans.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-executing-plans.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/finishing-a-development-branch",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "git",
+      "workflow",
+      "cleanup",
+      "deployment"
+    ],
+    "license": "MIT",
+    "name": "finishing-a-development-branch",
+    "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/finishing-a-development-branch",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-finishing-a-development-branch.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-finishing-a-development-branch.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/root-cause-tracing",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "debugging",
+      "investigation",
+      "tracing",
+      "analysis"
+    ],
+    "license": "MIT",
+    "name": "root-cause-tracing",
+    "description": "Use when errors occur deep in execution and you need to trace back to find the original trigger - systematically traces bugs backward through call stack, adding instrumentation when needed, to identify source of invalid data or incorrect behavior",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/root-cause-tracing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-root-cause-tracing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-root-cause-tracing.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/condition-based-waiting",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "automation",
+      "polling",
+      "waiting",
+      "conditions"
+    ],
+    "license": "MIT",
+    "name": "condition-based-waiting",
+    "description": "Use when tests have race conditions, timing dependencies, or inconsistent pass/fail behavior - replaces arbitrary timeouts with condition polling to wait for actual state changes, eliminating flaky tests from timing guesses",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/condition-based-waiting",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-condition-based-waiting.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-condition-based-waiting.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/testing-skills-with-subagents",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "testing",
+      "validation",
+      "agents",
+      "quality"
+    ],
+    "license": "MIT",
+    "name": "testing-skills-with-subagents",
+    "description": "Use when creating or editing skills, before deployment, to verify they work under pressure and resist rationalization - applies RED-GREEN-REFACTOR cycle to process documentation by running baseline without skill, writing to address failures, iterating to close loopholes",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/testing-skills-with-subagents",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-testing-skills-with-subagents.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-testing-skills-with-subagents.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/writing-plans",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "planning",
+      "documentation",
+      "design",
+      "architecture"
+    ],
+    "license": "MIT",
+    "name": "writing-plans",
+    "description": "Use when design is complete and you need detailed implementation tasks for engineers with zero codebase context - creates comprehensive implementation plans with exact file paths, complete code examples, and verification steps assuming engineer has minimal domain knowledge",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/writing-plans",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-writing-plans.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-writing-plans.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/requesting-code-review",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "code-review",
+      "collaboration",
+      "quality",
+      "feedback"
+    ],
+    "license": "MIT",
+    "name": "requesting-code-review",
+    "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements - dispatches superpowers:code-reviewer subagent to review implementation against plan or requirements before proceeding",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/requesting-code-review",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-requesting-code-review.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-requesting-code-review.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/receiving-code-review",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "code-review",
+      "feedback",
+      "collaboration",
+      "improvement"
+    ],
+    "license": "MIT",
+    "name": "receiving-code-review",
+    "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/receiving-code-review",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-receiving-code-review.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-receiving-code-review.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/writing-skills",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "documentation",
+      "skills",
+      "knowledge",
+      "communication"
+    ],
+    "license": "MIT",
+    "name": "writing-skills",
+    "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment - applies TDD to process documentation by testing with subagents before writing, iterating until bulletproof against rationalization",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/writing-skills",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-writing-skills.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-writing-skills.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/verification-before-completion",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "quality",
+      "verification",
+      "completion",
+      "testing"
+    ],
+    "license": "MIT",
+    "name": "verification-before-completion",
+    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/verification-before-completion",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-verification-before-completion.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-verification-before-completion.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/subagent-driven-development",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "agents",
+      "development",
+      "parallelism",
+      "coordination"
+    ],
+    "license": "MIT",
+    "name": "subagent-driven-development",
+    "description": "Use when executing implementation plans with independent tasks in the current session - dispatches fresh subagent for each task with code review between tasks, enabling fast iteration with quality gates",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/subagent-driven-development",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-subagent-driven-development.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-subagent-driven-development.zip"
+      }
+    }
+  },
+  {
+    "id": "superpowers/defense-in-depth",
+    "reference": "https://github.com/obra/superpowers",
+    "tag": [
+      "security",
+      "validation",
+      "robustness",
+      "error-handling"
+    ],
+    "license": "MIT",
+    "name": "defense-in-depth",
+    "description": "Use when invalid data causes failures deep in execution, requiring validation at multiple system layers - validates at every layer data passes through to make bugs structurally impossible",
+    "author": "obra",
+    "avatar": "https://avatars.githubusercontent.com/u/45416",
+    "path": "/superpowers/defense-in-depth",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add obra/superpowers-marketplace",
+        "install": "/plugin install superpowers@superpowers-marketplace"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/superpowers-defense-in-depth.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/superpowers-defense-in-depth.zip"
+      }
+    }
   },
   {
     "id": "x-cmd/x-cmd-git",

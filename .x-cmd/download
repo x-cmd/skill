@@ -27,7 +27,7 @@ fork_from_sci(){
 fork_from_superpowers(){
     ___x_cmd git clone --depth 1 https://github.com/obra/superpowers
     (
-        ___x_cmd superpowers/skills
+        ___x_cmd cd superpowers/skills
     )
     ___x_cmd rm -rf data/superpowers
     ___x_cmd mv superpowers/skills data/superpowers
