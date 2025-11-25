@@ -48,6 +48,7 @@ bundle_xcmd_skill_packages(){
         x cp -rf "$skill_dir" "$tgtprefix/.tmp/$skill_name"
         case "$skill_dir" in
             */k-dense-ai/*)   x cp -rf "data/k-dense-ai/LICENSE.md" "$tgtprefix/.tmp/$skill_name/";;
+            */superpowers)    x cp -rf "data/superpowers/LICENSE" "$tgtprefix/.tmp/$skill_name/";;
             */x-cmd/*)        x cp -rf LICENSE "$tgtprefix/.tmp/$skill_name/";;
         esac
         x z "$tgtprefix/${skill_name}.zip" "$tgtprefix/.tmp/$skill_name"
@@ -57,7 +58,7 @@ bundle_xcmd_skill_packages(){
 }
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.8"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.9"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
