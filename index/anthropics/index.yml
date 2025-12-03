@@ -249,8 +249,8 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/internal-comms.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/internal-comms.zip
-- id: anthropics/document/docx
-  url: gh:anthropics/skills:document-skills/docx
+- id: anthropics/docx
+  url: gh:anthropics/skills:skills/docx
   reference: https://github.com/anthropics/skills
   tag:
     - office
@@ -268,8 +268,8 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/docx --yes
-- id: anthropics/document/xlsx
-  url: gh:anthropics/skills:document-skills/xlsx
+- id: anthropics/xlsx
+  url: gh:anthropics/skills:skills/xlsx
   reference: https://github.com/anthropics/skills
   tag:
     - office
@@ -287,8 +287,8 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/xlsx --yes
-- id: anthropics/document/pptx
-  url: gh:anthropics/skills:document-skills/pptx
+- id: anthropics/pptx
+  url: gh:anthropics/skills:skills/pptx
   reference: https://github.com/anthropics/skills
   tag:
     - office
@@ -306,8 +306,8 @@
       registry: /plugin marketplace add anthropics/skills
       install: /plugin install document-skills@anthropic-agent-skills
     npx: npx claude-code-templates@latest --skill=document-processing/pptx --yes
-- id: anthropics/document/pdf
-  url: gh:anthropics/skills:document-skills/pdf
+- id: anthropics/pdf
+  url: gh:anthropics/skills:skills/pdf
   reference: https://github.com/anthropics/skills
   tag:
     - office
