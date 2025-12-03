@@ -295,7 +295,7 @@
     }
   },
   {
-    "id": "anthropics/document/docx",
+    "id": "anthropics/docx",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "office",
@@ -318,7 +318,7 @@
     }
   },
   {
-    "id": "anthropics/document/xlsx",
+    "id": "anthropics/xlsx",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "office",
@@ -341,7 +341,7 @@
     }
   },
   {
-    "id": "anthropics/document/pptx",
+    "id": "anthropics/pptx",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "office",
@@ -364,7 +364,7 @@
     }
   },
   {
-    "id": "anthropics/document/pdf",
+    "id": "anthropics/pdf",
     "reference": "https://github.com/anthropics/skills",
     "tag": [
       "office",

@@ -2,13 +2,14 @@
 fork_from_anthropic(){
     ___x_cmd git clone --depth 1 https://github.com/anthropics/skills
     (
-        ___x_cmd cd skills
-        ___x_cmd rm -rf .claude-plugin README.md .gitignore docs agent_skills_spec.md
+        ___x_cmd cd skills/skills
+        ___x_cmd rm -rf README.md
     )
     ___x_cmd rm -rf data/anthropics
-    ___x_cmd mv skills data/anthropics
+    ___x_cmd mv skills/skills data/anthropics
 
-    ___x_cmd rm -rf data/anthropics/document-skills data/anthropics/template-skill
+    ___x_cmd rm -rf data/anthropics/docx data/anthropics/pdf data/anthropics/pptx data/anthropics/xlsx
+    ___x_cmd rm -rf skills
 }
 
 fork_from_sci(){
