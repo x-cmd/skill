@@ -1,0 +1,160 @@
+- id: openai/.curated/gh-address-comments
+  url: x-cmd-skill-data:openai/.curated/gh-address-comments
+  reference: https://github.com/openai/skills
+  tag:
+    - github
+    - pr
+    - review
+    - comments
+  license: Apache-2.0
+  name: gh-address-comments
+  description: Address comments in a GitHub PR review
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/gh-address-comments
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/gh-address-comments.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/gh-address-comments.zip
+- id: openai/.curated/gh-fix-ci
+  url: x-cmd-skill-data:openai/.curated/gh-fix-ci
+  reference: https://github.com/openai/skills
+  tag:
+    - github
+    - ci
+    - actions
+    - debugging
+  license: Apache-2.0
+  name: gh-fix-ci
+  description: Fix failing Github CI actions
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/gh-fix-ci
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/gh-fix-ci.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/gh-fix-ci.zip
+- id: openai/.curated/notion-knowledge-capture
+  url: x-cmd-skill-data:openai/.curated/notion-knowledge-capture
+  reference: https://github.com/openai/skills
+  tag:
+    - notion
+    - documentation
+    - knowledge-management
+    - wiki
+  license: Apache-2.0
+  name: notion-knowledge-capture
+  description: Capture conversations into structured Notion pages
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/notion-knowledge-capture
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/notion-knowledge-capture.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/notion-knowledge-capture.zip
+- id: openai/.curated/notion-meeting-intelligence
+  url: x-cmd-skill-data:openai/.curated/notion-meeting-intelligence
+  reference: https://github.com/openai/skills
+  tag:
+    - notion
+    - meeting
+    - agenda
+    - preparation
+  license: Apache-2.0
+  name: notion-meeting-intelligence
+  description: Prep meetings with Notion context and tailored agendas
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/notion-meeting-intelligence
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/notion-meeting-intelligence.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/notion-meeting-intelligence.zip
+- id: openai/.curated/notion-research-documentation
+  url: x-cmd-skill-data:openai/.curated/notion-research-documentation
+  reference: https://github.com/openai/skills
+  tag:
+    - notion
+    - research
+    - documentation
+    - briefs
+  license: Apache-2.0
+  name: notion-research-documentation
+  description: Research Notion content and produce briefs/reports
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/notion-research-documentation
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/notion-research-documentation.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/notion-research-documentation.zip
+- id: openai/.curated/notion-spec-to-implementation
+  url: x-cmd-skill-data:openai/.curated/notion-spec-to-implementation
+  reference: https://github.com/openai/skills
+  tag:
+    - notion
+    - specification
+    - implementation
+    - planning
+  license: Apache-2.0
+  name: notion-spec-to-implementation
+  description: Turn Notion specs into implementation plans, tasks, and progress tracking
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/notion-spec-to-implementation
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/notion-spec-to-implementation.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/notion-spec-to-implementation.zip
+- id: openai/.experimental/create-plan
+  url: x-cmd-skill-data:openai/.experimental/create-plan
+  reference: https://github.com/openai/skills
+  tag:
+    - planning
+    - project-management
+  license: Apache-2.0
+  name: create-plan
+  description: Create a plan
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.experimental/create-plan
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/create-plan.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/create-plan.zip
+- id: openai/.experimental/linear
+  url: x-cmd-skill-data:openai/.experimental/linear
+  reference: https://github.com/openai/skills
+  tag:
+    - linear
+    - project-management
+    - issues
+  license: Apache-2.0
+  name: linear
+  description: Manage Linear issues in Codex
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.experimental/linear
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/linear.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/linear.zip
+- id: openai/.system/skill-installer
+  url: x-cmd-skill-data:openai/.system/skill-installer
+  reference: https://github.com/openai/skills
+  tag:
+    - system
+    - installation
+    - skills
+  license: Apache-2.0
+  name: skill-installer
+  description: Install curated skills from openai/skills or other repos
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.system/skill-installer
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-installer.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/skill-installer.zip
+
+

@@ -12,11 +12,18 @@ fork_from_anthropic(){
     ___x_cmd rm -rf skills
 }
 
+fork_from_openai(){
+    ___x_cmd git clone --depth 1 https://github.com/openai/skills
+
+    ___x_cmd mv skills/skills data/openai
+
+    ___x_cmd rm -rf data/openai/.system/skill-creator
+    ___x_cmd rm -rf skills
+}
+
 fork_from_sci(){
     ___x_cmd git clone --depth 1 https://github.com/K-Dense-AI/claude-scientific-skills
-    (
-        ___x_cmd cd claude-scientific-skills/scientific-skills
-    )
+
     ___x_cmd rm -rf data/k-dense-ai
     ___x_cmd mv claude-scientific-skills/scientific-skills data/k-dense-ai
     ___x_cmd mv claude-scientific-skills/LICENSE.md data/k-dense-ai/LICENSE.md
@@ -27,9 +34,7 @@ fork_from_sci(){
 
 fork_from_superpowers(){
     ___x_cmd git clone --depth 1 https://github.com/obra/superpowers
-    (
-        ___x_cmd cd superpowers/skills
-    )
+
     ___x_cmd rm -rf data/superpowers
     ___x_cmd mv superpowers/skills data/superpowers
     ___x_cmd mv superpowers/LICENSE data/superpowers/LICENSE
