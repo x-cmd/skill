@@ -175,7 +175,7 @@
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/brand-guidelines.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/brand-guidelines.zip
 # - id: anthropics/template-skill
-#   url: x-cmd-skill-data:anthropics/template-skill
+# #   url: x-cmd-skill-data:anthropics/template-skill
 #   reference: https://github.com/anthropics/skills
 #   license: no license
 #   name: template-skill

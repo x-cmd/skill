@@ -3747,5 +3747,69 @@
         "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip"
       }
     }
+  },
+  {
+    "id": "mcp/context7",
+    "reference": "https://github.com/upstash/context7",
+    "tag": [
+      "code-documentation",
+      "llm",
+      "ai-tools",
+      "mcp-server"
+    ],
+    "license": null,
+    "name": "context7",
+    "description": "Up-to-date code documentation for LLMs and AI code editors",
+    "author": "Upstash",
+    "avatar": "https://avatars.githubusercontent.com/u/74989412",
+    "path": "/",
+    "installation": {
+      "claude": {
+        "http": "x claude mcp add --header \"CONTEXT7_API_KEY: YOUR_API_KEY\" --transport http context7 https://mcp.context7.com/mcp",
+        "stdio": "x claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY"
+      }
+    }
+  },
+  {
+    "id": "mcp/gamma",
+    "reference": "https://gamma.app/docs/Gamma-MCP-Server-Documentation-m6p43kobgzy15zj?mode=doc",
+    "tag": [
+      "presentations",
+      "documents",
+      "social-media",
+      "ai-design"
+    ],
+    "license": null,
+    "name": "gamma",
+    "description": "Create presentations, docs, socials, and sites with AI",
+    "author": "gama",
+    "avatar": "https://cdn.gamma.app/zc87vhr30n8uf3n/0f029c68490148cc931e4be6670d7afb/optimized/Gamma_Symbol_DeepOcean-Sky.svg",
+    "path": "/",
+    "installation": {
+      "claude": {
+        "http": "x claude mcp add gamma --transport http https://mcp.gamma.app/mcp"
+      }
+    }
+  },
+  {
+    "id": "mcp/circleback",
+    "reference": "https://support.circleback.ai/en/articles/13249081-circleback-mcp",
+    "tag": [
+      "productivity",
+      "meetings",
+      "notes",
+      "search"
+    ],
+    "license": null,
+    "name": "circleback",
+    "description": "Search and access context from meetings",
+    "author": "circleback",
+    "avatar": "https://downloads.intercomcdn.com/i/o/ce04lvza/830504/d5f83a81861c16a12527cb8aca51/70883c6f22f918b074f5e6e772073b9d.png",
+    "path": "/",
+    "installation": {
+      "claude": {
+        "http": "claude mcp add circleback --transport http https://app.circleback.ai/api/mcp"
+      }
+    }
   }
 ]

@@ -20,7 +20,7 @@ sync_index(){
         description="$(sed -n 's/^description: *//p' "$skill_file" | head -1)"
 
         if [[ -n "$name" && -n "$description" ]]; then
-            index_file="index/$category/index.yml"
+            index_file="index/skill/$category/index.yml"
             if [ -f "$index_file" ]; then
                 grep -q "\- id: $id" "$index_file" || {
                     x:warn "[$id] has not been added to $category/index.yml"
