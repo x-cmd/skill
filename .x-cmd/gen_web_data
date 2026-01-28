@@ -4,7 +4,7 @@ _skill_gen_web_data(){
     local WORK_DIR=;    WORK_DIR="$(x wsroot)"
     local tgt=;         tgt="$WORK_DIR/dist"
 
-    x yq eval-all -o=json '[.[] | del(.url)]' "$WORK_DIR/index"/**/index.yml > "$tgt/v0.json"
+    x yq eval-all -o=json '[.[] | del(.url)]' "$WORK_DIR/index"/skill/**/index.yml "$WORK_DIR/index/mcp/index.yml"  > "$tgt/v0.json"
 
 }
 

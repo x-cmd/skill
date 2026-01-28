@@ -26,10 +26,19 @@ bundle_xcmd_skill_data()(
     }
     x yq eval-all -o=tsv '[.[]
         | del(.path,.tag,.avatar,.installation)
-        | (. as $item | with_entries(select(.key != "description")) + {"description": $item.description})
-      ]' index/**/index.yml  \
+        | (. as $item | with_entries(select(.key != "description")) + {"type": "skill"} + {"description": $item.description} )
+      ]' index/skill/**/index.yml  \
     > "$tgtprefix/index.tsv" || {
-        x:error "wrong: index"
+        x:error "wrong: skill index"
+        return 1
+    }
+    x yq eval-all -o=tsv '[.[]
+        | del(.path,.tag,.avatar,.installation)
+        | (. as $item | with_entries(select(.key != "description")) + {"type": "mcp"} + {"description": $item.description} )
+      ]' index/mcp/index.yml  \
+      | command tail -n +2 \
+    >> "$tgtprefix/index.tsv" || {
+        x:error "wrong: mcp index"
         return 1
     }
     x:info "END ==== > bundle skill data"
@@ -58,7 +67,7 @@ bundle_xcmd_skill_packages(){
 }
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.10"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.11"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
