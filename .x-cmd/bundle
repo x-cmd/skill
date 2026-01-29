@@ -196,15 +196,15 @@ bundle()(
         return 1
     fi
 
-    # if ! bundle_xcmd_skill_packages ; then
-    #     x:error "bundle_skill_zip_file failed"
-    #     return 1
-    # fi
+    if ! bundle_xcmd_skill_packages ; then
+        x:error "bundle_skill_zip_file failed"
+        return 1
+    fi
 
-    # if ! bundle_tmp2tgz ; then
-    #     x:error "bundle_yml2tgz failed"
-    #     return 1
-    # fi
+    if ! bundle_tmp2tgz ; then
+        x:error "bundle_yml2tgz failed"
+        return 1
+    fi
 )
 
 
