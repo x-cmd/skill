@@ -3752,6 +3752,7 @@
     "id": "mcp/context7",
     "reference": "https://github.com/upstash/context7",
     "tag": [
+      "mcp",
       "code-documentation",
       "llm",
       "ai-tools",
@@ -3780,6 +3781,7 @@
     "id": "mcp/github",
     "reference": "https://github.com/github/github-mcp-server",
     "tag": [
+      "mcp",
       "github",
       "version-control",
       "development",
@@ -3808,6 +3810,7 @@
     "id": "mcp/firecrawl",
     "reference": "https://github.com/firecrawl/firecrawl-mcp-server",
     "tag": [
+      "mcp",
       "web-scraping",
       "crawling",
       "data-extraction",
@@ -3836,6 +3839,7 @@
     "id": "mcp/supabase",
     "reference": "https://supabase.com/docs/guides/getting-started/mcp",
     "tag": [
+      "mcp",
       "database",
       "backend",
       "postgresql",
@@ -3862,6 +3866,7 @@
     "id": "mcp/memory",
     "reference": "https://github.com/doobidoo/mcp-memory-service",
     "tag": [
+      "mcp",
       "memory",
       "persistence",
       "storage",
@@ -3887,6 +3892,7 @@
     "id": "mcp/sequential-thinking",
     "reference": "https://github.com/modelcontextprotocol/servers",
     "tag": [
+      "mcp",
       "reasoning",
       "chain-of-thought",
       "thinking",
@@ -3912,6 +3918,7 @@
     "id": "mcp/vercel",
     "reference": "https://vercel.com/",
     "tag": [
+      "mcp",
       "deployment",
       "hosting",
       "serverless",
@@ -3933,6 +3940,7 @@
     "id": "mcp/railway",
     "reference": "https://docs.railway.com/reference/mcp-server",
     "tag": [
+      "mcp",
       "deployment",
       "hosting",
       "infrastructure",
@@ -3958,6 +3966,7 @@
     "id": "mcp/cloudflare-docs",
     "reference": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/",
     "tag": [
+      "mcp",
       "documentation",
       "cloudflare",
       "search",
@@ -3979,6 +3988,7 @@
     "id": "mcp/cloudflare-workers-builds",
     "reference": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/",
     "tag": [
+      "mcp",
       "cloudflare",
       "workers",
       "builds",
@@ -4000,6 +4010,7 @@
     "id": "mcp/cloudflare-workers-bindings",
     "reference": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/",
     "tag": [
+      "mcp",
       "cloudflare",
       "workers",
       "bindings",
@@ -4021,6 +4032,7 @@
     "id": "mcp/cloudflare-observability",
     "reference": "https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/",
     "tag": [
+      "mcp",
       "cloudflare",
       "observability",
       "logs",
@@ -4043,6 +4055,7 @@
     "id": "mcp/clickhouse",
     "reference": "https://clickhouse.com/",
     "tag": [
+      "mcp",
       "database",
       "analytics",
       "queries",
@@ -4064,6 +4077,7 @@
     "id": "mcp/magic",
     "reference": "github.com/magicuidesign/mcp",
     "tag": [
+      "mcp",
       "ui-components",
       "design",
       "frontend",
@@ -4089,6 +4103,7 @@
     "id": "mcp/filesystem",
     "reference": "github.com/modelcontextprotocol/servers",
     "tag": [
+      "mcp",
       "filesystem",
       "file-operations",
       "local-files",
@@ -4115,6 +4130,7 @@
     "id": "mcp/circleback",
     "reference": "https://support.circleback.ai/en/articles/13249081-circleback-mcp",
     "tag": [
+      "mcp",
       "productivity",
       "meetings",
       "notes",
@@ -4136,6 +4152,7 @@
     "id": "mcp/gamma",
     "reference": "https://gamma.app/docs/Gamma-MCP-Server-Documentation-m6p43kobgzy15zj?mode=doc",
     "tag": [
+      "mcp",
       "presentations",
       "documents",
       "social-media",
@@ -4157,6 +4174,7 @@
     "id": "mcp/day-ai",
     "reference": "https://day.ai/mcp",
     "tag": [
+      "mcp",
       "crm",
       "analytics",
       "business"
@@ -4176,6 +4194,7 @@
     "id": "mcp/biorxiv",
     "reference": "https://docs.mcp.deepsense.ai/guides/biorxiv.html",
     "tag": [
+      "mcp",
       "research",
       "biomedical",
       "preprints"
@@ -4195,6 +4214,7 @@
     "id": "mcp/chembl",
     "reference": "https://docs.mcp.deepsense.ai/guides/chembl.html",
     "tag": [
+      "mcp",
       "chemistry",
       "database",
       "research"
@@ -4214,6 +4234,7 @@
     "id": "mcp/clinical-trials",
     "reference": "https://docs.mcp.deepsense.ai/guides/clinical_trials.html",
     "tag": [
+      "mcp",
       "medical",
       "clinical-trials",
       "research"
@@ -4233,6 +4254,7 @@
     "id": "mcp/cms-coverage",
     "reference": "https://docs.mcp.deepsense.ai/guides/cms_coverage.html",
     "tag": [
+      "mcp",
       "healthcare",
       "cms",
       "coverage"
@@ -4252,6 +4274,7 @@
     "id": "mcp/icd-10-codes",
     "reference": "https://docs.mcp.deepsense.ai/guides/icd10_codes.html",
     "tag": [
+      "mcp",
       "medical",
       "coding",
       "icd-10"
@@ -4271,6 +4294,7 @@
     "id": "mcp/npi-registry",
     "reference": "https://docs.mcp.deepsense.ai/guides/npi_registry.html",
     "tag": [
+      "mcp",
       "healthcare",
       "provider",
       "registry"
@@ -4290,6 +4314,7 @@
     "id": "mcp/devrev",
     "reference": "https://support.devrev.ai/en-US/devrev/article/ART-21859-remote-mcp-server",
     "tag": [
+      "mcp",
       "knowledge-graph",
       "company",
       "search"
@@ -4309,6 +4334,7 @@
     "id": "mcp/harmonic",
     "reference": "https://support.harmonic.ai/en/articles/12785899-harmonic-mcp-server-getting-started-guide",
     "tag": [
+      "mcp",
       "research",
       "companies",
       "people"
@@ -4328,6 +4354,7 @@
     "id": "mcp/lunarcrush",
     "reference": "https://lunarcrush.com/developers/api/ai",
     "tag": [
+      "mcp",
       "social-media",
       "data",
       "analytics"
@@ -4347,6 +4374,7 @@
     "id": "mcp/scholar-gateway",
     "reference": "https://docs.scholargateway.ai/",
     "tag": [
+      "mcp",
       "research",
       "scholarly",
       "citations"
@@ -4366,6 +4394,7 @@
     "id": "mcp/tickettailor",
     "reference": "https://help.tickettailor.com/en/articles/11892797-how-to-connect-ticket-tailor-to-your-favourite-ai-agent",
     "tag": [
+      "mcp",
       "events",
       "tickets",
       "management"
@@ -4385,6 +4414,7 @@
     "id": "mcp/vibe-prospecting",
     "reference": "https://developers.explorium.ai/mcp-docs/agentsource-mcp",
     "tag": [
+      "mcp",
       "prospecting",
       "company-data",
       "contacts"
@@ -4404,6 +4434,7 @@
     "id": "mcp/windsor-ai",
     "reference": "https://windsor.ai/introducing-windsor-mcp/#method-1-using-claude-desktop-3",
     "tag": [
+      "mcp",
       "marketing",
       "analytics",
       "crm"
@@ -4423,6 +4454,7 @@
     "id": "mcp/linear",
     "reference": "https://linear.app/docs/mcp",
     "tag": [
+      "mcp",
       "project-management",
       "issues",
       "workflows"
@@ -4442,6 +4474,7 @@
     "id": "mcp/netlify",
     "reference": "https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/",
     "tag": [
+      "mcp",
       "deployment",
       "hosting",
       "websites"
@@ -4461,6 +4494,7 @@
     "id": "mcp/aws-marketplace",
     "reference": "https://docs.aws.amazon.com/marketplace/latest/APIReference/marketplace-mcp-server.html",
     "tag": [
+      "mcp",
       "aws",
       "marketplace",
       "cloud"
@@ -4480,6 +4514,7 @@
     "id": "mcp/hugging-face",
     "reference": "https://huggingface.co/settings/mcp",
     "tag": [
+      "mcp",
       "ai",
       "models",
       "gradio"
@@ -4499,6 +4534,7 @@
     "id": "mcp/ahrefs",
     "reference": "https://docs.ahrefs.com/docs/mcp/reference/introduction",
     "tag": [
+      "mcp",
       "seo",
       "analytics",
       "search"
@@ -4518,6 +4554,7 @@
     "id": "mcp/airops",
     "reference": "https://docs.airops.com/mcp",
     "tag": [
+      "mcp",
       "content",
       "ai-search",
       "marketing"
@@ -4537,6 +4574,7 @@
     "id": "mcp/amplitude",
     "reference": "https://amplitude.com/docs/analytics/amplitude-mcp",
     "tag": [
+      "mcp",
       "analytics",
       "data",
       "insights"
@@ -4556,6 +4594,7 @@
     "id": "mcp/asana",
     "reference": "https://developers.asana.com/docs/mcp-server",
     "tag": [
+      "mcp",
       "project-management",
       "tasks",
       "collaboration"
@@ -4575,6 +4614,7 @@
     "id": "mcp/atlassian",
     "reference": "https://community.atlassian.com/forums/Atlassian-Platform-articles/Using-the-Atlassian-Remote-MCP-Server-beta/ba-p/3005104",
     "tag": [
+      "mcp",
       "jira",
       "confluence",
       "project-management"
@@ -4594,6 +4634,7 @@
     "id": "mcp/aura",
     "reference": "https://docs.getaura.ai/",
     "tag": [
+      "mcp",
       "company-intelligence",
       "workforce-analytics",
       "business"
@@ -4613,6 +4654,7 @@
     "id": "mcp/biorender",
     "reference": "https://help.biorender.com/hc/en-gb/articles/30870978672157-How-to-use-the-BioRender-MCP-connector",
     "tag": [
+      "mcp",
       "scientific",
       "templates",
       "icons"
@@ -4632,6 +4674,7 @@
     "id": "mcp/bitly",
     "reference": "https://dev.bitly.com/bitly-mcp/",
     "tag": [
+      "mcp",
       "url-shortening",
       "qr-codes",
       "analytics"
@@ -4651,6 +4694,7 @@
     "id": "mcp/blockscout",
     "reference": "https://github.com/blockscout/mcp-server",
     "tag": [
+      "mcp",
       "blockchain",
       "data",
       "analytics"
@@ -4670,6 +4714,7 @@
     "id": "mcp/box",
     "reference": "https://developer.box.com/guides/box-mcp",
     "tag": [
+      "mcp",
       "cloud-storage",
       "content",
       "search"
@@ -4689,6 +4734,7 @@
     "id": "mcp/canva",
     "reference": "https://www.canva.dev/docs/connect/canva-mcp-server-setup/",
     "tag": [
+      "mcp",
       "design",
       "graphics",
       "templates"
@@ -4708,6 +4754,7 @@
     "id": "mcp/cdata-connect-ai",
     "reference": "https://cloud.cdata.com/docs/Claude-Client.html",
     "tag": [
+      "mcp",
       "data-integration",
       "sources",
       "platform"
@@ -4727,6 +4774,7 @@
     "id": "mcp/pubmed",
     "reference": "https://support.claude.com/en/",
     "tag": [
+      "mcp",
       "research",
       "biomedical",
       "literature"
@@ -4746,6 +4794,7 @@
     "id": "mcp/clay",
     "reference": "https://www.notion.so/clayrun/Clay-Claude-MCP-Server-Documentation-2ef7e66eb01480c9820de48041591aeb?showMoveTo=true&saveParent=true",
     "tag": [
+      "mcp",
       "prospecting",
       "research",
       "outreach"
@@ -4765,6 +4814,7 @@
     "id": "mcp/clickup",
     "reference": "https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP",
     "tag": [
+      "mcp",
       "project-management",
       "collaboration",
       "teams"
@@ -4784,6 +4834,7 @@
     "id": "mcp/cloudflare",
     "reference": "https://www.support.cloudflare.com/",
     "tag": [
+      "mcp",
       "cloudflare",
       "compute",
       "storage",
@@ -4804,6 +4855,7 @@
     "id": "mcp/cloudinary",
     "reference": "https://cloudinary.com/documentation/cloudinary_llm_mcp#available_mcp_servers",
     "tag": [
+      "mcp",
       "media",
       "images",
       "videos",
@@ -4824,6 +4876,7 @@
     "id": "mcp/crossbeam",
     "reference": "https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-beta",
     "tag": [
+      "mcp",
       "partner-data",
       "ecosystem",
       "insights"
@@ -4843,6 +4896,7 @@
     "id": "mcp/crypto-com",
     "reference": "https://mcp.crypto.com/docs",
     "tag": [
+      "mcp",
       "cryptocurrency",
       "trading",
       "market-data"
@@ -4862,6 +4916,7 @@
     "id": "mcp/egnyte",
     "reference": "https://developers.egnyte.com/docs/Remote_MCP_Server",
     "tag": [
+      "mcp",
       "cloud-storage",
       "content",
       "security"
@@ -4881,6 +4936,7 @@
     "id": "mcp/figma",
     "reference": "https://help.figma.com/hc/en-us/articles/32132100833559",
     "tag": [
+      "mcp",
       "design",
       "diagrams",
       "code-generation"
@@ -4900,6 +4956,7 @@
     "id": "mcp/clockwise",
     "reference": "https://support.getclockwise.com/article/238-connecting-to-clockwise-mcp",
     "tag": [
+      "mcp",
       "scheduling",
       "time-management",
       "productivity"
@@ -4919,6 +4976,7 @@
     "id": "mcp/guru",
     "reference": "https://help.getguru.com/docs/connecting-gurus-mcp-server",
     "tag": [
+      "mcp",
       "knowledge-management",
       "company-knowledge",
       "search"
@@ -4938,6 +4996,7 @@
     "id": "mcp/godaddy",
     "reference": "https://developer.godaddy.com/mcp",
     "tag": [
+      "mcp",
       "domains",
       "dns",
       "hosting"
@@ -4957,6 +5016,7 @@
     "id": "mcp/medidata",
     "reference": "https://learn.medidata.com/en-US/bundle/mcp-server-documentation/page/medidata_mcp_server_documentation.html",
     "tag": [
+      "mcp",
       "clinical-trials",
       "medical",
       "research"
@@ -4976,6 +5036,7 @@
     "id": "mcp/intercom",
     "reference": "https://developers.intercom.com/docs/guides/mcp",
     "tag": [
+      "mcp",
       "customer-support",
       "messaging",
       "insights"
@@ -4995,6 +5056,7 @@
     "id": "mcp/jotform",
     "reference": "https://www.jotform.com/developers/mcp/",
     "tag": [
+      "mcp",
       "forms",
       "surveys",
       "data-collection"
@@ -5014,6 +5076,7 @@
     "id": "mcp/playmcp",
     "reference": "https://www.notion.so/2189b97b4888803dbbdcef264e7eff58",
     "tag": [
+      "mcp",
       "gaming",
       "entertainment",
       "tools"
@@ -5033,6 +5096,7 @@
     "id": "mcp/klaviyo",
     "reference": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server",
     "tag": [
+      "mcp",
       "email-marketing",
       "analytics",
       "automation"
@@ -5052,6 +5116,7 @@
     "id": "mcp/lastminute-com",
     "reference": "http://mcp.lastminute.com/docs",
     "tag": [
+      "mcp",
       "travel",
       "flights",
       "booking"
@@ -5071,6 +5136,7 @@
     "id": "mcp/melon",
     "reference": "https://tech.kakaoent.com/ai/using-melon-mcp-server-en/",
     "tag": [
+      "mcp",
       "music",
       "streaming",
       "charts"
@@ -5090,6 +5156,7 @@
     "id": "mcp/mercury",
     "reference": "https://docs.mercury.com/docs/connecting-mercury-mcp",
     "tag": [
+      "mcp",
       "finance",
       "banking",
       "analytics"
@@ -5109,6 +5176,7 @@
     "id": "mcp/monday",
     "reference": "https://developer.monday.com/apps/docs/mondaycom-mcp-integration",
     "tag": [
+      "mcp",
       "project-management",
       "boards",
       "workflows"
@@ -5128,6 +5196,7 @@
     "id": "mcp/motherduck",
     "reference": "https://motherduck.com/docs/sql-reference/mcp/",
     "tag": [
+      "mcp",
       "database",
       "analytics",
       "sql"
@@ -5147,6 +5216,7 @@
     "id": "mcp/notion",
     "reference": "https://developers.notion.com/docs/mcp",
     "tag": [
+      "mcp",
       "productivity",
       "workspace",
       "collaboration"
@@ -5166,6 +5236,7 @@
     "id": "mcp/owkin",
     "reference": "https://docs.owkin.com/mcp-tools-documentation/introduction",
     "tag": [
+      "mcp",
       "biology",
       "ai-agents",
       "research"
@@ -5185,6 +5256,7 @@
     "id": "mcp/paypal",
     "reference": "https://mcp.paypal.com/",
     "tag": [
+      "mcp",
       "payments",
       "finance",
       "platform"
@@ -5204,6 +5276,7 @@
     "id": "mcp/ramp",
     "reference": "https://docs.ramp.com/developer-api/v1/guides/ramp-mcp-remote",
     "tag": [
+      "mcp",
       "finance",
       "expense-management",
       "analytics"
@@ -5223,6 +5296,7 @@
     "id": "mcp/similarweb",
     "reference": "https://docs.similarweb.com/api-v5/mcp/mcp-setup",
     "tag": [
+      "mcp",
       "web-analytics",
       "market-data",
       "insights"
@@ -5242,6 +5316,7 @@
     "id": "mcp/slack",
     "reference": "https://docs.slack.dev/ai/mcp-server",
     "tag": [
+      "mcp",
       "messaging",
       "collaboration",
       "data"
@@ -5261,6 +5336,7 @@
     "id": "mcp/square",
     "reference": "https://developer.squareup.com/docs/mcp",
     "tag": [
+      "mcp",
       "payments",
       "transactions",
       "merchant"
@@ -5280,6 +5356,7 @@
     "id": "mcp/stripe",
     "reference": "https://docs.stripe.com/mcp",
     "tag": [
+      "mcp",
       "payments",
       "finance",
       "infrastructure"
@@ -5299,6 +5376,7 @@
     "id": "mcp/trivago",
     "reference": "https://mcp.trivago.com/docs",
     "tag": [
+      "mcp",
       "travel",
       "hotels",
       "booking"
@@ -5318,6 +5396,7 @@
     "id": "mcp/udemy-business",
     "reference": "https://business-support.udemy.com/hc/en-us/articles/34213384429335-How-to-Integrate-the-Udemy-Business-MCP-Server-With-Your-AI-Tool#h_01K9CA42YGCV1AVXPY1RKABKP1",
     "tag": [
+      "mcp",
       "education",
       "learning",
       "skills"
@@ -5337,6 +5416,7 @@
     "id": "mcp/webflow",
     "reference": "https://developers.webflow.com/mcp/v1.0.0/reference/overview",
     "tag": [
+      "mcp",
       "web-design",
       "cms",
       "sites"
@@ -5356,6 +5436,7 @@
     "id": "mcp/wix",
     "reference": "https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp",
     "tag": [
+      "mcp",
       "web-design",
       "sites",
       "apps"
@@ -5375,6 +5456,7 @@
     "id": "mcp/wordpress-com",
     "reference": "https://developer.wordpress.com/docs/mcp/",
     "tag": [
+      "mcp",
       "wordpress",
       "sites",
       "management"
@@ -5394,6 +5476,7 @@
     "id": "mcp/zoominfo",
     "reference": "https://docs.zoominfo.com/docs/zi-api-mcp-overview/",
     "tag": [
+      "mcp",
       "contacts",
       "accounts",
       "intelligence"
@@ -5413,6 +5496,7 @@
     "id": "mcp/jam",
     "reference": "https://jam.dev/docs/debug-a-jam/mcp",
     "tag": [
+      "mcp",
       "debugging",
       "screen-recording",
       "issues"
@@ -5432,6 +5516,7 @@
     "id": "mcp/sentry",
     "reference": "https://docs.sentry.io/product/sentry-mcp/",
     "tag": [
+      "mcp",
       "error-tracking",
       "debugging",
       "monitoring"
@@ -5451,6 +5536,7 @@
     "id": "mcp/coupler",
     "reference": "https://help.coupler.io/article/592-coupler-local-mcp-server",
     "tag": [
+      "mcp",
       "data-integration",
       "business-data",
       "sources"
@@ -5470,6 +5556,7 @@
     "id": "mcp/dice",
     "reference": "https://www.dice.com/about/mcp",
     "tag": [
+      "mcp",
       "jobs",
       "tech-jobs",
       "recruitment"
@@ -5489,6 +5576,7 @@
     "id": "mcp/honeycomb",
     "reference": "https://docs.honeycomb.io/troubleshoot/product-lifecycle/beta/mcp/",
     "tag": [
+      "mcp",
       "observability",
       "monitoring",
       "slos"
@@ -5508,6 +5596,7 @@
     "id": "mcp/port-io",
     "reference": "https://docs.port.io/ai-interfaces/port-mcp-server/overview-and-installation",
     "tag": [
+      "mcp",
       "context-lake",
       "search",
       "actions"
@@ -5527,6 +5616,7 @@
     "id": "mcp/candid",
     "reference": "https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude",
     "tag": [
+      "mcp",
       "nonprofits",
       "funders",
       "research"
@@ -5546,6 +5636,7 @@
     "id": "mcp/open-targets",
     "reference": "https://github.com/opentargets/open-targets-platform-mcp",
     "tag": [
+      "mcp",
       "drug-discovery",
       "targets",
       "platform"
@@ -5565,6 +5656,7 @@
     "id": "mcp/synapse-org",
     "reference": "https://github.com/susheel/synapse-mcp?tab=readme-ov-file#synapse-mcp-server",
     "tag": [
+      "mcp",
       "scientific-data",
       "search",
       "metadata"
@@ -5584,6 +5676,7 @@
     "id": "mcp/chronograph",
     "reference": "https://lp-help.chronograph.pe/article/735-chronograph-mcp",
     "tag": [
+      "mcp",
       "data",
       "analytics",
       "chronograph"

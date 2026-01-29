@@ -3,6 +3,7 @@
   url: https://mcp.context7.com/mcp
   reference: https://github.com/upstash/context7
   tag:
+    - mcp
     - code-documentation
     - llm
     - ai-tools
@@ -26,6 +27,7 @@
   url: https://api.githubcopilot.com/mcp/
   reference: https://github.com/github/github-mcp-server
   tag:
+    - mcp
     - github
     - version-control
     - development
@@ -49,6 +51,7 @@
   url: https://github.com/firecrawl/firecrawl-mcp-server
   reference: https://github.com/firecrawl/firecrawl-mcp-server
   tag:
+    - mcp
     - web-scraping
     - crawling
     - data-extraction
@@ -72,6 +75,7 @@
   url: https://mcp.supabase.com/mcp
   reference: https://supabase.com/docs/guides/getting-started/mcp
   tag:
+    - mcp
     - database
     - backend
     - postgresql
@@ -94,6 +98,7 @@
   url: https://github.com/doobidoo/mcp-memory-service
   reference: https://github.com/doobidoo/mcp-memory-service
   tag:
+    - mcp
     - memory
     - persistence
     - storage
@@ -115,6 +120,7 @@
   url: https://github.com/modelcontextprotocol/servers
   reference: https://github.com/modelcontextprotocol/servers
   tag:
+    - mcp
     - reasoning
     - chain-of-thought
     - thinking
@@ -136,6 +142,7 @@
   url: https://mcp.vercel.com
   reference: https://vercel.com/
   tag:
+    - mcp
     - deployment
     - hosting
     - serverless
@@ -154,6 +161,7 @@
   url: https://docs.railway.com/reference/mcp-server
   reference: https://docs.railway.com/reference/mcp-server
   tag:
+    - mcp
     - deployment
     - hosting
     - infrastructure
@@ -175,6 +183,7 @@
   url: https://docs.mcp.cloudflare.com/mcp
   reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
   tag:
+    - mcp
     - documentation
     - cloudflare
     - search
@@ -193,6 +202,7 @@
   url: https://builds.mcp.cloudflare.com/mcp
   reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
   tag:
+    - mcp
     - cloudflare
     - workers
     - builds
@@ -211,6 +221,7 @@
   url: https://bindings.mcp.cloudflare.com/mcp
   reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
   tag:
+    - mcp
     - cloudflare
     - workers
     - bindings
@@ -229,6 +240,7 @@
   url: https://observability.mcp.cloudflare.com/mcp
   reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
   tag:
+    - mcp
     - cloudflare
     - observability
     - logs
@@ -248,6 +260,7 @@
   url: https://mcp.clickhouse.cloud/mcp
   reference: https://clickhouse.com/
   tag:
+    - mcp
     - database
     - analytics
     - queries
@@ -266,6 +279,7 @@
   url: github.com/magicuidesign/mcp
   reference: github.com/magicuidesign/mcp
   tag:
+    - mcp
     - ui-components
     - design
     - frontend
@@ -287,6 +301,7 @@
   url: github.com/modelcontextprotocol/servers
   reference: github.com/modelcontextprotocol/servers
   tag:
+    - mcp
     - filesystem
     - file-operations
     - local-files
@@ -310,6 +325,7 @@
   url: https://app.circleback.ai/api/mcp
   reference: https://support.circleback.ai/en/articles/13249081-circleback-mcp
   tag:
+    - mcp
     - productivity
     - meetings
     - notes
@@ -328,6 +344,7 @@
   url: https://mcp.gamma.app/mcp
   reference: https://gamma.app/docs/Gamma-MCP-Server-Documentation-m6p43kobgzy15zj?mode=doc
   tag:
+    - mcp
     - presentations
     - documents
     - social-media
@@ -346,6 +363,7 @@
   url: https://day.ai/api/mcp
   reference: https://day.ai/mcp
   tag:
+    - mcp
     - crm
     - analytics
     - business
@@ -362,6 +380,7 @@
   url: https://mcp.deepsense.ai/biorxiv/mcp
   reference: https://docs.mcp.deepsense.ai/guides/biorxiv.html
   tag:
+    - mcp
     - research
     - biomedical
     - preprints
@@ -378,6 +397,7 @@
   url: https://mcp.deepsense.ai/chembl/mcp
   reference: https://docs.mcp.deepsense.ai/guides/chembl.html
   tag:
+    - mcp
     - chemistry
     - database
     - research
@@ -394,6 +414,7 @@
   url: https://mcp.deepsense.ai/clinical_trials/mcp
   reference: https://docs.mcp.deepsense.ai/guides/clinical_trials.html
   tag:
+    - mcp
     - medical
     - clinical-trials
     - research
@@ -410,6 +431,7 @@
   url: https://mcp.deepsense.ai/cms_coverage/mcp
   reference: https://docs.mcp.deepsense.ai/guides/cms_coverage.html
   tag:
+    - mcp
     - healthcare
     - cms
     - coverage
@@ -426,6 +448,7 @@
   url: https://mcp.deepsense.ai/icd10_codes/mcp
   reference: https://docs.mcp.deepsense.ai/guides/icd10_codes.html
   tag:
+    - mcp
     - medical
     - coding
     - icd-10
@@ -442,6 +465,7 @@
   url: https://mcp.deepsense.ai/npi_registry/mcp
   reference: https://docs.mcp.deepsense.ai/guides/npi_registry.html
   tag:
+    - mcp
     - healthcare
     - provider
     - registry
@@ -458,6 +482,7 @@
   url: https://api.devrev.ai/mcp/v1
   reference: https://support.devrev.ai/en-US/devrev/article/ART-21859-remote-mcp-server
   tag:
+    - mcp
     - knowledge-graph
     - company
     - search
@@ -474,6 +499,7 @@
   url: https://mcp.api.harmonic.ai
   reference: https://support.harmonic.ai/en/articles/12785899-harmonic-mcp-server-getting-started-guide
   tag:
+    - mcp
     - research
     - companies
     - people
@@ -490,6 +516,7 @@
   url: https://lunarcrush.ai/mcp
   reference: https://lunarcrush.com/developers/api/ai
   tag:
+    - mcp
     - social-media
     - data
     - analytics
@@ -506,6 +533,7 @@
   url: https://connector.scholargateway.ai/mcp
   reference: https://docs.scholargateway.ai/
   tag:
+    - mcp
     - research
     - scholarly
     - citations
@@ -522,6 +550,7 @@
   url: https://mcp.tickettailor.ai/mcp
   reference: https://help.tickettailor.com/en/articles/11892797-how-to-connect-ticket-tailor-to-your-favourite-ai-agent
   tag:
+    - mcp
     - events
     - tickets
     - management
@@ -538,6 +567,7 @@
   url: https://vibeprospecting.explorium.ai/mcp
   reference: https://developers.explorium.ai/mcp-docs/agentsource-mcp
   tag:
+    - mcp
     - prospecting
     - company-data
     - contacts
@@ -554,6 +584,7 @@
   url: https://mcp.windsor.ai
   reference: https://windsor.ai/introducing-windsor-mcp/#method-1-using-claude-desktop-3
   tag:
+    - mcp
     - marketing
     - analytics
     - crm
@@ -570,6 +601,7 @@
   url: https://mcp.linear.app/mcp
   reference: https://linear.app/docs/mcp
   tag:
+    - mcp
     - project-management
     - issues
     - workflows
@@ -586,6 +618,7 @@
   url: https://netlify-mcp.netlify.app/mcp
   reference: https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/
   tag:
+    - mcp
     - deployment
     - hosting
     - websites
@@ -602,6 +635,7 @@
   url: https://marketplace-mcp.us-east-1.api.aws/mcp
   reference: https://docs.aws.amazon.com/marketplace/latest/APIReference/marketplace-mcp-server.html
   tag:
+    - mcp
     - aws
     - marketplace
     - cloud
@@ -618,6 +652,7 @@
   url: https://huggingface.co/mcp
   reference: https://huggingface.co/settings/mcp
   tag:
+    - mcp
     - ai
     - models
     - gradio
@@ -634,6 +669,7 @@
   url: https://api.ahrefs.com/mcp/mcp
   reference: https://docs.ahrefs.com/docs/mcp/reference/introduction
   tag:
+    - mcp
     - seo
     - analytics
     - search
@@ -650,6 +686,7 @@
   url: https://app.airops.com/mcp
   reference: https://docs.airops.com/mcp
   tag:
+    - mcp
     - content
     - ai-search
     - marketing
@@ -666,6 +703,7 @@
   url: https://mcp.amplitude.com/mcp
   reference: https://amplitude.com/docs/analytics/amplitude-mcp
   tag:
+    - mcp
     - analytics
     - data
     - insights
@@ -682,6 +720,7 @@
   url: https://mcp.asana.com/v2/mcp
   reference: https://developers.asana.com/docs/mcp-server
   tag:
+    - mcp
     - project-management
     - tasks
     - collaboration
@@ -698,6 +737,7 @@
   url: https://mcp.atlassian.com/v1/mcp
   reference: https://community.atlassian.com/forums/Atlassian-Platform-articles/Using-the-Atlassian-Remote-MCP-Server-beta/ba-p/3005104
   tag:
+    - mcp
     - jira
     - confluence
     - project-management
@@ -714,6 +754,7 @@
   url: https://mcp.auraintelligence.com/mcp
   reference: https://docs.getaura.ai/
   tag:
+    - mcp
     - company-intelligence
     - workforce-analytics
     - business
@@ -730,6 +771,7 @@
   url: https://mcp.services.biorender.com/mcp
   reference: https://help.biorender.com/hc/en-gb/articles/30870978672157-How-to-use-the-BioRender-MCP-connector
   tag:
+    - mcp
     - scientific
     - templates
     - icons
@@ -746,6 +788,7 @@
   url: https://api-ssl.bitly.com/v4/mcp
   reference: https://dev.bitly.com/bitly-mcp/
   tag:
+    - mcp
     - url-shortening
     - qr-codes
     - analytics
@@ -762,6 +805,7 @@
   url: https://mcp.blockscout.com/mcp/
   reference: https://github.com/blockscout/mcp-server
   tag:
+    - mcp
     - blockchain
     - data
     - analytics
@@ -778,6 +822,7 @@
   url: https://mcp.box.com
   reference: https://developer.box.com/guides/box-mcp
   tag:
+    - mcp
     - cloud-storage
     - content
     - search
@@ -794,6 +839,7 @@
   url: https://mcp.canva.com/mcp
   reference: https://www.canva.dev/docs/connect/canva-mcp-server-setup/
   tag:
+    - mcp
     - design
     - graphics
     - templates
@@ -810,6 +856,7 @@
   url: https://mcp.cloud.cdata.com/mcp
   reference: https://cloud.cdata.com/docs/Claude-Client.html
   tag:
+    - mcp
     - data-integration
     - sources
     - platform
@@ -826,6 +873,7 @@
   url: https://pubmed.mcp.claude.com/mcp
   reference: https://support.claude.com/en/
   tag:
+    - mcp
     - research
     - biomedical
     - literature
@@ -842,6 +890,7 @@
   url: https://api.clay.com/v3/mcp
   reference: https://www.notion.so/clayrun/Clay-Claude-MCP-Server-Documentation-2ef7e66eb01480c9820de48041591aeb?showMoveTo=true&saveParent=true
   tag:
+    - mcp
     - prospecting
     - research
     - outreach
@@ -858,6 +907,7 @@
   url: https://mcp.clickup.com/mcp
   reference: https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP
   tag:
+    - mcp
     - project-management
     - collaboration
     - teams
@@ -874,6 +924,7 @@
   url: https://bindings.mcp.cloudflare.com/mcp
   reference: https://www.support.cloudflare.com/
   tag:
+    - mcp
     - cloudflare
     - compute
     - storage
@@ -891,6 +942,7 @@
   url: https://asset-management.mcp.cloudinary.com/sse
   reference: https://cloudinary.com/documentation/cloudinary_llm_mcp#available_mcp_servers
   tag:
+    - mcp
     - media
     - images
     - videos
@@ -908,6 +960,7 @@
   url: https://mcp.crossbeam.com
   reference: https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-beta
   tag:
+    - mcp
     - partner-data
     - ecosystem
     - insights
@@ -924,6 +977,7 @@
   url: https://mcp.crypto.com/market-data/mcp
   reference: https://mcp.crypto.com/docs
   tag:
+    - mcp
     - cryptocurrency
     - trading
     - market-data
@@ -940,6 +994,7 @@
   url: https://mcp-server.egnyte.com/mcp
   reference: https://developers.egnyte.com/docs/Remote_MCP_Server
   tag:
+    - mcp
     - cloud-storage
     - content
     - security
@@ -956,6 +1011,7 @@
   url: https://mcp.figma.com/mcp
   reference: https://help.figma.com/hc/en-us/articles/32132100833559
   tag:
+    - mcp
     - design
     - diagrams
     - code-generation
@@ -972,6 +1028,7 @@
   url: https://mcp.getclockwise.com/mcp
   reference: https://support.getclockwise.com/article/238-connecting-to-clockwise-mcp
   tag:
+    - mcp
     - scheduling
     - time-management
     - productivity
@@ -988,6 +1045,7 @@
   url: https://mcp.api.getguru.com/mcp
   reference: https://help.getguru.com/docs/connecting-gurus-mcp-server
   tag:
+    - mcp
     - knowledge-management
     - company-knowledge
     - search
@@ -1004,6 +1062,7 @@
   url: https://api.godaddy.com/v1/domains/mcp
   reference: https://developer.godaddy.com/mcp
   tag:
+    - mcp
     - domains
     - dns
     - hosting
@@ -1020,6 +1079,7 @@
   url: https://mcp.imedidata.com/mcp
   reference: https://learn.medidata.com/en-US/bundle/mcp-server-documentation/page/medidata_mcp_server_documentation.html
   tag:
+    - mcp
     - clinical-trials
     - medical
     - research
@@ -1036,6 +1096,7 @@
   url: https://mcp.intercom.com/mcp
   reference: https://developers.intercom.com/docs/guides/mcp
   tag:
+    - mcp
     - customer-support
     - messaging
     - insights
@@ -1052,6 +1113,7 @@
   url: https://mcp.jotform.com/
   reference: https://www.jotform.com/developers/mcp/
   tag:
+    - mcp
     - forms
     - surveys
     - data-collection
@@ -1068,6 +1130,7 @@
   url: https://playmcp.kakao.com/mcp
   reference: https://www.notion.so/2189b97b4888803dbbdcef264e7eff58
   tag:
+    - mcp
     - gaming
     - entertainment
     - tools
@@ -1084,6 +1147,7 @@
   url: https://mcp.klaviyo.com/mcp
   reference: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
   tag:
+    - mcp
     - email-marketing
     - analytics
     - automation
@@ -1100,6 +1164,7 @@
   url: https://mcp.lastminute.com/mcp
   reference: http://mcp.lastminute.com/docs
   tag:
+    - mcp
     - travel
     - flights
     - booking
@@ -1116,6 +1181,7 @@
   url: https://mcp.melon.com/mcp/
   reference: https://tech.kakaoent.com/ai/using-melon-mcp-server-en/
   tag:
+    - mcp
     - music
     - streaming
     - charts
@@ -1132,6 +1198,7 @@
   url: https://mcp.mercury.com/mcp
   reference: https://docs.mercury.com/docs/connecting-mercury-mcp
   tag:
+    - mcp
     - finance
     - banking
     - analytics
@@ -1148,6 +1215,7 @@
   url: https://mcp.monday.com/mcp
   reference: https://developer.monday.com/apps/docs/mondaycom-mcp-integration
   tag:
+    - mcp
     - project-management
     - boards
     - workflows
@@ -1164,6 +1232,7 @@
   url: https://api.motherduck.com/mcp
   reference: https://motherduck.com/docs/sql-reference/mcp/
   tag:
+    - mcp
     - database
     - analytics
     - sql
@@ -1180,6 +1249,7 @@
   url: https://mcp.notion.com/mcp
   reference: https://developers.notion.com/docs/mcp
   tag:
+    - mcp
     - productivity
     - workspace
     - collaboration
@@ -1196,6 +1266,7 @@
   url: https://mcp.k.owkin.com/mcp
   reference: https://docs.owkin.com/mcp-tools-documentation/introduction
   tag:
+    - mcp
     - biology
     - ai-agents
     - research
@@ -1212,6 +1283,7 @@
   url: https://mcp.paypal.com/mcp
   reference: https://mcp.paypal.com/
   tag:
+    - mcp
     - payments
     - finance
     - platform
@@ -1228,6 +1300,7 @@
   url: https://ramp-mcp-remote.ramp.com/mcp
   reference: https://docs.ramp.com/developer-api/v1/guides/ramp-mcp-remote
   tag:
+    - mcp
     - finance
     - expense-management
     - analytics
@@ -1244,6 +1317,7 @@
   url: https://mcp.similarweb.com
   reference: https://docs.similarweb.com/api-v5/mcp/mcp-setup
   tag:
+    - mcp
     - web-analytics
     - market-data
     - insights
@@ -1260,6 +1334,7 @@
   url: https://mcp.slack.com/mcp
   reference: https://docs.slack.dev/ai/mcp-server
   tag:
+    - mcp
     - messaging
     - collaboration
     - data
@@ -1276,6 +1351,7 @@
   url: https://mcp.squareup.com/sse
   reference: https://developer.squareup.com/docs/mcp
   tag:
+    - mcp
     - payments
     - transactions
     - merchant
@@ -1292,6 +1368,7 @@
   url: https://mcp.stripe.com
   reference: https://docs.stripe.com/mcp
   tag:
+    - mcp
     - payments
     - finance
     - infrastructure
@@ -1308,6 +1385,7 @@
   url: https://mcp.trivago.com/mcp
   reference: https://mcp.trivago.com/docs
   tag:
+    - mcp
     - travel
     - hotels
     - booking
@@ -1324,6 +1402,7 @@
   url: https://api.udemy.com/mcp
   reference: https://business-support.udemy.com/hc/en-us/articles/34213384429335-How-to-Integrate-the-Udemy-Business-MCP-Server-With-Your-AI-Tool#h_01K9CA42YGCV1AVXPY1RKABKP1
   tag:
+    - mcp
     - education
     - learning
     - skills
@@ -1340,6 +1419,7 @@
   url: https://mcp.webflow.com/mcp
   reference: https://developers.webflow.com/mcp/v1.0.0/reference/overview
   tag:
+    - mcp
     - web-design
     - cms
     - sites
@@ -1356,6 +1436,7 @@
   url: https://mcp.wix.com/mcp
   reference: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
   tag:
+    - mcp
     - web-design
     - sites
     - apps
@@ -1372,6 +1453,7 @@
   url: https://public-api.wordpress.com/wpcom/v2/mcp/v1
   reference: https://developer.wordpress.com/docs/mcp/
   tag:
+    - mcp
     - wordpress
     - sites
     - management
@@ -1388,6 +1470,7 @@
   url: https://mcp.zoominfo.com/mcp
   reference: https://docs.zoominfo.com/docs/zi-api-mcp-overview/
   tag:
+    - mcp
     - contacts
     - accounts
     - intelligence
@@ -1404,6 +1487,7 @@
   url: https://mcp.jam.dev/mcp
   reference: https://jam.dev/docs/debug-a-jam/mcp
   tag:
+    - mcp
     - debugging
     - screen-recording
     - issues
@@ -1420,6 +1504,7 @@
   url: https://mcp.sentry.dev/mcp
   reference: https://docs.sentry.io/product/sentry-mcp/
   tag:
+    - mcp
     - error-tracking
     - debugging
     - monitoring
@@ -1436,6 +1521,7 @@
   url: https://mcp.coupler.io/mcp
   reference: https://help.coupler.io/article/592-coupler-local-mcp-server
   tag:
+    - mcp
     - data-integration
     - business-data
     - sources
@@ -1452,6 +1538,7 @@
   url: https://mcp.dice.com/mcp
   reference: https://www.dice.com/about/mcp
   tag:
+    - mcp
     - jobs
     - tech-jobs
     - recruitment
@@ -1468,6 +1555,7 @@
   url: https://mcp.honeycomb.io/mcp
   reference: https://docs.honeycomb.io/troubleshoot/product-lifecycle/beta/mcp/
   tag:
+    - mcp
     - observability
     - monitoring
     - slos
@@ -1484,6 +1572,7 @@
   url: https://mcp.port.io/v1
   reference: https://docs.port.io/ai-interfaces/port-mcp-server/overview-and-installation
   tag:
+    - mcp
     - context-lake
     - search
     - actions
@@ -1500,6 +1589,7 @@
   url: https://mcp.candid.org/mcp
   reference: https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude
   tag:
+    - mcp
     - nonprofits
     - funders
     - research
@@ -1516,6 +1606,7 @@
   url: https://mcp.platform.opentargets.org/mcp
   reference: https://github.com/opentargets/open-targets-platform-mcp
   tag:
+    - mcp
     - drug-discovery
     - targets
     - platform
@@ -1532,6 +1623,7 @@
   url: https://mcp.synapse.org/mcp
   reference: https://github.com/susheel/synapse-mcp?tab=readme-ov-file#synapse-mcp-server
   tag:
+    - mcp
     - scientific-data
     - search
     - metadata
@@ -1548,6 +1640,7 @@
   url: https://ai.chronograph.pe/mcp
   reference: https://lp-help.chronograph.pe/article/735-chronograph-mcp
   tag:
+    - mcp
     - data
     - analytics
     - chronograph
