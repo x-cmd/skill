@@ -14,29 +14,298 @@
   avatar: https://avatars.githubusercontent.com/u/74989412
   path: /
   installation:
-    claude:
-      http: 'x claude mcp add --header "CONTEXT7_API_KEY: YOUR_API_KEY" --transport http context7 https://mcp.context7.com/mcp'
-      stdio: x claude mcp add context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY
+    http:
+      url: https://mcp.context7.com/mcp
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@upstash/context7-mcp'
 
-# Popular MCP servers: https://code.claude.com/docs/en/mcp#popular-mcp-servers
-- id: mcp/gamma
-  url: https://mcp.gamma.app/mcp
-  reference: https://gamma.app/docs/Gamma-MCP-Server-Documentation-m6p43kobgzy15zj?mode=doc
+- id: mcp/github
+  url: https://api.githubcopilot.com/mcp/
+  reference: https://github.com/github/github-mcp-server
   tag:
-    - presentations
-    - documents
-    - social-media
-    - ai-design
+    - github
+    - version-control
+    - development
+    - mcp-server
   license: null
-  name: gamma
-  description: Create presentations, docs, socials, and sites with AI
-  author: gama
-  avatar: https://cdn.gamma.app/zc87vhr30n8uf3n/0f029c68490148cc931e4be6670d7afb/optimized/Gamma_Symbol_DeepOcean-Sky.svg
+  name: github
+  description: GitHub operations - PRs, issues, repos
+  author: Model Context Protocol
+  avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
   installation:
-    claude:
-      http: x claude mcp add gamma --transport http https://mcp.gamma.app/mcp
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@modelcontextprotocol/server-github'
+      env:
+        GITHUB_PERSONAL_ACCESS_TOKEN: YOUR_GITHUB_PAT_HERE
 
+- id: mcp/firecrawl
+  url: https://github.com/firecrawl/firecrawl-mcp-server
+  reference: https://github.com/firecrawl/firecrawl-mcp-server
+  tag:
+    - web-scraping
+    - crawling
+    - data-extraction
+    - mcp-server
+  license: null
+  name: firecrawl
+  description: Web scraping and crawling
+  author: Firecrawl
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - 'firecrawl-mcp'
+      env:
+        FIRECRAWL_API_KEY: YOUR_FIRECRAWL_KEY_HERE
+
+- id: mcp/supabase
+  url: https://mcp.supabase.com/mcp
+  reference: https://supabase.com/docs/guides/getting-started/mcp
+  tag:
+    - database
+    - backend
+    - postgresql
+    - mcp-server
+  license: null
+  name: supabase
+  description: Supabase database operations
+  author: Supabase
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@supabase/mcp-server-supabase@latest'
+        - '--project-ref=YOUR_PROJECT_REF'
+
+- id: mcp/memory
+  url: https://github.com/doobidoo/mcp-memory-service
+  reference: https://github.com/doobidoo/mcp-memory-service
+  tag:
+    - memory
+    - persistence
+    - storage
+    - mcp-server
+  license: null
+  name: memory
+  description: Persistent memory across sessions
+  author: Model Context Protocol
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@modelcontextprotocol/server-memory'
+
+- id: mcp/sequential-thinking
+  url: https://github.com/modelcontextprotocol/servers
+  reference: https://github.com/modelcontextprotocol/servers
+  tag:
+    - reasoning
+    - chain-of-thought
+    - thinking
+    - mcp-server
+  license: null
+  name: sequential-thinking
+  description: Chain-of-thought reasoning
+  author: Model Context Protocol
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@modelcontextprotocol/server-sequential-thinking'
+
+- id: mcp/vercel
+  url: https://mcp.vercel.com
+  reference: https://vercel.com/
+  tag:
+    - deployment
+    - hosting
+    - serverless
+    - mcp-server
+  license: null
+  name: vercel
+  description: Vercel deployments and projects
+  author: Vercel
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://mcp.vercel.com
+
+- id: mcp/railway
+  url: https://docs.railway.com/reference/mcp-server
+  reference: https://docs.railway.com/reference/mcp-server
+  tag:
+    - deployment
+    - hosting
+    - infrastructure
+    - mcp-server
+  license: null
+  name: railway
+  description: Railway deployments
+  author: Railway
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@railway/mcp-server'
+
+- id: mcp/cloudflare-docs
+  url: https://docs.mcp.cloudflare.com/mcp
+  reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
+  tag:
+    - documentation
+    - cloudflare
+    - search
+    - mcp-server
+  license: null
+  name: cloudflare-docs
+  description: Cloudflare documentation search
+  author: Cloudflare
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://docs.mcp.cloudflare.com/mcp
+
+- id: mcp/cloudflare-workers-builds
+  url: https://builds.mcp.cloudflare.com/mcp
+  reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
+  tag:
+    - cloudflare
+    - workers
+    - builds
+    - mcp-server
+  license: null
+  name: cloudflare-workers-builds
+  description: Cloudflare Workers builds
+  author: Cloudflare
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://builds.mcp.cloudflare.com/mcp
+
+- id: mcp/cloudflare-workers-bindings
+  url: https://bindings.mcp.cloudflare.com/mcp
+  reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
+  tag:
+    - cloudflare
+    - workers
+    - bindings
+    - mcp-server
+  license: null
+  name: cloudflare-workers-bindings
+  description: Cloudflare Workers bindings
+  author: Cloudflare
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://bindings.mcp.cloudflare.com/mcp
+
+- id: mcp/cloudflare-observability
+  url: https://observability.mcp.cloudflare.com/mcp
+  reference: https://developers.cloudflare.com/agents/model-context-protocol/mcp-servers-for-cloudflare/
+  tag:
+    - cloudflare
+    - observability
+    - logs
+    - monitoring
+    - mcp-server
+  license: null
+  name: cloudflare-observability
+  description: Cloudflare observability/logs
+  author: Cloudflare
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://observability.mcp.cloudflare.com/mcp
+
+- id: mcp/clickhouse
+  url: https://mcp.clickhouse.cloud/mcp
+  reference: https://clickhouse.com/
+  tag:
+    - database
+    - analytics
+    - queries
+    - mcp-server
+  license: null
+  name: clickhouse
+  description: ClickHouse analytics queries
+  author: ClickHouse
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    http:
+      url: https://mcp.clickhouse.cloud/mcp
+
+- id: mcp/magic
+  url: github.com/magicuidesign/mcp
+  reference: github.com/magicuidesign/mcp
+  tag:
+    - ui-components
+    - design
+    - frontend
+    - mcp-server
+  license: null
+  name: magic
+  description: Magic UI components
+  author: magicuidesign
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@magicuidesign/mcp@latest'
+
+- id: mcp/filesystem
+  url: github.com/modelcontextprotocol/servers
+  reference: github.com/modelcontextprotocol/servers
+  tag:
+    - filesystem
+    - file-operations
+    - local-files
+    - mcp-server
+  license: null
+  name: filesystem
+  description: Filesystem operations (set your path)
+  author: modelcontextprotocol
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@modelcontextprotocol/server-filesystem'
+        - '/path/to/your/projects'
+
+# Popular MCP servers: https://code.claude.com/docs/en/mcp#popular-mcp-servers
 - id: mcp/circleback
   url: https://app.circleback.ai/api/mcp
   reference: https://support.circleback.ai/en/articles/13249081-circleback-mcp
@@ -52,6 +321,1241 @@
   avatar: https://downloads.intercomcdn.com/i/o/ce04lvza/830504/d5f83a81861c16a12527cb8aca51/70883c6f22f918b074f5e6e772073b9d.png
   path: /
   installation:
-    claude:
-      http: claude mcp add circleback --transport http https://app.circleback.ai/api/mcp
+    http:
+      url: https://app.circleback.ai/api/mcp
 
+- id: mcp/gamma
+  url: https://mcp.gamma.app/mcp
+  reference: https://gamma.app/docs/Gamma-MCP-Server-Documentation-m6p43kobgzy15zj?mode=doc
+  tag:
+    - presentations
+    - documents
+    - social-media
+    - ai-design
+  license: null
+  name: gamma
+  description: Create presentations, docs, socials, and sites with AI
+  author: gama
+  avatar: https://cdn.gamma.app/zc87vhr30n8uf3n/0f029c68490148cc931e4be6670d7afb/optimized/Gamma_Symbol_DeepOcean-Sky.svg
+  path: /
+  installation:
+    http:
+      url: https://mcp.gamma.app/mcp
+
+- id: mcp/day-ai
+  url: https://day.ai/api/mcp
+  reference: https://day.ai/mcp
+  tag:
+    - crm
+    - analytics
+    - business
+  license: null
+  name: day-ai
+  description: Analyze & update CRM records
+  author: Day AI
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://day.ai/api/mcp
+
+- id: mcp/biorxiv
+  url: https://mcp.deepsense.ai/biorxiv/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/biorxiv.html
+  tag:
+    - research
+    - biomedical
+    - preprints
+  license: null
+  name: biorxiv
+  description: Access bioRxiv and medRxiv preprint data
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/biorxiv/mcp
+
+- id: mcp/chembl
+  url: https://mcp.deepsense.ai/chembl/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/chembl.html
+  tag:
+    - chemistry
+    - database
+    - research
+  license: null
+  name: chembl
+  description: Access the ChEMBL Database
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/chembl/mcp
+
+- id: mcp/clinical-trials
+  url: https://mcp.deepsense.ai/clinical_trials/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/clinical_trials.html
+  tag:
+    - medical
+    - clinical-trials
+    - research
+  license: null
+  name: clinical-trials
+  description: Access ClinicalTrials.gov data
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/clinical_trials/mcp
+
+- id: mcp/cms-coverage
+  url: https://mcp.deepsense.ai/cms_coverage/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/cms_coverage.html
+  tag:
+    - healthcare
+    - cms
+    - coverage
+  license: null
+  name: cms-coverage
+  description: Access the CMS Coverage Database
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/cms_coverage/mcp
+
+- id: mcp/icd-10-codes
+  url: https://mcp.deepsense.ai/icd10_codes/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/icd10_codes.html
+  tag:
+    - medical
+    - coding
+    - icd-10
+  license: null
+  name: icd-10-codes
+  description: Access ICD-10-CM and ICD-10-PCS code sets
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/icd10_codes/mcp
+
+- id: mcp/npi-registry
+  url: https://mcp.deepsense.ai/npi_registry/mcp
+  reference: https://docs.mcp.deepsense.ai/guides/npi_registry.html
+  tag:
+    - healthcare
+    - provider
+    - registry
+  license: null
+  name: npi-registry
+  description: Access US National Provider Identifier (NPI) Registry
+  author: DeepSense
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.deepsense.ai/npi_registry/mcp
+
+- id: mcp/devrev
+  url: https://api.devrev.ai/mcp/v1
+  reference: https://support.devrev.ai/en-US/devrev/article/ART-21859-remote-mcp-server
+  tag:
+    - knowledge-graph
+    - company
+    - search
+  license: null
+  name: devrev
+  description: Search and update your company's knowledge graph
+  author: DevRev
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.devrev.ai/mcp/v1
+
+- id: mcp/harmonic
+  url: https://mcp.api.harmonic.ai
+  reference: https://support.harmonic.ai/en/articles/12785899-harmonic-mcp-server-getting-started-guide
+  tag:
+    - research
+    - companies
+    - people
+  license: null
+  name: harmonic
+  description: Discover, research, and enrich companies and people
+  author: Harmonic
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.api.harmonic.ai
+
+- id: mcp/lunarcrush
+  url: https://lunarcrush.ai/mcp
+  reference: https://lunarcrush.com/developers/api/ai
+  tag:
+    - social-media
+    - data
+    - analytics
+  license: null
+  name: lunarcrush
+  description: Add real-time social media data to your searches
+  author: LunarCrush
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://lunarcrush.ai/mcp
+
+- id: mcp/scholar-gateway
+  url: https://connector.scholargateway.ai/mcp
+  reference: https://docs.scholargateway.ai/
+  tag:
+    - research
+    - scholarly
+    - citations
+  license: null
+  name: scholar-gateway
+  description: Enhance responses with scholarly research and citations
+  author: Scholar Gateway
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://connector.scholargateway.ai/mcp
+
+- id: mcp/tickettailor
+  url: https://mcp.tickettailor.ai/mcp
+  reference: https://help.tickettailor.com/en/articles/11892797-how-to-connect-ticket-tailor-to-your-favourite-ai-agent
+  tag:
+    - events
+    - tickets
+    - management
+  license: null
+  name: tickettailor
+  description: Event platform for managing tickets, orders & more
+  author: Ticket Tailor
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.tickettailor.ai/mcp
+
+- id: mcp/vibe-prospecting
+  url: https://vibeprospecting.explorium.ai/mcp
+  reference: https://developers.explorium.ai/mcp-docs/agentsource-mcp
+  tag:
+    - prospecting
+    - company-data
+    - contacts
+  license: null
+  name: vibe-prospecting
+  description: Find company & contact data
+  author: Vibe Prospecting
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://vibeprospecting.explorium.ai/mcp
+
+- id: mcp/windsor-ai
+  url: https://mcp.windsor.ai
+  reference: https://windsor.ai/introducing-windsor-mcp/#method-1-using-claude-desktop-3
+  tag:
+    - marketing
+    - analytics
+    - crm
+  license: null
+  name: windsor-ai
+  description: Connect 325+ marketing, analytics and CRM data sources
+  author: Windsor.ai
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.windsor.ai
+
+- id: mcp/linear
+  url: https://mcp.linear.app/mcp
+  reference: https://linear.app/docs/mcp
+  tag:
+    - project-management
+    - issues
+    - workflows
+  license: null
+  name: linear
+  description: Manage issues, projects & team workflows in Linear
+  author: Linear
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.linear.app/mcp
+
+- id: mcp/netlify
+  url: https://netlify-mcp.netlify.app/mcp
+  reference: https://docs.netlify.com/build/build-with-ai/netlify-mcp-server/
+  tag:
+    - deployment
+    - hosting
+    - websites
+  license: null
+  name: netlify
+  description: Create, deploy, manage, and secure websites on Netlify
+  author: Netlify
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://netlify-mcp.netlify.app/mcp
+
+- id: mcp/aws-marketplace
+  url: https://marketplace-mcp.us-east-1.api.aws/mcp
+  reference: https://docs.aws.amazon.com/marketplace/latest/APIReference/marketplace-mcp-server.html
+  tag:
+    - aws
+    - marketplace
+    - cloud
+  license: null
+  name: aws-marketplace
+  description: Discover, evaluate, and buy solutions for the cloud
+  author: AWS
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://marketplace-mcp.us-east-1.api.aws/mcp
+
+- id: mcp/hugging-face
+  url: https://huggingface.co/mcp
+  reference: https://huggingface.co/settings/mcp
+  tag:
+    - ai
+    - models
+    - gradio
+  license: null
+  name: hugging-face
+  description: Access the Hugging Face Hub and thousands of Gradio Apps
+  author: Hugging Face
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://huggingface.co/mcp
+
+- id: mcp/ahrefs
+  url: https://api.ahrefs.com/mcp/mcp
+  reference: https://docs.ahrefs.com/docs/mcp/reference/introduction
+  tag:
+    - seo
+    - analytics
+    - search
+  license: null
+  name: ahrefs
+  description: SEO & AI search analytics
+  author: Ahrefs
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.ahrefs.com/mcp/mcp
+
+- id: mcp/airops
+  url: https://app.airops.com/mcp
+  reference: https://docs.airops.com/mcp
+  tag:
+    - content
+    - ai-search
+    - marketing
+  license: null
+  name: airops
+  description: Craft content that wins AI search
+  author: AirOps
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://app.airops.com/mcp
+
+- id: mcp/amplitude
+  url: https://mcp.amplitude.com/mcp
+  reference: https://amplitude.com/docs/analytics/amplitude-mcp
+  tag:
+    - analytics
+    - data
+    - insights
+  license: null
+  name: amplitude
+  description: Search, access, and get insights on your Amplitude data
+  author: Amplitude
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.amplitude.com/mcp
+
+- id: mcp/asana
+  url: https://mcp.asana.com/v2/mcp
+  reference: https://developers.asana.com/docs/mcp-server
+  tag:
+    - project-management
+    - tasks
+    - collaboration
+  license: null
+  name: asana
+  description: Connect to Asana to coordinate tasks, projects, and goals
+  author: Asana
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    streamable-http:
+      url: https://mcp.asana.com/v2/mcp
+
+- id: mcp/atlassian
+  url: https://mcp.atlassian.com/v1/mcp
+  reference: https://community.atlassian.com/forums/Atlassian-Platform-articles/Using-the-Atlassian-Remote-MCP-Server-beta/ba-p/3005104
+  tag:
+    - jira
+    - confluence
+    - project-management
+  license: null
+  name: atlassian
+  description: Access Jira & Confluence from Claude
+  author: Atlassian
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    sse:
+      url: https://mcp.atlassian.com/v1/mcp
+
+- id: mcp/aura
+  url: https://mcp.auraintelligence.com/mcp
+  reference: https://docs.getaura.ai/
+  tag:
+    - company-intelligence
+    - workforce-analytics
+    - business
+  license: null
+  name: aura
+  description: Company intelligence & workforce analytics
+  author: Aura
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.auraintelligence.com/mcp
+
+- id: mcp/biorender
+  url: https://mcp.services.biorender.com/mcp
+  reference: https://help.biorender.com/hc/en-gb/articles/30870978672157-How-to-use-the-BioRender-MCP-connector
+  tag:
+    - scientific
+    - templates
+    - icons
+  license: null
+  name: biorender
+  description: Search for and use scientific templates and icons
+  author: BioRender
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.services.biorender.com/mcp
+
+- id: mcp/bitly
+  url: https://api-ssl.bitly.com/v4/mcp
+  reference: https://dev.bitly.com/bitly-mcp/
+  tag:
+    - url-shortening
+    - qr-codes
+    - analytics
+  license: null
+  name: bitly
+  description: Shorten links, generate QR Codes, and track performance
+  author: Bitly
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api-ssl.bitly.com/v4/mcp
+
+- id: mcp/blockscout
+  url: https://mcp.blockscout.com/mcp/
+  reference: https://github.com/blockscout/mcp-server
+  tag:
+    - blockchain
+    - data
+    - analytics
+  license: null
+  name: blockscout
+  description: Access and analyze blockchain data
+  author: Blockscout
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.blockscout.com/mcp/
+
+- id: mcp/box
+  url: https://mcp.box.com
+  reference: https://developer.box.com/guides/box-mcp
+  tag:
+    - cloud-storage
+    - content
+    - search
+  license: null
+  name: box
+  description: Search, access and get insights on your Box content
+  author: Box
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.box.com
+
+- id: mcp/canva
+  url: https://mcp.canva.com/mcp
+  reference: https://www.canva.dev/docs/connect/canva-mcp-server-setup/
+  tag:
+    - design
+    - graphics
+    - templates
+  license: null
+  name: canva
+  description: Search, create, autofill, and export Canva designs
+  author: Canva
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.canva.com/mcp
+
+- id: mcp/cdata-connect-ai
+  url: https://mcp.cloud.cdata.com/mcp
+  reference: https://cloud.cdata.com/docs/Claude-Client.html
+  tag:
+    - data-integration
+    - sources
+    - platform
+  license: null
+  name: cdata-connect-ai
+  description: Managed MCP platform for 350 sources
+  author: CData
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.cloud.cdata.com/mcp
+
+- id: mcp/pubmed
+  url: https://pubmed.mcp.claude.com/mcp
+  reference: https://support.claude.com/en/
+  tag:
+    - research
+    - biomedical
+    - literature
+  license: null
+  name: pubmed
+  description: Search biomedical literature from PubMed
+  author: Claude
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://pubmed.mcp.claude.com/mcp
+
+- id: mcp/clay
+  url: https://api.clay.com/v3/mcp
+  reference: https://www.notion.so/clayrun/Clay-Claude-MCP-Server-Documentation-2ef7e66eb01480c9820de48041591aeb?showMoveTo=true&saveParent=true
+  tag:
+    - prospecting
+    - research
+    - outreach
+  license: null
+  name: clay
+  description: Find prospects. Research accounts. Personalize outreach
+  author: Clay
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.clay.com/v3/mcp
+
+- id: mcp/clickup
+  url: https://mcp.clickup.com/mcp
+  reference: https://help.clickup.com/hc/en-us/articles/33335772678423-What-is-ClickUp-MCP
+  tag:
+    - project-management
+    - collaboration
+    - teams
+  license: null
+  name: clickup
+  description: Project management & collaboration for teams & agents
+  author: ClickUp
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.clickup.com/mcp
+
+- id: mcp/cloudflare
+  url: https://bindings.mcp.cloudflare.com/mcp
+  reference: https://www.support.cloudflare.com/
+  tag:
+    - cloudflare
+    - compute
+    - storage
+    - ai
+  license: null
+  name: cloudflare
+  description: Build applications with compute, storage, and AI
+  author: Cloudflare
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://bindings.mcp.cloudflare.com/mcp
+
+- id: mcp/cloudinary
+  url: https://asset-management.mcp.cloudinary.com/sse
+  reference: https://cloudinary.com/documentation/cloudinary_llm_mcp#available_mcp_servers
+  tag:
+    - media
+    - images
+    - videos
+    - transformation
+  license: null
+  name: cloudinary
+  description: Manage, transform and deliver your images & videos
+  author: Cloudinary
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://asset-management.mcp.cloudinary.com/sse
+
+- id: mcp/crossbeam
+  url: https://mcp.crossbeam.com
+  reference: https://help.crossbeam.com/en/articles/12601327-crossbeam-mcp-server-beta
+  tag:
+    - partner-data
+    - ecosystem
+    - insights
+  license: null
+  name: crossbeam
+  description: Explore partner data and ecosystem insights in Claude
+  author: Crossbeam
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.crossbeam.com
+
+- id: mcp/crypto-com
+  url: https://mcp.crypto.com/market-data/mcp
+  reference: https://mcp.crypto.com/docs
+  tag:
+    - cryptocurrency
+    - trading
+    - market-data
+  license: null
+  name: crypto-com
+  description: Real time prices, orders, charts, and more for crypto
+  author: Crypto.com
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.crypto.com/market-data/mcp
+
+- id: mcp/egnyte
+  url: https://mcp-server.egnyte.com/mcp
+  reference: https://developers.egnyte.com/docs/Remote_MCP_Server
+  tag:
+    - cloud-storage
+    - content
+    - security
+  license: null
+  name: egnyte
+  description: Securely access and analyze Egnyte content
+  author: Egnyte
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp-server.egnyte.com/mcp
+
+- id: mcp/figma
+  url: https://mcp.figma.com/mcp
+  reference: https://help.figma.com/hc/en-us/articles/32132100833559
+  tag:
+    - design
+    - diagrams
+    - code-generation
+  license: null
+  name: figma
+  description: Generate diagrams and better code from Figma context
+  author: Figma
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.figma.com/mcp
+
+- id: mcp/clockwise
+  url: https://mcp.getclockwise.com/mcp
+  reference: https://support.getclockwise.com/article/238-connecting-to-clockwise-mcp
+  tag:
+    - scheduling
+    - time-management
+    - productivity
+  license: null
+  name: clockwise
+  description: Advanced scheduling and time management for work
+  author: Clockwise
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.getclockwise.com/mcp
+
+- id: mcp/guru
+  url: https://mcp.api.getguru.com/mcp
+  reference: https://help.getguru.com/docs/connecting-gurus-mcp-server
+  tag:
+    - knowledge-management
+    - company-knowledge
+    - search
+  license: null
+  name: guru
+  description: Search and interact with your company knowledge
+  author: Guru
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.api.getguru.com/mcp
+
+- id: mcp/godaddy
+  url: https://api.godaddy.com/v1/domains/mcp
+  reference: https://developer.godaddy.com/mcp
+  tag:
+    - domains
+    - dns
+    - hosting
+  license: null
+  name: godaddy
+  description: Search domains and check availability
+  author: GoDaddy
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.godaddy.com/v1/domains/mcp
+
+- id: mcp/medidata
+  url: https://mcp.imedidata.com/mcp
+  reference: https://learn.medidata.com/en-US/bundle/mcp-server-documentation/page/medidata_mcp_server_documentation.html
+  tag:
+    - clinical-trials
+    - medical
+    - research
+  license: null
+  name: medidata
+  description: Clinical trial software and site ranking tools
+  author: Medidata
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.imedidata.com/mcp
+
+- id: mcp/intercom
+  url: https://mcp.intercom.com/mcp
+  reference: https://developers.intercom.com/docs/guides/mcp
+  tag:
+    - customer-support
+    - messaging
+    - insights
+  license: null
+  name: intercom
+  description: Access to Intercom data for better customer insights
+  author: Intercom
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.intercom.com/mcp
+
+- id: mcp/jotform
+  url: https://mcp.jotform.com/
+  reference: https://www.jotform.com/developers/mcp/
+  tag:
+    - forms
+    - surveys
+    - data-collection
+  license: null
+  name: jotform
+  description: Create forms & analyze submissions inside Claude
+  author: Jotform
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.jotform.com/
+
+- id: mcp/playmcp
+  url: https://playmcp.kakao.com/mcp
+  reference: https://www.notion.so/2189b97b4888803dbbdcef264e7eff58
+  tag:
+    - gaming
+    - entertainment
+    - tools
+  license: null
+  name: playmcp
+  description: Connect and use PlayMCP servers in your toolbox
+  author: Kakao
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://playmcp.kakao.com/mcp
+
+- id: mcp/klaviyo
+  url: https://mcp.klaviyo.com/mcp
+  reference: https://developers.klaviyo.com/en/docs/klaviyo_mcp_server
+  tag:
+    - email-marketing
+    - analytics
+    - automation
+  license: null
+  name: klaviyo
+  description: Report, strategize & create with real-time Klaviyo data
+  author: Klaviyo
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.klaviyo.com/mcp
+
+- id: mcp/lastminute-com
+  url: https://mcp.lastminute.com/mcp
+  reference: http://mcp.lastminute.com/docs
+  tag:
+    - travel
+    - flights
+    - booking
+  license: null
+  name: lastminute-com
+  description: Search, compare and book flights across global airlines
+  author: lastminute.com
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.lastminute.com/mcp
+
+- id: mcp/melon
+  url: https://mcp.melon.com/mcp/
+  reference: https://tech.kakaoent.com/ai/using-melon-mcp-server-en/
+  tag:
+    - music
+    - streaming
+    - charts
+  license: null
+  name: melon
+  description: Browse music charts & your personalized music picks
+  author: Melon
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.melon.com/mcp/
+
+- id: mcp/mercury
+  url: https://mcp.mercury.com/mcp
+  reference: https://docs.mercury.com/docs/connecting-mercury-mcp
+  tag:
+    - finance
+    - banking
+    - analytics
+  license: null
+  name: mercury
+  description: Search, analyze and understand your finances on Mercury
+  author: Mercury
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.mercury.com/mcp
+
+- id: mcp/monday
+  url: https://mcp.monday.com/mcp
+  reference: https://developer.monday.com/apps/docs/mondaycom-mcp-integration
+  tag:
+    - project-management
+    - boards
+    - workflows
+  license: null
+  name: monday
+  description: Manage projects, boards, and workflows in monday.com
+  author: monday.com
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.monday.com/mcp
+
+- id: mcp/motherduck
+  url: https://api.motherduck.com/mcp
+  reference: https://motherduck.com/docs/sql-reference/mcp/
+  tag:
+    - database
+    - analytics
+    - sql
+  license: null
+  name: motherduck
+  description: Analyze your data with natural language
+  author: MotherDuck
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.motherduck.com/mcp
+
+- id: mcp/notion
+  url: https://mcp.notion.com/mcp
+  reference: https://developers.notion.com/docs/mcp
+  tag:
+    - productivity
+    - workspace
+    - collaboration
+  license: null
+  name: notion
+  description: Connect your Notion workspace to search, update, and power workflows across tools
+  author: Notion
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.notion.com/mcp
+
+- id: mcp/owkin
+  url: https://mcp.k.owkin.com/mcp
+  reference: https://docs.owkin.com/mcp-tools-documentation/introduction
+  tag:
+    - biology
+    - ai-agents
+    - research
+  license: null
+  name: owkin
+  description: Interact with AI agents built for biology
+  author: Owkin
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.k.owkin.com/mcp
+
+- id: mcp/paypal
+  url: https://mcp.paypal.com/mcp
+  reference: https://mcp.paypal.com/
+  tag:
+    - payments
+    - finance
+    - platform
+  license: null
+  name: paypal
+  description: Access PayPal payments platform
+  author: PayPal
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.paypal.com/mcp
+
+- id: mcp/ramp
+  url: https://ramp-mcp-remote.ramp.com/mcp
+  reference: https://docs.ramp.com/developer-api/v1/guides/ramp-mcp-remote
+  tag:
+    - finance
+    - expense-management
+    - analytics
+  license: null
+  name: ramp
+  description: Search, access, and analyze your Ramp financial data
+  author: Ramp
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://ramp-mcp-remote.ramp.com/mcp
+
+- id: mcp/similarweb
+  url: https://mcp.similarweb.com
+  reference: https://docs.similarweb.com/api-v5/mcp/mcp-setup
+  tag:
+    - web-analytics
+    - market-data
+    - insights
+  license: null
+  name: similarweb
+  description: Real time web, mobile app, and market data
+  author: Similarweb
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.similarweb.com
+
+- id: mcp/slack
+  url: https://mcp.slack.com/mcp
+  reference: https://docs.slack.dev/ai/mcp-server
+  tag:
+    - messaging
+    - collaboration
+    - data
+  license: null
+  name: slack
+  description: Send messages, create canvases, and fetch Slack data
+  author: Slack
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.slack.com/mcp
+
+- id: mcp/square
+  url: https://mcp.squareup.com/sse
+  reference: https://developer.squareup.com/docs/mcp
+  tag:
+    - payments
+    - transactions
+    - merchant
+  license: null
+  name: square
+  description: Search and manage transaction, merchant, and payment data
+  author: Square
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    sse:
+      url: https://mcp.squareup.com/sse
+
+- id: mcp/stripe
+  url: https://mcp.stripe.com
+  reference: https://docs.stripe.com/mcp
+  tag:
+    - payments
+    - finance
+    - infrastructure
+  license: null
+  name: stripe
+  description: Payment processing and financial infrastructure tools
+  author: Stripe
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.stripe.com
+
+- id: mcp/trivago
+  url: https://mcp.trivago.com/mcp
+  reference: https://mcp.trivago.com/docs
+  tag:
+    - travel
+    - hotels
+    - booking
+  license: null
+  name: trivago
+  description: Find your ideal hotel at the best price
+  author: Trivago
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.trivago.com/mcp
+
+- id: mcp/udemy-business
+  url: https://api.udemy.com/mcp
+  reference: https://business-support.udemy.com/hc/en-us/articles/34213384429335-How-to-Integrate-the-Udemy-Business-MCP-Server-With-Your-AI-Tool#h_01K9CA42YGCV1AVXPY1RKABKP1
+  tag:
+    - education
+    - learning
+    - skills
+  license: null
+  name: udemy-business
+  description: Search and explore skill-building resources
+  author: Udemy Business
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://api.udemy.com/mcp
+
+- id: mcp/webflow
+  url: https://mcp.webflow.com/mcp
+  reference: https://developers.webflow.com/mcp/v1.0.0/reference/overview
+  tag:
+    - web-design
+    - cms
+    - sites
+  license: null
+  name: webflow
+  description: Manage Webflow CMS, pages, assets and sites
+  author: Webflow
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.webflow.com/mcp
+
+- id: mcp/wix
+  url: https://mcp.wix.com/mcp
+  reference: https://dev.wix.com/docs/sdk/articles/use-the-wix-mcp/about-the-wix-mcp
+  tag:
+    - web-design
+    - sites
+    - apps
+  license: null
+  name: wix
+  description: Manage and build sites and apps on Wix
+  author: Wix
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.wix.com/mcp
+
+- id: mcp/wordpress-com
+  url: https://public-api.wordpress.com/wpcom/v2/mcp/v1
+  reference: https://developer.wordpress.com/docs/mcp/
+  tag:
+    - wordpress
+    - sites
+    - management
+  license: null
+  name: wordpress-com
+  description: Secure AI access to manage your WordPress.com sites
+  author: WordPress.com
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://public-api.wordpress.com/wpcom/v2/mcp/v1
+
+- id: mcp/zoominfo
+  url: https://mcp.zoominfo.com/mcp
+  reference: https://docs.zoominfo.com/docs/zi-api-mcp-overview/
+  tag:
+    - contacts
+    - accounts
+    - intelligence
+  license: null
+  name: zoominfo
+  description: Enrich contacts & accounts with GTM intelligence
+  author: ZoomInfo
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.zoominfo.com/mcp
+
+- id: mcp/jam
+  url: https://mcp.jam.dev/mcp
+  reference: https://jam.dev/docs/debug-a-jam/mcp
+  tag:
+    - debugging
+    - screen-recording
+    - issues
+  license: null
+  name: jam
+  description: Record screen and collect automatic context for issues
+  author: Jam
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.jam.dev/mcp
+
+- id: mcp/sentry
+  url: https://mcp.sentry.dev/mcp
+  reference: https://docs.sentry.io/product/sentry-mcp/
+  tag:
+    - error-tracking
+    - debugging
+    - monitoring
+  license: null
+  name: sentry
+  description: Search, query, and debug errors intelligently
+  author: Sentry
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.sentry.dev/mcp
+
+- id: mcp/coupler
+  url: https://mcp.coupler.io/mcp
+  reference: https://help.coupler.io/article/592-coupler-local-mcp-server
+  tag:
+    - data-integration
+    - business-data
+    - sources
+  license: null
+  name: coupler
+  description: Access business data from hundreds of sources
+  author: Coupler.io
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.coupler.io/mcp
+
+- id: mcp/dice
+  url: https://mcp.dice.com/mcp
+  reference: https://www.dice.com/about/mcp
+  tag:
+    - jobs
+    - tech-jobs
+    - recruitment
+  license: null
+  name: dice
+  description: Find active tech jobs on Dice
+  author: Dice
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.dice.com/mcp
+
+- id: mcp/honeycomb
+  url: https://mcp.honeycomb.io/mcp
+  reference: https://docs.honeycomb.io/troubleshoot/product-lifecycle/beta/mcp/
+  tag:
+    - observability
+    - monitoring
+    - slos
+  license: null
+  name: honeycomb
+  description: Query and explore observability data and SLOs
+  author: Honeycomb
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.honeycomb.io/mcp
+
+- id: mcp/port-io
+  url: https://mcp.port.io/v1
+  reference: https://docs.port.io/ai-interfaces/port-mcp-server/overview-and-installation
+  tag:
+    - context-lake
+    - search
+    - actions
+  license: null
+  name: port-io
+  description: Search your context lake and safely run actions
+  author: Port IO
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.port.io/v1
+
+- id: mcp/candid
+  url: https://mcp.candid.org/mcp
+  reference: https://support.claude.com/en/articles/12923235-using-the-candid-connector-in-claude
+  tag:
+    - nonprofits
+    - funders
+    - research
+  license: null
+  name: candid
+  description: Research nonprofits and funders using Candid's data
+  author: Candid
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.candid.org/mcp
+
+- id: mcp/open-targets
+  url: https://mcp.platform.opentargets.org/mcp
+  reference: https://github.com/opentargets/open-targets-platform-mcp
+  tag:
+    - drug-discovery
+    - targets
+    - platform
+  license: null
+  name: open-targets
+  description: Drug target discovery and prioritisation platform
+  author: Open Targets
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.platform.opentargets.org/mcp
+
+- id: mcp/synapse-org
+  url: https://mcp.synapse.org/mcp
+  reference: https://github.com/susheel/synapse-mcp?tab=readme-ov-file#synapse-mcp-server
+  tag:
+    - scientific-data
+    - search
+    - metadata
+  license: null
+  name: synapse-org
+  description: Search and metadata tools for Synapse scientific data
+  author: Synapse.org
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://mcp.synapse.org/mcp
+
+- id: mcp/chronograph
+  url: https://ai.chronograph.pe/mcp
+  reference: https://lp-help.chronograph.pe/article/735-chronograph-mcp
+  tag:
+    - data
+    - analytics
+    - chronograph
+  license: null
+  name: chronograph
+  description: Interact with your Chronograph data directly in Claude
+  author: Chronograph
+  avatar: https://avatars.githubusercontent.com/u/123000460
+  installation:
+    http:
+      url: https://ai.chronograph.pe/mcp

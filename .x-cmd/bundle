@@ -41,6 +41,90 @@ bundle_xcmd_skill_data()(
         x:error "wrong: mcp index"
         return 1
     }
+
+    x awk '
+        BEGIN {
+            print "{"
+            first_item = 1
+        }
+
+        /^- id:/ {
+            if (name != "") { print_block() }
+            name=""; desc=""; type=""; url=""; cmd="";
+            args_str=""; in_args=0; env_data="";
+        }
+
+        /^[[:space:]]*name:/ {
+            gsub(/^[[:space:]]*name:[[:space:]]*/, "")
+            name = $0
+        }
+
+        /^[[:space:]]*description:/ {
+            sub(/^[[:space:]]*description:[[:space:]]*/, "")
+            desc = $0
+        }
+
+        /^[[:space:]]*stdio:/ { type = "stdio" }
+        /^[[:space:]]*http:/ { type = "http" }
+
+        type=="http" && /^[[:space:]]*url:/ {
+            sub(/^[[:space:]]*url:[[:space:]]*/, "")
+            url = $0
+        }
+
+        type=="stdio" && /^[[:space:]]*command:/ {
+            sub(/^[[:space:]]*command:[[:space:]]*/, "")
+            cmd = $0
+        }
+
+        type=="stdio" && /^[[:space:]]*args:/ { in_args=1; next }
+        in_args && /^[[:space:]]*- / {
+            sub(/^[[:space:]]*- /, "")
+            val = $0
+            gsub(/^'\''|'\''$/, "", val)
+            if (args_str != "") args_str = args_str ", "
+            args_str = args_str "\"" val "\""
+        }
+        in_args && !/^[[:space:]]*- / && !/^[[:space:]]*#/ { in_args=0 }
+
+        /GITHUB_PERSONAL_ACCESS_TOKEN:/ {
+            sub(/^[[:space:]]*GITHUB_PERSONAL_ACCESS_TOKEN:[[:space:]]*/, "")
+            env_data = "\"GITHUB_PERSONAL_ACCESS_TOKEN\": \"" $0 "\""
+        }
+
+        function print_block() {
+            if (!first_item) print ","
+            first_item = 0
+            printf "  \"%s\": {\n", name
+
+            if (type == "stdio") {
+                printf "    \"stdio\": {\n"
+                printf "      \"command\": \"%s\",\n", cmd
+                printf "      \"args\": [%s],\n", args_str
+                if (env_data != "") {
+                    printf "      \"env\": { %s },\n", env_data
+                }
+                printf "      \"description\": \"%s\"\n", desc
+                printf "    }\n"
+            } else {
+                printf "    \"http\": {\n"
+                printf "      \"type\": \"http\",\n"
+                printf "      \"url\": \"%s\",\n", url
+                printf "      \"description\": \"%s\"\n", desc
+                printf "    }\n"
+            }
+            printf "  }"
+        }
+
+        END {
+            if (name != "") print_block()
+            print "\n}"
+        }
+    ' index/mcp/index.yml > "$tgtprefix/mcp.json" || {
+        x:error "wrong: mcp list"
+        return 1
+    }
+
     x:info "END ==== > bundle skill data"
 )
 
