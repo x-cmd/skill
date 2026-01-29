@@ -51,7 +51,8 @@ bundle_xcmd_skill_data()(
         /^- id:/ {
             if (name != "") { print_block() }
             name=""; desc=""; type=""; url=""; cmd="";
-            args_str=""; in_args=0; env_data="";
+            args_str=""; in_args=0;
+            env_str=""; in_env=0;
         }
 
         /^[[:space:]]*name:/ {
@@ -77,20 +78,28 @@ bundle_xcmd_skill_data()(
             cmd = $0
         }
 
-        type=="stdio" && /^[[:space:]]*args:/ { in_args=1; next }
+        type=="stdio" && /^[[:space:]]*args:/ { in_args=1; in_env=0; next }
+
         in_args && /^[[:space:]]*- / {
             sub(/^[[:space:]]*- /, "")
             val = $0
             gsub(/^'\''|'\''$/, "", val)
+            gsub(/^"|"$/, "", val)
+
             if (args_str != "") args_str = args_str ", "
             args_str = args_str "\"" val "\""
         }
-        in_args && !/^[[:space:]]*- / && !/^[[:space:]]*#/ { in_args=0 }
 
-        /GITHUB_PERSONAL_ACCESS_TOKEN:/ {
-            sub(/^[[:space:]]*GITHUB_PERSONAL_ACCESS_TOKEN:[[:space:]]*/, "")
-            env_data = "\"GITHUB_PERSONAL_ACCESS_TOKEN\": \"" $0 "\""
+        type=="stdio" && /^[[:space:]]*env:/ { in_env=1; in_args=0; next }
+
+        in_env && /:/ && !/env:/ {
+            key_part = $0; sub(/:.*/, "", key_part); sub(/^[[:space:]]*/, "", key_part);
+            val_part = $0; sub(/^[[:space:]]*[^:]+:[[:space:]]*/, "", val_part);
+
+            if (env_str != "") env_str = env_str ", "
+            env_str = env_str "\"" key_part "\": \"" val_part "\""
         }
+
 
         function print_block() {
             if (!first_item) print ","
@@ -101,9 +110,11 @@ bundle_xcmd_skill_data()(
                 printf "    \"stdio\": {\n"
                 printf "      \"command\": \"%s\",\n", cmd
                 printf "      \"args\": [%s],\n", args_str
-                if (env_data != "") {
-                    printf "      \"env\": { %s },\n", env_data
+
+                if (env_str != "") {
+                    printf "      \"env\": { %s },\n", env_str
                 }
+
                 printf "      \"description\": \"%s\"\n", desc
                 printf "    }\n"
             } else {
@@ -185,15 +196,15 @@ bundle()(
         return 1
     fi
 
-    if ! bundle_xcmd_skill_packages ; then
-        x:error "bundle_skill_zip_file failed"
-        return 1
-    fi
+    # if ! bundle_xcmd_skill_packages ; then
+    #     x:error "bundle_skill_zip_file failed"
+    #     return 1
+    # fi
 
-    if ! bundle_tmp2tgz ; then
-        x:error "bundle_yml2tgz failed"
-        return 1
-    fi
+    # if ! bundle_tmp2tgz ; then
+    #     x:error "bundle_yml2tgz failed"
+    #     return 1
+    # fi
 )
 
 
