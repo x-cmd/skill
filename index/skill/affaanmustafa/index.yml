@@ -22,7 +22,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/backend-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/backend-patterns.zip
-
 - id: affaanmustafa/frontend-patterns
   url: x-cmd-skill-data:affaanmustafa/frontend-patterns
   reference: https://github.com/affaan-m/everything-claude-code
@@ -45,7 +44,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/frontend-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/frontend-patterns.zip
-
 - id: affaanmustafa/golang-patterns
   url: x-cmd-skill-data:affaanmustafa/golang-patterns
   reference: https://github.com/affaan-m/everything-claude-code
@@ -67,7 +65,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/golang-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/golang-patterns.zip
-
 - id: affaanmustafa/springboot-patterns
   url: x-cmd-skill-data:affaanmustafa/springboot-patterns
   reference: https://github.com/affaan-m/everything-claude-code
@@ -90,7 +87,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-patterns.zip
-
 - id: affaanmustafa/tdd-workflow
   url: x-cmd-skill-data:affaanmustafa/tdd-workflow
   reference: https://github.com/affaan-m/everything-claude-code
@@ -112,7 +108,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/tdd-workflow.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/tdd-workflow.zip
-
 - id: affaanmustafa/continuous-learning
   url: x-cmd-skill-data:affaanmustafa/continuous-learning
   reference: https://github.com/affaan-m/everything-claude-code
@@ -134,7 +129,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/continuous-learning.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/continuous-learning.zip
-
 - id: affaanmustafa/postgres-patterns
   url: x-cmd-skill-data:affaanmustafa/postgres-patterns
   reference: https://github.com/affaan-m/everything-claude-code
@@ -157,7 +151,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/postgres-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/postgres-patterns.zip
-
 - id: affaanmustafa/jpa-patterns
   url: x-cmd-skill-data:affaanmustafa/jpa-patterns
   reference: https://github.com/affaan-m/everything-claude-code
@@ -180,7 +173,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/jpa-patterns.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/jpa-patterns.zip
-
 - id: affaanmustafa/security-review
   url: x-cmd-skill-data:affaanmustafa/security-review
   reference: https://github.com/affaan-m/everything-claude-code
@@ -203,7 +195,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/security-review.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/security-review.zip
-
 - id: affaanmustafa/coding-standards
   url: x-cmd-skill-data:affaanmustafa/coding-standards
   reference: https://github.com/affaan-m/everything-claude-code
@@ -227,7 +218,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/coding-standards.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/coding-standards.zip
-
 - id: affaanmustafa/verification-loop
   url: x-cmd-skill-data:affaanmustafa/verification-loop
   reference: https://github.com/affaan-m/everything-claude-code
@@ -249,7 +239,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/verification-loop.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/verification-loop.zip
-
 - id: affaanmustafa/clickhouse-io
   url: x-cmd-skill-data:affaanmustafa/clickhouse-io
   reference: https://github.com/affaan-m/everything-claude-code
@@ -273,28 +262,6 @@
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/clickhouse-io.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/clickhouse-io.zip
 
-- id: affaanmustafa/eval-harness
-  url: x-cmd-skill-data:affaanmustafa/eval-harness
-  reference: https://github.com/affaan-m/everything-claude-code
-  tag:
-    - evaluation
-    - testing
-    - framework
-    - edd
-  license: MIT
-  name: eval-harness
-  description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles
-  author: Affaan Mustafa
-  avatar: https://avatars.githubusercontent.com/u/124439313
-  path: /affaanmustafa/eval-harness
-  installation:
-    claude_plugin:
-      registry: /plugin marketplace add affaan-m/everything-claude-code
-      install: /plugin install everything-claude-code@everything-claude-code
-    zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/eval-harness.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/eval-harness.zip
-
 - id: affaanmustafa/iterative-retrieval
   url: x-cmd-skill-data:affaanmustafa/iterative-retrieval
   reference: https://github.com/affaan-m/everything-claude-code
@@ -316,7 +283,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/iterative-retrieval.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/iterative-retrieval.zip
-
 - id: affaanmustafa/java-coding-standards
   url: x-cmd-skill-data:affaanmustafa/java-coding-standards
   reference: https://github.com/affaan-m/everything-claude-code
@@ -338,7 +304,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/java-coding-standards.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/java-coding-standards.zip
-
 - id: affaanmustafa/springboot-security
   url: x-cmd-skill-data:affaanmustafa/springboot-security
   reference: https://github.com/affaan-m/everything-claude-code
@@ -361,7 +326,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-security.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-security.zip
-
 - id: affaanmustafa/springboot-verification
   url: x-cmd-skill-data:affaanmustafa/springboot-verification
   reference: https://github.com/affaan-m/everything-claude-code
@@ -384,7 +348,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-verification.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-verification.zip
-
 - id: affaanmustafa/springboot-tdd
   url: x-cmd-skill-data:affaanmustafa/springboot-tdd
   reference: https://github.com/affaan-m/everything-claude-code
@@ -407,7 +370,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-tdd.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-tdd.zip
-
 - id: affaanmustafa/golang-testing
   url: x-cmd-skill-data:affaanmustafa/golang-testing
   reference: https://github.com/affaan-m/everything-claude-code
@@ -430,7 +392,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/golang-testing.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/golang-testing.zip
-
 - id: affaanmustafa/project-guidelines-example
   url: x-cmd-skill-data:affaanmustafa/project-guidelines-example
   reference: https://github.com/affaan-m/everything-claude-code
@@ -452,7 +413,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/project-guidelines-example.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/project-guidelines-example.zip
-
 - id: affaanmustafa/strategic-compact
   url: x-cmd-skill-data:affaanmustafa/strategic-compact
   reference: https://github.com/affaan-m/everything-claude-code
@@ -474,7 +434,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/strategic-compact.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/strategic-compact.zip
-
 - id: affaanmustafa/continuous-learning-v2
   url: x-cmd-skill-data:affaanmustafa/continuous-learning-v2
   reference: https://github.com/affaan-m/everything-claude-code
@@ -497,5 +456,3 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/continuous-learning-v2.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/continuous-learning-v2.zip
-
-

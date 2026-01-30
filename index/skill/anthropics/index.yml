@@ -22,7 +22,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
-
 - id: anthropics/doc-coauthoring
   url: x-cmd-skill-data:anthropics/doc-coauthoring
   reference: https://github.com/anthropics/skills
@@ -44,7 +43,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/doc-coauthoring.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/doc-coauthoring.zip
-
 - id: anthropics/frontend-design
   url: x-cmd-skill-data:anthropics/frontend-design
   reference: https://github.com/anthropics/skills

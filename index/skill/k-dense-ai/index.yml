@@ -92,7 +92,7 @@
     - bioinformatics
   license: MIT
   name: "alphafold-database"
-  description: "Access AlphaFold's 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
+  description: "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/alphafold-database
@@ -449,7 +449,7 @@
     - sar-studies
   license: MIT
   name: "chembl-database"
-  description: "Query ChEMBL's bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
+  description: "Query ChEMBL bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/chembl-database
@@ -596,7 +596,7 @@
     - pipetting
   license: MIT
   name: "opentrons-integration"
-  description: "Lab automation platform for Flex/OT-2 robots. Write Protocol API v2 protocols, liquid handling, hardware modules (heater-shaker, thermocycler), labware management, for automated pipetting workflows."
+  description: "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/opentrons-integration
@@ -764,7 +764,7 @@
     - bioinformatics
   license: MIT
   name: "anndata"
-  description: "This skill should be used when working with annotated data matrices in Python, particularly for single-cell genomics analysis, managing experimental measurements with metadata, or handling large-scale biological datasets. Use when tasks involve AnnData objects, h5ad files, single-cell RNA-seq data, or integration with scanpy/scverse tools."
+  description: "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/anndata
@@ -932,7 +932,7 @@
     - performance
   license: MIT
   name: "vaex"
-  description: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that don't fit in memory."
+  description: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/vaex
@@ -953,7 +953,7 @@
     - performance
   license: MIT
   name: "dask"
-  description: "Parallel/distributed computing. Scale pandas/NumPy beyond memory, parallel DataFrames/Arrays, multi-file processing, task graphs, for larger-than-RAM datasets and parallel workflows."
+  description: "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/dask
@@ -1016,7 +1016,7 @@
     - exploratory-analysis
   license: MIT
   name: "seaborn"
-  description: "Statistical visualization. Scatter, box, violin, heatmaps, pair plots, regression, correlation matrices, KDE, faceted plots, for exploratory analysis and publication figures."
+  description: "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/seaborn
@@ -1142,7 +1142,7 @@
     - data-processing
   license: MIT
   name: "markitdown"
-  description: "Convert various file formats (PDF, Office documents, images, audio, web content, structured data) to Markdown optimized for LLM processing. Use when converting documents to markdown, extracting text from PDFs/Office files, transcribing audio, performing OCR on images, extracting YouTube transcripts, or processing batches of files. Supports 20+ formats including DOCX, XLSX, PPTX, PDF, HTML, EPUB, CSV, JSON, images with OCR, and audio with transcription."
+  description: "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/markitdown
@@ -1184,7 +1184,7 @@
     - medical-imaging
   license: MIT
   name: "histolab"
-  description: "Digital pathology image processing toolkit for whole slide images (WSI). Use this skill when working with histopathology slides, processing H&E or IHC stained tissue images, extracting tiles from gigapixel pathology images, detecting tissue regions, segmenting tissue masks, or preparing datasets for computational pathology deep learning pipelines. Applies to WSI formats (SVS, TIFF, NDPI), tile-based analysis, and histological image preprocessing workflows."
+  description: "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/histolab
@@ -1226,7 +1226,7 @@
     - ncbi
   license: MIT
   name: "biopython"
-  description: "Primary Python toolkit for molecular biology. Preferred for Python-based PubMed/NCBI queries (Bio.Entrez), sequence manipulation, file parsing (FASTA, GenBank, FASTQ, PDB), advanced BLAST workflows, structures, phylogenetics. For quick BLAST, use gget. For direct REST API, use pubmed-database."
+  description: "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/biopython
@@ -1247,7 +1247,7 @@
     - transcriptomics
   license: MIT
   name: "scvi-tools"
-  description: "This skill should be used when working with single-cell omics data analysis using scvi-tools, including scRNA-seq, scATAC-seq, CITE-seq, spatial transcriptomics, and other single-cell modalities. Use this skill for probabilistic modeling, batch correction, dimensionality reduction, differential expression, cell type annotation, multimodal integration, and spatial analysis tasks."
+  description: "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipelines use scanpy."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scvi-tools
@@ -1289,7 +1289,7 @@
     - rdkit
   license: MIT
   name: "datamol"
-  description: "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery: SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly."
+  description: "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/datamol
@@ -1310,7 +1310,7 @@
     - compound-identification
   license: MIT
   name: "matchms"
-  description: "Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonization, compound ID, for metabolomics and MS data processing."
+  description: "Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/matchms
@@ -1394,7 +1394,7 @@
     - data-access
   license: MIT
   name: "bioservices"
-  description: "Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, PubChem, Reactome, QuickGO. Unified API for queries, ID mapping, pathway analysis. For direct REST control, use individual database skills (uniprot-database, kegg-database)."
+  description: "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file manipulation use biopython."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/bioservices
@@ -1436,7 +1436,7 @@
     - genomics
   license: MIT
   name: "gget"
-  description: "CLI/Python toolkit for rapid bioinformatics queries. Preferred for quick BLAST searches. Access to 20+ databases: gene info (Ensembl/UniProt), AlphaFold, ARCHS4, Enrichr, OpenTargets, COSMIC, genome downloads. For advanced BLAST/batch processing, use biopython. For multi-database integration, use bioservices."
+  description: "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gget
@@ -1520,7 +1520,7 @@
     - admet
   license: MIT
   name: "deepchem"
-  description: "Molecular machine learning toolkit. Property prediction (ADMET, toxicity), GNNs (GCN, MPNN), MoleculeNet benchmarks, pretrained models, featurization, for drug discovery ML."
+  description: "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/deepchem
@@ -1541,7 +1541,7 @@
     - tissue-analysis
   license: MIT
   name: "pathml"
-  description: "Computational pathology toolkit for analyzing whole-slide images (WSI) and multiparametric imaging data. Use this skill when working with histopathology slides, H&E stained images, multiplex immunofluorescence (CODEX, Vectra), spatial proteomics, nucleus detection/segmentation, tissue graph construction, or training ML models on pathology data. Supports 160+ slide formats including Aperio SVS, NDPI, DICOM, OME-TIFF for digital pathology workflows."
+  description: "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For simple tile extraction from H&E slides, histolab may be simpler."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pathml
@@ -1625,7 +1625,7 @@
     - lc-ms
   license: MIT
   name: "pyopenms"
-  description: "Python interface to OpenMS for mass spectrometry data analysis. Use for LC-MS/MS proteomics and metabolomics workflows including file handling (mzML, mzXML, mzTab, FASTA, pepXML, protXML, mzIdentML), signal processing, feature detection, peptide identification, and quantitative analysis. Apply when working with mass spectrometry data, analyzing proteomics experiments, or processing metabolomics datasets."
+  description: "Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. Best for proteomics, comprehensive MS data processing. For simple spectral comparison and metabolite ID use matchms."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pyopenms
@@ -1667,7 +1667,7 @@
     - publication
   license: MIT
   name: "matplotlib"
-  description: "Foundational plotting library. Create line plots, scatter, bar, histograms, heatmaps, 3D, subplots, export PNG/PDF/SVG, for scientific visualization and publication figures."
+  description: "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/matplotlib
@@ -1709,7 +1709,7 @@
     - data-analysis
   license: MIT
   name: "hypogenic"
-  description: "Automated hypothesis generation and testing using large language models. Use this skill when generating scientific hypotheses from datasets, combining literature insights with empirical data, testing hypotheses against observational data, or conducting systematic hypothesis exploration for research discovery in domains like deception detection, AI content detection, mental health analysis, or other empirical research tasks."
+  description: "Automated LLM-driven hypothesis generation and testing on tabular datasets. Use when you want to systematically explore hypotheses about patterns in empirical data (e.g., deception detection, content analysis). Combines literature insights with data-driven hypothesis testing. For manual hypothesis formulation use hypothesis-generation; for creative ideation use scientific-brainstorming."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hypogenic
@@ -1730,7 +1730,7 @@
     - retrosynthesis
   license: MIT
   name: "torchdrug"
-  description: "Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, knowledge graph reasoning, molecular generation, retrosynthesis, GNNs (GIN, GAT, SchNet), 40+ datasets, for PyTorch-based ML on molecules, proteins, and biomedical graphs."
+  description: "PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN architectures for drug discovery, protein modeling, or knowledge graph reasoning. Best for custom model development, protein property prediction, retrosynthesis. For pre-trained models and diverse featurizers use deepchem; for benchmark datasets use pytdc."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/torchdrug
@@ -1814,7 +1814,7 @@
     - algorithms
   license: MIT
   name: "stable-baselines3"
-  description: "Use this skill for reinforcement learning tasks including training RL agents (PPO, SAC, DQN, TD3, DDPG, A2C, etc.), creating custom Gym environments, implementing callbacks for monitoring and control, using vectorized environments for parallel training, and integrating with deep RL workflows. This skill should be used when users request RL algorithm implementation, agent training, environment design, or RL experimentation."
+  description: "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel training, multi-agent systems, or custom vectorized environments, use pufferlib instead."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/stable-baselines3
@@ -1835,7 +1835,7 @@
     - protocols
   license: MIT
   name: "pylabrobot"
-  description: "Laboratory automation toolkit for controlling liquid handlers, plate readers, pumps, heater shakers, incubators, centrifuges, and analytical equipment. Use this skill when automating laboratory workflows, programming liquid handling robots (Hamilton STAR, Opentrons OT-2, Tecan EVO), integrating lab equipment, managing deck layouts and resources (plates, tips, containers), reading plates, or creating reproducible laboratory protocols. Applicable for both simulated protocols and physical hardware control."
+  description: "Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workflows, multi-vendor setups, simulation. For Opentrons-only protocols with official API, opentrons-integration may be simpler."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pylabrobot
@@ -1877,7 +1877,7 @@
     - big-data
   license: MIT
   name: "polars"
-  description: "Fast DataFrame library (Apache Arrow). Select, filter, group_by, joins, lazy evaluation, CSV/Parquet I/O, expression API, for high-performance data analysis workflows."
+  description: "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/polars
@@ -1898,7 +1898,7 @@
     - econometrics
   license: MIT
   name: "statsmodels"
-  description: "Statistical modeling toolkit. OLS, GLM, logistic, ARIMA, time series, hypothesis tests, diagnostics, AIC/BIC, for rigorous statistical inference and econometric analysis."
+  description: "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/statsmodels
@@ -1919,7 +1919,7 @@
     - clustering
   license: MIT
   name: "scanpy"
-  description: "Single-cell RNA-seq analysis. Load .h5ad/10X data, QC, normalization, PCA/UMAP/t-SNE, Leiden clustering, marker genes, cell type annotation, trajectory, for scRNA-seq analysis."
+  description: "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scanpy
@@ -1982,7 +1982,7 @@
     - training
   license: MIT
   name: "pufferlib"
-  description: "This skill should be used when working with reinforcement learning tasks including high-performance RL training, custom environment development, vectorized parallel simulation, multi-agent systems, or integration with existing RL environments (Gymnasium, PettingZoo, Atari, Procgen, etc.). Use this skill for implementing PPO training, creating PufferEnv environments, optimizing RL performance, or developing policies with CNNs/LSTMs."
+  description: "High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Procgen, NetHack). Achieves 2-10x speedups over standard implementations. For quick prototyping or standard algorithm implementations with extensive documentation, use stable-baselines3 instead."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pufferlib
@@ -2066,7 +2066,7 @@
     - cell-types
   license: MIT
   name: "cellxgene-census"
-  description: "Query CZ CELLxGENE Census (61M+ cells). Filter by cell type/tissue/disease, retrieve expression data, integrate with scanpy/PyTorch, for population-scale single-cell analysis."
+  description: "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/cellxgene-census
@@ -2087,7 +2087,7 @@
     - creativity
   license: MIT
   name: "scientific-brainstorming"
-  description: "Research ideation partner. Generate hypotheses, explore interdisciplinary connections, challenge assumptions, develop methodologies, identify research gaps, for creative scientific problem-solving."
+  description: "Creative research ideation and exploration. Use for open-ended brainstorming sessions, exploring interdisciplinary connections, challenging assumptions, or identifying research gaps. Best for early-stage research planning when you do not have specific observations yet. For formulating testable hypotheses from data use hypothesis-generation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-brainstorming
@@ -2129,7 +2129,7 @@
     - bias-assessment
   license: MIT
   name: "scientific-critical-thinking"
-  description: "Evaluate research rigor. Assess methodology, experimental design, statistical validity, biases, confounding, evidence quality (GRADE, Cochrane ROB), for critical analysis of scientific claims."
+  description: "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For formal peer review writing use peer-review."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-critical-thinking
@@ -2150,7 +2150,7 @@
     - research-methods
   license: MIT
   name: "statistical-analysis"
-  description: "Statistical analysis toolkit. Hypothesis tests (t-test, ANOVA, chi-square), regression, correlation, Bayesian stats, power analysis, assumption checks, APA reporting, for academic research."
+  description: "Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research reporting, test selection guidance. For implementing specific models programmatically use statsmodels."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/statistical-analysis
@@ -2171,7 +2171,7 @@
     - research-communication
   license: MIT
   name: "scientific-writing"
-  description: "Write scientific manuscripts. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), abstracts, for research papers and journal submissions."
+  description: "Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-writing
@@ -2213,7 +2213,7 @@
     - peer-review
   license: MIT
   name: "scholar-evaluation"
-  description: "Systematic framework for evaluating scholarly and research work based on the ScholarEval methodology. This skill should be used when assessing research papers, evaluating literature reviews, scoring research methodologies, analyzing scientific writing quality, or applying structured evaluation criteria to academic work. Provides comprehensive assessment across multiple dimensions including problem formulation, literature review, methodology, data collection, analysis, results interpretation, and scholarly writing quality."
+  description: "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scholar-evaluation
@@ -2234,7 +2234,7 @@
     - scientific-communication
   license: MIT
   name: "scientific-visualization"
-  description: "Create publication figures with matplotlib/seaborn/plotly. Multi-panel layouts, error bars, significance markers, colorblind-safe, export PDF/EPS/TIFF, for journal-ready scientific plots."
+  description: "Meta-skill for publication-ready figures. Use when creating journal submission figures requiring multi-panel layouts, significance annotations, error bars, colorblind-safe palettes, and specific journal formatting (Nature, Science, Cell). Orchestrates matplotlib/seaborn/plotly with publication styles. For quick exploration use seaborn or plotly directly."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-visualization
@@ -2255,7 +2255,7 @@
     - theory-development
   license: MIT
   name: "hypothesis-generation"
-  description: "Generate testable hypotheses. Formulate from observations, design experiments, explore competing explanations, develop predictions, propose mechanisms, for scientific inquiry across domains."
+  description: "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. For open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis testing on datasets use hypogenic."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hypothesis-generation
@@ -2276,7 +2276,7 @@
     - scientific-standards
   license: MIT
   name: "peer-review"
-  description: "Systematic peer review toolkit. Evaluate methodology, statistics, design, reproducibility, ethics, figure integrity, reporting standards, for manuscript and grant review across disciplines."
+  description: "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/peer-review
@@ -2297,7 +2297,7 @@
     - ai-models
   license: MIT
   name: "perplexity-search"
-  description: "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model's knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key."
+  description: "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key."
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/perplexity-search

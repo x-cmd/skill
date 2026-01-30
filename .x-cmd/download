@@ -15,6 +15,7 @@ fork_from_anthropic(){
 fork_from_openai(){
     ___x_cmd git clone --depth 1 https://github.com/openai/skills
 
+    ___x_cmd rm -rf data/openai
     ___x_cmd mv skills/skills data/openai
 
     ___x_cmd rm -rf data/openai/.system/skill-creator
@@ -30,6 +31,28 @@ fork_from_sci(){
 
     ___x_cmd rm -rf data/k-dense-ai/document-skills
     ___x_cmd rm -rf claude-scientific-skills
+}
+
+fork_from_affaanmustafa(){
+    ___x_cmd git clone --depth 1 https://github.com/affaan-m/everything-claude-code
+
+    ___x_cmd rm -rf data/affaanmustafa
+    ___x_cmd mv everything-claude-code/skills data/affaanmustafa
+    ___x_cmd mv everything-claude-code/LICENSE data/affaanmustafa/LICENSE
+
+    ___x_cmd rm -rf everything-claude-code
+}
+
+fork_from_nextlevelbuilder(){
+    ___x_cmd git clone --depth 1 https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+
+    ___x_cmd rm -rf data/nextlevelbuilder
+    ___x_cmd rm -rf ui-ux-pro-max-skill/src/templates
+    ___x_cmd mv ui-ux-pro-max-skill/src data/nextlevelbuilder
+    ___x_cmd mv ui-ux-pro-max-skill/.claude/skills/ui-ux-pro-max/SKILL.md data/nextlevelbuilder/ui-ux-pro-max/SKILL.md
+    ___x_cmd mv ui-ux-pro-max-skill/LICENSE data/nextlevelbuilder/LICENSE
+
+    ___x_cmd rm -rf ui-ux-pro-max-skill
 }
 
 fork_from_superpowers(){
