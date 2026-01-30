@@ -82,9 +82,11 @@ bundle_xcmd_skill_packages(){
         x rmrf "$tgtprefix/.tmp"
         x cp -rf "$skill_dir" "$tgtprefix/.tmp/$skill_name"
         case "$skill_dir" in
-            */k-dense-ai/*)   x cp -rf "data/k-dense-ai/LICENSE.md" "$tgtprefix/.tmp/$skill_name/";;
-            */superpowers)    x cp -rf "data/superpowers/LICENSE" "$tgtprefix/.tmp/$skill_name/";;
-            */x-cmd/*)        x cp -rf LICENSE "$tgtprefix/.tmp/$skill_name/";;
+            */k-dense-ai/*)         x cp -rf "data/k-dense-ai/LICENSE.md"       "$tgtprefix/.tmp/$skill_name/";;
+            */affaanmustafa)        x cp -rf "data/affaanmustafa/LICENSE"       "$tgtprefix/.tmp/$skill_name/";;
+            */nextlevelbuilder)     x cp -rf "data/nextlevelbuilder/LICENSE"    "$tgtprefix/.tmp/$skill_name/";;
+            */superpowers)          x cp -rf "data/superpowers/LICENSE"         "$tgtprefix/.tmp/$skill_name/";;
+            */x-cmd/*)              x cp -rf LICENSE                            "$tgtprefix/.tmp/$skill_name/";;
         esac
         x z "$tgtprefix/${skill_name}.zip" "$tgtprefix/.tmp/$skill_name"
     done
@@ -93,7 +95,7 @@ bundle_xcmd_skill_packages(){
 }
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.11"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.12"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"

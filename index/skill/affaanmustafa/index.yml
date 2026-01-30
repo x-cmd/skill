@@ -1,0 +1,458 @@
+
+- id: affaanmustafa/backend-patterns
+  url: x-cmd-skill-data:affaanmustafa/backend-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - backend
+    - nodejs
+    - express
+    - nextjs
+    - api-design
+    - architecture
+  license: MIT
+  name: backend-patterns
+  description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/backend-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/backend-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/backend-patterns.zip
+- id: affaanmustafa/frontend-patterns
+  url: x-cmd-skill-data:affaanmustafa/frontend-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - frontend
+    - react
+    - nextjs
+    - ui
+    - performance
+  license: MIT
+  name: frontend-patterns
+  description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/frontend-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/frontend-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/frontend-patterns.zip
+- id: affaanmustafa/golang-patterns
+  url: x-cmd-skill-data:affaanmustafa/golang-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - golang
+    - go
+    - patterns
+    - best-practices
+  license: MIT
+  name: golang-patterns
+  description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/golang-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/golang-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/golang-patterns.zip
+- id: affaanmustafa/springboot-patterns
+  url: x-cmd-skill-data:affaanmustafa/springboot-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - java
+    - springboot
+    - spring
+    - rest-api
+    - backend
+  license: MIT
+  name: springboot-patterns
+  description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/springboot-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/springboot-patterns.zip
+- id: affaanmustafa/tdd-workflow
+  url: x-cmd-skill-data:affaanmustafa/tdd-workflow
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - tdd
+    - testing
+    - workflow
+    - test-driven-development
+  license: MIT
+  name: tdd-workflow
+  description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/tdd-workflow
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/tdd-workflow.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/tdd-workflow.zip
+- id: affaanmustafa/continuous-learning
+  url: x-cmd-skill-data:affaanmustafa/continuous-learning
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - learning
+    - patterns
+    - automation
+    - skill-extraction
+  license: MIT
+  name: continuous-learning
+  description: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/continuous-learning
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/continuous-learning.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/continuous-learning.zip
+- id: affaanmustafa/postgres-patterns
+  url: x-cmd-skill-data:affaanmustafa/postgres-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - postgresql
+    - database
+    - sql
+    - optimization
+    - supabase
+  license: MIT
+  name: postgres-patterns
+  description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/postgres-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/postgres-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/postgres-patterns.zip
+- id: affaanmustafa/jpa-patterns
+  url: x-cmd-skill-data:affaanmustafa/jpa-patterns
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - jpa
+    - hibernate
+    - java
+    - orm
+    - springboot
+  license: MIT
+  name: jpa-patterns
+  description: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/jpa-patterns
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/jpa-patterns.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/jpa-patterns.zip
+- id: affaanmustafa/security-review
+  url: x-cmd-skill-data:affaanmustafa/security-review
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - security
+    - authentication
+    - review
+    - checklist
+    - best-practices
+  license: MIT
+  name: security-review
+  description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/security-review
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/security-review.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/security-review.zip
+- id: affaanmustafa/coding-standards
+  url: x-cmd-skill-data:affaanmustafa/coding-standards
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - coding-standards
+    - typescript
+    - javascript
+    - react
+    - nodejs
+    - best-practices
+  license: MIT
+  name: coding-standards
+  description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/coding-standards
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/coding-standards.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/coding-standards.zip
+- id: affaanmustafa/verification-loop
+  url: x-cmd-skill-data:affaanmustafa/verification-loop
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - verification
+    - quality-assurance
+    - testing
+    - workflow
+  license: MIT
+  name: verification-loop
+  description: A comprehensive verification system for Claude Code sessions. Use after completing features, before PRs, or when ensuring quality gates pass.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/verification-loop
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/verification-loop.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/verification-loop.zip
+- id: affaanmustafa/clickhouse-io
+  url: x-cmd-skill-data:affaanmustafa/clickhouse-io
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - clickhouse
+    - analytics
+    - database
+    - data-engineering
+    - performance
+  license: MIT
+  name: clickhouse-io
+  description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/clickhouse-io
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/clickhouse-io.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/clickhouse-io.zip
+
+- id: affaanmustafa/iterative-retrieval
+  url: x-cmd-skill-data:affaanmustafa/iterative-retrieval
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - retrieval
+    - context
+    - patterns
+    - subagent
+  license: MIT
+  name: iterative-retrieval
+  description: Pattern for progressively refining context retrieval to solve the subagent context problem
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/iterative-retrieval
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/iterative-retrieval.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/iterative-retrieval.zip
+- id: affaanmustafa/java-coding-standards
+  url: x-cmd-skill-data:affaanmustafa/java-coding-standards
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - java
+    - coding-standards
+    - springboot
+    - best-practices
+  license: MIT
+  name: java-coding-standards
+  description: 'Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout.'
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/java-coding-standards
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/java-coding-standards.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/java-coding-standards.zip
+- id: affaanmustafa/springboot-security
+  url: x-cmd-skill-data:affaanmustafa/springboot-security
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - springboot
+    - security
+    - authentication
+    - authorization
+    - java
+  license: MIT
+  name: springboot-security
+  description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/springboot-security
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-security.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/springboot-security.zip
+- id: affaanmustafa/springboot-verification
+  url: x-cmd-skill-data:affaanmustafa/springboot-verification
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - springboot
+    - verification
+    - testing
+    - quality-assurance
+    - java
+  license: MIT
+  name: springboot-verification
+  description: 'Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.'
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/springboot-verification
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-verification.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/springboot-verification.zip
+- id: affaanmustafa/springboot-tdd
+  url: x-cmd-skill-data:affaanmustafa/springboot-tdd
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - springboot
+    - tdd
+    - testing
+    - junit
+    - java
+  license: MIT
+  name: springboot-tdd
+  description: Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/springboot-tdd
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-tdd.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/springboot-tdd.zip
+- id: affaanmustafa/golang-testing
+  url: x-cmd-skill-data:affaanmustafa/golang-testing
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - golang
+    - testing
+    - tdd
+    - benchmarks
+    - go
+  license: MIT
+  name: golang-testing
+  description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/golang-testing
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/golang-testing.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/golang-testing.zip
+- id: affaanmustafa/project-guidelines-example
+  url: x-cmd-skill-data:affaanmustafa/project-guidelines-example
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - project-guidelines
+    - template
+    - example
+    - documentation
+  license: MIT
+  name: project-guidelines-example
+  description: Example of a project-specific skill template based on Zenith AI-powered customer discovery platform. Use as a template for your own projects.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/project-guidelines-example
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/project-guidelines-example.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/project-guidelines-example.zip
+- id: affaanmustafa/strategic-compact
+  url: x-cmd-skill-data:affaanmustafa/strategic-compact
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - context-management
+    - compaction
+    - strategy
+    - workflow
+  license: MIT
+  name: strategic-compact
+  description: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/strategic-compact
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/strategic-compact.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/strategic-compact.zip
+- id: affaanmustafa/continuous-learning-v2
+  url: x-cmd-skill-data:affaanmustafa/continuous-learning-v2
+  reference: https://github.com/affaan-m/everything-claude-code
+  tag:
+    - learning
+    - instincts
+    - automation
+    - evolution
+    - v2
+  license: MIT
+  name: continuous-learning-v2
+  description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents.
+  author: Affaan Mustafa
+  avatar: https://avatars.githubusercontent.com/u/124439313
+  path: /affaanmustafa/continuous-learning-v2
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add affaan-m/everything-claude-code
+      install: /plugin install everything-claude-code@everything-claude-code
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/continuous-learning-v2.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/continuous-learning-v2.zip

@@ -6,5 +6,7 @@
     fork_from_anthropic
     fork_from_sci
     fork_from_openai
-    # fork_from_superpowers
+    fork_from_affaanmustafa
+    fork_from_nextlevelbuilder
+    fork_from_superpowers
 ) || return $?
