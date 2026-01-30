@@ -42,96 +42,27 @@ bundle_xcmd_skill_data()(
         return 1
     }
 
-    x awk '
-        BEGIN {
-            print "{"
-            first_item = 1
-        }
-
-        /^- id:/ {
-            if (name != "") { print_block() }
-            name=""; desc=""; type=""; url=""; cmd="";
-            args_str=""; in_args=0;
-            env_str=""; in_env=0;
-        }
-
-        /^[[:space:]]*name:/ {
-            gsub(/^[[:space:]]*name:[[:space:]]*/, "")
-            name = $0
-        }
-
-        /^[[:space:]]*description:/ {
-            sub(/^[[:space:]]*description:[[:space:]]*/, "")
-            desc = $0
-        }
-
-        /^[[:space:]]*stdio:/ { type = "stdio" }
-        /^[[:space:]]*http:/ { type = "http" }
-
-        type=="http" && /^[[:space:]]*url:/ {
-            sub(/^[[:space:]]*url:[[:space:]]*/, "")
-            url = $0
-        }
-
-        type=="stdio" && /^[[:space:]]*command:/ {
-            sub(/^[[:space:]]*command:[[:space:]]*/, "")
-            cmd = $0
-        }
-
-        type=="stdio" && /^[[:space:]]*args:/ { in_args=1; in_env=0; next }
-
-        in_args && /^[[:space:]]*- / {
-            sub(/^[[:space:]]*- /, "")
-            val = $0
-            gsub(/^'\''|'\''$/, "", val)
-            gsub(/^"|"$/, "", val)
-
-            if (args_str != "") args_str = args_str ", "
-            args_str = args_str "\"" val "\""
-        }
-
-        type=="stdio" && /^[[:space:]]*env:/ { in_env=1; in_args=0; next }
-
-        in_env && /:/ && !/env:/ {
-            key_part = $0; sub(/:.*/, "", key_part); sub(/^[[:space:]]*/, "", key_part);
-            val_part = $0; sub(/^[[:space:]]*[^:]+:[[:space:]]*/, "", val_part);
-
-            if (env_str != "") env_str = env_str ", "
-            env_str = env_str "\"" key_part "\": \"" val_part "\""
-        }
-
-
-        function print_block() {
-            if (!first_item) print ","
-            first_item = 0
-            printf "  \"%s\": {\n", name
-
-            if (type == "stdio") {
-                printf "    \"stdio\": {\n"
-                printf "      \"command\": \"%s\",\n", cmd
-                printf "      \"args\": [%s],\n", args_str
-
-                if (env_str != "") {
-                    printf "      \"env\": { %s },\n", env_str
-                }
-
-                printf "      \"description\": \"%s\"\n", desc
-                printf "    }\n"
-            } else {
-                printf "    \"http\": {\n"
-                printf "      \"type\": \"http\",\n"
-                printf "      \"url\": \"%s\",\n", url
-                printf "      \"description\": \"%s\"\n", desc
-                printf "    }\n"
+    x yq -o=json '
+        [ .[] as $i |
+            {
+                "key": $i.name,
+                "value": (
+                    $i.installation
+                    | with_entries(.value.description = $i.description)
+                )
             }
-            printf "  }"
-        }
-
-        END {
-            if (name != "") print_block()
-            print "\n}"
-        }
-    ' index/mcp/index.yml > "$tgtprefix/mcp.json" || {
+        ]
+    ' index/mcp/index.yml \
+    | x jq 'reduce .[] as $item ({};
+        .[$item.key] = (
+            $item.value
+            | if has("http") then
+                .http.type = "http"
+              else
+                .
+              end
+        )
+    )' > "$tgtprefix/mcp.json" || {
         x:error "wrong: mcp list"
         return 1
     }
