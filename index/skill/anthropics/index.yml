@@ -22,6 +22,29 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-creator.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/skill-creator.zip
+
+- id: anthropics/doc-coauthoring
+  url: x-cmd-skill-data:anthropics/doc-coauthoring
+  reference: https://github.com/anthropics/skills
+  tag:
+    - documentation
+    - writing
+    - collaboration
+    - workflow
+  license: Apache-2.0
+  name: doc-coauthoring
+  description: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+  author: Anthropic
+  avatar: https://avatars.githubusercontent.com/u/76263028
+  path: /anthropics/doc-coauthoring
+  installation:
+    claude_plugin:
+      registry: /plugin marketplace add anthropics/skills
+      install: /plugin install example-skills@anthropic-agent-skills
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/doc-coauthoring.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/doc-coauthoring.zip
+
 - id: anthropics/frontend-design
   url: x-cmd-skill-data:anthropics/frontend-design
   reference: https://github.com/anthropics/skills
@@ -32,7 +55,7 @@
     - creative
   license: Apache-2.0
   name: frontend-design
-  description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, or applications. Generates creative, polished code that avoids generic AI aesthetics.
+  description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/frontend-design
