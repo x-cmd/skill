@@ -261,7 +261,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/clickhouse-io.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/clickhouse-io.zip
-
 - id: affaanmustafa/iterative-retrieval
   url: x-cmd-skill-data:affaanmustafa/iterative-retrieval
   reference: https://github.com/affaan-m/everything-claude-code
@@ -283,27 +282,7 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/iterative-retrieval.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/iterative-retrieval.zip
-- id: affaanmustafa/java-coding-standards
-  url: x-cmd-skill-data:affaanmustafa/java-coding-standards
-  reference: https://github.com/affaan-m/everything-claude-code
-  tag:
-    - java
-    - coding-standards
-    - springboot
-    - best-practices
-  license: MIT
-  name: java-coding-standards
-  description: 'Java coding standards for Spring Boot services: naming, immutability, Optional usage, streams, exceptions, generics, and project layout.'
-  author: Affaan Mustafa
-  avatar: https://avatars.githubusercontent.com/u/124439313
-  path: /affaanmustafa/java-coding-standards
-  installation:
-    claude_plugin:
-      registry: /plugin marketplace add affaan-m/everything-claude-code
-      install: /plugin install everything-claude-code@everything-claude-code
-    zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/java-coding-standards.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/java-coding-standards.zip
+
 - id: affaanmustafa/springboot-security
   url: x-cmd-skill-data:affaanmustafa/springboot-security
   reference: https://github.com/affaan-m/everything-claude-code
@@ -326,28 +305,7 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-security.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-security.zip
-- id: affaanmustafa/springboot-verification
-  url: x-cmd-skill-data:affaanmustafa/springboot-verification
-  reference: https://github.com/affaan-m/everything-claude-code
-  tag:
-    - springboot
-    - verification
-    - testing
-    - quality-assurance
-    - java
-  license: MIT
-  name: springboot-verification
-  description: 'Verification loop for Spring Boot projects: build, static analysis, tests with coverage, security scans, and diff review before release or PR.'
-  author: Affaan Mustafa
-  avatar: https://avatars.githubusercontent.com/u/124439313
-  path: /affaanmustafa/springboot-verification
-  installation:
-    claude_plugin:
-      registry: /plugin marketplace add affaan-m/everything-claude-code
-      install: /plugin install everything-claude-code@everything-claude-code
-    zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-verification.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/springboot-verification.zip
+
 - id: affaanmustafa/springboot-tdd
   url: x-cmd-skill-data:affaanmustafa/springboot-tdd
   reference: https://github.com/affaan-m/everything-claude-code

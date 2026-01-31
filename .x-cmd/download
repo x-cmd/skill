@@ -39,6 +39,7 @@ fork_from_affaanmustafa(){
     ___x_cmd rm -rf data/affaanmustafa
     ___x_cmd mv everything-claude-code/skills data/affaanmustafa
     ___x_cmd mv everything-claude-code/LICENSE data/affaanmustafa/LICENSE
+    ___x_cmd rm -rf data/affaanmustafa/springboot-verification data/affaanmustafa/java-coding-standards
 
     ___x_cmd rm -rf everything-claude-code
 }
