@@ -1652,3 +1652,117 @@
   installation:
     http:
       url: https://ai.chronograph.pe/mcp
+
+- id: mcp/minimax
+  url: https://api.minimaxi.com
+  reference: https://platform.minimaxi.com/docs/coding-plan/mcp-guide
+  tag:
+    - mcp
+    - web-search
+    - image-understanding
+    - ai-tools
+    - mcp-server
+  license: null
+  name: minimax
+  description: Image Understanding & Web Search MCP provided by MiniMax — Web search and image understanding for developers
+  author: MiniMax
+  avatar: https://mintcdn.com/minimax-zh/5Q2zihEIHZrfAlAY/logo/light.svg?fit=max&auto=format&n=5Q2zihEIHZrfAlAY&q=85&s=dd237feebaeeadf61295efcd239ef00a
+  path: /
+  installation:
+    stdio:
+      command: uvx
+      args:
+        - minimax-coding-plan-mcp
+        - -y
+      env:
+        MINIMAX_API_KEY: MINIMAX_API_KEY
+        MINIMAX_API_HOST: https://api.minimaxi.com
+
+- id: mcp/vision-mcp-server
+  url: https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server
+  reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server
+  tag:
+    - mcp
+    - image-analysis
+    - video-understanding
+    - vision
+    - mcp-server
+  license: null
+  name: vision-mcp-server
+  description: Vision Understanding MCP provided by z.ai — Image analysis and video understanding capabilities
+  author: z.ai
+  avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
+  path: /
+  installation:
+    stdio:
+      command: npx
+      args:
+        - -y
+        - '@z_ai/mcp-server'
+      env:
+        Z_AI_API_KEY: Z_AI_API_KEY
+        Z_AI_MODE: ZHIPU
+
+- id: mcp/search-mcp-server
+  url: https://open.bigmodel.cn/api/mcp/web_search_prime/mcp
+  reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/search-mcp-server
+  tag:
+    - mcp
+    - web-search
+    - real-time-data
+    - news
+    - mcp-server
+  license: null
+  name: search-mcp-server
+  description: Web Search MCP provided by z.ai — Real-time web search for news, stock prices, weather, and more
+  author: z.ai
+  avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
+  path: /
+  installation:
+    http:
+      url: https://open.bigmodel.cn/api/mcp/web_search_prime/mcp
+      headers:
+        Authorization: Bearer Z_AI_API_KEY
+
+- id: mcp/reader-mcp-server
+  url: https://open.bigmodel.cn/api/mcp/web_reader/mcp
+  reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/reader-mcp-server
+  tag:
+    - mcp
+    - web-scraping
+    - content-extraction
+    - structured-data
+    - mcp-server
+  license: null
+  name: reader-mcp-server
+  description: Webpage Reading MCP provided by z.ai — Used to extract complete webpage content and structured data
+  author: z.ai
+  avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
+  path: /
+  installation:
+    http:
+      url: https://open.bigmodel.cn/api/mcp/web_reader/mcp
+      headers:
+        Authorization: Bearer Z_AI_API_KEY
+
+- id: mcp/zread-mcp-server
+  url: https://open.bigmodel.cn/api/mcp/zread/mcp
+  reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/zread-mcp-server
+  tag:
+    - mcp
+    - github
+    - code-search
+    - repository
+    - mcp-server
+  license: null
+  name: zread-mcp-server
+  description: Open-source MCP provided by z.ai - Search GitHub repositories for code, docs, and comments
+  author: z.ai
+  avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
+  path: /
+  installation:
+    http:
+      url: https://open.bigmodel.cn/api/mcp/zread/mcp
+      headers:
+        Authorization: Bearer Z_AI_API_KEY
+

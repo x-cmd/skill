@@ -95,7 +95,7 @@ bundle_xcmd_skill_packages(){
 }
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.12"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.13"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"
