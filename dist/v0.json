@@ -6283,7 +6283,7 @@
     }
   },
   {
-    "id": "mcp/vision-mcp-server",
+    "id": "mcp/zai-mcp-server",
     "reference": "https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server",
     "tag": [
       "mcp",
@@ -6293,7 +6293,7 @@
       "mcp-server"
     ],
     "license": null,
-    "name": "vision-mcp-server",
+    "name": "zai-mcp-server",
     "description": "Vision Understanding MCP provided by z.ai — Image analysis and video understanding capabilities",
     "author": "z.ai",
     "avatar": "https://cdn.bigmodel.cn/static/logo/dark.svg",
@@ -6313,7 +6313,7 @@
     }
   },
   {
-    "id": "mcp/search-mcp-server",
+    "id": "mcp/web-search-prime",
     "reference": "https://docs.bigmodel.cn/cn/coding-plan/mcp/search-mcp-server",
     "tag": [
       "mcp",
@@ -6323,7 +6323,7 @@
       "mcp-server"
     ],
     "license": null,
-    "name": "search-mcp-server",
+    "name": "web-search-prime",
     "description": "Web Search MCP provided by z.ai — Real-time web search for news, stock prices, weather, and more",
     "author": "z.ai",
     "avatar": "https://cdn.bigmodel.cn/static/logo/dark.svg",
@@ -6338,7 +6338,7 @@
     }
   },
   {
-    "id": "mcp/reader-mcp-server",
+    "id": "mcp/web-reader",
     "reference": "https://docs.bigmodel.cn/cn/coding-plan/mcp/reader-mcp-server",
     "tag": [
       "mcp",
@@ -6348,7 +6348,7 @@
       "mcp-server"
     ],
     "license": null,
-    "name": "reader-mcp-server",
+    "name": "web-reader",
     "description": "Webpage Reading MCP provided by z.ai — Used to extract complete webpage content and structured data",
     "author": "z.ai",
     "avatar": "https://cdn.bigmodel.cn/static/logo/dark.svg",
@@ -6363,7 +6363,7 @@
     }
   },
   {
-    "id": "mcp/zread-mcp-server",
+    "id": "mcp/zread",
     "reference": "https://docs.bigmodel.cn/cn/coding-plan/mcp/zread-mcp-server",
     "tag": [
       "mcp",
@@ -6373,7 +6373,7 @@
       "mcp-server"
     ],
     "license": null,
-    "name": "zread-mcp-server",
+    "name": "zread",
     "description": "Open-source MCP provided by z.ai - Search GitHub repositories for code, docs, and comments",
     "author": "z.ai",
     "avatar": "https://cdn.bigmodel.cn/static/logo/dark.svg",

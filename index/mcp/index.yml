@@ -1678,7 +1678,7 @@
         MINIMAX_API_KEY: MINIMAX_API_KEY
         MINIMAX_API_HOST: https://api.minimaxi.com
 
-- id: mcp/vision-mcp-server
+- id: mcp/zai-mcp-server
   url: https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server
   reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/vision-mcp-server
   tag:
@@ -1688,7 +1688,7 @@
     - vision
     - mcp-server
   license: null
-  name: vision-mcp-server
+  name: zai-mcp-server
   description: Vision Understanding MCP provided by z.ai — Image analysis and video understanding capabilities
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
@@ -1703,7 +1703,7 @@
         Z_AI_API_KEY: Z_AI_API_KEY
         Z_AI_MODE: ZHIPU
 
-- id: mcp/search-mcp-server
+- id: mcp/web-search-prime
   url: https://open.bigmodel.cn/api/mcp/web_search_prime/mcp
   reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/search-mcp-server
   tag:
@@ -1713,7 +1713,7 @@
     - news
     - mcp-server
   license: null
-  name: search-mcp-server
+  name: web-search-prime
   description: Web Search MCP provided by z.ai — Real-time web search for news, stock prices, weather, and more
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
@@ -1724,7 +1724,7 @@
       headers:
         Authorization: Bearer Z_AI_API_KEY
 
-- id: mcp/reader-mcp-server
+- id: mcp/web-reader
   url: https://open.bigmodel.cn/api/mcp/web_reader/mcp
   reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/reader-mcp-server
   tag:
@@ -1734,7 +1734,7 @@
     - structured-data
     - mcp-server
   license: null
-  name: reader-mcp-server
+  name: web-reader
   description: Webpage Reading MCP provided by z.ai — Used to extract complete webpage content and structured data
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
@@ -1745,7 +1745,7 @@
       headers:
         Authorization: Bearer Z_AI_API_KEY
 
-- id: mcp/zread-mcp-server
+- id: mcp/zread
   url: https://open.bigmodel.cn/api/mcp/zread/mcp
   reference: https://docs.bigmodel.cn/cn/coding-plan/mcp/zread-mcp-server
   tag:
@@ -1755,7 +1755,7 @@
     - repository
     - mcp-server
   license: null
-  name: zread-mcp-server
+  name: zread
   description: Open-source MCP provided by z.ai - Search GitHub repositories for code, docs, and comments
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
