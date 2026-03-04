@@ -1,9 +1,8 @@
 ---
-name: doc
-description: Use when the task involves reading, creating, or editing `.docx` documents, especially when formatting or layout fidelity matters; prefer `python-docx` plus the bundled `scripts/render_docx.py` for visual checks.
-metadata:
-  short-description: Edit and review docx files
+name: "doc"
+description: "Use when the task involves reading, creating, or editing `.docx` documents, especially when formatting or layout fidelity matters; prefer `python-docx` plus the bundled `scripts/render_docx.py` for visual checks."
 ---
+
 
 # DOCX Skill
 

@@ -1,3 +1,110 @@
+- id: openai/.curated/chatgpt-apps
+  url: x-cmd-skill-data:openai/.curated/chatgpt-apps
+  reference: https://github.com/openai/skills
+  tag:
+    - chatgpt
+    - apps
+    - sdk
+    - scaffold
+  license: Apache-2.0
+  name: chatgpt-apps
+  description: Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/chatgpt-apps
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/chatgpt-apps.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/chatgpt-apps.zip
+- id: openai/.curated/cloudflare-deploy
+  url: x-cmd-skill-data:openai/.curated/cloudflare-deploy
+  reference: https://github.com/openai/skills
+  tag:
+    - cloudflare
+    - deployment
+    - workers
+    - pages
+  license: Apache-2.0
+  name: cloudflare-deploy
+  description: Deploy applications and infrastructure to Cloudflare using Workers, Pages
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/cloudflare-deploy
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/cloudflare-deploy.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/cloudflare-deploy.zip
+- id: openai/.curated/develop-web-game
+  url: x-cmd-skill-data:openai/.curated/develop-web-game
+  reference: https://github.com/openai/skills
+  tag:
+    - web
+    - game
+    - playwright
+    - testing
+  license: Apache-2.0
+  name: develop-web-game
+  description: Build or iterate on a web game with Playwright testing
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/develop-web-game
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/develop-web-game.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/develop-web-game.zip
+- id: openai/.curated/doc
+  url: x-cmd-skill-data:openai/.curated/doc
+  reference: https://github.com/openai/skills
+  tag:
+    - document
+    - docx
+    - office
+  license: Apache-2.0
+  name: doc
+  description: Read, create, or edit .docx documents
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/doc
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/doc.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/doc.zip
+- id: openai/.curated/figma
+  url: x-cmd-skill-data:openai/.curated/figma
+  reference: https://github.com/openai/skills
+  tag:
+    - figma
+    - design
+    - mcp
+    - assets
+  license: Apache-2.0
+  name: figma
+  description: Use Figma MCP server for design context, screenshots, assets
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/figma
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/figma.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/figma.zip
+- id: openai/.curated/figma-implement-design
+  url: x-cmd-skill-data:openai/.curated/figma-implement-design
+  reference: https://github.com/openai/skills
+  tag:
+    - figma
+    - design
+    - code
+    - implementation
+  license: Apache-2.0
+  name: figma-implement-design
+  description: Translate Figma nodes into production-ready code
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/figma-implement-design
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/figma-implement-design.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/figma-implement-design.zip
 - id: openai/.curated/gh-address-comments
   url: x-cmd-skill-data:openai/.curated/gh-address-comments
   reference: https://github.com/openai/skills
@@ -34,6 +141,77 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/gh-fix-ci.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/gh-fix-ci.zip
+- id: openai/.curated/imagegen
+  url: x-cmd-skill-data:openai/.curated/imagegen
+  reference: https://github.com/openai/skills
+  tag:
+    - image
+    - generation
+    - openai
+    - api
+  license: Apache-2.0
+  name: imagegen
+  description: Generate or edit images via OpenAI Image API
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/imagegen
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/imagegen.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/imagegen.zip
+- id: openai/.curated/jupyter-notebook
+  url: x-cmd-skill-data:openai/.curated/jupyter-notebook
+  reference: https://github.com/openai/skills
+  tag:
+    - jupyter
+    - notebook
+    - data-science
+    - python
+  license: Apache-2.0
+  name: jupyter-notebook
+  description: Create, scaffold, or edit Jupyter notebooks
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/jupyter-notebook
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/jupyter-notebook.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/jupyter-notebook.zip
+- id: openai/.curated/linear
+  url: x-cmd-skill-data:openai/.curated/linear
+  reference: https://github.com/openai/skills
+  tag:
+    - linear
+    - project-management
+    - issues
+    - workflow
+  license: Apache-2.0
+  name: linear
+  description: Manage issues, projects & team workflows in Linear
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/linear
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/linear.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/linear.zip
+- id: openai/.curated/netlify-deploy
+  url: x-cmd-skill-data:openai/.curated/netlify-deploy
+  reference: https://github.com/openai/skills
+  tag:
+    - netlify
+    - deployment
+    - web
+  license: Apache-2.0
+  name: netlify-deploy
+  description: Deploy web projects to Netlify
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/netlify-deploy
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/netlify-deploy.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/netlify-deploy.zip
 - id: openai/.curated/notion-knowledge-capture
   url: x-cmd-skill-data:openai/.curated/notion-knowledge-capture
   reference: https://github.com/openai/skills
@@ -98,7 +276,7 @@
     - planning
   license: Apache-2.0
   name: notion-spec-to-implementation
-  description: Turn Notion specs into implementation plans, tasks, and progress tracking
+  description: Turn Notion specs into implementation plans
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/notion-spec-to-implementation
@@ -106,39 +284,275 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/notion-spec-to-implementation.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/notion-spec-to-implementation.zip
-- id: openai/.experimental/create-plan
-  url: x-cmd-skill-data:openai/.experimental/create-plan
+- id: openai/.curated/openai-docs
+  url: x-cmd-skill-data:openai/.curated/openai-docs
   reference: https://github.com/openai/skills
   tag:
-    - planning
-    - project-management
+    - openai
+    - documentation
+    - api
+    - reference
   license: Apache-2.0
-  name: create-plan
-  description: Create a plan
+  name: openai-docs
+  description: Access up-to-date OpenAI official documentation
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
-  path: /openai/.experimental/create-plan
+  path: /openai/.curated/openai-docs
   installation:
     zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/create-plan.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/create-plan.zip
-- id: openai/.experimental/linear
-  url: x-cmd-skill-data:openai/.experimental/linear
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/openai-docs.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/openai-docs.zip
+- id: openai/.curated/pdf
+  url: x-cmd-skill-data:openai/.curated/pdf
   reference: https://github.com/openai/skills
   tag:
-    - linear
-    - project-management
-    - issues
+    - pdf
+    - document
+    - reader
   license: Apache-2.0
-  name: linear
-  description: Manage Linear issues in Codex
+  name: pdf
+  description: Read, create, or review PDF files
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
-  path: /openai/.experimental/linear
+  path: /openai/.curated/pdf
   installation:
     zipball:
-      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/linear.zip
-      github: https://github.com/x-cmd/skill/releases/latest/download/linear.zip
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/pdf.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/pdf.zip
+- id: openai/.curated/playwright
+  url: x-cmd-skill-data:openai/.curated/playwright
+  reference: https://github.com/openai/skills
+  tag:
+    - playwright
+    - browser
+    - automation
+    - testing
+  license: Apache-2.0
+  name: playwright
+  description: Automate a real browser from the terminal
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/playwright
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/playwright.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/playwright.zip
+- id: openai/.curated/render-deploy
+  url: x-cmd-skill-data:openai/.curated/render-deploy
+  reference: https://github.com/openai/skills
+  tag:
+    - render
+    - deployment
+    - web
+    - infrastructure
+  license: Apache-2.0
+  name: render-deploy
+  description: Deploy applications to Render
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/render-deploy
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/render-deploy.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/render-deploy.zip
+- id: openai/.curated/screenshot
+  url: x-cmd-skill-data:openai/.curated/screenshot
+  reference: https://github.com/openai/skills
+  tag:
+    - screenshot
+    - capture
+    - desktop
+    - image
+  license: Apache-2.0
+  name: screenshot
+  description: Capture desktop or system screenshots
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/screenshot
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/screenshot.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/screenshot.zip
+- id: openai/.curated/security-best-practices
+  url: x-cmd-skill-data:openai/.curated/security-best-practices
+  reference: https://github.com/openai/skills
+  tag:
+    - security
+    - best-practices
+    - review
+    - audit
+  license: Apache-2.0
+  name: security-best-practices
+  description: Security best-practice reviews
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/security-best-practices
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/security-best-practices.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/security-best-practices.zip
+- id: openai/.curated/security-ownership-map
+  url: x-cmd-skill-data:openai/.curated/security-ownership-map
+  reference: https://github.com/openai/skills
+  tag:
+    - security
+    - ownership
+    - topology
+    - git
+  license: Apache-2.0
+  name: security-ownership-map
+  description: Build security ownership topology from git
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/security-ownership-map
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/security-ownership-map.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/security-ownership-map.zip
+- id: openai/.curated/security-threat-model
+  url: x-cmd-skill-data:openai/.curated/security-threat-model
+  reference: https://github.com/openai/skills
+  tag:
+    - security
+    - threat-modeling
+    - risk
+    - analysis
+  license: Apache-2.0
+  name: security-threat-model
+  description: Repository-grounded threat modeling
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/security-threat-model
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/security-threat-model.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/security-threat-model.zip
+- id: openai/.curated/sentry
+  url: x-cmd-skill-data:openai/.curated/sentry
+  reference: https://github.com/openai/skills
+  tag:
+    - sentry
+    - monitoring
+    - errors
+    - debugging
+  license: Apache-2.0
+  name: sentry
+  description: Inspect Sentry issues and events
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/sentry
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/sentry.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/sentry.zip
+- id: openai/.curated/sora
+  url: x-cmd-skill-data:openai/.curated/sora
+  reference: https://github.com/openai/skills
+  tag:
+    - sora
+    - video
+    - generation
+    - openai
+  license: Apache-2.0
+  name: sora
+  description: Generate, remix, poll, download Sora videos
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/sora
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/sora.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/sora.zip
+- id: openai/.curated/speech
+  url: x-cmd-skill-data:openai/.curated/speech
+  reference: https://github.com/openai/skills
+  tag:
+    - speech
+    - tts
+    - audio
+    - narration
+  license: Apache-2.0
+  name: speech
+  description: Text-to-speech narration via OpenAI Audio API
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/speech
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/speech.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/speech.zip
+- id: openai/.curated/spreadsheet
+  url: x-cmd-skill-data:openai/.curated/spreadsheet
+  reference: https://github.com/openai/skills
+  tag:
+    - spreadsheet
+    - excel
+    - csv
+    - data
+  license: Apache-2.0
+  name: spreadsheet
+  description: Create, edit, analyze spreadsheets (.xlsx, .csv)
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/spreadsheet
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/spreadsheet.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/spreadsheet.zip
+- id: openai/.curated/transcribe
+  url: x-cmd-skill-data:openai/.curated/transcribe
+  reference: https://github.com/openai/skills
+  tag:
+    - transcription
+    - audio
+    - whisper
+    - speech-to-text
+  license: Apache-2.0
+  name: transcribe
+  description: Transcribe audio files to text
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/transcribe
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/transcribe.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/transcribe.zip
+- id: openai/.curated/vercel-deploy
+  url: x-cmd-skill-data:openai/.curated/vercel-deploy
+  reference: https://github.com/openai/skills
+  tag:
+    - vercel
+    - deployment
+    - web
+    - nextjs
+  license: Apache-2.0
+  name: vercel-deploy
+  description: Deploy applications and websites to Vercel
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/vercel-deploy
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/vercel-deploy.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/vercel-deploy.zip
+- id: openai/.curated/yeet
+  url: x-cmd-skill-data:openai/.curated/yeet
+  reference: https://github.com/openai/skills
+  tag:
+    - git
+    - github
+    - pr
+    - workflow
+  license: Apache-2.0
+  name: yeet
+  description: Stage, commit, push, and open a GitHub PR
+  author: OpenAI
+  avatar: https://avatars.githubusercontent.com/u/14957082
+  path: /openai/.curated/yeet
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/yeet.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/yeet.zip
 - id: openai/.system/skill-installer
   url: x-cmd-skill-data:openai/.system/skill-installer
   reference: https://github.com/openai/skills
@@ -148,7 +562,7 @@
     - skills
   license: Apache-2.0
   name: skill-installer
-  description: Install curated skills from openai/skills or other repos
+  description: Install Codex skills from curated list or GitHub repo
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.system/skill-installer
@@ -156,5 +570,3 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/skill-installer.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/skill-installer.zip
-
-
