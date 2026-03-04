@@ -1,18 +1,17 @@
 ---
-name: gh-fix-ci
-description: Inspect GitHub PR checks with gh, pull failing GitHub Actions logs, summarize failure context, then create a fix plan and implement after user approval. Use when a user asks to debug or fix failing PR CI/CD checks on GitHub Actions and wants a plan + code changes; for external checks (e.g., Buildkite), only report the details URL and mark them out of scope.
-metadata:
-  short-description: Fix failing Github CI actions
+name: "gh-fix-ci"
+description: "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL."
 ---
+
 
 # Gh Pr Checks Plan Fix
 
 ## Overview
 
 Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.
-- Depends on the `plan` skill for drafting and approving the fix plan.
+- If a plan-oriented skill (for example `create-plan`) is available, use it; otherwise draft a concise plan inline and request approval before implementing.
 
-Prereq: ensure `gh` is authenticated (for example, run `gh auth login` once), then run `gh auth status` with escalated permissions (include workflow/repo scopes) so `gh` commands succeed. If sandboxing blocks `gh auth status`, rerun it with `sandbox_permissions=require_escalated`.
+Prereq: authenticate with the standard GitHub CLI once (for example, run `gh auth login`), then confirm with `gh auth status` (repo + workflow scopes are typically required).
 
 ## Inputs
 
@@ -28,9 +27,8 @@ Prereq: ensure `gh` is authenticated (for example, run `gh auth login` once), th
 ## Workflow
 
 1. Verify gh authentication.
-   - Run `gh auth status` in the repo with escalated scopes (workflow/repo) after running `gh auth login`.
-   - If sandboxed auth status fails, rerun the command with `sandbox_permissions=require_escalated` to allow network/keyring access.
-   - If unauthenticated, ask the user to log in before proceeding.
+   - Run `gh auth status` in the repo.
+   - If unauthenticated, ask the user to run `gh auth login` (ensuring repo + workflow scopes) before proceeding.
 2. Resolve the PR.
    - Prefer the current branch PR: `gh pr view --json number,url`.
    - If the user provides a PR number or URL, use that directly.
@@ -53,7 +51,7 @@ Prereq: ensure `gh` is authenticated (for example, run `gh auth login` once), th
    - Provide the failing check name, run URL (if any), and a concise log snippet.
    - Call out missing logs explicitly.
 6. Create a plan.
-   - Use the `plan` skill to draft a concise plan and request approval.
+   - Use the `create-plan` skill to draft a concise plan and request approval.
 7. Implement after approval.
    - Apply the approved plan, summarize diffs/tests, and ask about opening a PR.
 8. Recheck status.

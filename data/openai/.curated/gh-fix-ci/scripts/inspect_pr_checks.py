@@ -7,6 +7,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from shutil import which
 from typing import Any, Iterable, Sequence
 
 FAILURE_CONCLUSIONS = {
@@ -147,6 +148,9 @@ def find_git_root(start: Path) -> Path | None:
 
 
 def ensure_gh_available(repo_root: Path) -> bool:
+    if which("gh") is None:
+        print("Error: gh is not installed or not on PATH.", file=sys.stderr)
+        return False
     result = run_gh_command(["auth", "status"], cwd=repo_root)
     if result.returncode == 0:
         return True

@@ -1,9 +1,8 @@
 ---
-name: pdf
-description: Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.
-metadata:
-  short-description: Create, edit, and review PDFs
+name: "pdf"
+description: "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction."
 ---
+
 
 # PDF Skill
 

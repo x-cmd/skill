@@ -282,7 +282,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/iterative-retrieval.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/iterative-retrieval.zip
-
 - id: affaanmustafa/springboot-security
   url: x-cmd-skill-data:affaanmustafa/springboot-security
   reference: https://github.com/affaan-m/everything-claude-code
@@ -305,7 +304,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/springboot-security.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/springboot-security.zip
-
 - id: affaanmustafa/springboot-tdd
   url: x-cmd-skill-data:affaanmustafa/springboot-tdd
   reference: https://github.com/affaan-m/everything-claude-code
