@@ -708,7 +708,7 @@
     - testing
   license: MIT
   name: django-verification
-  description: Verification loop for Django projects: migrations, linting, tests with coverage, security scans, and deployment readiness checks.
+  description: Verification loop for Django projects - migrations, linting, tests with coverage, security scans, and deployment readiness checks.
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/django-verification
