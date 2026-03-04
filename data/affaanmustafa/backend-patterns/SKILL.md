@@ -1,11 +1,22 @@
 ---
 name: backend-patterns
 description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+origin: ECC
 ---
 
 # Backend Development Patterns
 
 Backend architecture patterns and best practices for scalable server-side applications.
+
+## When to Activate
+
+- Designing REST or GraphQL API endpoints
+- Implementing repository, service, or controller layers
+- Optimizing database queries (N+1, indexing, connection pooling)
+- Adding caching (Redis, in-memory, HTTP cache headers)
+- Setting up background jobs or async processing
+- Structuring error handling and validation for APIs
+- Building middleware (auth, logging, rate limiting)
 
 ## API Design Patterns
 
