@@ -279,7 +279,7 @@
     ],
     "license": "MIT",
     "name": "verification-loop",
-    "description": "A comprehensive verification system for Claude Code sessions. Use after completing features, before PRs, or when ensuring quality gates pass.",
+    "description": "A comprehensive verification system for Claude Code sessions.",
     "author": "Affaan Mustafa",
     "avatar": "https://avatars.githubusercontent.com/u/124439313",
     "path": "/affaanmustafa/verification-loop",
@@ -439,7 +439,7 @@
     ],
     "license": "MIT",
     "name": "project-guidelines-example",
-    "description": "Example of a project-specific skill template based on Zenith AI-powered customer discovery platform. Use as a template for your own projects.",
+    "description": "Example project-specific skill template based on a real production application.",
     "author": "Affaan Mustafa",
     "avatar": "https://avatars.githubusercontent.com/u/124439313",
     "path": "/affaanmustafa/project-guidelines-example",
@@ -492,7 +492,7 @@
     ],
     "license": "MIT",
     "name": "continuous-learning-v2",
-    "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents.",
+    "description": "Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.",
     "author": "Affaan Mustafa",
     "avatar": "https://avatars.githubusercontent.com/u/124439313",
     "path": "/affaanmustafa/continuous-learning-v2",
@@ -504,6 +504,942 @@
       "zipball": {
         "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/continuous-learning-v2.zip",
         "github": "https://github.com/x-cmd/skill/releases/latest/download/continuous-learning-v2.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/api-design",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "api",
+      "rest",
+      "design",
+      "http"
+    ],
+    "license": "MIT",
+    "name": "api-design",
+    "description": "REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/api-design",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/api-design.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/api-design.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/article-writing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "writing",
+      "content",
+      "articles",
+      "blogs"
+    ],
+    "license": "MIT",
+    "name": "article-writing",
+    "description": "Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/article-writing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/article-writing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/article-writing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/autonomous-loops",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "autonomous",
+      "loops",
+      "agents",
+      "pipeline"
+    ],
+    "license": "MIT",
+    "name": "autonomous-loops",
+    "description": "Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/autonomous-loops",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/autonomous-loops.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/autonomous-loops.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/configure-ecc",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "installation",
+      "setup",
+      "configuration"
+    ],
+    "license": "MIT",
+    "name": "configure-ecc",
+    "description": "Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/configure-ecc",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/configure-ecc.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/configure-ecc.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/content-engine",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "content",
+      "social-media",
+      "marketing"
+    ],
+    "license": "MIT",
+    "name": "content-engine",
+    "description": "Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/content-engine",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/content-engine.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/content-engine.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/content-hash-cache-pattern",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "cache",
+      "performance",
+      "hash"
+    ],
+    "license": "MIT",
+    "name": "content-hash-cache-pattern",
+    "description": "Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/content-hash-cache-pattern",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/content-hash-cache-pattern.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/content-hash-cache-pattern.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/cost-aware-llm-pipeline",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "llm",
+      "cost-optimization",
+      "pipeline"
+    ],
+    "license": "MIT",
+    "name": "cost-aware-llm-pipeline",
+    "description": "Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/cost-aware-llm-pipeline",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/cost-aware-llm-pipeline.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/cost-aware-llm-pipeline.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/cpp-coding-standards",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "cpp",
+      "c++",
+      "coding-standards"
+    ],
+    "license": "MIT",
+    "name": "cpp-coding-standards",
+    "description": "C++ coding standards based on the C++ Core Guidelines. Use when writing, reviewing, or refactoring C++ code.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/cpp-coding-standards",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/cpp-coding-standards.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/cpp-coding-standards.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/cpp-testing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "cpp",
+      "c++",
+      "testing",
+      "googletest"
+    ],
+    "license": "MIT",
+    "name": "cpp-testing",
+    "description": "Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/cpp-testing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/cpp-testing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/cpp-testing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/database-migrations",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "database",
+      "migrations",
+      "postgresql",
+      "mysql"
+    ],
+    "license": "MIT",
+    "name": "database-migrations",
+    "description": "Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/database-migrations",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/database-migrations.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/database-migrations.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/deployment-patterns",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "deployment",
+      "cicd",
+      "docker"
+    ],
+    "license": "MIT",
+    "name": "deployment-patterns",
+    "description": "Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/deployment-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/deployment-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/deployment-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/django-patterns",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "django",
+      "python",
+      "web",
+      "backend"
+    ],
+    "license": "MIT",
+    "name": "django-patterns",
+    "description": "Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/django-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/django-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/django-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/django-security",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "django",
+      "security",
+      "python"
+    ],
+    "license": "MIT",
+    "name": "django-security",
+    "description": "Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/django-security",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/django-security.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/django-security.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/django-tdd",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "django",
+      "tdd",
+      "testing",
+      "python"
+    ],
+    "license": "MIT",
+    "name": "django-tdd",
+    "description": "Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/django-tdd",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/django-tdd.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/django-tdd.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/django-verification",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "django",
+      "verification",
+      "testing"
+    ],
+    "license": "MIT",
+    "name": "django-verification",
+    "description": "Verification loop for Django projects - migrations, linting, tests with coverage, security scans, and deployment readiness checks.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/django-verification",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/django-verification.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/django-verification.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/docker-patterns",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "docker",
+      "container",
+      "devops"
+    ],
+    "license": "MIT",
+    "name": "docker-patterns",
+    "description": "Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/docker-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/docker-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/docker-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/e2e-testing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "e2e",
+      "testing",
+      "playwright"
+    ],
+    "license": "MIT",
+    "name": "e2e-testing",
+    "description": "Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/e2e-testing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/e2e-testing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/e2e-testing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/eval-harness",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "eval",
+      "evaluation",
+      "benchmarking"
+    ],
+    "license": "MIT",
+    "name": "eval-harness",
+    "description": "Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/eval-harness",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/eval-harness.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/eval-harness.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/foundation-models-on-device",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "apple",
+      "ios",
+      "llm",
+      "on-device"
+    ],
+    "license": "MIT",
+    "name": "foundation-models-on-device",
+    "description": "Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/foundation-models-on-device",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/foundation-models-on-device.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/foundation-models-on-device.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/frontend-slides",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "frontend",
+      "presentation",
+      "html"
+    ],
+    "license": "MIT",
+    "name": "frontend-slides",
+    "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/frontend-slides",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/frontend-slides.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/frontend-slides.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/investor-materials",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "investor",
+      "pitch-deck",
+      "fundraising"
+    ],
+    "license": "MIT",
+    "name": "investor-materials",
+    "description": "Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/investor-materials",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/investor-materials.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/investor-materials.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/investor-outreach",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "investor",
+      "outreach",
+      "fundraising"
+    ],
+    "license": "MIT",
+    "name": "investor-outreach",
+    "description": "Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/investor-outreach",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/investor-outreach.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/investor-outreach.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/liquid-glass-design",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "ios",
+      "swiftui",
+      "design",
+      "apple"
+    ],
+    "license": "MIT",
+    "name": "liquid-glass-design",
+    "description": "iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/liquid-glass-design",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/liquid-glass-design.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/liquid-glass-design.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/market-research",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "market-research",
+      "competitive-analysis",
+      "business"
+    ],
+    "license": "MIT",
+    "name": "market-research",
+    "description": "Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/market-research",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/market-research.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/market-research.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/nutrient-document-processing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "document",
+      "ocr",
+      "pdf"
+    ],
+    "license": "MIT",
+    "name": "nutrient-document-processing",
+    "description": "Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/nutrient-document-processing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/nutrient-document-processing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/nutrient-document-processing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/plankton-code-quality",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "code-quality",
+      "linting",
+      "formatting"
+    ],
+    "license": "MIT",
+    "name": "plankton-code-quality",
+    "description": "Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/plankton-code-quality",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/plankton-code-quality.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/plankton-code-quality.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/python-patterns",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "python",
+      "patterns",
+      "best-practices"
+    ],
+    "license": "MIT",
+    "name": "python-patterns",
+    "description": "Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/python-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/python-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/python-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/python-testing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "python",
+      "testing",
+      "pytest",
+      "tdd"
+    ],
+    "license": "MIT",
+    "name": "python-testing",
+    "description": "Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/python-testing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/python-testing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/python-testing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/regex-vs-llm-structured-text",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "regex",
+      "llm",
+      "parsing"
+    ],
+    "license": "MIT",
+    "name": "regex-vs-llm-structured-text",
+    "description": "Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/regex-vs-llm-structured-text",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/regex-vs-llm-structured-text.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/regex-vs-llm-structured-text.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/search-first",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "research",
+      "search",
+      "workflow"
+    ],
+    "license": "MIT",
+    "name": "search-first",
+    "description": "Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/search-first",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/search-first.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/search-first.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/security-scan",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "security",
+      "scan",
+      "vulnerability"
+    ],
+    "license": "MIT",
+    "name": "security-scan",
+    "description": "Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/security-scan",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/security-scan.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/security-scan.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/skill-stocktake",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "skill",
+      "audit",
+      "quality"
+    ],
+    "license": "MIT",
+    "name": "skill-stocktake",
+    "description": "Use when auditing Claude skills and commands for quality. Supports Quick Scan and Full Stocktake modes.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/skill-stocktake",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/skill-stocktake.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/skill-stocktake.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/swift-actor-persistence",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "swift",
+      "actor",
+      "persistence"
+    ],
+    "license": "MIT",
+    "name": "swift-actor-persistence",
+    "description": "Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/swift-actor-persistence",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/swift-actor-persistence.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/swift-actor-persistence.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/swift-concurrency-6-2",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "swift",
+      "concurrency",
+      "ios"
+    ],
+    "license": "MIT",
+    "name": "swift-concurrency-6-2",
+    "description": "Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/swift-concurrency-6-2",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/swift-concurrency-6-2.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/swift-concurrency-6-2.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/swift-protocol-di-testing",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "swift",
+      "testing",
+      "di"
+    ],
+    "license": "MIT",
+    "name": "swift-protocol-di-testing",
+    "description": "Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/swift-protocol-di-testing",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/swift-protocol-di-testing.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/swift-protocol-di-testing.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/swiftui-patterns",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "swiftui",
+      "ios",
+      "macos",
+      "apple"
+    ],
+    "license": "MIT",
+    "name": "swiftui-patterns",
+    "description": "SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/swiftui-patterns",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/swiftui-patterns.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/swiftui-patterns.zip"
+      }
+    }
+  },
+  {
+    "id": "affaanmustafa/visa-doc-translate",
+    "reference": "https://github.com/affaan-m/everything-claude-code",
+    "tag": [
+      "visa",
+      "translation",
+      "document"
+    ],
+    "license": "MIT",
+    "name": "visa-doc-translate",
+    "description": "Translate visa application documents (images) to English and create a bilingual PDF with original and translation.",
+    "author": "Affaan Mustafa",
+    "avatar": "https://avatars.githubusercontent.com/u/124439313",
+    "path": "/affaanmustafa/visa-doc-translate",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add affaan-m/everything-claude-code",
+        "install": "/plugin install everything-claude-code@everything-claude-code"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/visa-doc-translate.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/visa-doc-translate.zip"
       }
     }
   },
