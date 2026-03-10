@@ -1,5 +1,5 @@
 ---
-name: x-cmd-system
+name: x-system
 description: This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.
 ---
 

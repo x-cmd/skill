@@ -1,5 +1,5 @@
 ---
-name: x-cmd-knowledge
+name: x-knowledge
 description: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
 ---
 

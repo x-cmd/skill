@@ -1,4 +1,17 @@
 
+fork_from_xcmd(){
+    ___x_cmd git clone --depth 1 https://github.com/x-cmd-skill/x-cmd
+
+    ___x_cmd rm -rf data/x-cmd/x-cmd
+
+    ___x_cmd mkdirp data/x-cmd/x-cmd
+    ___x_cmd mv x-cmd/SKILL.md data/x-cmd/x-cmd
+    ___x_cmd mv x-cmd/data data/x-cmd/x-cmd/data
+    ___x_cmd mv x-cmd/LICENSE.txt x-cmd/README.md x-cmd/README.cn.md data/x-cmd/x-cmd
+
+    ___x_cmd rm -rf x-cmd
+}
+
 fork_from_anthropic(){
     ___x_cmd git clone --depth 1 https://github.com/anthropics/skills
     (
