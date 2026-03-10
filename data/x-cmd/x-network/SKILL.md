@@ -1,5 +1,5 @@
 ---
-name: x-cmd-network
+name: x-network
 description: This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.
 ---
 

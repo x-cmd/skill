@@ -1,5 +1,5 @@
 ---
-name: x-cmd-security
+name: x-security
 description: This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.
 ---
 

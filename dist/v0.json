@@ -5641,7 +5641,31 @@
     }
   },
   {
-    "id": "x-cmd/x-cmd-git",
+    "id": "x-cmd/x-cmd",
+    "reference": "https://github.com/x-cmd-skill/x-cmd",
+    "tag": [
+      "X-CMD",
+      "shell",
+      "cli",
+      "tools",
+      "package-management",
+      "portable"
+    ],
+    "license": "Apache-2.0",
+    "name": "x-cmd",
+    "description": "Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`. x-cmd provides 600+ portable software and development tools. Use `x <env|pixi> use <pkg>` to install and use any package instantly.",
+    "author": "Li Junhao",
+    "avatar": "https://avatars.githubusercontent.com/u/79955600",
+    "path": "/x-cmd/x-cmd",
+    "installation": {
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd.zip"
+      }
+    }
+  },
+  {
+    "id": "x-cmd/x-git",
     "reference": "https://github.com/x-cmd/skill",
     "tag": [
       "X-CMD",
@@ -5650,20 +5674,20 @@
       "code-hosting"
     ],
     "license": "Apache-2.0",
-    "name": "x-cmd-git",
+    "name": "x-git",
     "description": "This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.",
     "author": "X-CMD",
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
-    "path": "/x-cmd/x-cmd-git",
+    "path": "/x-cmd/x-git",
     "installation": {
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-git.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-git.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-git.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-git.zip"
       }
     }
   },
   {
-    "id": "x-cmd/x-cmd-knowledge",
+    "id": "x-cmd/x-knowledge",
     "reference": "https://github.com/x-cmd/skill",
     "tag": [
       "X-CMD",
@@ -5672,20 +5696,20 @@
       "technical-research"
     ],
     "license": "Apache-2.0",
-    "name": "x-cmd-knowledge",
+    "name": "x-knowledge",
     "description": "This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.",
     "author": "X-CMD",
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
-    "path": "/x-cmd/x-cmd-knowledge",
+    "path": "/x-cmd/x-knowledge",
     "installation": {
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-knowledge.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-knowledge.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-knowledge.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-knowledge.zip"
       }
     }
   },
   {
-    "id": "x-cmd/x-cmd-network",
+    "id": "x-cmd/x-network",
     "reference": "https://github.com/x-cmd/skill",
     "tag": [
       "X-CMD",
@@ -5694,20 +5718,20 @@
       "connectivity"
     ],
     "license": "Apache-2.0",
-    "name": "x-cmd-network",
+    "name": "x-network",
     "description": "This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.",
     "author": "X-CMD",
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
-    "path": "/x-cmd/x-cmd-network",
+    "path": "/x-cmd/x-network",
     "installation": {
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-network.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-network.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-network.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-network.zip"
       }
     }
   },
   {
-    "id": "x-cmd/x-cmd-security",
+    "id": "x-cmd/x-security",
     "reference": "https://github.com/x-cmd/skill",
     "tag": [
       "X-CMD",
@@ -5716,20 +5740,20 @@
       "network-reconnaissance"
     ],
     "license": "Apache-2.0",
-    "name": "x-cmd-security",
+    "name": "x-security",
     "description": "This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.",
     "author": "X-CMD",
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
-    "path": "/x-cmd/x-cmd-security",
+    "path": "/x-cmd/x-security",
     "installation": {
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-security.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-security.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-security.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-security.zip"
       }
     }
   },
   {
-    "id": "x-cmd/x-cmd-system",
+    "id": "x-cmd/x-system",
     "reference": "https://github.com/x-cmd/skill",
     "tag": [
       "X-CMD",
@@ -5738,15 +5762,15 @@
       "performance-management"
     ],
     "license": "Apache-2.0",
-    "name": "x-cmd-system",
+    "name": "x-system",
     "description": "This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.",
     "author": "X-CMD",
     "avatar": "https://avatars.githubusercontent.com/u/79955600",
-    "path": "/x-cmd/x-cmd-system",
+    "path": "/x-cmd/x-system",
     "installation": {
       "zipball": {
-        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd-system.zip",
-        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-cmd-system.zip"
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/x-system.zip",
+        "github": "https://github.com/x-cmd/skill/releases/latest/download/x-system.zip"
       }
     }
   },
