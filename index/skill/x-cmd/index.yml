@@ -19,7 +19,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd.zip
-
 - id: x-cmd/x-git
   url: x-cmd-skill-data:x-cmd/x-git
   reference: https://github.com/x-cmd/skill
