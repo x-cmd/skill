@@ -6,9 +6,18 @@
   },
   "metadata": {
     "description": "Comprehensive command-line tools collection for Git management, security assessment, network administration, system monitoring, and knowledge search through x-cmd CLI ecosystem",
-    "version": "0.0.7"
+    "version": "0.0.15"
   },
   "plugins": [
+    {
+      "name": "x-cmd",
+      "description": "Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`. x-cmd provides 600+ portable software and development tools. Use `x <env|pixi> use <pkg>` to install and use any package instantly.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./data/x-cmd/x-cmd"
+      ]
+    },
     {
       "name": "x-cmd-git",
       "description": "Comprehensive Git and code hosting platform management tools including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management",
