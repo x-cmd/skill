@@ -9,7 +9,9 @@
     - workflow-automation
   license: no license
   name: spec-to-implementation
-  description: Convert specifications to implementation using Notion
+  description:
+    en: Convert specifications to implementation using Notion
+    cn: 使用 Notion 将规范转换为实现
   author: Notion
   avatar: https://avatars.githubusercontent.com/u/4792552
   path: /

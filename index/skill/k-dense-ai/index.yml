@@ -8,7 +8,9 @@
     - mass-spectrometry
   license: MIT
   name: "metabolomics-workbench-database"
-  description: "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery."
+  description:
+    en: "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery."
+    cn: "通过 REST API 访问 NIH Metabolomics Workbench（4,200+ 项研究）。查询代谢物、RefMet 命名法、MS/NMR 数据、m/z 搜索、研究元数据，用于代谢组学和生物标志物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/metabolomics-workbench-database
@@ -29,7 +31,9 @@
     - research
   license: MIT
   name: "uspto-database"
-  description: "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches."
+  description:
+    en: "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches."
+    cn: "访问 USPTO API 进行专利/商标搜索、审查历史 (PEDS)、转让、引用的现有技术搜索。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/uspto-database
@@ -50,7 +54,9 @@
     - drug-interactions
   license: MIT
   name: "kegg-database"
-  description: "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control."
+  description:
+    en: "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control."
+    cn: "直接 REST API 访问 KEGG（仅供学术使用）。通路分析、基因-通路映射、代谢通路、药物相互作用、ID 转换。对于使用多个数据库的 Python 工作流，建议使用 bioservices。用于直接 HTTP/REST 工作或 KEGG 特定控制。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/kegg-database
@@ -71,7 +77,9 @@
     - compounds
   license: MIT
   name: "zinc-database"
-  description: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
+  description:
+    en: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
+    cn: "访问 ZINC（2.3 亿+ 可购买化合物）。按 ZINC ID/SMILES 搜索、相似性搜索、用于对接的 3D 就绪结构、类似物发现，用于虚拟筛选和药物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/zinc-database
@@ -92,7 +100,9 @@
     - bioinformatics
   license: MIT
   name: "alphafold-database"
-  description: "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
+  description:
+    en: "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
+    cn: "访问 AlphaFold 2 亿+ AI 预测蛋白结构。按 UniProt ID 获取结构、下载 PDB/mmCIF 文件、分析置信度指标（pLDDT、PAE），用于药物发现和结构生物学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/alphafold-database
@@ -113,7 +123,9 @@
     - oncology
   license: MIT
   name: "cosmic-database"
-  description: "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication."
+  description:
+    en: "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication."
+    cn: "访问 COSMIC 癌症突变数据库。查询体细胞突变、癌症基因普查、突变特征、基因融合，用于癌症研究和精准肿瘤学。需要身份验证。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/cosmic-database
@@ -134,7 +146,9 @@
     - bioinformatics
   license: MIT
   name: "gene-database"
-  description: "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis."
+  description:
+    en: "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis."
+    cn: "通过 E-utilities/Datasets API 查询 NCBI Gene。按符号/ID 搜索，获取基因信息（RefSeqs、GO、位置、表型），批量查询，用于基因注释和功能分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gene-database
@@ -155,7 +169,9 @@
     - life-sciences
   license: MIT
   name: "biorxiv-database"
-  description: "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews."
+  description:
+    en: "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews."
+    cn: "bioRxiv 预印本服务器的高效数据库搜索工具。当按关键词、作者、日期范围或类别搜索生命科学预印本、获取论文元数据、下载 PDF 或进行文献综述时使用此技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/biorxiv-database
@@ -176,7 +192,9 @@
     - transcriptomics
   license: MIT
   name: "geo-database"
-  description: "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis."
+  description:
+    en: "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis."
+    cn: "访问 NCBI GEO 获取基因表达/基因组数据。搜索/下载微阵列和 RNA-seq 数据集（GSE、GSM、GPL），获取 SOFT/Matrix 文件，用于转录组学和表达分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/geo-database
@@ -197,7 +215,9 @@
     - biomarkers
   license: MIT
   name: "hmdb-database"
-  description: "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification."
+  description:
+    en: "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification."
+    cn: "访问人类代谢组数据库（22 万+ 代谢物）。按名称/ID/结构搜索，获取化学性质、生物标志物数据、NMR/MS 光谱、通路，用于代谢组学和鉴定。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hmdb-database
@@ -218,7 +238,9 @@
     - medical-genetics
   license: MIT
   name: "clinvar-database"
-  description: "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine."
+  description:
+    en: "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine."
+    cn: "查询 NCBI ClinVar 获取变体临床意义。按基因/位置搜索，解释致病性分类，通过 E-utilities API 或 FTP 访问，注释 VCF，用于基因组医学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinvar-database
@@ -239,7 +261,9 @@
     - bioactivity
   license: MIT
   name: "pubchem-database"
-  description: "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics."
+  description:
+    en: "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics."
+    cn: "通过 PUG-REST API/PubChemPy 查询 PubChem（1.1 亿+ 化合物）。按名称/CID/SMILES 搜索，获取性质、相似性/子结构搜索、生物活性，用于化学信息学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pubchem-database
@@ -260,7 +284,9 @@
     - chemical-structures
   license: MIT
   name: "drugbank-database"
-  description: "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank."
+  description:
+    en: "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank."
+    cn: "从 DrugBank 数据库访问和分析全面的药物信息，包括药物性质、相互作用、靶点、通路、化学结构和药理学数据。此技能应用于药物数据、药物发现研究、药理学研究、药物-药物相互作用分析、靶点鉴定、化学相似性搜索、ADMET 预测，或任何需要 DrugBank 详细药物和药物靶点信息的任务。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/drugbank-database
@@ -281,7 +307,9 @@
     - safety-research
   license: MIT
   name: "fda-database"
-  description: "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research."
+  description:
+    en: "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research."
+    cn: "查询 openFDA API 获取药物、设备、不良事件、召回、监管提交（510k、PMA）、物质鉴定（UNII），用于 FDA 监管数据分析和安全研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/fda-database
@@ -302,7 +330,9 @@
     - comparative-genomics
   license: MIT
   name: "ensembl-database"
-  description: "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research."
+  description:
+    en: "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research."
+    cn: "查询 Ensembl 基因组数据库 REST API 获取 250+ 物种。基因查询、序列检索、变异分析、比较基因组学、直系同源物、VEP 预测，用于基因组研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/ensembl-database
@@ -323,7 +353,9 @@
     - dosing
   license: MIT
   name: "clinpgx-database"
-  description: "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions."
+  description:
+    en: "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions."
+    cn: "访问 ClinPGx 药物基因组学数据（PharmGKB 的继承者）。查询基因-药物相互作用、CPIC 指南、等位基因功能，用于精准医学和基因型指导的剂量决策。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinpgx-database
@@ -344,7 +376,9 @@
     - polygenic-risk
   license: MIT
   name: "gwas-database"
-  description: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores."
+  description:
+    en: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic流行病学和多基因风险评分。"
+    cn: "查询 NHGRI-EBI GWAS Catalog 获取 SNP-性状关联。按 rs ID、疾病/性状、基因搜索变体，获取 p 值和汇总统计，用于遗传流行病学和多基因风险评分。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gwas-database
@@ -365,7 +399,9 @@
     - go-enrichment
   license: MIT
   name: "string-database"
-  description: "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology."
+  description:
+    en: "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology."
+    cn: "查询 STRING API 获取蛋白质-蛋白质相互作用（5900 万蛋白质、200 亿相互作用）。网络分析、GO/KEGG 富集、相互作用发现、5000+ 物种，用于系统生物学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/string-database
@@ -386,7 +422,9 @@
     - sequence-analysis
   license: MIT
   name: "uniprot-database"
-  description: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
+  description:
+    en: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
+    cn: "直接 REST API 访问 UniProt。蛋白质搜索、FASTA 检索、ID 映射、Swiss-Prot/TrEMBL。对于使用多个数据库的 Python 工作流，建议使用 bioservices（40+ 服务的统一接口）。用于直接 HTTP/REST 工作或 UniProt 特定控制。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/uniprot-database
@@ -407,7 +445,9 @@
     - molecular-interactions
   license: MIT
   name: "reactome-database"
-  description: "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies."
+  description:
+    en: "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies."
+    cn: "查询 Reactome REST API 获取通路分析、富集、基因-通路映射、疾病通路、分子相互作用、表达分析，用于系统生物学研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/reactome-database/reactome-database
@@ -428,7 +468,9 @@
     - medical-literature
   license: MIT
   name: "pubmed-database"
-  description: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations."
+  description:
+    en: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations."
+    cn: "直接 REST API 访问 PubMed。高级布尔/MeSH 查询、E-utilities API、批量处理、引用管理。对于 Python 工作流，建议使用 biopython (Bio.Entrez)。用于直接 HTTP/REST 工作或自定义 API 实现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pubmed-database
@@ -449,7 +491,9 @@
     - sar-studies
   license: MIT
   name: "chembl-database"
-  description: "Query ChEMBL bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
+  description:
+    en: "Query ChEMBL bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
+    cn: "查询 ChEMBL 生物活性分子和药物发现数据。按结构/性质搜索化合物，获取生物活性数据（IC50、Ki），寻找抑制剂，进行 SAR 研究，用于药物化学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/chembl-database
@@ -470,7 +514,9 @@
     - drug-development
   license: MIT
   name: "clinicaltrials-database"
-  description: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
+  description:
+    en: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
+    cn: "通过 API v2 查询 ClinicalTrials.gov。按疾病、药物、地点、状态或阶段搜索试验。按 NCT ID 获取试验详情、导出数据，用于临床研究和患者匹配。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinicaltrials-database
@@ -491,7 +537,9 @@
     - genome-assemblies
   license: MIT
   name: "ena-database"
-  description: "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats."
+  description:
+    en: "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats."
+    cn: "通过 API/FTP 访问欧洲核苷酸档案馆。获取 DNA/RNA 序列、原始读数（FASTQ）、按 accession 号获取基因组组装，用于基因组学和生物信息学管道。支持多种格式。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/ena-database
@@ -512,7 +560,9 @@
     - molecular-biology
   license: MIT
   name: "pdb-database"
-  description: "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery."
+  description:
+    en: "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery."
+    cn: "访问 RCSB PDB 获取 3D 蛋白/核酸结构。按文本/序列/结构搜索，下载坐标（PDB/mmCIF），获取元数据，用于结构生物学和药物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pdb-database
@@ -533,7 +583,9 @@
     - omics
   license: MIT
   name: "opentargets-database"
-  description: "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification."
+  description:
+    en: "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification."
+    cn: "查询 Open Targets Platform 获取靶点-疾病关联、药物靶点发现、可成性/安全数据、遗传学/组学证据、已知药物，用于治疗靶点鉴定。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/opentargets-database
@@ -554,7 +606,9 @@
     - workflows
   license: MIT
   name: "benchling-integration"
-  description: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
+  description:
+    en: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
+    cn: "Benchling 研发平台集成。通过 API 访问注册表（DNA、蛋白质）、库存、ELN 条目、工作流，构建 Benchling Apps、查询 Data Warehouse，用于实验室数据管理自动化。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/benchling-integration
@@ -575,7 +629,9 @@
     - scientific-documentation
   license: MIT
   name: "protocolsio-integration"
-  description: "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation."
+  description:
+    en: "Integration with protocols.io API for managing scientific protocols. This skill should be used when working with protocols.io to search, create, update, or publish protocols; manage protocol steps and materials; handle discussions and comments; organize workspaces; upload and manage files; or integrate protocols.io functionality into workflows. Applicable for protocol discovery, collaborative protocol development, experiment tracking, lab protocol management, and scientific documentation."
+    cn: "与 protocols.io API 集成用于管理科学协议。在使用 protocols.io 搜索、创建、更新或发布协议；管理协议步骤和材料；处理讨论和评论；组织工作区；上传和管理文件；或将 protocols.io 功能集成到工作流时使用。适用于协议发现、协作协议开发、实验跟踪、实验室协议管理和科学文档。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/protocolsio-integration
@@ -596,7 +652,9 @@
     - pipetting
   license: MIT
   name: "opentrons-integration"
-  description: "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot."
+  description:
+    en: "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot."
+    cn: "Opentrons OT-2 和 Flex 机器人的官方 Opentrons 协议 API。在为 Opentrons 硬件编写协议并完全访问 Protocol API v2 功能时使用。适用于生产 Opentrons 协议、官方 API 兼容性。对于多供应商自动化或更广泛的设备控制使用 pylabrobot。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/opentrons-integration
@@ -617,7 +675,9 @@
     - data-management
   license: MIT
   name: "omero-integration"
-  description: "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows."
+  description:
+    en: "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows."
+    cn: "显微镜数据管理平台。通过 Python 访问图像、获取数据集、分析像素、管理 ROI/注释、批量处理，用于高内容筛选和显微镜工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/omero-integration
@@ -638,7 +698,9 @@
     - pipelines
   license: MIT
   name: "dnanexus-integration"
-  description: "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution."
+  description:
+    en: "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution."
+    cn: "DNAnexus 云基因组学平台。构建应用/小程序，管理数据（上传/下载）、dxpy Python SDK，运行工作流、FASTQ/BAM/VCF，用于基因组学管道开发和执行。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/dnanexus-integration
@@ -659,7 +721,9 @@
     - documentation
   license: MIT
   name: "labarchive-integration"
-  description: "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows."
+  description:
+    en: "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows."
+    cn: "电子实验室笔记本 API 集成。访问笔记本，管理条目/附件，备份笔记本，与 Protocols.io/Jupyter/REDCap 集成，用于编程 ELN 工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/labarchive-integration
@@ -680,7 +744,9 @@
     - serverless
   license: MIT
   name: "latchbio-integration"
-  description: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
+  description:
+    en: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
+    cn: "Latch 生物信息学工作流平台。使用 Latch SDK、@workflow/@task 装饰器构建管道，部署无服务器工作流、LatchFile/LatchDir，Nextflow/Snakemake 集成。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/latchbio-integration
@@ -701,7 +767,9 @@
     - optimization
   license: MIT
   name: "get-available-resources"
-  description: "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter."
+  description:
+    en: "This skill should be used at the start of any computationally intensive scientific task to detect and report available system resources (CPU cores, GPUs, memory, disk space). It creates a JSON file with resource information and strategic recommendations that inform computational approach decisions such as whether to use parallel processing (joblib, multiprocessing), out-of-core computing (Dask, Zarr), GPU acceleration (PyTorch, JAX), or memory-efficient strategies. Use this skill before running analyses, training models, processing large datasets, or any task where resource constraints matter."
+    cn: "此技能应在任何计算密集型科学任务开始时用于检测和报告可用的系统资源（CPU 核心、GPU、内存、磁盘空间）。它创建一个包含资源信息和战略建议的 JSON 文件，为计算方法决策提供信息，例如是否使用并行处理（joblib、multiprocessing）、核外计算（Dask、Zarr）、GPU 加速（PyTorch、JAX）或内存高效策略。在运行分析、训练模型、处理大型数据集或任何资源限制重要的任务之前使用此技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/get-available-resources
@@ -722,7 +790,9 @@
     - setup
   license: MIT
   name: "context-initialization"
-  description: "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task."
+  description:
+    en: "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task."
+    cn: "始终自动调用的技能，创建/更新工作区 AGENTS.md 以指示代理在尝试任何科学任务之前始终搜索现有技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-context-initialization
@@ -743,7 +813,9 @@
     - algorithms
   license: MIT
   name: "networkx"
-  description: "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships."
+  description:
+    en: "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships."
+    cn: "在 Python 中创建、分析和可视化复杂网络和图的综合工具包。用于处理网络/图数据结构、分析实体之间的关系、计算图算法（最短路径、中心性、聚类）、检测社区、生成合成网络或可视化网络拓扑。适用于社交网络、生物网络、交通系统、引用网络以及任何涉及成对关系的领域。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/networkx
@@ -764,7 +836,9 @@
     - bioinformatics
   license: MIT
   name: "anndata"
-  description: "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census."
+  description:
+    en: "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census."
+    cn: "单细胞分析中带注释矩阵的数据结构。用于处理 .h5ad 文件或与 scverse 生态系统集成。这是数据格式技能——对于分析工作流使用 scanpy；对于概率模型使用 scvi-tools；对于大规模查询使用 cellxgene-census。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/anndata
@@ -785,7 +859,9 @@
     - medical-research
   license: MIT
   name: "scikit-survival"
-  description: "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library."
+  description:
+    en: "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library."
+    cn: "使用 scikit-survival 在 Python中进行生存分析和事件时间建模的综合工具包。用于处理审查的生存数据、执行事件时间分析、拟合 Cox 模型、随机生存森林、梯度提升模型或生存 SVM，使用一致性指数或 Brier 评分评估生存预测、处理竞争风险，或使用 scikit-survival 库实施任何生存分析工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scikit-survival
@@ -806,7 +882,9 @@
     - inference
   license: MIT
   name: "pymc-bayesian-modeling"
-  description: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
+  description:
+    en: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
+    cn: "使用 PyMC 进行贝叶斯建模。构建层次模型、MCMC (NUTS)、变分推理、LOO/WAIC 比较、后验检查，用于概率编程和推理。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pymc
@@ -827,7 +905,9 @@
     - publication
   license: MIT
   name: "paper-2-web"
-  description: "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources."
+  description:
+    en: "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources."
+    cn: "此技能应用于将学术论文转换为宣传和演示格式，包括交互式网站（Paper2Web）、演示视频（Paper2Video）和会议海报（Paper2Poster）。用于论文传播、会议准备、创建可探索的学术主页、生成视频摘要或从 LaTeX 或 PDF 源制作打印就绪海报的任务。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/paper-2-web
@@ -848,7 +928,9 @@
     - feature-importance
   license: MIT
   name: "shap"
-  description: "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model."
+  description:
+    en: "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model."
+    cn: "使用 SHAP（SHapley 加性解释）进行模型可解释性和可解释性。在解释机器学习模型预测、计算特征重要性、生成 SHAP 图（瀑布图、蜂群图、条形图、散点图、力图、热图）、调试模型、分析模型偏差或公平性、比较模型或实施可解释 AI 时使用此技能。适用于基于树的模型（XGBoost、LightGBM、随机森林）、深度学习（TensorFlow、PyTorch）、线性模型和任何黑盒模型。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/shap
@@ -869,7 +951,9 @@
     - cheminformatics
   license: MIT
   name: "tooluniverse"
-  description: "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows."
+  description:
+    en: "Use this skill when working with scientific research tools and workflows across bioinformatics, cheminformatics, genomics, structural biology, proteomics, and drug discovery. This skill provides access to 600+ scientific tools including machine learning models, datasets, APIs, and analysis packages. Use when searching for scientific tools, executing computational biology workflows, composing multi-step research pipelines, accessing databases like OpenTargets/PubChem/UniProt/PDB/ChEMBL, performing tool discovery for research tasks, or integrating scientific computational resources into LLM workflows."
+    cn: "在生物信息学、化学信息学、基因组学、结构生物学、蛋白质组学和药物发现中使用科学研究工具和工作流时使用此技能。此技能提供对 600+ 科学工具的访问，包括机器学习模型、数据集、API 和分析包。搜索科学工具、执行计算生物学工作流、编写多步研究管道、访问 OpenTargets/PubChem/UniProt/PDB/ChEMBL 等数据库、为研究任务执行工具发现或将科学计算资源集成到 LLM 工作流时使用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/tooluniverse
@@ -890,7 +974,9 @@
     - manifold-learning
   license: MIT
   name: "umap-learn"
-  description: "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data."
+  description:
+    en: "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data."
+    cn: "UMAP 降维。用于 2D/3D 可视化的快速非线性流形学习、聚类预处理（HDBSCAN）、监督/参数 UMAP，用于高维数据。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/umap-learn
@@ -911,7 +997,9 @@
     - physics
   license: MIT
   name: "sympy"
-  description: "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
+  description:
+    en: "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
+    cn: "在 Python 中处理符号数学时使用此技能。此技能应用于符号计算任务，包括代数解方程、执行微积分运算（导数、积分、极限）、操作代数表达式、符号处理矩阵、物理计算、数论问题、几何计算，以及从数学表达式生成可执行代码。当用户需要精确的符号结果而非数值近似，或处理包含变量和参数的数学公式时应用此技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/sympy
@@ -932,7 +1020,9 @@
     - performance
   license: MIT
   name: "vaex"
-  description: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory."
+  description:
+    en: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory."
+    cn: "此技能用于处理和分析超出可用 RAM 的大型表格数据集（数十亿行）。Vaex 擅长核心外 DataFrame 操作、惰性求值、快速聚合、大型数据的高效可视化和大型数据集的机器学习。当用户需要处理大型 CSV/HDF5/Arrow/Parquet 文件、对大型数据集执行快速统计、创建大数据可视化或构建不适合内存的 ML 管道时应用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/vaex
@@ -953,7 +1043,9 @@
     - performance
   license: MIT
   name: "dask"
-  description: "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars."
+  description:
+    en: "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars."
+    cn: "用于大于内存的 pandas/NumPy 工作流的分布式计算。在需要将现有 pandas/NumPy 代码扩展到内存之外或跨集群时使用。适用于并行文件处理、分布式 ML、与现有 pandas 代码集成。对于单台机器的核心外分析使用 vaex；对于内存中速度使用 polars。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/dask
@@ -974,7 +1066,9 @@
     - ai
   license: MIT
   name: "esm"
-  description: "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference."
+  description:
+    en: "Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequence, structure, and function) and ESM C (efficient protein embeddings and representations). Use this skill when working with protein sequences, structures, or function prediction; designing novel proteins; generating protein embeddings; performing inverse folding; or conducting protein engineering tasks. Supports both local model usage and cloud-based Forge API for scalable inference."
+    cn: "蛋白质语言模型的综合工具包，包括 ESM3（跨序列、结构和功能的生成式多模态蛋白质设计）和 ESM C（高效蛋白质嵌入和表示）。处理蛋白质序列、结构或功能预测；设计新型蛋白质；生成蛋白质嵌入；执行反向折叠或进行蛋白质工程任务时使用。支持本地模型使用和基于云的 Forge API 进行可扩展推理。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/esm
@@ -995,7 +1089,9 @@
     - systems-biology
   license: MIT
   name: "arboreto"
-  description: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
+  description:
+    en: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
+    cn: "使用可扩展算法（GRNBoost2、GENIE3）从基因表达数据推断基因调控网络（GRN）。在分析转录组学数据（bulk RNA-seq、single-cell RNA-seq）以鉴定转录因子-靶基因关系和调控相互作用时使用。支持大规模数据集的分布式计算。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/arboreto
@@ -1016,7 +1112,9 @@
     - exploratory-analysis
   license: MIT
   name: "seaborn"
-  description: "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization."
+  description:
+    en: "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization."
+    cn: "集成 pandas 的统计可视化。用于快速探索分布、关系和分类比较，具有吸引人的默认设置。最好用于箱线图、小提琴图、配对图、热图。基于 matplotlib 构建。对于交互式图表使用 plotly；对于出版样式使用 scientific-visualization。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/seaborn
@@ -1037,7 +1135,9 @@
     - chip-seq
   license: MIT
   name: "deeptools"
-  description: "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization."
+  description:
+    en: "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization."
+    cn: "NGS 分析工具包。BAM 到 bigWig 转换、QC（相关性、PCA、指纹）、热图/剖面图（TSS、峰），用于 ChIP-seq、RNA-seq、ATAC-seq 可视化。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/deeptools
@@ -1058,7 +1158,9 @@
     - cheminformatics
   license: MIT
   name: "medchem"
-  description: "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering."
+  description:
+    en: "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering."
+    cn: "药物化学过滤器。应用类药性规则（Lipinski、Veber）、PAINS 过滤器、结构警报、复杂性度量，用于化合物优先级排序和库筛选。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/medchem
@@ -1079,7 +1181,9 @@
     - phase-diagrams
   license: MIT
   name: "pymatgen"
-  description: "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science."
+  description:
+    en: "Materials science toolkit. Crystal structures (CIF, POSCAR), phase diagrams, band structure, DOS, Materials Project integration, format conversion, for computational materials science."
+    cn: "计算材料科学工具包。晶体结构（CIF、POSCAR）、相图、能带结构、态密度、材料项目集成、格式转换。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pymatgen
@@ -1100,7 +1204,9 @@
     - qsar
   license: MIT
   name: "molfeat"
-  description: "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML."
+  description:
+    en: "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML."
+    cn: "分子特征化（100+ 特征器）。ECFP、MACCS、描述符、预训练模型（ChemBERTa）、SMILES 转特征，用于 QSAR 和分子机器学习。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/molfeat
@@ -1121,7 +1227,9 @@
     - healthcare
   license: MIT
   name: "pydicom"
-  description: "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications."
+  description:
+    en: "Python library for working with DICOM (Digital Imaging and Communications in Medicine) files. Use this skill when reading, writing, or modifying medical imaging data in DICOM format, extracting pixel data from medical images (CT, MRI, X-ray, ultrasound), anonymizing DICOM files, working with DICOM metadata and tags, converting DICOM images to other formats, handling compressed DICOM data, or processing medical imaging datasets. Applies to tasks involving medical image analysis, PACS systems, radiology workflows, and healthcare imaging applications."
+    cn: "用于处理 DICOM（医学数字成像和通信）文件的 Python 库。读取、写入或修改 DICOM 格式的医学成像数据；从医学图像（CT、MRI、X 射线、超声）提取像素数据；匿名化 DICOM 文件；处理 DICOM 元数据和标签；将 DICOM 图像转换为其他格式；处理压缩 DICOM 数据或处理医学成像数据集时使用。适用于医学图像分析、PACS 系统、放射学工作流和医疗成像应用的任务。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pydicom
@@ -1142,7 +1250,9 @@
     - data-processing
   license: MIT
   name: "markitdown"
-  description: "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more."
+  description:
+    en: "Convert files and office documents to Markdown. Supports PDF, DOCX, PPTX, XLSX, images (with OCR), audio (with transcription), HTML, CSV, JSON, XML, ZIP, YouTube URLs, EPubs and more."
+    cn: "将文件和 Office 文档转换为 Markdown。支持 PDF、DOCX、PPTX、XLSX、图片（带 OCR）、音频（带转录）、HTML、CSV、JSON、XML、ZIP、YouTube URL、EPUB 等。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/markitdown
@@ -1163,7 +1273,9 @@
     - pharmacology
   license: MIT
   name: "pytdc"
-  description: "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction."
+  description:
+    en: "Therapeutics Data Commons. AI-ready drug discovery datasets (ADME, toxicity, DTI), benchmarks, scaffold splits, molecular oracles, for therapeutic ML and pharmacological prediction."
+    cn: "治疗数据 Commons。AI 就绪的药物发现数据集（ADME、毒性、DTI）、基准、支架分割、分子预言，用于治疗机器学习和药理学预测。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pytdc
@@ -1184,7 +1296,9 @@
     - medical-imaging
   license: MIT
   name: "histolab"
-  description: "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml."
+  description:
+    en: "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, stain normalization for H&E images. Best for simple pipelines, dataset preparation, quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml."
+    cn: "轻量级 WSI 切片提取和预处理。用于基本切片处理、组织检测、切片提取、H&E 图像的组织化学染色归一化。最适合简单管道、数据集准备、快速基于切片的分析。用于高级空间蛋白质组学、多重成像或深度学习管道，请使用 pathml。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/histolab
@@ -1205,7 +1319,9 @@
     - metabolic-engineering
   license: MIT
   name: "cobrapy"
-  description: "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis."
+  description:
+    en: "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis."
+    cn: "基于约束的代谢建模（COBRA）。FBA、FVA、基因敲除、通量采样、SBML 模型，用于系统生物学和代谢工程分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/cobrapy
@@ -1226,7 +1342,9 @@
     - ncbi
   license: MIT
   name: "biopython"
-  description: "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices."
+  description:
+    en: "Comprehensive molecular biology toolkit. Use for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Best for batch processing, custom bioinformatics pipelines, BLAST automation. For quick lookups use gget; for multi-service integration use bioservices."
+    cn: "全面的分子生物学工具包。用于序列操作、文件解析（FASTA/GenBank/PDB）、系统发育和编程访问 NCBI/PubMed (Bio.Entrez)。最适合批量处理、自定义生物信息学管道、BLAST 自动化。快速查询使用 gget；多服务集成使用 bioservices。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/biopython
@@ -1247,7 +1365,9 @@
     - transcriptomics
   license: MIT
   name: "scvi-tools"
-  description: "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipelines use scanpy."
+  description:
+    en: "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipelines use scanpy."
+    cn: "单细胞组学的深度生成模型。当需要概率批次校正（scVI）、迁移学习、带不确定性的差异表达或多模态集成（TOTALVI、MultiVI）时使用。最适合高级建模、批次效应、多模态数据。标准分析管道使用 scanpy。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scvi-tools
@@ -1268,7 +1388,9 @@
     - workflow-tracking
   license: MIT
   name: "lamindb"
-  description: "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies."
+  description:
+    en: "This skill should be used when working with LaminDB, an open-source data framework for biology that makes data queryable, traceable, reproducible, and FAIR. Use when managing biological datasets (scRNA-seq, spatial, flow cytometry, etc.), tracking computational workflows, curating and validating data with biological ontologies, building data lakehouses, or ensuring data lineage and reproducibility in biological research. Covers data management, annotation, ontologies (genes, cell types, diseases, tissues), schema validation, integrations with workflow managers (Nextflow, Snakemake) and MLOps platforms (W&B, MLflow), and deployment strategies."
+    cn: "使用 LaminDB 时应使用此技能，LaminDB 是一个使数据可查询、可追溯、可重现和 FAIR 的开源生物学数据框架。管理生物数据集（scRNA-seq、空间、流式细胞术等）；跟踪计算工作流；使用生物本体论策展和验证数据；构建数据湖屋或确保生物研究中的数据血缘和可重现性时使用。涵盖数据管理、注释、本体论（基因、细胞类型、疾病、组织）、模式验证、与工作流管理器（Nextflow、Snakemake）和 MLOps 平台（W&B、MLflow）的集成以及部署策略。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/lamindb
@@ -1289,7 +1411,9 @@
     - rdkit
   license: MIT
   name: "datamol"
-  description: "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly."
+  description:
+    en: "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly."
+    cn: "围绕 RDKit 的 Pythonic 封装，具有简化的界面和合理的默认值。首选标准药物发现，包括 SMILES 解析、标准化、描述符、指纹、聚类、3D 构象、并行处理。返回原生 rdkit.Chem.Mol 对象。高级控制或自定义参数直接使用 rdkit。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/datamol
@@ -1310,7 +1434,9 @@
     - compound-identification
   license: MIT
   name: "matchms"
-  description: "Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms."
+  description:
+    en: "Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarity scores (cosine, modified cosine), and identifying unknown compounds from spectral libraries. Best for metabolite identification, spectral matching, library searching. For full LC-MS/MS proteomics pipelines use pyopenms."
+    cn: "代谢组学的光谱相似性和化合物鉴定。用于比较质谱、计算相似性分数（余弦、改进余弦），以及从光谱库中识别未知化合物。最适合代谢物鉴定、光谱匹配、库搜索。完整的 LC-MS/MS 蛋白质组学管道使用 pyopenms。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/matchms
@@ -1331,7 +1457,9 @@
     - structure-based-design
   license: MIT
   name: "diffdock"
-  description: "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction."
+  description:
+    en: "Diffusion-based molecular docking. Predict protein-ligand binding poses from PDB/SMILES, confidence scores, virtual screening, for structure-based drug design. Not for affinity prediction."
+    cn: "基于扩散的分子对接。从 PDB/SMILES 预测蛋白质-配体结合姿态、置信度分数、虚拟筛选，用于基于结构的药物设计。不用于亲和力预测。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/diffdock
@@ -1352,7 +1480,9 @@
     - eeg
   license: MIT
   name: "neurokit2"
-  description: "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration."
+  description:
+    en: "Comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals. Use this skill when processing cardiovascular signals, brain activity, electrodermal responses, respiratory patterns, muscle activity, or eye movements. Applicable for heart rate variability analysis, event-related potentials, complexity measures, autonomic nervous system assessment, psychophysiology research, and multi-modal physiological signal integration."
+    cn: "用于分析生理数据的综合生物信号处理工具包，包括 ECG、EEG、EDA、RSP、PPG、EMG 和 EOG 信号。处理心血管信号、脑活动、皮肤电反应、呼吸模式、肌肉活动或眼球运动时使用。适用于心率变异性分析、事件相关电位、复杂性测量、自主神经系统评估、心理生理学研究和多模态生理信号集成。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/neurokit2
@@ -1373,7 +1503,9 @@
     - genomics
   license: MIT
   name: "pydeseq2"
-  description: "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis."
+  description:
+    en: "Differential gene expression analysis (Python DESeq2). Identify DE genes from bulk RNA-seq counts, Wald tests, FDR correction, volcano/MA plots, for RNA-seq analysis."
+    cn: "差异基因表达分析（Python DESeq2）。从 bulk RNA-seq 计数中识别差异表达基因、Wald 检验、FDR 校正、火山图/MA 图，用于 RNA-seq 分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pydeseq2
@@ -1394,7 +1526,9 @@
     - data-access
   license: MIT
   name: "bioservices"
-  description: "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file manipulation use biopython."
+  description:
+    en: "Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL, Reactome) in a single workflow with consistent API. Best for cross-database analysis, ID mapping across services. For quick single-database lookups use gget; for sequence/file manipulation use biopython."
+    cn: "统一 Python 接口连接 40+ 生物信息服务。在单一工作流中使用一致 API 查询多个数据库（UniProt、KEGG、ChEMBL、Reactome）时使用。最适合跨数据库分析、跨服务 ID 映射。快速单一数据库查询使用 gget；序列/文件操作使用 biopython。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/bioservices
@@ -1415,7 +1549,9 @@
     - microbiome
   license: MIT
   name: "scikit-bio"
-  description: "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis."
+  description:
+    en: "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis."
+    cn: "生物数据工具包。序列分析、比对、系统发育树、多样性指标（alpha/beta、UniFrac）、排序（PCoA）、PERMANOVA、FASTA/Newick I/O，用于微生物组分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scikit-bio
@@ -1436,7 +1572,9 @@
     - genomics
   license: MIT
   name: "gget"
-  description: "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices."
+  description:
+    en: "Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold structures, enrichment analysis. Best for interactive exploration, simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices."
+    cn: "快速 CLI/Python 查询 20+ 生物信息数据库。用于快速查询：基因信息、BLAST 搜索、AlphaFold 结构、富集分析。最适合交互式探索、简单查询。批量处理或高级 BLAST 使用 biopython；多数据库 Python 工作流使用 bioservices。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gget
@@ -1457,7 +1595,9 @@
     - medical-prediction
   license: MIT
   name: "pyhealth"
-  description: "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN)."
+  description:
+    en: "Comprehensive healthcare AI toolkit for developing, testing, and deploying machine learning models with clinical data. This skill should be used when working with electronic health records (EHR), clinical prediction tasks (mortality, readmission, drug recommendation), medical coding systems (ICD, NDC, ATC), physiological signals (EEG, ECG), healthcare datasets (MIMIC-III/IV, eICU, OMOP), or implementing deep learning models for healthcare applications (RETAIN, SafeDrug, Transformer, GNN)."
+    cn: "用于开发、测试和部署临床数据机器学习模型的全面的医疗 AI 工具包。使用电子健康记录 (EHR)、临床预测任务（死亡率、再次入院、药物推荐）、医学编码系统（ICD、NDC、ATC）、生理信号（EEG、ECG）、医疗数据集（MIMIC-III/IV、eICU、OMOP）或实施医疗应用深度学习模型（RETAIN、SafeDrug、Transformer、GNN）时使用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pyhealth
@@ -1478,7 +1618,9 @@
     - ai-models
   license: MIT
   name: "transformers"
-  description: "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets."
+  description:
+    en: "This skill should be used when working with pre-trained transformer models for natural language processing, computer vision, audio, or multimodal tasks. Use for text generation, classification, question answering, translation, summarization, image classification, object detection, speech recognition, and fine-tuning models on custom datasets."
+    cn: "此技能应用于处理用于自然语言处理、计算机视觉、音频或多模态任务的预训练变压器模型。用于文本生成、分类、问答、翻译、摘要、图像分类、目标检测、语音识别和微调自定义数据集上的模型。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/transformers
@@ -1499,7 +1641,9 @@
     - geometric-dl
   license: MIT
   name: "torch-geometric"
-  description: "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning."
+  description:
+    en: "Graph Neural Networks (PyG). Node/graph classification, link prediction, GCN, GAT, GraphSAGE, heterogeneous graphs, molecular property prediction, for geometric deep learning."
+    cn: "图神经网络（PyG）。节点/图分类、链接预测、GCN、GAT、GraphSAGE、异构图、分子性质预测，用于几何深度学习。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/torch_geometric
@@ -1520,7 +1664,9 @@
     - admet
   license: MIT
   name: "deepchem"
-  description: "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc."
+  description:
+    en: "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc."
+    cn: "具有多样特征器和预构建数据集的分子机器学习。当需要广泛的特征化选项和 MoleculeNet 基准时，用于传统机器学习或 GNN 的性质预测（ADMET、毒性）。最适合使用预训练模型、多样分子表示的快速实验。图形优先 PyTorch 工作流使用 torchdrug；基准数据集使用 pytdc。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/deepchem
@@ -1541,7 +1687,9 @@
     - tissue-analysis
   license: MIT
   name: "pathml"
-  description: "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For simple tile extraction from H&E slides, histolab may be simpler."
+  description:
+    en: "Full-featured computational pathology toolkit. Use for advanced WSI analysis including multiplexed immunofluorescence (CODEX, Vectra), nucleus segmentation, tissue graph construction, and ML model training on pathology data. Supports 160+ slide formats. For simple tile extraction from H&E slides, histolab may be simpler."
+    cn: "功能全面的计算病理学工具包。用于高级 WSI 分析，包括多重免疫荧光（CODEX、Vectra）、细胞核分割、组织图构建和病理数据上的机器学习模型训练。支持 160+ 切片格式。从 H&E 切片简单提取切片使用 histolab 可能更简单。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pathml
@@ -1562,7 +1710,9 @@
     - scientific-computing
   license: MIT
   name: "zarr-python"
-  description: "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines."
+  description:
+    en: "Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatible, for large-scale scientific computing pipelines."
+    cn: "用于云存储的分块 N 维数组。压缩数组、并行 I/O、S3/GCS 集成、NumPy/Dask/Xarray 兼容，用于大规模科学计算管道。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/zarr-python
@@ -1583,7 +1733,9 @@
     - system-analysis
   license: MIT
   name: "simpy"
-  description: "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time."
+  description:
+    en: "Process-based discrete-event simulation framework in Python. Use this skill when building simulations of systems with processes, queues, resources, and time-based events such as manufacturing systems, service operations, network traffic, logistics, or any system where entities interact with shared resources over time."
+    cn: "基于 Python 的离散事件模拟框架。构建具有进程、队列、资源和时间事件的系统模拟时使用，如制造系统、服务运营、网络流量、物流或任何实体随时间共享资源交互的系统。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/simpy
@@ -1604,7 +1756,9 @@
     - scientific-workflows
   license: MIT
   name: "biomni"
-  description: "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases."
+  description:
+    en: "Autonomous biomedical AI agent framework for executing complex research tasks across genomics, drug discovery, molecular biology, and clinical analysis. Use this skill when conducting multi-step biomedical research including CRISPR screening design, single-cell RNA-seq analysis, ADMET prediction, GWAS interpretation, rare disease diagnosis, or lab protocol optimization. Leverages LLM reasoning with code execution and integrated biomedical databases."
+    cn: "用于在基因组学、药物发现、分子生物学和临床分析中执行复杂研究任务的自主生物医学 AI 代理框架。进行多步生物医学研究时使用，包括 CRISPR 筛选设计、单细胞 RNA-seq 分析、ADMET 预测、GWAS 解释、罕见疾病诊断或实验室方案优化。利用 LLM 推理与代码执行和集成生物医学数据库。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/biomni
@@ -1625,7 +1779,9 @@
     - lc-ms
   license: MIT
   name: "pyopenms"
-  description: "Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. Best for proteomics, comprehensive MS data processing. For simple spectral comparison and metabolite ID use matchms."
+  description:
+    en: "Complete mass spectrometry analysis platform. Use for proteomics workflows feature detection, peptide identification, protein quantification, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. Best for proteomics, comprehensive MS data processing. For simple spectral comparison and metabolite ID use matchms."
+    cn: "完整的质谱分析平台。用于蛋白质组学工作流的特征检测、肽识别、蛋白质定量和复杂 LC-MS/MS 管道。支持大量文件格式和算法。最适合蛋白质组学、全面的 MS 数据处理。简单光谱比较和代谢物鉴定使用 matchms。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pyopenms
@@ -1646,7 +1802,9 @@
     - variant-analysis
   license: MIT
   name: "pysam"
-  description: "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines."
+  description:
+    en: "Genomic file toolkit. Read/write SAM/BAM/CRAM alignments, VCF/BCF variants, FASTA/FASTQ sequences, extract regions, calculate coverage, for NGS data processing pipelines."
+    cn: "基因组文件工具包。读/写 SAM/BAM/CRAM 比对、VCF/BCF 变体、FASTA/FASTQ 序列、提取区域、计算覆盖度，用于 NGS 数据处理管道。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pysam
@@ -1667,7 +1825,9 @@
     - publication
   license: MIT
   name: "matplotlib"
-  description: "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization."
+  description:
+    en: "Low-level plotting library for full customization. Use when you need fine-grained control over every plot element, creating novel plot types, or integrating with specific scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization."
+    cn: "用于完全自定义的低级绘图库。需要对每个绘图元素进行细粒度控制、创建新颖的绘图类型或与特定科学工作流集成时使用。导出为 PNG/PDF/SVG 用于发表。快速统计图使用 seaborn；交互式图表使用 plotly；带有期刊样式的发表就绪多面板图表使用 scientific-visualization。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/matplotlib
@@ -1688,7 +1848,9 @@
     - scalable-ml
   license: MIT
   name: "pytorch-lightning"
-  description: "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training."
+  description:
+    en: "Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training."
+    cn: "深度学习框架（PyTorch Lightning）。将 PyTorch 代码组织成 LightningModules，配置多 GPU/TPU 的 Trainers，实现数据管道、回调、日志（W&B、TensorBoard）、分布式训练（DDP、FSDP、DeepSpeed），用于可扩展神经网络训练。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pytorch-lightning
@@ -1709,7 +1871,9 @@
     - data-analysis
   license: MIT
   name: "hypogenic"
-  description: "Automated LLM-driven hypothesis generation and testing on tabular datasets. Use when you want to systematically explore hypotheses about patterns in empirical data (e.g., deception detection, content analysis). Combines literature insights with data-driven hypothesis testing. For manual hypothesis formulation use hypothesis-generation; for creative ideation use scientific-brainstorming."
+  description:
+    en: "Automated LLM-driven hypothesis generation and testing on tabular datasets. Use when you want to systematically explore hypotheses about patterns in empirical data (e.g., deception detection, content analysis). Combines literature insights with data-driven hypothesis testing. For manual hypothesis formulation use hypothesis-generation; for creative ideation use scientific-brainstorming."
+    cn: "表格数据集上自动 LLM 驱动的假设生成和测试。系统探索经验数据中的模式假设时使用（如欺诈检测、内容分析）。结合文献洞察与数据驱动的假设检验。手动假设制定使用 hypothesis-generation；创意构思使用 scientific-brainstorming。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hypogenic
@@ -1730,7 +1894,9 @@
     - retrosynthesis
   license: MIT
   name: "torchdrug"
-  description: "PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN architectures for drug discovery, protein modeling, or knowledge graph reasoning. Best for custom model development, protein property prediction, retrosynthesis. For pre-trained models and diverse featurizers use deepchem; for benchmark datasets use pytdc."
+  description:
+    en: "PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN architectures for drug discovery, protein modeling, or knowledge graph reasoning. Best for custom model development, protein property prediction, retrosynthesis. For pre-trained models and diverse featurizers use deepchem; for benchmark datasets use pytdc."
+    cn: "用于分子和蛋白质的 PyTorch 原生图神经网络。构建用于药物发现、蛋白质建模或知识图推理的自定义 GNN 架构时使用。最适合自定义模型开发、蛋白质性质预测、逆合成分析。预训练模型和多样特征器使用 deepchem；基准数据集使用 pytdc。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/torchdrug
@@ -1751,7 +1917,9 @@
     - immunology
   license: MIT
   name: "flowio"
-  description: "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing."
+  description:
+    en: "Parse FCS (Flow Cytometry Standard) files v2.0-3.1. Extract events as NumPy arrays, read metadata/channels, convert to CSV/DataFrame, for flow cytometry data preprocessing."
+    cn: "解析 FCS（流式细胞术标准）文件 v2.0-3.1。将事件提取为 NumPy 数组，读取元数据/通道，转换为 CSV/DataFrame，用于流式细胞术数据预处理。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/flowio
@@ -1772,7 +1940,9 @@
     - economic-indicators
   license: MIT
   name: "datacommons-client"
-  description: "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities."
+  description:
+    en: "Work with Data Commons, a platform providing programmatic access to public statistical data from global sources. Use this skill when working with demographic data, economic indicators, health statistics, environmental data, or any public datasets available through Data Commons. Applicable for querying population statistics, GDP figures, unemployment rates, disease prevalence, geographic entity resolution, and exploring relationships between statistical entities."
+    cn: "使用 Data Commons，这是一个提供对来自全球来源的公共统计数据编程访问的平台。处理人口统计数据、经济指标、健康统计、环境数据或通过 Data Commons 提供的任何公共数据集时使用。适用于查询人口统计数据、GDP 数字、失业率、疾病患病率、地理实体解析以及探索统计实体之间的关系。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/datacommons-client
@@ -1793,7 +1963,9 @@
     - fingerprints
   license: MIT
   name: "rdkit"
-  description: "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms."
+  description:
+    en: "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms."
+    cn: "用于细粒度分子控制的化学信息学工具包。SMILES/SDF 解析、描述符（MW、LogP、TPSA）、指纹、子结构搜索、2D/3D 生成、相似性、反应用于具有更简单界面的标准工作流，使用 datamol（RDKit 封装）。高级控制、自定义清理、专业算法直接使用 rdkit。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/rdkit
@@ -1814,7 +1986,9 @@
     - algorithms
   license: MIT
   name: "stable-baselines3"
-  description: "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel training, multi-agent systems, or custom vectorized environments, use pufferlib instead."
+  description:
+    en: "Production-ready reinforcement learning algorithms (PPO, SAC, DQN, TD3, DDPG, A2C) with scikit-learn-like API. Use for standard RL experiments, quick prototyping, and well-documented algorithm implementations. Best for single-agent RL with Gymnasium environments. For high-performance parallel training, multi-agent systems, or custom vectorized environments, use pufferlib instead."
+    cn: "生产就绪的强化学习算法（PPO、SAC、DQN、TD3、DDPG、A2C），具有类似 scikit-learn 的 API。用于标准强化学习实验、快速原型设计和文档完善的算法实现。最适合使用 Gymnasium 环境的单代理强化学习。高性能并行训练、多代理系统或自定义向量化环境改用 pufferlib。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/stable-baselines3
@@ -1835,7 +2009,9 @@
     - protocols
   license: MIT
   name: "pylabrobot"
-  description: "Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workflows, multi-vendor setups, simulation. For Opentrons-only protocols with official API, opentrons-integration may be simpler."
+  description:
+    en: "Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton, Tecan, Opentrons, plate readers, pumps) or needing unified programming across different vendors. Best for complex workflows, multi-vendor setups, simulation. For Opentrons-only protocols with official API, opentrons-integration may be simpler."
+    cn: "供应商无关的实验室自动化框架。控制多种设备类型（Hamilton、Tecan、Opentrons、读板机、泵）或需要在不同供应商之间统一编程时使用。最适合复杂工作流、多供应商设置、模拟。仅 Opentrons 协议使用官方 API，opentrons-integration 可能更简单。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pylabrobot
@@ -1856,7 +2032,9 @@
     - forecasting
   license: MIT
   name: "aeon"
-  description: "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs."
+  description:
+    en: "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs."
+    cn: "此技能应用于时间序列机器学习任务，包括分类、回归、聚类、预测、异常检测、分割和相似性搜索。处理时间数据、顺序模式或需要超越标准机器学习方法的专业算法的时间索引观测时使用。特别适合单变量和多变量时间序列分析与 scikit-learn 兼容的 API。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/aeon
@@ -1877,7 +2055,9 @@
     - big-data
   license: MIT
   name: "polars"
-  description: "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex."
+  description:
+    en: "Fast in-memory DataFrame library for datasets that fit in RAM. Use when pandas is too slow but data still fits in memory. Lazy evaluation, parallel execution, Apache Arrow backend. Best for 1-100GB datasets, ETL pipelines, faster pandas replacement. For larger-than-RAM data use dask or vaex."
+    cn: "适合 RAM 数据集的快速内存 DataFrame 库。pandas 太慢但数据仍在内存中时使用。惰性求值、并行执行、Apache Arrow 后端。最适合 1-100GB 数据集、ETL 管道、更快的 pandas 替代品。大于 RAM 的数据使用 dask 或 vaex。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/polars
@@ -1898,7 +2078,9 @@
     - econometrics
   license: MIT
   name: "statsmodels"
-  description: "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis."
+  description:
+    en: "Statistical models library for Python. Use when you need specific model classes (OLS, GLM, mixed models, ARIMA) with detailed diagnostics, residuals, and inference. Best for econometrics, time series, rigorous inference with coefficient tables. For guided statistical test selection with APA reporting use statistical-analysis."
+    cn: "Python 统计模型库。需要特定模型类（OLS、GLM、混合模型、ARIMA）及详细诊断、残差和推断时使用。最适合计量经济学、时间序列、带系数表的严格推断。带 APA 报告的指导性统计检验选择使用 statistical-analysis。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/statsmodels
@@ -1919,7 +2101,9 @@
     - clustering
   license: MIT
   name: "scanpy"
-  description: "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata."
+  description:
+    en: "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, and visualization. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata."
+    cn: "标准单细胞 RNA-seq 分析管道。用于质控、归一化、降维（PCA/UMAP/t-SNE）、聚类、差异表达和可视化。最适合使用已建立工作流的探索性 scRNA-seq 分析。深度学习模型使用 scvi-tools；数据格式问题使用 anndata。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scanpy
@@ -1940,7 +2124,9 @@
     - imaging
   license: MIT
   name: "astropy"
-  description: "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing."
+  description:
+    en: "Comprehensive Python library for astronomy and astrophysics. This skill should be used when working with astronomical data including celestial coordinates, physical units, FITS files, cosmological calculations, time systems, tables, world coordinate systems (WCS), and astronomical data analysis. Use when tasks involve coordinate transformations, unit conversions, FITS file manipulation, cosmological distance calculations, time scale conversions, or astronomical data processing."
+    cn: "全面的 Python 天文学和天体物理学库。处理天文数据时使用，包括天球坐标、物理单位、FITS 文件、宇宙计算、时间系统、表格、世界坐标系统（WCS）和天文数据分析。任务涉及坐标变换、单位转换、FITS 文件操作、宇宙距离计算、时间尺度转换或天文数据处理。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/astropy
@@ -1961,7 +2147,9 @@
     - charts
   license: MIT
   name: "reportlab"
-  description: "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation."
+  description:
+    en: "PDF generation toolkit. Create invoices, reports, certificates, forms, charts, tables, barcodes, QR codes, Canvas/Platypus APIs, for professional document automation."
+    cn: "PDF 生成工具包。创建发票、报告、证书、表格、图表、表格、条形码、二维码、Canvas/Platypus API，用于专业文档自动化。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/reportlab
@@ -1982,7 +2170,9 @@
     - training
   license: MIT
   name: "pufferlib"
-  description: "High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Procgen, NetHack). Achieves 2-10x speedups over standard implementations. For quick prototyping or standard algorithm implementations with extensive documentation, use stable-baselines3 instead."
+  description:
+    en: "High-performance reinforcement learning framework optimized for speed and scale. Use when you need fast parallel training, vectorized environments, multi-agent systems, or integration with game environments (Atari, Procgen, NetHack). Achieves 2-10x speedups over standard implementations. For quick prototyping or standard algorithm implementations with extensive documentation, use stable-baselines3 instead."
+    cn: "针对速度和规模优化的高性能强化学习框架。需要快速并行训练、矢量化环境、多代理系统或与游戏环境集成（Atari、Procgen、NetHack）时使用。相比标准实现实现 2-10 倍加速。快速原型设计或具有广泛文档的标准算法实现改用 stable-baselines3。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pufferlib
@@ -2003,7 +2193,9 @@
     - pareto-fronts
   license: MIT
   name: "pymoo"
-  description: "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems."
+  description:
+    en: "Multi-objective optimization framework. NSGA-II, NSGA-III, MOEA/D, Pareto fronts, constraint handling, benchmarks (ZDT, DTLZ), for engineering design and optimization problems."
+    cn: "多目标优化框架。NSGA-II、NSGA-III、MOEA/D、Pareto 前沿、约束处理、基准（ZDT、DTLZ），用于工程设计和优化问题。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pymoo
@@ -2024,7 +2216,9 @@
     - clustering
   license: MIT
   name: "scikit-learn"
-  description: "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices."
+  description:
+    en: "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices."
+    cn: "Python 机器学习与 scikit-learn。处理监督学习（分类、回归）、无监督学习（聚类、降维）、模型评估、超参数调优、预处理或构建机器学习管道时使用。提供算法、预处理技术、管道和最佳实践的综合参考文档。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scikit-learn
@@ -2045,7 +2239,9 @@
     - taxonomy
   license: MIT
   name: "etetoolkit"
-  description: "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics."
+  description:
+    en: "Phylogenetic tree toolkit (ETE). Tree manipulation (Newick/NHX), evolutionary event detection, orthology/paralogy, NCBI taxonomy, visualization (PDF/SVG), for phylogenomics."
+    cn: "系统发育树工具包（ETE）。树操作（Newick/NHX）、进化事件检测、直系同源/旁系同源、NCBI 分类学、可视化（PDF/SVG），用于系统发育基因组学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/etetoolkit
@@ -2066,7 +2262,9 @@
     - cell-types
   license: MIT
   name: "cellxgene-census"
-  description: "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools."
+  description:
+    en: "Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data across tissues, diseases, or cell types from the largest curated single-cell atlas. Best for population-scale queries, reference atlas comparisons. For analyzing your own data use scanpy or scvi-tools."
+    cn: "以编程方式查询 CELLxGENE Census（6100 万+ 细胞）。需要来自最大策划单细胞图谱的组织、疾病或细胞类型表达数据时使用。最适合大规模人群查询、参考图谱比较。分析自己的数据使用 scanpy 或 scvi-tools。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/cellxgene-census
@@ -2087,7 +2285,9 @@
     - creativity
   license: MIT
   name: "scientific-brainstorming"
-  description: "Creative research ideation and exploration. Use for open-ended brainstorming sessions, exploring interdisciplinary connections, challenging assumptions, or identifying research gaps. Best for early-stage research planning when you do not have specific observations yet. For formulating testable hypotheses from data use hypothesis-generation."
+  description:
+    en: "Creative research ideation and exploration. Use for open-ended brainstorming sessions, exploring interdisciplinary connections, challenging assumptions, or identifying research gaps. Best for early-stage research planning when you do not have specific observations yet. For formulating testable hypotheses from data use hypothesis-generation."
+    cn: "创意研究构思和探索。用于开放式头脑风暴会议、探索跨学科联系、挑战假设或识别研究空白。还没有具体观察时的早期研究规划最佳。从数据制定可检验假设使用 hypothesis-generation。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-brainstorming
@@ -2108,7 +2308,9 @@
     - insights
   license: MIT
   name: "exploratory-data-analysis"
-  description: "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats."
+  description:
+    en: "Perform comprehensive exploratory data analysis on scientific data files across 200+ file formats. This skill should be used when analyzing any scientific data file to understand its structure, content, quality, and characteristics. Automatically detects file type and generates detailed markdown reports with format-specific analysis, quality metrics, and downstream analysis recommendations. Covers chemistry, bioinformatics, microscopy, spectroscopy, proteomics, metabolomics, and general scientific data formats."
+    cn: "对 200+ 文件格式的科学数据文件执行全面的探索性数据分析。分析任何科学数据文件以了解其结构、内容、质量和特征时使用此技能。自动检测文件类型并生成带有格式特定分析、质量指标和下游分析建议的详细 markdown 报告。涵盖化学、生物信息学、显微镜、光谱学、蛋白质组学、代谢组学和通用科学数据格式。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/exploratory-data-analysis
@@ -2129,7 +2331,9 @@
     - bias-assessment
   license: MIT
   name: "scientific-critical-thinking"
-  description: "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For formal peer review writing use peer-review."
+  description:
+    en: "Evaluate scientific claims and evidence quality. Use for assessing experimental design validity, identifying biases and confounders, applying evidence grading frameworks (GRADE, Cochrane Risk of Bias), or teaching critical analysis. Best for understanding evidence quality, identifying flaws. For formal peer review writing use peer-review."
+    cn: "评估科学主张和证据质量。用于评估实验设计有效性、识别偏见和混杂因素、应用证据分级框架（GRADE、Cochrane 偏倚风险）或教学批判性分析。最佳用于理解证据质量、识别缺陷。正式同行评审写作使用 peer-review。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-critical-thinking
@@ -2150,7 +2354,9 @@
     - research-methods
   license: MIT
   name: "statistical-analysis"
-  description: "Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research reporting, test selection guidance. For implementing specific models programmatically use statsmodels."
+  description:
+    en: "Guided statistical analysis with test selection and reporting. Use when you need help choosing appropriate tests for your data, assumption checking, power analysis, and APA-formatted results. Best for academic research reporting, test selection guidance. For implementing specific models programmatically use statsmodels."
+    cn: "带测试选择和报告的指导性统计分析。需要帮助为数据选择适当的检验、假设检验、功效分析和 APA 格式化结果时使用。最适合学术研究报告、检验选择指导。编程实现特定模型使用 statsmodels。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/statistical-analysis
@@ -2171,7 +2377,9 @@
     - research-communication
   license: MIT
   name: "scientific-writing"
-  description: "Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions."
+  description:
+    en: "Core skill for the deep research and writing tool. Write scientific manuscripts in full paragraphs (never bullet points). Use two-stage process with (1) section outlines with key points using research-lookup then (2) convert to flowing prose. IMRAD structure, citations (APA/AMA/Vancouver), figures/tables, reporting guidelines (CONSORT/STROBE/PRISMA), for research papers and journal submissions."
+    cn: "深度研究和写作工具的核心技能。用完整段落撰写科学手稿（绝不使用项目符号）。使用两阶段流程：(1) 使用 research-lookup 创建带关键点的部分大纲，然后 (2) 转换为流畅散文。IMRAD 结构、引文（APA/AMA/Vancouver）、图表、报告指南（CONSORT/STROBE/PRISMA），用于研究论文和期刊投稿。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-writing
@@ -2192,7 +2400,9 @@
     - academic-literature
   license: MIT
   name: "literature-review"
-  description: "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.)."
+  description:
+    en: "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.)."
+    cn: "使用多个学术数据库（PubMed、arXiv、bioRxiv、Semantic Scholar 等）进行全面的系统性文献综述。进行系统性文献综述、荟萃分析、研究综合或跨生物医学、科学和技术领域的全面文献搜索时使用。创建具有经验证引用的专业格式化 markdown 文档和 PDF，支持多种引文样式（APA、Nature、Vancouver 等）。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/literature-review
@@ -2213,7 +2423,9 @@
     - peer-review
   license: MIT
   name: "scholar-evaluation"
-  description: "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback."
+  description:
+    en: "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback."
+    cn: "使用 ScholarEval 框架系统评估学术工作，提供涵盖研究质量维度的结构化评估，包括问题表述、方法论、分析和写作，并提供量化评分和可操作反馈。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scholar-evaluation
@@ -2234,7 +2446,9 @@
     - scientific-communication
   license: MIT
   name: "scientific-visualization"
-  description: "Meta-skill for publication-ready figures. Use when creating journal submission figures requiring multi-panel layouts, significance annotations, error bars, colorblind-safe palettes, and specific journal formatting (Nature, Science, Cell). Orchestrates matplotlib/seaborn/plotly with publication styles. For quick exploration use seaborn or plotly directly."
+  description:
+    en: "Meta-skill for publication-ready figures. Use when creating journal submission figures requiring multi-panel layouts, significance annotations, error bars, colorblind-safe palettes, and specific journal formatting (Nature, Science, Cell). Orchestrates matplotlib/seaborn/plotly with publication styles. For quick exploration use seaborn or plotly directly."
+    cn: "发表就绪图表的元技能。创建需要多面板布局、显著性注释、误差条、盲人安全调色板和特定期刊格式（Nature、Science、Cell）的期刊投稿图表时使用。协调 matplotlib/seaborn/plotly 与发表样式。快速探索直接使用 seaborn 或 plotly。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-visualization
@@ -2255,7 +2469,9 @@
     - theory-development
   license: MIT
   name: "hypothesis-generation"
-  description: "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. For open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis testing on datasets use hypogenic."
+  description:
+    en: "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. For open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis testing on datasets use hypogenic."
+    cn: "从观测进行结构化假设制定。有实验观测或数据并需要制定具有预测的可检验假设、提出机制和设计实验来检验它们时使用。遵循科学方法框架。开放式构思使用 scientific-brainstorming；数据集上自动 LLM 驱动假设检验使用 hypogenic。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hypothesis-generation
@@ -2276,7 +2492,9 @@
     - scientific-standards
   license: MIT
   name: "peer-review"
-  description: "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation."
+  description:
+    en: "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation."
+    cn: "带清单式评估的结构化手稿/资助评审。编写具有特定标准方法论评估、统计有效性、报告标准合规性（CONSORT/STROBE）和建设性反馈的正式同行评审时使用。最适合实际评审写作、手稿修订。评估主张/证据质量使用 scientific-critical-thinking；量化评分框架使用 scholar-evaluation。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/peer-review
@@ -2297,7 +2515,9 @@
     - ai-models
   license: MIT
   name: "perplexity-search"
-  description: "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key."
+  description:
+    en: "Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter. This skill should be used when conducting web searches for current information, finding recent scientific literature, getting grounded answers with source citations, or accessing information beyond the model knowledge cutoff. Provides access to multiple Perplexity models including Sonar Pro, Sonar Pro Search (advanced agentic search), and Sonar Reasoning Pro through a single OpenRouter API key."
+    cn: "通过 LiteLLM 和 OpenRouter 使用 Perplexity 模型执行具有实时信息的 AI 驱动网络搜索。进行当前信息的网络搜索、查找最近的科学文献、获取带有来源引用的可靠答案或访问超出模型知识截止日期的信息时使用此技能。通过单个 OpenRouter API 密钥提供对多种 Perplexity 模型的访问，包括 Sonar Pro、Sonar Pro Search（高级代理搜索）和 Sonar Reasoning Pro。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/perplexity-search
@@ -2318,7 +2538,9 @@
     - atac-seq
   license: MIT
   name: "geniml"
-  description: "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning."
+  description:
+    en: "This skill should be used when working with genomic interval data (BED files) for machine learning tasks. Use for training region embeddings (Region2Vec, BEDspace), single-cell ATAC-seq analysis (scEmbed), building consensus peaks (universes), or any ML-based analysis of genomic regions. Applies to BED file collections, scATAC-seq data, chromatin accessibility datasets, and region-based genomic feature learning."
+    cn: "此技能应用于机器学习任务的基因组区间数据（BED 文件）。用于训练区域嵌入（Region2Vec、BEDspace）、单细胞 ATAC-seq 分析（scEmbed）、构建共识峰（universes）或任何基于机器学习的基因组区域分析。适用于 BED 文件集合、scATAC-seq 数据、染色质可及性数据集和基于区域的基因组特征学习。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/geniml
@@ -2339,7 +2561,9 @@
     - hpc
   license: MIT
   name: "fluidsim"
-  description: "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis."
+  description:
+    en: "Framework for computational fluid dynamics simulations using Python. Use when running fluid dynamics simulations including Navier-Stokes equations (2D/3D), shallow water equations, stratified flows, or when analyzing turbulence, vortex dynamics, or geophysical flows. Provides pseudospectral methods with FFT, HPC support, and comprehensive output analysis."
+    cn: "使用 Python 的计算流体动力学模拟框架。运行流体动力学模拟时使用，包括 Navier-Stokes 方程（2D/3D）、浅水方程、分层流，或分析湍流、涡流动力学或地球物理流时使用。提供带 FFT 的伪谱方法、HPC 支持和全面输出分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/fluidsim
@@ -2360,7 +2584,9 @@
     - interval-analysis
   license: MIT
   name: "gtars"
-  description: "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications."
+  description:
+    en: "High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic regions, BED files, coverage tracks, overlap detection, tokenization for ML models, or fragment analysis in computational genomics and machine learning applications."
+    cn: "Rust 中用于基因组区间分析的高性能工具包，带 Python 绑定。处理基因组区域、BED 文件、覆盖度轨迹、ML 模型的标记化或计算基因组学和机器学习应用中的片段分析时使用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gtars
@@ -2381,7 +2607,9 @@
     - publication
   license: MIT
   name: "denario"
-  description: "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research methodologies, executing computational experiments, performing literature searches, or generating publication-ready papers in LaTeX format. Supports end-to-end research pipelines with customizable agent orchestration."
+  description:
+    en: "Multiagent AI system for scientific research assistance that automates research workflows from data analysis to publication. This skill should be used when generating research ideas from datasets, developing research methodologies, executing computational experiments, performing literature searches, or generating publication-ready papers in LaTeX format. Supports end-to-end research pipelines with customizable agent orchestration."
+    cn: "自动化从数据分析到发表的研究工作流的科学研宕助手多代理 AI 系统。从数据集生成研究想法、开发研究方法、执行计算实验、执行文献搜索或生成 LaTeX 格式的发表就绪论文时使用。支持具有可自定义代理编排的端到端研究管道。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/denario
@@ -2402,7 +2630,9 @@
     - bioengineering
   license: MIT
   name: "adaptyv"
-  description: "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing protein design workflows with wet-lab validation."
+  description:
+    en: "Cloud laboratory platform for automated protein testing and validation. Use when designing proteins and needing experimental validation including binding assays, expression testing, thermostability measurements, enzyme activity assays, or protein sequence optimization. Also use for submitting experiments via API, tracking experiment status, downloading results, optimizing protein sequences for better expression using computational tools (NetSolP, SoluProt, SolubleMPNN, ESM), or managing protein design workflows with wet-lab validation."
+    cn: "用于自动蛋白质测试和验证的云实验室平台。设计蛋白质并需要实验验证时使用，包括结合测定、表达测试、热稳定性测量、酶活性测定或蛋白质序列优化。也可用于通过 API 提交实验、跟踪实验状态、下载结果、使用计算工具（NetSolP、SoluProt、SolubleMPNN、ESM）优化蛋白质序列以获得更好的表达，或管理与湿实验室验证的蛋白质设计工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/adaptyv
@@ -2423,7 +2653,9 @@
     - research-analysis
   license: MIT
   name: "openalex-database"
-  description: "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries."
+  description:
+    en: "Query and analyze scholarly literature using the OpenAlex database. This skill should be used when searching for academic papers, analyzing research trends, finding works by authors or institutions, tracking citations, discovering open access publications, or conducting bibliometric analysis across 240M+ scholarly works. Use for literature searches, research output analysis, citation analysis, and academic database queries."
+    cn: "使用 OpenAlex 数据库查询和分析学术文献。搜索学术论文、分析研究趋势、查找作者或机构作品、跟踪引文、发现开放获取出版物或进行 2.4 亿+ 学术作品的文献计量分析时使用。用于文献搜索、研究输出分析、引文分析和学术数据库查询。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/openalex-database
@@ -2444,7 +2676,9 @@
     - deployment
   license: MIT
   name: "modal"
-  description: "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU acceleration or dynamic scaling."
+  description:
+    en: "Run Python code in the cloud with serverless containers, GPUs, and autoscaling. Use when deploying ML models, running batch processing jobs, scheduling compute-intensive tasks, or serving APIs that require GPU acceleration or dynamic scaling."
+    cn: "使用无服务器容器、GPU 和自动扩展在云中运行 Python 代码。部署机器学习模型、运行批处理作业、调度计算密集型任务或提供需要 GPU 加速或动态扩展的 API 时使用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/modal

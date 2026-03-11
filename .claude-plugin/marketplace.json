@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Comprehensive command-line tools collection for Git management, security assessment, network administration, system monitoring, and knowledge search through x-cmd CLI ecosystem",
-    "version": "0.0.15"
+    "version": "0.0.16"
   },
   "plugins": [
     {
@@ -19,48 +19,35 @@
       ]
     },
     {
-      "name": "x-cmd-git",
-      "description": "Comprehensive Git and code hosting platform management tools including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management",
+      "name": "anthropics-document-skills",
+      "description": "Collection of document processing suite including Excel, Word, PowerPoint, and PDF capabilities",
       "source": "./",
       "strict": false,
       "skills": [
-        "./data/x-cmd/x-cmd-git"
+        "./data/anthropics/xlsx",
+        "./data/anthropics/docx",
+        "./data/anthropics/pptx",
+        "./data/anthropics/pdf"
       ]
     },
     {
-      "name": "x-cmd-knowledge",
-      "description": "Access to various knowledge search tools including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange",
+      "name": "anthropics-example-skills",
+      "description": "Collection of example skills demonstrating various capabilities including skill creation, MCP building, visual design, algorithmic art, internal communications, web testing, artifact building, Slack GIFs, and theme styling",
       "source": "./",
       "strict": false,
       "skills": [
-        "./data/x-cmd/x-cmd-knowledge"
-      ]
-    },
-    {
-      "name": "x-cmd-network",
-      "description": "Network administration and diagnostic tools including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./data/x-cmd/x-cmd-network"
-      ]
-    },
-    {
-      "name": "x-cmd-security",
-      "description": "Security assessment and vulnerability management tools including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./data/x-cmd/x-cmd-security"
-      ]
-    },
-    {
-      "name": "x-cmd-system",
-      "description": "System administration and monitoring tools including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./data/x-cmd/x-cmd-system"
+        "./data/anthropics/algorithmic-art",
+        "./data/anthropics/brand-guidelines",
+        "./data/anthropics/canvas-design",
+        "./data/anthropics/doc-coauthoring",
+        "./data/anthropics/frontend-design",
+        "./data/anthropics/internal-comms",
+        "./data/anthropics/mcp-builder",
+        "./data/anthropics/skill-creator",
+        "./data/anthropics/slack-gif-creator",
+        "./data/anthropics/theme-factory",
+        "./data/anthropics/web-artifacts-builder",
+        "./data/anthropics/webapp-testing"
       ]
     }
   ]

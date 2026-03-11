@@ -10,7 +10,9 @@
     - mcp-server
   license: null
   name: context7
-  description: Up-to-date code documentation for LLMs and AI code editors
+  description:
+    en: Up-to-date code documentation for LLMs and AI code editors
+    cn: 为 LLM 和 AI 代码编辑器提供的最新代码文档
   author: Upstash
   avatar: https://avatars.githubusercontent.com/u/74989412
   path: /
@@ -34,7 +36,9 @@
     - mcp-server
   license: null
   name: github
-  description: GitHub operations - PRs, issues, repos
+  description:
+    en: GitHub operations - PRs, issues, repos
+    cn: GitHub 操作 - PR、问题、仓库
   author: Model Context Protocol
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -58,7 +62,9 @@
     - mcp-server
   license: null
   name: firecrawl
-  description: Web scraping and crawling
+  description:
+    en: Web scraping and crawling
+    cn: 网页抓取和爬取
   author: Firecrawl
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -82,7 +88,9 @@
     - mcp-server
   license: null
   name: supabase
-  description: Supabase database operations
+  description:
+    en: Supabase database operations
+    cn: Supabase 数据库操作
   author: Supabase
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -105,7 +113,9 @@
     - mcp-server
   license: null
   name: memory
-  description: Persistent memory across sessions
+  description:
+    en: Persistent memory across sessions
+    cn: 跨会话的持久化内存
   author: Model Context Protocol
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -127,7 +137,9 @@
     - mcp-server
   license: null
   name: sequential-thinking
-  description: Chain-of-thought reasoning
+  description:
+    en: Chain-of-thought reasoning
+    cn: 思维链推理
   author: Model Context Protocol
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -149,7 +161,9 @@
     - mcp-server
   license: null
   name: vercel
-  description: Vercel deployments and projects
+  description:
+    en: Vercel deployments and projects
+    cn: Vercel 部署和项目
   author: Vercel
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -168,7 +182,9 @@
     - mcp-server
   license: null
   name: railway
-  description: Railway deployments
+  description:
+    en: Railway deployments
+    cn: Railway 部署
   author: Railway
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -190,7 +206,9 @@
     - mcp-server
   license: null
   name: cloudflare-docs
-  description: Cloudflare documentation search
+  description:
+    en: Cloudflare documentation search
+    cn: Cloudflare 文档搜索
   author: Cloudflare
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -209,7 +227,9 @@
     - mcp-server
   license: null
   name: cloudflare-workers-builds
-  description: Cloudflare Workers builds
+  description:
+    en: Cloudflare Workers builds
+    cn: Cloudflare Workers 构建
   author: Cloudflare
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -228,7 +248,9 @@
     - mcp-server
   license: null
   name: cloudflare-workers-bindings
-  description: Cloudflare Workers bindings
+  description:
+    en: Cloudflare Workers bindings
+    cn: Cloudflare Workers 绑定
   author: Cloudflare
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -248,7 +270,9 @@
     - mcp-server
   license: null
   name: cloudflare-observability
-  description: Cloudflare observability/logs
+  description:
+    en: Cloudflare observability/logs
+    cn: Cloudflare 可观测性/日志
   author: Cloudflare
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -267,7 +291,9 @@
     - mcp-server
   license: null
   name: clickhouse
-  description: ClickHouse analytics queries
+  description:
+    en: ClickHouse analytics queries
+    cn: ClickHouse 分析查询
   author: ClickHouse
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -286,7 +312,9 @@
     - mcp-server
   license: null
   name: magic
-  description: Magic UI components
+  description:
+    en: Magic UI components
+    cn: Magic UI 组件
   author: magicuidesign
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -308,7 +336,9 @@
     - mcp-server
   license: null
   name: filesystem
-  description: Filesystem operations (set your path)
+  description:
+    en: Filesystem operations (set your path)
+    cn: 文件系统操作（设置您的路径）
   author: modelcontextprotocol
   avatar: https://avatars.githubusercontent.com/u/123000460
   path: /
@@ -332,7 +362,9 @@
     - search
   license: null
   name: circleback
-  description: Search and access context from meetings
+  description:
+    en: Search and access context from meetings
+    cn: 搜索和访问会议上下文
   author: circleback
   avatar: https://downloads.intercomcdn.com/i/o/ce04lvza/830504/d5f83a81861c16a12527cb8aca51/70883c6f22f918b074f5e6e772073b9d.png
   path: /
@@ -351,7 +383,9 @@
     - ai-design
   license: null
   name: gamma
-  description: Create presentations, docs, socials, and sites with AI
+  description:
+    en: Create presentations, docs, socials, and sites with AI
+    cn: 使用 AI 创建演示文稿、文档、社交媒体和网站
   author: gama
   avatar: https://cdn.gamma.app/zc87vhr30n8uf3n/0f029c68490148cc931e4be6670d7afb/optimized/Gamma_Symbol_DeepOcean-Sky.svg
   path: /
@@ -369,7 +403,9 @@
     - business
   license: null
   name: day-ai
-  description: Analyze & update CRM records
+  description:
+    en: Analyze & update CRM records
+    cn: 分析和更新 CRM 记录
   author: Day AI
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -386,7 +422,9 @@
     - preprints
   license: null
   name: biorxiv
-  description: Access bioRxiv and medRxiv preprint data
+  description:
+    en: Access bioRxiv and medRxiv preprint data
+    cn: 访问 bioRxiv 和 medRxiv 预印本数据
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -403,7 +441,9 @@
     - research
   license: null
   name: chembl
-  description: Access the ChEMBL Database
+  description:
+    en: Access the ChEMBL Database
+    cn: 访问 ChEMBL 数据库
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -420,7 +460,9 @@
     - research
   license: null
   name: clinical-trials
-  description: Access ClinicalTrials.gov data
+  description:
+    en: Access ClinicalTrials.gov data
+    cn: 访问 ClinicalTrials.gov 数据
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -437,7 +479,9 @@
     - coverage
   license: null
   name: cms-coverage
-  description: Access the CMS Coverage Database
+  description:
+    en: Access the CMS Coverage Database
+    cn: 访问 CMS 覆盖数据库
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -454,7 +498,9 @@
     - icd-10
   license: null
   name: icd-10-codes
-  description: Access ICD-10-CM and ICD-10-PCS code sets
+  description:
+    en: Access ICD-10-CM and ICD-10-PCS code sets
+    cn: 访问 ICD-10-CM 和 ICD-10-PCS 代码集
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -471,7 +517,9 @@
     - registry
   license: null
   name: npi-registry
-  description: Access US National Provider Identifier (NPI) Registry
+  description:
+    en: Access US National Provider Identifier (NPI) Registry
+    cn: 访问美国国家提供者标识符 (NPI) 注册表
   author: DeepSense
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -488,7 +536,9 @@
     - search
   license: null
   name: devrev
-  description: Search and update your company's knowledge graph
+  description:
+    en: Search and update your company's knowledge graph
+    cn: 搜索和更新您公司的知识图谱
   author: DevRev
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -505,7 +555,9 @@
     - people
   license: null
   name: harmonic
-  description: Discover, research, and enrich companies and people
+  description:
+    en: Discover, research, and enrich companies and people
+    cn: 发现、研究和丰富公司及人员信息
   author: Harmonic
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -522,7 +574,9 @@
     - analytics
   license: null
   name: lunarcrush
-  description: Add real-time social media data to your searches
+  description:
+    en: Add real-time social media data to your searches
+    cn: 将实时社交媒体数据添加到您的搜索中
   author: LunarCrush
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -539,7 +593,9 @@
     - citations
   license: null
   name: scholar-gateway
-  description: Enhance responses with scholarly research and citations
+  description:
+    en: Enhance responses with scholarly research and citations
+    cn: 通过学术研究和引用增强回答
   author: Scholar Gateway
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -556,7 +612,9 @@
     - management
   license: null
   name: tickettailor
-  description: Event platform for managing tickets, orders & more
+  description:
+    en: Event platform for managing tickets, orders & more
+    cn: 管理门票、订单等的活动平台
   author: Ticket Tailor
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -573,7 +631,9 @@
     - contacts
   license: null
   name: vibe-prospecting
-  description: Find company & contact data
+  description:
+    en: Find company & contact data
+    cn: 查找公司和联系数据
   author: Vibe Prospecting
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -590,7 +650,9 @@
     - crm
   license: null
   name: windsor-ai
-  description: Connect 325+ marketing, analytics and CRM data sources
+  description:
+    en: Connect 325+ marketing, analytics and CRM data sources
+    cn: 连接 325+ 个营销、分析和 CRM 数据源
   author: Windsor.ai
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -607,7 +669,9 @@
     - workflows
   license: null
   name: linear
-  description: Manage issues, projects & team workflows in Linear
+  description:
+    en: Manage issues, projects & team workflows in Linear
+    cn: 在 Linear 中管理问题、项目和团队工作流
   author: Linear
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -624,7 +688,9 @@
     - websites
   license: null
   name: netlify
-  description: Create, deploy, manage, and secure websites on Netlify
+  description:
+    en: Create, deploy, manage, and secure websites on Netlify
+    cn: 在 Netlify 上创建、部署、管理和保护网站
   author: Netlify
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -641,7 +707,9 @@
     - cloud
   license: null
   name: aws-marketplace
-  description: Discover, evaluate, and buy solutions for the cloud
+  description:
+    en: Discover, evaluate, and buy solutions for the cloud
+    cn: 发现、评估和购买云解决方案
   author: AWS
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -658,7 +726,9 @@
     - gradio
   license: null
   name: hugging-face
-  description: Access the Hugging Face Hub and thousands of Gradio Apps
+  description:
+    en: Access the Hugging Face Hub and thousands of Gradio Apps
+    cn: 访问 Hugging Face Hub 和数千个 Gradio 应用
   author: Hugging Face
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -675,7 +745,9 @@
     - search
   license: null
   name: ahrefs
-  description: SEO & AI search analytics
+  description:
+    en: SEO & AI search analytics
+    cn: SEO 和 AI 搜索分析
   author: Ahrefs
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -692,7 +764,9 @@
     - marketing
   license: null
   name: airops
-  description: Craft content that wins AI search
+  description:
+    en: Craft content that wins AI search
+    cn: 创作赢得 AI 搜索的内容
   author: AirOps
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -709,7 +783,9 @@
     - insights
   license: null
   name: amplitude
-  description: Search, access, and get insights on your Amplitude data
+  description:
+    en: Search, access, and get insights on your Amplitude data
+    cn: 搜索、访问和分析您的 Amplitude 数据
   author: Amplitude
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -726,7 +802,9 @@
     - collaboration
   license: null
   name: asana
-  description: Connect to Asana to coordinate tasks, projects, and goals
+  description:
+    en: Connect to Asana to coordinate tasks, projects, and goals
+    cn: 连接 Asana 来协调任务、项目和目标
   author: Asana
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -743,7 +821,9 @@
     - project-management
   license: null
   name: atlassian
-  description: Access Jira & Confluence from Claude
+  description:
+    en: Access Jira & Confluence from Claude
+    cn: 从 Claude 访问 Jira 和 Confluence
   author: Atlassian
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -760,7 +840,9 @@
     - business
   license: null
   name: aura
-  description: Company intelligence & workforce analytics
+  description:
+    en: Company intelligence & workforce analytics
+    cn: 公司情报和劳动力分析
   author: Aura
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -777,7 +859,9 @@
     - icons
   license: null
   name: biorender
-  description: Search for and use scientific templates and icons
+  description:
+    en: Search for and use scientific templates and icons
+    cn: 搜索和使用科学模板和图标
   author: BioRender
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -794,7 +878,9 @@
     - analytics
   license: null
   name: bitly
-  description: Shorten links, generate QR Codes, and track performance
+  description:
+    en: Shorten links, generate QR Codes, and track performance
+    cn: 缩短链接、生成二维码并跟踪效果
   author: Bitly
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -811,7 +897,9 @@
     - analytics
   license: null
   name: blockscout
-  description: Access and analyze blockchain data
+  description:
+    en: Access and analyze blockchain data
+    cn: 访问和分析区块链数据
   author: Blockscout
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -828,7 +916,9 @@
     - search
   license: null
   name: box
-  description: Search, access and get insights on your Box content
+  description:
+    en: Search, access and get insights on your Box content
+    cn: 搜索、访问和分析您的 Box 内容
   author: Box
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -845,7 +935,9 @@
     - templates
   license: null
   name: canva
-  description: Search, create, autofill, and export Canva designs
+  description:
+    en: Search, create, autofill, and export Canva designs
+    cn: 搜索、创建、自动填充和导出 Canva 设计
   author: Canva
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -862,7 +954,9 @@
     - platform
   license: null
   name: cdata-connect-ai
-  description: Managed MCP platform for 350 sources
+  description:
+    en: Managed MCP platform for 350 sources
+    cn: 用于 350 个数据源的托管 MCP 平台
   author: CData
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -879,7 +973,9 @@
     - literature
   license: null
   name: pubmed
-  description: Search biomedical literature from PubMed
+  description:
+    en: Search biomedical literature from PubMed
+    cn: 从 PubMed 搜索生物医学文献
   author: Claude
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -896,7 +992,9 @@
     - outreach
   license: null
   name: clay
-  description: Find prospects. Research accounts. Personalize outreach
+  description:
+    en: Find prospects. Research accounts. Personalize outreach
+    cn: 寻找潜在客户。研究账户。个性化推广
   author: Clay
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -913,7 +1011,9 @@
     - teams
   license: null
   name: clickup
-  description: Project management & collaboration for teams & agents
+  description:
+    en: Project management & collaboration for teams & agents
+    cn: 团队和代理的项目管理和协作
   author: ClickUp
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -931,7 +1031,9 @@
     - ai
   license: null
   name: cloudflare
-  description: Build applications with compute, storage, and AI
+  description:
+    en: Build applications with compute, storage, and AI
+    cn: 使用计算、存储和 AI 构建应用程序
   author: Cloudflare
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -949,7 +1051,9 @@
     - transformation
   license: null
   name: cloudinary
-  description: Manage, transform and deliver your images & videos
+  description:
+    en: Manage, transform and deliver your images & videos
+    cn: 管理、转换和交付您的图片和视频
   author: Cloudinary
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -966,7 +1070,9 @@
     - insights
   license: null
   name: crossbeam
-  description: Explore partner data and ecosystem insights in Claude
+  description:
+    en: Explore partner data and ecosystem insights in Claude
+    cn: 在 Claude 中探索合作伙伴数据和生态见解
   author: Crossbeam
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -983,7 +1089,9 @@
     - market-data
   license: null
   name: crypto-com
-  description: Real time prices, orders, charts, and more for crypto
+  description:
+    en: Real time prices, orders, charts, and more for crypto
+    cn: 加密货币的实时价格、订单、图表等
   author: Crypto.com
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1000,7 +1108,9 @@
     - security
   license: null
   name: egnyte
-  description: Securely access and analyze Egnyte content
+  description:
+    en: Securely access and analyze Egnyte content
+    cn: 安全地访问和分析 Egnyte 内容
   author: Egnyte
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1017,7 +1127,9 @@
     - code-generation
   license: null
   name: figma
-  description: Generate diagrams and better code from Figma context
+  description:
+    en: Generate diagrams and better code from Figma context
+    cn: 从 Figma 上下文生成图表和更好的代码
   author: Figma
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1034,7 +1146,9 @@
     - productivity
   license: null
   name: clockwise
-  description: Advanced scheduling and time management for work
+  description:
+    en: Advanced scheduling and time management for work
+    cn: 高级工作调度和时间管理
   author: Clockwise
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1051,7 +1165,9 @@
     - search
   license: null
   name: guru
-  description: Search and interact with your company knowledge
+  description:
+    en: Search and interact with your company knowledge
+    cn: 搜索和交互您的公司知识
   author: Guru
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1068,7 +1184,9 @@
     - hosting
   license: null
   name: godaddy
-  description: Search domains and check availability
+  description:
+    en: Search domains and check availability
+    cn: 搜索域名并检查可用性
   author: GoDaddy
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1085,7 +1203,9 @@
     - research
   license: null
   name: medidata
-  description: Clinical trial software and site ranking tools
+  description:
+    en: Clinical trial software and site ranking tools
+    cn: 临床试验软件和网站排名工具
   author: Medidata
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1102,7 +1222,9 @@
     - insights
   license: null
   name: intercom
-  description: Access to Intercom data for better customer insights
+  description:
+    en: Access to Intercom data for better customer insights
+    cn: 访问 Intercom 数据以获得更好的客户洞察
   author: Intercom
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1119,7 +1241,9 @@
     - data-collection
   license: null
   name: jotform
-  description: Create forms & analyze submissions inside Claude
+  description:
+    en: Create forms & analyze submissions inside Claude
+    cn: 在 Claude 中创建表单和分析提交
   author: Jotform
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1136,7 +1260,9 @@
     - tools
   license: null
   name: playmcp
-  description: Connect and use PlayMCP servers in your toolbox
+  description:
+    en: Connect and use PlayMCP servers in your toolbox
+    cn: 在您的工具箱中连接和使用 PlayMCP 服务器
   author: Kakao
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1153,7 +1279,9 @@
     - automation
   license: null
   name: klaviyo
-  description: Report, strategize & create with real-time Klaviyo data
+  description:
+    en: Report, strategize & create with real-time Klaviyo data
+    cn: 使用实时 Klaviyo 数据进行报告、制定策略和创建
   author: Klaviyo
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1170,7 +1298,9 @@
     - booking
   license: null
   name: lastminute-com
-  description: Search, compare and book flights across global airlines
+  description:
+    en: Search, compare and book flights across global airlines
+    cn: 在全球航空公司搜索、比较和预订航班
   author: lastminute.com
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1187,7 +1317,9 @@
     - charts
   license: null
   name: melon
-  description: Browse music charts & your personalized music picks
+  description:
+    en: Browse music charts & your personalized music picks
+    cn: 浏览音乐排行榜和您的个性化音乐推荐
   author: Melon
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1204,7 +1336,9 @@
     - analytics
   license: null
   name: mercury
-  description: Search, analyze and understand your finances on Mercury
+  description:
+    en: Search, analyze and understand your finances on Mercury
+    cn: 在 Mercury 上搜索、分析和了解您的财务状况
   author: Mercury
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1221,7 +1355,9 @@
     - workflows
   license: null
   name: monday
-  description: Manage projects, boards, and workflows in monday.com
+  description:
+    en: Manage projects, boards, and workflows in monday.com
+    cn: 在 monday.com 中管理项目、看板和工作流
   author: monday.com
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1238,7 +1374,9 @@
     - sql
   license: null
   name: motherduck
-  description: Analyze your data with natural language
+  description:
+    en: Analyze your data with natural language
+    cn: 使用自然语言分析您的数据
   author: MotherDuck
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1255,7 +1393,9 @@
     - collaboration
   license: null
   name: notion
-  description: Connect your Notion workspace to search, update, and power workflows across tools
+  description:
+    en: Connect your Notion workspace to search, update, and power workflows across tools
+    cn: 连接您的 Notion 工作区以跨工具搜索、更新和驱动工作流
   author: Notion
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1272,7 +1412,9 @@
     - research
   license: null
   name: owkin
-  description: Interact with AI agents built for biology
+  description:
+    en: Interact with AI agents built for biology
+    cn: 与为生物学构建的 AI 代理交互
   author: Owkin
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1289,7 +1431,9 @@
     - platform
   license: null
   name: paypal
-  description: Access PayPal payments platform
+  description:
+    en: Access PayPal payments platform
+    cn: 访问 PayPal 支付平台
   author: PayPal
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1306,7 +1450,9 @@
     - analytics
   license: null
   name: ramp
-  description: Search, access, and analyze your Ramp financial data
+  description:
+    en: Search, access, and analyze your Ramp financial data
+    cn: 搜索、访问和分析您的 Ramp 财务数据
   author: Ramp
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1323,7 +1469,9 @@
     - insights
   license: null
   name: similarweb
-  description: Real time web, mobile app, and market data
+  description:
+    en: Real time web, mobile app, and market data
+    cn: 实时网页、移动应用和市场数据
   author: Similarweb
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1340,7 +1488,9 @@
     - data
   license: null
   name: slack
-  description: Send messages, create canvases, and fetch Slack data
+  description:
+    en: Send messages, create canvases, and fetch Slack data
+    cn: 发送消息、创建画布并获取 Slack 数据
   author: Slack
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1357,7 +1507,9 @@
     - merchant
   license: null
   name: square
-  description: Search and manage transaction, merchant, and payment data
+  description:
+    en: Search and manage transaction, merchant, and payment data
+    cn: 搜索和管理交易、商户和支付数据
   author: Square
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1374,7 +1526,9 @@
     - infrastructure
   license: null
   name: stripe
-  description: Payment processing and financial infrastructure tools
+  description:
+    en: Payment processing and financial infrastructure tools
+    cn: 支付处理和金融基础设施工具
   author: Stripe
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1391,7 +1545,9 @@
     - booking
   license: null
   name: trivago
-  description: Find your ideal hotel at the best price
+  description:
+    en: Find your ideal hotel at the best price
+    cn: 以最优价格找到您理想的酒店
   author: Trivago
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1408,7 +1564,9 @@
     - skills
   license: null
   name: udemy-business
-  description: Search and explore skill-building resources
+  description:
+    en: Search and explore skill-building resources
+    cn: 搜索和探索技能培养资源
   author: Udemy Business
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1425,7 +1583,9 @@
     - sites
   license: null
   name: webflow
-  description: Manage Webflow CMS, pages, assets and sites
+  description:
+    en: Manage Webflow CMS, pages, assets and sites
+    cn: 管理 Webflow CMS、页面、资产和网站
   author: Webflow
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1442,7 +1602,9 @@
     - apps
   license: null
   name: wix
-  description: Manage and build sites and apps on Wix
+  description:
+    en: Manage and build sites and apps on Wix
+    cn: 在 Wix 上管理和构建网站和应用
   author: Wix
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1459,7 +1621,9 @@
     - management
   license: null
   name: wordpress-com
-  description: Secure AI access to manage your WordPress.com sites
+  description:
+    en: Secure AI access to manage your WordPress.com sites
+    cn: 安全 AI 访问以管理您的 WordPress.com 网站
   author: WordPress.com
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1476,7 +1640,9 @@
     - intelligence
   license: null
   name: zoominfo
-  description: Enrich contacts & accounts with GTM intelligence
+  description:
+    en: Enrich contacts & accounts with GTM intelligence
+    cn: 通过 GTM 情报丰富联系人和账户
   author: ZoomInfo
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1493,7 +1659,9 @@
     - issues
   license: null
   name: jam
-  description: Record screen and collect automatic context for issues
+  description:
+    en: Record screen and collect automatic context for issues
+    cn: 录制屏幕并自动收集问题上下文
   author: Jam
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1510,7 +1678,9 @@
     - monitoring
   license: null
   name: sentry
-  description: Search, query, and debug errors intelligently
+  description:
+    en: Search, query, and debug errors intelligently
+    cn: 智能搜索、查询和调试错误
   author: Sentry
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1527,7 +1697,9 @@
     - sources
   license: null
   name: coupler
-  description: Access business data from hundreds of sources
+  description:
+    en: Access business data from hundreds of sources
+    cn: 从数百个来源访问业务数据
   author: Coupler.io
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1544,7 +1716,9 @@
     - recruitment
   license: null
   name: dice
-  description: Find active tech jobs on Dice
+  description:
+    en: Find active tech jobs on Dice
+    cn: 在 Dice 上查找活跃的技术职位
   author: Dice
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1561,7 +1735,9 @@
     - slos
   license: null
   name: honeycomb
-  description: Query and explore observability data and SLOs
+  description:
+    en: Query and explore observability data and SLOs
+    cn: 查询和探索可观测性数据和 SLO
   author: Honeycomb
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1578,7 +1754,9 @@
     - actions
   license: null
   name: port-io
-  description: Search your context lake and safely run actions
+  description:
+    en: Search your context lake and safely run actions
+    cn: 搜索您的上下文湖并安全运行操作
   author: Port IO
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1595,7 +1773,9 @@
     - research
   license: null
   name: candid
-  description: Research nonprofits and funders using Candid's data
+  description:
+    en: Research nonprofits and funders using Candid's data
+    cn: 使用 Candid 数据研究非营利组织和资助者
   author: Candid
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1612,7 +1792,9 @@
     - platform
   license: null
   name: open-targets
-  description: Drug target discovery and prioritisation platform
+  description:
+    en: Drug target discovery and prioritisation platform
+    cn: 药物靶点发现和优先级排序平台
   author: Open Targets
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1629,7 +1811,9 @@
     - metadata
   license: null
   name: synapse-org
-  description: Search and metadata tools for Synapse scientific data
+  description:
+    en: Search and metadata tools for Synapse scientific data
+    cn: Synapse 科学数据的搜索和元数据工具
   author: Synapse.org
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1646,7 +1830,9 @@
     - chronograph
   license: null
   name: chronograph
-  description: Interact with your Chronograph data directly in Claude
+  description:
+    en: Interact with your Chronograph data directly in Claude
+    cn: 在 Claude 中直接与您的 Chronograph 数据交互
   author: Chronograph
   avatar: https://avatars.githubusercontent.com/u/123000460
   installation:
@@ -1664,7 +1850,9 @@
     - mcp-server
   license: null
   name: minimax
-  description: Image Understanding & Web Search MCP provided by MiniMax — Web search and image understanding for developers
+  description:
+    en: Image Understanding & Web Search MCP provided by MiniMax — Web search and image understanding for developers
+    cn: MiniMax 提供的图像理解和网络搜索 MCP — 为开发者提供的网络搜索和图像理解
   author: MiniMax
   avatar: https://mintcdn.com/minimax-zh/5Q2zihEIHZrfAlAY/logo/light.svg?fit=max&auto=format&n=5Q2zihEIHZrfAlAY&q=85&s=dd237feebaeeadf61295efcd239ef00a
   path: /
@@ -1689,7 +1877,9 @@
     - mcp-server
   license: null
   name: zai-mcp-server
-  description: Vision Understanding MCP provided by z.ai — Image analysis and video understanding capabilities
+  description:
+    en: Vision Understanding MCP provided by z.ai — Image analysis and video understanding capabilities
+    cn: z.ai 提供的视觉理解 MCP — 图像分析和视频理解能力
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
   path: /
@@ -1714,7 +1904,9 @@
     - mcp-server
   license: null
   name: web-search-prime
-  description: Web Search MCP provided by z.ai — Real-time web search for news, stock prices, weather, and more
+  description:
+    en: Web Search MCP provided by z.ai — Real-time web search for news, stock prices, weather, and more
+    cn: z.ai 提供的网络搜索 MCP — 用于新闻、股票价格、天气的实时网络搜索等
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
   path: /
@@ -1735,7 +1927,9 @@
     - mcp-server
   license: null
   name: web-reader
-  description: Webpage Reading MCP provided by z.ai — Used to extract complete webpage content and structured data
+  description:
+    en: Webpage Reading MCP provided by z.ai — Used to extract complete webpage content and structured data
+    cn: z.ai 提供的网页阅读 MCP — 用于提取完整的网页内容和结构化数据
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
   path: /
@@ -1756,7 +1950,9 @@
     - mcp-server
   license: null
   name: zread
-  description: Open-source MCP provided by z.ai - Search GitHub repositories for code, docs, and comments
+  description:
+    en: Open-source MCP provided by z.ai - Search GitHub repositories for code, docs, and comments
+    cn: z.ai 提供的开源 MCP — 搜索 GitHub 仓库以查找代码、文档和评论
   author: z.ai
   avatar: https://cdn.bigmodel.cn/static/logo/dark.svg
   path: /

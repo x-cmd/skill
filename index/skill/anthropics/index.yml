@@ -10,7 +10,9 @@
     - tool-integration
   license: Apache-2.0
   name: skill-creator
-  description: Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.
+  description:
+    en: Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.
+    cn: 创建新技能、修改和改进现有技能，并衡量技能性能。当用户想要从头创建技能、更新或优化现有技能、运行评估来测试技能、使用方差分析进行技能性能基准测试，或优化技能的描述以提高触发准确性时使用。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/skill-creator
@@ -32,7 +34,9 @@
     - workflow
   license: Apache-2.0
   name: doc-coauthoring
-  description: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+  description:
+    en: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+    cn: 引导用户完成协作编写文档的结构化工作流。当用户想要编写文档、提案、技术规范、决策文档或类似的结构化内容时使用。此工作流帮助用户高效地传递上下文，通过迭代优化内容，并验证文档对读者有效。当用户提到编写文档、创建提案、起草规范或类似的文档任务时触发。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/doc-coauthoring
@@ -53,7 +57,9 @@
     - creative
   license: Apache-2.0
   name: frontend-design
-  description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+  description:
+    en: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+    cn: 创建具有高设计质量的独特生产级前端界面。当用户要求构建网页组件、页面、制品、海报或应用程序时使用此技能（示例包括网站、着陆页、仪表板、React 组件、HTML/CSS 布局，或在为任何网页 UI 美化/样式化时）。生成避免通用 AI 美学的创意、精致代码和 UI 设计。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/frontend-design
@@ -74,7 +80,9 @@
     - creative
   license: Apache-2.0
   name: canvas-design
-  description: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.
+  description:
+    en: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.
+    cn: 使用设计理念在 .png 和 .pdf 文档中创建美丽的视觉艺术。当用户要求创建海报、艺术作品、设计或其他静态作品时使用此技能。创建原创视觉设计，切勿复制现有艺术家的作品以避免版权侵权。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/canvas-design
@@ -96,7 +104,9 @@
     - social-media
   license: Apache-2.0
   name: slack-gif-creator
-  description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
+  description:
+    en: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
+    cn: 创建针对 Slack 优化的动画 GIF 的知识和工具。提供约束、验证工具和动画概念。当用户为 Slack 请求动画 GIF 时使用，如"为 Slack 做一个 X 做 Y 的 GIF"。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/slack-gif-creator
@@ -118,7 +128,9 @@
     - ui-components
   license: Apache-2.0
   name: web-artifacts-builder
-  description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+  description:
+    en: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+    cn: 使用现代前端网页技术（React、Tailwind CSS、shadcn/ui）创建复杂、多组件 claude.ai HTML 制品的工具套件。用于需要状态管理、路由或 shadcn/ui 组件的复杂制品，而非简单的单文件 HTML/JSX 制品。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/web-artifacts-builder
@@ -139,7 +151,9 @@
     - debugging
   license: Apache-2.0
   name: webapp-testing
-  description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+  description:
+    en: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+    cn: 使用 Playwright 与本地 Web 应用程序交互和测试的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/webapp-testing
@@ -161,7 +175,9 @@
     - external-services
   license: Apache-2.0
   name: mcp-builder
-  description: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
+  description:
+    en: Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).
+    cn: 创建高质量 MCP（模型上下文协议）服务器的指南，使 LLMs 能够通过精心设计的工具与外部服务交互。在构建 MCP 服务器以集成外部 API 或服务时使用，无论是使用 Python (FastMCP) 还是 Node/TypeScript (MCP SDK)。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/mcp-builder
@@ -183,7 +199,9 @@
     - visual-identity
   license: Apache-2.0
   name: brand-guidelines
-  description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+  description:
+    en: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+    cn: 将 Anthropic 官方品牌颜色和字体应用于任何可能受益于 Anthropic 外观的制品。在品牌颜色或样式指南、视觉格式或公司设计标准适用时使用。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/brand-guidelines
@@ -214,7 +232,9 @@
     - presentation
   license: Apache-2.0
   name: theme-factory
-  description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
+  description:
+    en: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
+    cn: 使用主题为制品设置样式的工具包。这些制品可以是幻灯片、文档、报告、HTML 着陆页等。有 10 个预设主题，包含颜色/字体，您可以应用于已创建的制品，或即时生成新主题。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/theme-factory
@@ -236,7 +256,9 @@
     - interactive
   license: Apache-2.0
   name: algorithmic-art
-  description: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+  description:
+    en: Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.
+    cn: 使用 p5.js 创建算法艺术，具有随机种子和交互式参数探索。当用户请求使用代码生成艺术、算法艺术、流场或粒子系统时使用。创建原创算法艺术，切勿复制现有艺术家的作品以避免版权侵权。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/algorithmic-art
@@ -258,7 +280,9 @@
     - documentation
   license: Apache-2.0
   name: internal-comms
-  description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+  description:
+    en: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+    cn: 帮助编写各类内部沟通的资源集合，使用公司喜欢的格式。当被要求编写某种内部沟通时，Claude 应使用此技能（状态报告、领导更新、3P 更新、公司通讯、常见问题、事件报告、项目更新等）。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /anthropics/internal-comms
@@ -280,7 +304,9 @@
     - collaboration
   license: https://github.com/anthropics/skills/blob/main/document-skills/docx/LICENSE.txt
   name: docx
-  description: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+  description:
+    en: "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+    cn: "全面的文档创建、编辑和分析，支持修订跟踪、评论、格式保留和文本提取。当 Claude 需要处理专业文档（.docx 文件）时用于：（1）创建新文档，（2）修改或编辑内容，（3）处理修订跟踪，（4）添加评论，或任何其他文档任务"
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
@@ -299,7 +325,9 @@
     - formulas
   license: https://github.com/anthropics/skills/blob/main/document-skills/xlsx/LICENSE.txt
   name: xlsx
-  description: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+  description:
+    en: "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas"
+    cn: "全面的电子表格创建、编辑和分析，支持公式、格式化、数据分析和可视化。当 Claude 需要处理电子表格（.xlsx、.xlsm、.csv、.tsv 等）时用于：（1）创建带公式和格式的新电子表格，（2）读取或分析数据，（3）在保留公式的同时修改现有电子表格，（4）电子表格中的数据分析和可视化，或（5）重新计算公式"
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
@@ -318,7 +346,9 @@
     - visual-design
   license: https://github.com/anthropics/skills/blob/main/document-skills/pptx/LICENSE.txt
   name: pptx
-  description: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+  description:
+    en: "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks"
+    cn: "演示文稿创建、编辑和分析。当 Claude 需要处理演示文稿（.pptx 文件）时用于：（1）创建新演示文稿，（2）修改或编辑内容，（3）处理布局，（4）添加评论或演讲笔记，或任何其他演示文稿任务"
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /
@@ -337,7 +367,9 @@
     - text-extraction
   license: https://github.com/anthropics/skills/blob/main/document-skills/pdf/LICENSE.txt
   name: pdf
-  description: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
+  description:
+    en: Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.
+    cn: 全面的 PDF 操作工具包，用于提取文本和表格、创建新 PDF、合并/拆分文档和处理表单。当 Claude 需要填写 PDF 表单或以编程方式大规模处理、生成或分析 PDF 文档时使用。
   author: Anthropic
   avatar: https://avatars.githubusercontent.com/u/76263028
   path: /

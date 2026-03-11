@@ -11,7 +11,9 @@
     - architecture
   license: MIT
   name: backend-patterns
-  description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+  description:
+    en: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+    cn: Node.js、Express 和 Next.js API 路由的后端架构模式、API 设计、数据库优化和服务器端最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/backend-patterns
@@ -33,7 +35,9 @@
     - performance
   license: MIT
   name: frontend-patterns
-  description: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+  description:
+    en: Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices.
+    cn: React、Next.js 的前端开发模式、状态管理、性能优化和 UI 最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/frontend-patterns
@@ -54,7 +58,9 @@
     - best-practices
   license: MIT
   name: golang-patterns
-  description: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+  description:
+    en: Idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+    cn: 地道的 Go 模式、最佳实践和构建健壮、高效、可维护 Go 应用程序的约定。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/golang-patterns
@@ -76,7 +82,9 @@
     - backend
   license: MIT
   name: springboot-patterns
-  description: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+  description:
+    en: Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work.
+    cn: Spring Boot 架构模式、REST API 设计、分层服务、数据访问、缓存、异步处理和日志。用于 Java Spring Boot 后端工作。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/springboot-patterns
@@ -97,7 +105,9 @@
     - test-driven-development
   license: MIT
   name: tdd-workflow
-  description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+  description:
+    en: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+    cn: 在编写新功能、修复 bug 或重构代码时使用此技能。强制执行测试驱动开发，要求覆盖率 80% 以上，包括单元测试、集成测试和端到端测试。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/tdd-workflow
@@ -118,7 +128,9 @@
     - skill-extraction
   license: MIT
   name: continuous-learning
-  description: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+  description:
+    en: Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
+    cn: 自动从 Claude Code 会话中提取可重用的模式，并将其保存为已学习的技能以供将来使用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/continuous-learning
@@ -140,7 +152,9 @@
     - supabase
   license: MIT
   name: postgres-patterns
-  description: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+  description:
+    en: PostgreSQL database patterns for query optimization, schema design, indexing, and security. Based on Supabase best practices.
+    cn: PostgreSQL 数据库模式，包括查询优化、模式设计、索引和安全。基于 Supabase 最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/postgres-patterns
@@ -162,7 +176,9 @@
     - springboot
   license: MIT
   name: jpa-patterns
-  description: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+  description:
+    en: JPA/Hibernate patterns for entity design, relationships, query optimization, transactions, auditing, indexing, pagination, and pooling in Spring Boot.
+    cn: Spring Boot 中的 JPA/Hibernate 模式，包括实体设计、关系、查询优化、事务、审计、索引、分页和连接池。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/jpa-patterns
@@ -184,7 +200,9 @@
     - best-practices
   license: MIT
   name: security-review
-  description: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+  description:
+    en: Use this skill when adding authentication, handling user input, working with secrets, creating API endpoints, or implementing payment/sensitive features. Provides comprehensive security checklist and patterns.
+    cn: 在添加身份验证、处理用户输入、使用密钥、创建 API 端点或实现支付/敏感功能时使用此技能。提供全面的安全检查清单和模式。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/security-review
@@ -207,7 +225,9 @@
     - best-practices
   license: MIT
   name: coding-standards
-  description: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+  description:
+    en: Universal coding standards, best practices, and patterns for TypeScript, JavaScript, React, and Node.js development.
+    cn: TypeScript、JavaScript、React 和 Node.js 开发的通用编码标准、最佳实践和模式。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/coding-standards
@@ -228,7 +248,9 @@
     - workflow
   license: MIT
   name: verification-loop
-  description: "A comprehensive verification system for Claude Code sessions."
+  description:
+    en: "A comprehensive verification system for Claude Code sessions."
+    cn: "Claude Code 会话的全面验证系统。"
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/verification-loop
@@ -250,7 +272,9 @@
     - performance
   license: MIT
   name: clickhouse-io
-  description: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+  description:
+    en: ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.
+    cn: ClickHouse 数据库模式、查询优化、分析和高性能分析工作负载的数据工程最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/clickhouse-io
@@ -271,7 +295,9 @@
     - subagent
   license: MIT
   name: iterative-retrieval
-  description: Pattern for progressively refining context retrieval to solve the subagent context problem
+  description:
+    en: Pattern for progressively refining context retrieval to solve the subagent context problem
+    cn: 逐步改进上下文检索以解决子代理上下文问题的模式
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/iterative-retrieval
@@ -293,7 +319,9 @@
     - java
   license: MIT
   name: springboot-security
-  description: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+  description:
+    en: Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting, and dependency security in Java Spring Boot services.
+    cn: Java Spring Boot 服务中 Spring Security 最佳实践，包括身份验证/授权、验证、CSRF、密钥、请求头、限流和依赖安全。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/springboot-security
@@ -315,7 +343,9 @@
     - java
   license: MIT
   name: springboot-tdd
-  description: Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.
+  description:
+    en: Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. Use when adding features, fixing bugs, or refactoring.
+    cn: 使用 JUnit 5、Mockito、MockMvc、Testcontainers 和 JaCoCo 进行 Spring Boot 测试驱动开发。在添加功能、修复 bug 或重构时使用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/springboot-tdd
@@ -337,7 +367,9 @@
     - go
   license: MIT
   name: golang-testing
-  description: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+  description:
+    en: Go testing patterns including table-driven tests, subtests, benchmarks, fuzzing, and test coverage. Follows TDD methodology with idiomatic Go practices.
+    cn: Go 测试模式，包括表驱动测试、子测试、性能测试、模糊测试和测试覆盖率。遵循 TDD 方法论和地道的 Go 实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/golang-testing
@@ -358,7 +390,9 @@
     - documentation
   license: MIT
   name: project-guidelines-example
-  description: "Example project-specific skill template based on a real production application."
+  description:
+    en: "Example project-specific skill template based on a real production application."
+    cn: "基于真实生产应用的项目特定技能模板示例。"
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/project-guidelines-example
@@ -379,7 +413,9 @@
     - workflow
   license: MIT
   name: strategic-compact
-  description: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+  description:
+    en: Suggests manual context compaction at logical intervals to preserve context through task phases rather than arbitrary auto-compaction.
+    cn: 建议在逻辑间隔进行手动上下文压缩，以在任务阶段之间保留上下文，而不是任意的自动压缩。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/strategic-compact
@@ -401,7 +437,9 @@
     - v2
   license: MIT
   name: continuous-learning-v2
-  description: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.
+  description:
+    en: Instinct-based learning system that observes sessions via hooks, creates atomic instincts with confidence scoring, and evolves them into skills/commands/agents. v2.1 adds project-scoped instincts to prevent cross-project contamination.
+    cn: 基于本能的学习系统，通过钩子观察会话，创建具有置信度评分的原子本能，并将其演化为技能/命令/代理。v2.1 添加了项目范围的本能以防止跨项目污染。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/continuous-learning-v2
@@ -422,7 +460,9 @@
     - http
   license: MIT
   name: api-design
-  description: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.
+  description:
+    en: REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for production APIs.
+    cn: REST API 设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产 API 限流。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/api-design
@@ -443,7 +483,9 @@
     - blogs
   license: MIT
   name: article-writing
-  description: Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance.
+  description:
+    en: Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance.
+    cn: 以源自示例或品牌指导的独特风格撰写文章、指南、博客文章、教程、新闻通讯和其他长篇内容。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/article-writing
@@ -464,7 +506,9 @@
     - pipeline
   license: MIT
   name: autonomous-loops
-  description: Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems.
+  description:
+    en: Patterns and architectures for autonomous Claude Code loops — from simple sequential pipelines to RFC-driven multi-agent DAG systems.
+    cn: 自主 Claude Code 循环的模式和架构——从简单的顺序管道到 RFC 驱动的多代理 DAG 系统。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/autonomous-loops
@@ -484,7 +528,9 @@
     - configuration
   license: MIT
   name: configure-ecc
-  description: Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules.
+  description:
+    en: Interactive installer for Everything Claude Code — guides users through selecting and installing skills and rules.
+    cn: Everything Claude Code 的交互式安装程序——引导用户选择和安装技能和规则。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/configure-ecc
@@ -504,7 +550,9 @@
     - marketing
   license: MIT
   name: content-engine
-  description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns.
+  description:
+    en: Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns.
+    cn: 为 X、LinkedIn、TikTok、YouTube、新闻通讯创建平台原生内容系统，以及多平台活动的再利用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/content-engine
@@ -524,7 +572,9 @@
     - hash
   license: MIT
   name: content-hash-cache-pattern
-  description: Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.
+  description:
+    en: Cache expensive file processing results using SHA-256 content hashes — path-independent, auto-invalidating, with service layer separation.
+    cn: 使用 SHA-256 内容哈希缓存昂贵的文件处理结果——路径无关、自动失效，具有服务层分离。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/content-hash-cache-pattern
@@ -544,7 +594,9 @@
     - pipeline
   license: MIT
   name: cost-aware-llm-pipeline
-  description: Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.
+  description:
+    en: Cost optimization patterns for LLM API usage — model routing by task complexity, budget tracking, retry logic, and prompt caching.
+    cn: LLM API 使用成本优化模式——按任务复杂度进行模型路由、预算跟踪、重试逻辑和提示缓存。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/cost-aware-llm-pipeline
@@ -564,7 +616,9 @@
     - coding-standards
   license: MIT
   name: cpp-coding-standards
-  description: C++ coding standards based on the C++ Core Guidelines. Use when writing, reviewing, or refactoring C++ code.
+  description:
+    en: C++ coding standards based on the C++ Core Guidelines. Use when writing, reviewing, or refactoring C++ code.
+    cn: 基于 C++ 核心指南的 C++ 编码标准。在编写、审查或重构 C++ 代码时使用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/cpp-coding-standards
@@ -585,7 +639,9 @@
     - googletest
   license: MIT
   name: cpp-testing
-  description: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.
+  description:
+    en: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest, diagnosing failing or flaky tests, or adding coverage/sanitizers.
+    cn: 仅在编写/更新/修复 C++ 测试、配置 GoogleTest/CTest、诊断失败或不稳定的测试或添加覆盖率/清理工具时使用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/cpp-testing
@@ -606,7 +662,9 @@
     - mysql
   license: MIT
   name: database-migrations
-  description: Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments.
+  description:
+    en: Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments.
+    cn: 模式更改、数据迁移、回滚和零停机部署的数据库迁移最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/database-migrations
@@ -626,7 +684,9 @@
     - docker
   license: MIT
   name: deployment-patterns
-  description: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists.
+  description:
+    en: Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checklists.
+    cn: 部署工作流、CI/CD 管道模式、Docker 容器化、健康检查、回滚策略和生产就绪检查清单。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/deployment-patterns
@@ -647,7 +707,9 @@
     - backend
   license: MIT
   name: django-patterns
-  description: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+  description:
+    en: Django architecture patterns, REST API design with DRF, ORM best practices, caching, signals, middleware, and production-grade Django apps.
+    cn: Django 架构模式、使用 DRF 的 REST API 设计、ORM 最佳实践、缓存、信号、中间件和生产级 Django 应用。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/django-patterns
@@ -667,7 +729,9 @@
     - python
   license: MIT
   name: django-security
-  description: Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
+  description:
+    en: Django security best practices, authentication, authorization, CSRF protection, SQL injection prevention, XSS prevention, and secure deployment configurations.
+    cn: Django 安全最佳实践、身份验证、授权、CSRF 保护、SQL 注入预防、XSS 预防和安全部署配置。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/django-security
@@ -688,7 +752,9 @@
     - python
   license: MIT
   name: django-tdd
-  description: Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.
+  description:
+    en: Django testing strategies with pytest-django, TDD methodology, factory_boy, mocking, coverage, and testing Django REST Framework APIs.
+    cn: 使用 pytest-django 的 Django 测试策略、TDD 方法论、factory_boy、模拟、覆盖率和 Django REST Framework API 测试。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/django-tdd
@@ -708,7 +774,9 @@
     - testing
   license: MIT
   name: django-verification
-  description: Verification loop for Django projects - migrations, linting, tests with coverage, security scans, and deployment readiness checks.
+  description:
+    en: Verification loop for Django projects - migrations, linting, tests with coverage, security scans, and deployment readiness checks.
+    cn: Django 项目的验证循环——迁移、linting、带覆盖率的测试、安全扫描和生产就绪检查。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/django-verification
@@ -728,7 +796,9 @@
     - devops
   license: MIT
   name: docker-patterns
-  description: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
+  description:
+    en: Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration.
+    cn: 本地开发的 Docker 和 Docker Compose 模式、容器安全、网络、卷策略和多服务编排。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/docker-patterns
@@ -748,7 +818,9 @@
     - playwright
   license: MIT
   name: e2e-testing
-  description: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
+  description:
+    en: Playwright E2E testing patterns, Page Object Model, configuration, CI/CD integration, artifact management, and flaky test strategies.
+    cn: Playwright 端到端测试模式、页面对象模型、配置、CI/CD 集成、制品管理和不稳定测试策略。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/e2e-testing
@@ -768,7 +840,9 @@
     - benchmarking
   license: MIT
   name: eval-harness
-  description: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles.
+  description:
+    en: Formal evaluation framework for Claude Code sessions implementing eval-driven development (EDD) principles.
+    cn: 实施评估驱动开发 (EDD) 原则的 Claude Code 会话正式评估框架。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/eval-harness
@@ -789,7 +863,9 @@
     - on-device
   license: MIT
   name: foundation-models-on-device
-  description: Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.
+  description:
+    en: Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.
+    cn: Apple FoundationModels 设备端 LLM 框架——iOS 26+ 中的文本生成、使用 @Generable 的引导生成、工具调用和快照流。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/foundation-models-on-device
@@ -809,7 +885,9 @@
     - html
   license: MIT
   name: frontend-slides
-  description: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
+  description:
+    en: Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.
+    cn: 从头创建或通过转换 PowerPoint 文件创建令人惊叹的动画丰富 HTML 演示文稿。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/frontend-slides
@@ -829,7 +907,9 @@
     - fundraising
   license: MIT
   name: investor-materials
-  description: Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials.
+  description:
+    en: Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials.
+    cn: 创建和更新投售方案、单页材料、投资者备忘录、加速器申请、财务模型和融资材料。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/investor-materials
@@ -849,7 +929,9 @@
     - fundraising
   license: MIT
   name: investor-outreach
-  description: Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising.
+  description:
+    en: Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising.
+    cn: 起草冷邮件、温暖介绍简介、后续邮件、更新邮件和投资者沟通，用于融资。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/investor-outreach
@@ -870,7 +952,9 @@
     - apple
   license: MIT
   name: liquid-glass-design
-  description: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.
+  description:
+    en: iOS 26 Liquid Glass design system — dynamic glass material with blur, reflection, and interactive morphing for SwiftUI, UIKit, and WidgetKit.
+    cn: iOS 26 Liquid Glass 设计系统——具有模糊、反射和交互式变形的动态玻璃材质，用于 SwiftUI、UIKit 和 WidgetKit。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/liquid-glass-design
@@ -890,7 +974,9 @@
     - business
   license: MIT
   name: market-research
-  description: Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries.
+  description:
+    en: Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries.
+    cn: 进行市场研究、竞争分析、投资者尽职调查和行业情报，并提供来源归属和面向决策的摘要。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/market-research
@@ -910,7 +996,9 @@
     - pdf
   license: MIT
   name: nutrient-document-processing
-  description: Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API.
+  description:
+    en: Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API.
+    cn: 使用 Nutrient DWS API 处理、转换、OCR、提取、编辑、签名和填写文档。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/nutrient-document-processing
@@ -930,7 +1018,9 @@
     - formatting
   license: MIT
   name: plankton-code-quality
-  description: Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks.
+  description:
+    en: Write-time code quality enforcement using Plankton — auto-formatting, linting, and Claude-powered fixes on every file edit via hooks.
+    cn: 使用 Plankton 在写入时强制执行代码质量——通过钩子在每次文件编辑时自动格式化、linting 和 Claude 驱动的修复。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/plankton-code-quality
@@ -950,7 +1040,9 @@
     - best-practices
   license: MIT
   name: python-patterns
-  description: Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.
+  description:
+    en: Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient, and maintainable Python applications.
+    cn: Pythonic 习惯用法、PEP 8 标准、类型提示和构建健壮、高效、可维护 Python 应用程序的最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/python-patterns
@@ -971,7 +1063,9 @@
     - tdd
   license: MIT
   name: python-testing
-  description: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
+  description:
+    en: Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization, and coverage requirements.
+    cn: 使用 pytest 的 Python 测试策略、TDD 方法论、fixtures、模拟、参数化和覆盖率要求。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/python-testing
@@ -991,7 +1085,9 @@
     - parsing
   license: MIT
   name: regex-vs-llm-structured-text
-  description: Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.
+  description:
+    en: Decision framework for choosing between regex and LLM when parsing structured text — start with regex, add LLM only for low-confidence edge cases.
+    cn: 在解析结构化文本时选择正则表达式和 LLM 的决策框架——从正则表达式开始，仅在低置信度边缘情况下添加 LLM。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/regex-vs-llm-structured-text
@@ -1011,7 +1107,9 @@
     - workflow
   license: MIT
   name: search-first
-  description: Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.
+  description:
+    en: Research-before-coding workflow. Search for existing tools, libraries, and patterns before writing custom code. Invokes the researcher agent.
+    cn: 研究优先于编码的工作流。在编写自定义代码之前搜索现有的工具、库和模式。调用研究人员代理。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/search-first
@@ -1031,7 +1129,9 @@
     - vulnerability
   license: MIT
   name: security-scan
-  description: Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield.
+  description:
+    en: Scan your Claude Code configuration (.claude/ directory) for security vulnerabilities, misconfigurations, and injection risks using AgentShield.
+    cn: 使用 AgentShield 扫描 Claude Code 配置（.claude/ 目录）以查找安全漏洞、配置错误和注入风险。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/security-scan
@@ -1051,7 +1151,9 @@
     - quality
   license: MIT
   name: skill-stocktake
-  description: Use when auditing Claude skills and commands for quality. Supports Quick Scan and Full Stocktake modes.
+  description:
+    en: Use when auditing Claude skills and commands for quality. Supports Quick Scan and Full Stocktake modes.
+    cn: 在审计 Claude 技能和命令的质量时使用。支持快速扫描和全面盘点模式。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/skill-stocktake
@@ -1071,7 +1173,9 @@
     - persistence
   license: MIT
   name: swift-actor-persistence
-  description: Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.
+  description:
+    en: Thread-safe data persistence in Swift using actors — in-memory cache with file-backed storage, eliminating data races by design.
+    cn: 在 Swift 中使用 actor 进行线程安全的数据持久化——带文件支持的内存缓存，从设计上消除数据竞争。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/swift-actor-persistence
@@ -1091,7 +1195,9 @@
     - ios
   license: MIT
   name: swift-concurrency-6-2
-  description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.
+  description:
+    en: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent for explicit background offloading, isolated conformances for main actor types.
+    cn: Swift 6.2 易用并发——默认单线程，@concurrent 用于明确的后台卸载，为主 actor 类型提供隔离一致性。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/swift-concurrency-6-2
@@ -1111,7 +1217,9 @@
     - di
   license: MIT
   name: swift-protocol-di-testing
-  description: Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.
+  description:
+    en: Protocol-based dependency injection for testable Swift code — mock file system, network, and external APIs using focused protocols and Swift Testing.
+    cn: 用于可测试 Swift 代码的基于协议的依赖注入——使用聚焦协议和 Swift Testing 模拟文件系统、网络和外部 API。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/swift-protocol-di-testing
@@ -1132,7 +1240,9 @@
     - apple
   license: MIT
   name: swiftui-patterns
-  description: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.
+  description:
+    en: SwiftUI architecture patterns, state management with @Observable, view composition, navigation, performance optimization, and modern iOS/macOS UI best practices.
+    cn: SwiftUI 架构模式、使用 @Observable 的状态管理、视图组合、导航、性能优化和现代 iOS/macOS UI 最佳实践。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/swiftui-patterns
@@ -1152,7 +1262,9 @@
     - document
   license: MIT
   name: visa-doc-translate
-  description: Translate visa application documents (images) to English and create a bilingual PDF with original and translation.
+  description:
+    en: Translate visa application documents (images) to English and create a bilingual PDF with original and translation.
+    cn: 将签证申请文件（图片）翻译成英文，并创建包含原文和译文的双语 PDF。
   author: Affaan Mustafa
   avatar: https://avatars.githubusercontent.com/u/124439313
   path: /affaanmustafa/visa-doc-translate

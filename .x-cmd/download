@@ -7,7 +7,7 @@ fork_from_xcmd(){
     ___x_cmd mkdirp data/x-cmd/x-cmd
     ___x_cmd mv x-cmd/SKILL.md data/x-cmd/x-cmd
     ___x_cmd mv x-cmd/data data/x-cmd/x-cmd/data
-    ___x_cmd mv x-cmd/LICENSE.txt x-cmd/README.md x-cmd/README.cn.md data/x-cmd/x-cmd
+    ___x_cmd mv x-cmd/LICENSE x-cmd/README.md x-cmd/README.cn.md data/x-cmd/x-cmd
 
     ___x_cmd rm -rf x-cmd
 }

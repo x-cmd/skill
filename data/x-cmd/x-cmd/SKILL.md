@@ -15,7 +15,7 @@ compatibility: POSIX Shell (sh/bash/zsh/dash/ash)
 
 metadata:
   author: Li Junhao
-  version: "0.0.6"
+  version: "1.0.1"
   category: core
   tags: [shell, cli, tools, package-management, portable]
   repository: https://github.com/x-cmd-skill/x-cmd

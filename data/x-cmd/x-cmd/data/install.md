@@ -1,7 +1,7 @@
 ---
 name: x-cmd-install
 type: installation-guide
-version: "0.0.6"
+version: "0.0.5"
 
 metadata:
   security_warning: |
@@ -15,13 +15,19 @@ metadata:
       risk_level: low
       recommendation: "preferred for all environments"
       requires_review: false
-    - name: install-from-release
-      command: "Download tgz from GitHub release, extract, then install"
+    - name: install-script-review
+      command: "Download, review, then execute"
       verification: checksum
       risk_level: medium
       recommendation: "acceptable with review"
       requires_review: true
-      source: "https://github.com/x-cmd/release"
+    - name: install-script-auto
+      command: "curl -fsSL https://get.x-cmd.com | sh"
+      verification: checksum
+      risk_level: high
+      recommendation: "avoid in sensitive environments"
+      requires_review: false
+      warning: "Executes remote code without manual review"
   
   security_properties:
     installation_scope: "user-local (~/.x-cmd.root/)"
@@ -40,10 +46,11 @@ metadata:
 ## Security Warning
 
 This skill facilitates downloading and executing software from remote sources:
-- Source code from `https://github.com/x-cmd/release` (versioned, auditable)
+- Install script from `https://get.x-cmd.com`
+- Binary packages from `https://github.com/x-cmd/release`
 - Conda packages from `https://conda.prefix.dev`
 
-**Always review install steps in sensitive environments before execution.**
+**Always review install scripts in sensitive environments before execution.**
 
 ---
 
@@ -65,34 +72,47 @@ brew install x-cmd
 
 ---
 
-### Option 2: Install from Source (Trusted)
+### Option 2: Manual Install with Review (Medium Risk)
 
-**Best for:** Users who want transparent, auditable installation.
-
-Download and install from x-cmd official release (no binary scripts):
+**Best for:** Users who want to audit code before execution.
 
 ```bash
-# Create directories
-mkdir -p ~/.x-cmd.root/global/shared/version/archive ~/.x-cmd.root/v/latest
+# 1. Download install script
+curl -fsSL https://get.x-cmd.com > /tmp/x-cmd-install.sh
 
-# Download source archive from GitHub release
-curl --fail https://raw.githubusercontent.com/x-cmd/release/main/dist/latest.tgz > ~/.x-cmd.root/global/shared/version/archive/latest.tgz
+# 2. REVIEW the script content (critical step)
+cat /tmp/x-cmd-install.sh
+# Or: less /tmp/x-cmd-install.sh
 
-# Extract
-tar -zxf ~/.x-cmd.root/global/shared/version/archive/latest.tgz -C ~/.x-cmd.root/v/latest
-
-# Install
-___X_CMD_ROOT="$HOME/.x-cmd.root" ___X_CMD_VERSION=latest sh -c '. "$___X_CMD_ROOT/v/$___X_CMD_VERSION/X"; ___x_cmd boot init "$___X_CMD_ROOT" "$___X_CMD_VERSION"; '
-
-# Load x-cmd
-[ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X"
+# 3. Execute only after satisfactory review
+sh /tmp/x-cmd-install.sh
 ```
 
-**What this does:**
-1. Downloads source archive from `github.com/x-cmd/release` (versioned release)
-2. Extracts to `~/.x-cmd.root/v/latest/` (user-local)
-3. Runs x-cmd's built-in installer (auditable shell code)
-4. All files are in `~/.x-cmd.root/` - no system modifications
+**What the script does:**
+1. Creates `~/.x-cmd.root/` directory (user-local)
+2. Downloads x-cmd core files from GitHub releases
+3. Verifies SHA256 checksums of all downloaded files
+4. No system modifications, no sudo required
+
+---
+
+### Option 3: Auto-Install (High Risk - Avoid in Sensitive Environments)
+
+**⚠️ WARNING:** This executes remote code without manual review.
+
+```bash
+curl -fsSL https://get.x-cmd.com | sh
+```
+
+**Only use when:**
+- Environment is disposable (container, temporary VM)
+- No sensitive credentials in environment
+- User explicitly accepts the risk
+
+**Security implications:**
+- ❌ No opportunity to review code before execution
+- ❌ Vulnerable to supply chain attacks if get.x-cmd.com is compromised
+- ⚠️ Checksum verification happens AFTER initial script execution
 
 ---
 
@@ -118,11 +138,11 @@ ___X_CMD_ROOT="$HOME/.x-cmd.root" ___X_CMD_VERSION=latest sh -c '. "$___X_CMD_RO
 2. **If not installed, ask user:**
    > "x-cmd is not installed. To use this skill, please install it via:
    > - `brew install x-cmd` (recommended, signed)
-   > - Or download from https://github.com/x-cmd/release and follow install steps
+   > - Or download from https://get.x-cmd.com and review before executing
    > 
    > Shall I wait for you to install it, or would you like me to proceed with installation?"
 
-3. **Only proceed with installation if user explicitly consents**
+3. **Only proceed with auto-install if user explicitly consents**
 
 ---
 
@@ -146,7 +166,8 @@ x-cmd --version
 
 | Component | Source | Verification |
 |-----------|--------|--------------|
-| Source archive | https://github.com/x-cmd/release | SHA256 checksum |
+| Install script | https://get.x-cmd.com | User review + HTTPS |
+| Core binaries | https://github.com/x-cmd/release | SHA256 checksum |
 | Homebrew bottles | Homebrew official | Cryptographic signature |
 | Conda packages | https://conda.prefix.dev | Conda signature |
 

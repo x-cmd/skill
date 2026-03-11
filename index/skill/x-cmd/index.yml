@@ -11,7 +11,9 @@
     - portable
   license: Apache-2.0
   name: x-cmd
-  description: "Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`. x-cmd provides 600+ portable software and development tools. Use `x <env|pixi> use <pkg>` to install and use any package instantly."
+  description:
+    en: "Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`. x-cmd provides 600+ portable software and development tools. Use `x <env|pixi> use <pkg>` to install and use any package instantly."
+    cn: "首先加载 x-cmd：`. ~/.x-cmd.root/X`，然后通过 `x nihao --llmstxt` 探索或通过 `x skill` 发现技能。x-cmd 提供 600+ 便携式软件和开发工具。使用 `x <env|pixi> use <pkg>` 即时安装和使用任何包。"
   author: Li Junhao
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-cmd
@@ -19,7 +21,6 @@
     zipball:
       codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/x-cmd.zip
       github: https://github.com/x-cmd/skill/releases/latest/download/x-cmd.zip
-
 - id: x-cmd/x-git
   url: x-cmd-skill-data:x-cmd/x-git
   reference: https://github.com/x-cmd/skill
@@ -30,7 +31,9 @@
     - code-hosting
   license: Apache-2.0
   name: x-git
-  description: This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.
+  description:
+    en: This skill provides comprehensive Git and code hosting platform management tools through x-cmd CLI, including GitHub, GitLab, Codeberg, Forgejo integration, and Git hooks management. This skill should be used when users need to manage Git repositories, work with code hosting platforms, automate Git workflows, or configure Git hooks from command line interfaces.
+    cn: 此技能通过 x-cmd CLI 提供全面的 Git 和代码托管平台管理工具，包括 GitHub、GitLab、Codeberg、Forgejo 集成和 Git hooks 管理。当用户需要管理 Git 仓库、使用代码托管平台、自动化 Git 工作流或从命令行配置 Git hooks 时应使用此技能。
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-git
@@ -48,7 +51,9 @@
     - technical-research
   license: Apache-2.0
   name: x-knowledge
-  description: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
+  description:
+    en: This skill provides access to various knowledge search tools through x-cmd CLI, including Hacker News, Wikipedia, DuckDuckGo search, RFC documents, Project Gutenberg books, and Stack Exchange. This skill should be used when users need to search for technical information, browse online knowledge bases, or access documentation from command line interfaces.
+    cn: 此技能通过 x-cmd CLI 提供对各种知识搜索工具的访问，包括 Hacker News、Wikipedia、DuckDuckGo 搜索、RFC 文档、Project Gutenberg 书籍和 Stack Exchange。当用户需要搜索技术信息、浏览在线知识库或从命令行访问文档时应使用此技能。
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-knowledge
@@ -66,7 +71,9 @@
     - connectivity
   license: Apache-2.0
   name: x-network
-  description: This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.
+  description:
+    en: This skill provides comprehensive network administration and diagnostic tools through x-cmd CLI, including network scanning with Nmap, ARP table management, DNS configuration, routing table analysis, and enhanced ping utilities. This skill should be used when users need to perform network diagnostics, troubleshoot connectivity issues, analyze network topology, or monitor network performance from command line interfaces.
+    cn: 此技能通过 x-cmd CLI 提供全面的网络管理和诊断工具，包括 Nmap 网络扫描、ARP 表管理、DNS 配置、路由表分析和增强的 ping 工具。当用户需要执行网络诊断、排查连接问题、分析网络拓扑或从命令行监控网络性能时应使用此技能。
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-network
@@ -84,7 +91,9 @@
     - network-reconnaissance
   license: Apache-2.0
   name: x-security
-  description: This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.
+  description:
+    en: This skill provides comprehensive security assessment and vulnerability management tools through x-cmd CLI, including network reconnaissance with Shodan, vulnerability scanning with OSV, and known exploited vulnerability tracking with KEV. This skill should be used when users need to perform security assessments, vulnerability research, network reconnaissance, or security monitoring from command line interfaces.
+    cn: 此技能通过 x-cmd CLI 提供全面的安全评估和漏洞管理工具，包括使用 Shodan 进行网络侦察、使用 OSV 进行漏洞扫描和使用 KEV 追踪已知被利用的漏洞。当用户需要执行安全评估、漏洞研究、网络侦察或从命令行进行安全监控时应使用此技能。
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-security
@@ -102,7 +111,9 @@
     - performance-management
   license: Apache-2.0
   name: x-system
-  description: This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.
+  description:
+    en: This skill provides comprehensive system administration and monitoring tools through x-cmd CLI, including process management, macOS system utilities, network configuration, disk health monitoring, and storage analysis. This skill should be used when users need to perform system administration tasks, monitor system performance, manage network configurations, or troubleshoot system issues from command line interfaces.
+    cn: 此技能通过 x-cmd CLI 提供全面的系统管理和监控工具，包括进程管理、macOS 系统实用程序、网络配置、磁盘健康监控和存储分析。当用户需要执行系统管理任务、监控系统性能、管理网络配置或从命令行排查系统问题时应使用此技能。
   author: X-CMD
   avatar: https://avatars.githubusercontent.com/u/79955600
   path: /x-cmd/x-system
