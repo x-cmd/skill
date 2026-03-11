@@ -8,7 +8,9 @@
     - mass-spectrometry
   license: MIT
   name: "metabolomics-workbench-database"
-  description: "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery."
+  description:
+    en: "Access NIH Metabolomics Workbench via REST API (4,200+ studies). Query metabolites, RefMet nomenclature, MS/NMR data, m/z searches, study metadata, for metabolomics and biomarker discovery."
+    cn: "通过 REST API 访问 NIH Metabolomics Workbench（4,200+ 项研究）。查询代谢物、RefMet 命名法、MS/NMR 数据、m/z 搜索、研究元数据，用于代谢组学和生物标志物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/metabolomics-workbench-database
@@ -29,7 +31,9 @@
     - research
   license: MIT
   name: "uspto-database"
-  description: "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches."
+  description:
+    en: "Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citations, office actions, TSDR, for IP analysis and prior art searches."
+    cn: "访问 USPTO API 进行专利/商标搜索、审查历史 (PEDS)、转让、引用的现有技术搜索。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/uspto-database
@@ -50,7 +54,9 @@
     - drug-interactions
   license: MIT
   name: "kegg-database"
-  description: "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control."
+  description:
+    en: "Direct REST API access to KEGG (academic use only). Pathway analysis, gene-pathway mapping, metabolic pathways, drug interactions, ID conversion. For Python workflows with multiple databases, prefer bioservices. Use this for direct HTTP/REST work or KEGG-specific control."
+    cn: "直接 REST API 访问 KEGG（仅供学术使用）。通路分析、基因-通路映射、代谢通路、药物相互作用、ID 转换。对于使用多个数据库的 Python 工作流，建议使用 bioservices。用于直接 HTTP/REST 工作或 KEGG 特定控制。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/kegg-database
@@ -71,7 +77,9 @@
     - compounds
   license: MIT
   name: "zinc-database"
-  description: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
+  description:
+    en: "Access ZINC (230M+ purchasable compounds). Search by ZINC ID/SMILES, similarity searches, 3D-ready structures for docking, analog discovery, for virtual screening and drug discovery."
+    cn: "访问 ZINC（2.3 亿+ 可购买化合物）。按 ZINC ID/SMILES 搜索、相似性搜索、用于对接的 3D 就绪结构、类似物发现，用于虚拟筛选和药物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/zinc-database
@@ -92,7 +100,9 @@
     - bioinformatics
   license: MIT
   name: "alphafold-database"
-  description: "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
+  description:
+    en: "Access AlphaFold 200M+ AI-predicted protein structures. Retrieve structures by UniProt ID, download PDB/mmCIF files, analyze confidence metrics (pLDDT, PAE), for drug discovery and structural biology."
+    cn: "访问 AlphaFold 2 亿+ AI 预测蛋白结构。按 UniProt ID 获取结构、下载 PDB/mmCIF 文件、分析置信度指标（pLDDT、PAE），用于药物发现和结构生物学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/alphafold-database
@@ -113,7 +123,9 @@
     - oncology
   license: MIT
   name: "cosmic-database"
-  description: "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication."
+  description:
+    en: "Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusions, for cancer research and precision oncology. Requires authentication."
+    cn: "访问 COSMIC 癌症突变数据库。查询体细胞突变、癌症基因普查、突变特征、基因融合，用于癌症研究和精准肿瘤学。需要身份验证。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/cosmic-database
@@ -134,7 +146,9 @@
     - bioinformatics
   license: MIT
   name: "gene-database"
-  description: "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis."
+  description:
+    en: "Query NCBI Gene via E-utilities/Datasets API. Search by symbol/ID, retrieve gene info (RefSeqs, GO, locations, phenotypes), batch lookups, for gene annotation and functional analysis."
+    cn: "通过 E-utilities/Datasets API 查询 NCBI Gene。按符号/ID 搜索，获取基因信息（RefSeqs、GO、位置、表型），批量查询，用于基因注释和功能分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gene-database
@@ -155,7 +169,9 @@
     - life-sciences
   license: MIT
   name: "biorxiv-database"
-  description: "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews."
+  description:
+    en: "Efficient database search tool for bioRxiv preprint server. Use this skill when searching for life sciences preprints by keywords, authors, date ranges, or categories, retrieving paper metadata, downloading PDFs, or conducting literature reviews."
+    cn: "bioRxiv 预印本服务器的高效数据库搜索工具。当按关键词、作者、日期范围或类别搜索生命科学预印本、获取论文元数据、下载 PDF 或进行文献综述时使用此技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/biorxiv-database
@@ -176,7 +192,9 @@
     - transcriptomics
   license: MIT
   name: "geo-database"
-  description: "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis."
+  description:
+    en: "Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), retrieve SOFT/Matrix files, for transcriptomics and expression analysis."
+    cn: "访问 NCBI GEO 获取基因表达/基因组数据。搜索/下载微阵列和 RNA-seq 数据集（GSE、GSM、GPL），获取 SOFT/Matrix 文件，用于转录组学和表达分析。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/geo-database
@@ -197,7 +215,9 @@
     - biomarkers
   license: MIT
   name: "hmdb-database"
-  description: "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification."
+  description:
+    en: "Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemical properties, biomarker data, NMR/MS spectra, pathways, for metabolomics and identification."
+    cn: "访问人类代谢组数据库（22 万+ 代谢物）。按名称/ID/结构搜索，获取化学性质、生物标志物数据、NMR/MS 光谱、通路，用于代谢组学和鉴定。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/hmdb-database
@@ -218,7 +238,9 @@
     - medical-genetics
   license: MIT
   name: "clinvar-database"
-  description: "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine."
+  description:
+    en: "Query NCBI ClinVar for variant clinical significance. Search by gene/position, interpret pathogenicity classifications, access via E-utilities API or FTP, annotate VCFs, for genomic medicine."
+    cn: "查询 NCBI ClinVar 获取变体临床意义。按基因/位置搜索，解释致病性分类，通过 E-utilities API 或 FTP 访问，注释 VCF，用于基因组医学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinvar-database
@@ -239,7 +261,9 @@
     - bioactivity
   license: MIT
   name: "pubchem-database"
-  description: "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics."
+  description:
+    en: "Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for cheminformatics."
+    cn: "通过 PUG-REST API/PubChemPy 查询 PubChem（1.1 亿+ 化合物）。按名称/CID/SMILES 搜索，获取性质、相似性/子结构搜索、生物活性，用于化学信息学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pubchem-database
@@ -260,7 +284,9 @@
     - chemical-structures
   license: MIT
   name: "drugbank-database"
-  description: "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank."
+  description:
+    en: "Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, chemical structures, and pharmacology data. This skill should be used when working with pharmaceutical data, drug discovery research, pharmacology studies, drug-drug interaction analysis, target identification, chemical similarity searches, ADMET predictions, or any task requiring detailed drug and drug target information from DrugBank."
+    cn: "从 DrugBank 数据库访问和分析全面的药物信息，包括药物性质、相互作用、靶点、通路、化学结构和药理学数据。此技能应用于药物数据、药物发现研究、药理学研究、药物-药物相互作用分析、靶点鉴定、化学相似性搜索、ADMET 预测，或任何需要 DrugBank 详细药物和药物靶点信息的任务。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/drugbank-database
@@ -281,7 +307,9 @@
     - safety-research
   license: MIT
   name: "fda-database"
-  description: "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research."
+  description:
+    en: "Query openFDA API for drugs, devices, adverse events, recalls, regulatory submissions (510k, PMA), substance identification (UNII), for FDA regulatory data analysis and safety research."
+    cn: "查询 openFDA API 获取药物、设备、不良事件、召回、监管提交（510k、PMA）、物质鉴定（UNII），用于 FDA 监管数据分析和安全研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/fda-database
@@ -302,7 +330,9 @@
     - comparative-genomics
   license: MIT
   name: "ensembl-database"
-  description: "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research."
+  description:
+    en: "Query Ensembl genome database REST API for 250+ species. Gene lookups, sequence retrieval, variant analysis, comparative genomics, orthologs, VEP predictions, for genomic research."
+    cn: "查询 Ensembl 基因组数据库 REST API 获取 250+ 物种。基因查询、序列检索、变异分析、比较基因组学、直系同源物、VEP 预测，用于基因组研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/ensembl-database
@@ -323,7 +353,9 @@
     - dosing
   license: MIT
   name: "clinpgx-database"
-  description: "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions."
+  description:
+    en: "Access ClinPGx pharmacogenomics data (successor to PharmGKB). Query gene-drug interactions, CPIC guidelines, allele functions, for precision medicine and genotype-guided dosing decisions."
+    cn: "访问 ClinPGx 药物基因组学数据（PharmGKB 的继承者）。查询基因-药物相互作用、CPIC 指南、等位基因功能，用于精准医学和基因型指导的剂量决策。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinpgx-database
@@ -344,7 +376,9 @@
     - polygenic-risk
   license: MIT
   name: "gwas-database"
-  description: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic epidemiology and polygenic risk scores."
+  description:
+    en: "Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-values and summary statistics, for genetic流行病学和多基因风险评分。"
+    cn: "查询 NHGRI-EBI GWAS Catalog 获取 SNP-性状关联。按 rs ID、疾病/性状、基因搜索变体，获取 p 值和汇总统计，用于遗传流行病学和多基因风险评分。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/gwas-database
@@ -365,7 +399,9 @@
     - go-enrichment
   license: MIT
   name: "string-database"
-  description: "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology."
+  description:
+    en: "Query STRING API for protein-protein interactions (59M proteins, 20B interactions). Network analysis, GO/KEGG enrichment, interaction discovery, 5000+ species, for systems biology."
+    cn: "查询 STRING API 获取蛋白质-蛋白质相互作用（5900 万蛋白质、200 亿相互作用）。网络分析、GO/KEGG 富集、相互作用发现、5000+ 物种，用于系统生物学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/string-database
@@ -386,7 +422,9 @@
     - sequence-analysis
   license: MIT
   name: "uniprot-database"
-  description: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
+  description:
+    en: "Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEMBL. For Python workflows with multiple databases, prefer bioservices (unified interface to 40+ services). Use this for direct HTTP/REST work or UniProt-specific control."
+    cn: "直接 REST API 访问 UniProt。蛋白质搜索、FASTA 检索、ID 映射、Swiss-Prot/TrEMBL。对于使用多个数据库的 Python 工作流，建议使用 bioservices（40+ 服务的统一接口）。用于直接 HTTP/REST 工作或 UniProt 特定控制。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/uniprot-database
@@ -407,7 +445,9 @@
     - molecular-interactions
   license: MIT
   name: "reactome-database"
-  description: "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies."
+  description:
+    en: "Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, expression analysis, for systems biology studies."
+    cn: "查询 Reactome REST API 获取通路分析、富集、基因-通路映射、疾病通路、分子相互作用、表达分析，用于系统生物学研究。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/reactome-database/reactome-database
@@ -428,7 +468,9 @@
     - medical-literature
   license: MIT
   name: "pubmed-database"
-  description: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations."
+  description:
+    en: "Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processing, citation management. For Python workflows, prefer biopython (Bio.Entrez). Use this for direct HTTP/REST work or custom API implementations."
+    cn: "直接 REST API 访问 PubMed。高级布尔/MeSH 查询、E-utilities API、批量处理、引用管理。对于 Python 工作流，建议使用 biopython (Bio.Entrez)。用于直接 HTTP/REST 工作或自定义 API 实现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pubmed-database
@@ -449,7 +491,9 @@
     - sar-studies
   license: MIT
   name: "chembl-database"
-  description: "Query ChEMBL bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
+  description:
+    en: "Query ChEMBL bioactive molecules and drug discovery data. Search compounds by structure/properties, retrieve bioactivity data (IC50, Ki), find inhibitors, perform SAR studies, for medicinal chemistry."
+    cn: "查询 ChEMBL 生物活性分子和药物发现数据。按结构/性质搜索化合物，获取生物活性数据（IC50、Ki），寻找抑制剂，进行 SAR 研究，用于药物化学。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/chembl-database
@@ -470,7 +514,9 @@
     - drug-development
   license: MIT
   name: "clinicaltrials-database"
-  description: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
+  description:
+    en: "Query ClinicalTrials.gov via API v2. Search trials by condition, drug, location, status, or phase. Retrieve trial details by NCT ID, export data, for clinical research and patient matching."
+    cn: "通过 API v2 查询 ClinicalTrials.gov。按疾病、药物、地点、状态或阶段搜索试验。按 NCT ID 获取试验详情、导出数据，用于临床研究和患者匹配。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/clinicaltrials-database
@@ -491,7 +537,9 @@
     - genome-assemblies
   license: MIT
   name: "ena-database"
-  description: "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats."
+  description:
+    en: "Access European Nucleotide Archive via API/FTP. Retrieve DNA/RNA sequences, raw reads (FASTQ), genome assemblies by accession, for genomics and bioinformatics pipelines. Supports multiple formats."
+    cn: "通过 API/FTP 访问欧洲核苷酸档案馆。获取 DNA/RNA 序列、原始读数（FASTQ）、按 accession 号获取基因组组装，用于基因组学和生物信息学管道。支持多种格式。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/ena-database
@@ -512,7 +560,9 @@
     - molecular-biology
   license: MIT
   name: "pdb-database"
-  description: "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery."
+  description:
+    en: "Access RCSB PDB for 3D protein/nucleic acid structures. Search by text/sequence/structure, download coordinates (PDB/mmCIF), retrieve metadata, for structural biology and drug discovery."
+    cn: "访问 RCSB PDB 获取 3D 蛋白/核酸结构。按文本/序列/结构搜索，下载坐标（PDB/mmCIF），获取元数据，用于结构生物学和药物发现。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pdb-database
@@ -533,7 +583,9 @@
     - omics
   license: MIT
   name: "opentargets-database"
-  description: "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification."
+  description:
+    en: "Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics/omics evidence, known drugs, for therapeutic target identification."
+    cn: "查询 Open Targets Platform 获取靶点-疾病关联、药物靶点发现、可成性/安全数据、遗传学/组学证据、已知药物，用于治疗靶点鉴定。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/opentargets-database
@@ -554,7 +606,9 @@
     - workflows
   license: MIT
   name: "benchling-integration"
-  description: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
+  description:
+    en: "Benchling R&D platform integration. Access registry (DNA, proteins), inventory, ELN entries, workflows via API, build Benchling Apps, query Data Warehouse, for lab data management automation."
+    cn: "Benchling 研发平台集成。通过 API 访问注册表（DNA、蛋白质）、库存、ELN 条目、工作流，构建 Benchling Apps、查询 Data Warehouse，用于实验室数据管理自动化。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/benchling-integration
@@ -596,7 +650,9 @@
     - pipetting
   license: MIT
   name: "opentrons-integration"
-  description: "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot."
+  description:
+    en: "Official Opentrons Protocol API for OT-2 and Flex robots. Use when writing protocols specifically for Opentrons hardware with full access to Protocol API v2 features. Best for production Opentrons protocols, official API compatibility. For multi-vendor automation or broader equipment control use pylabrobot."
+    cn: "Opentrons OT-2 和 Flex 机器人的官方 Opentrons 协议 API。在为 Opentrons 硬件编写协议并完全访问 Protocol API v2 功能时使用。适用于生产 Opentrons 协议、官方 API 兼容性。对于多供应商自动化或更广泛的设备控制使用 pylabrobot。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/opentrons-integration
@@ -617,7 +673,9 @@
     - data-management
   license: MIT
   name: "omero-integration"
-  description: "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows."
+  description:
+    en: "Microscopy data management platform. Access images via Python, retrieve datasets, analyze pixels, manage ROIs/annotations, batch processing, for high-content screening and microscopy workflows."
+    cn: "显微镜数据管理平台。通过 Python 访问图像、获取数据集、分析像素、管理 ROI/注释、批量处理，用于高内容筛选和显微镜工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/omero-integration
@@ -638,7 +696,9 @@
     - pipelines
   license: MIT
   name: "dnanexus-integration"
-  description: "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution."
+  description:
+    en: "DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, FASTQ/BAM/VCF, for genomics pipeline development and execution."
+    cn: "DNAnexus 云基因组学平台。构建应用/小程序，管理数据（上传/下载）、dxpy Python SDK，运行工作流、FASTQ/BAM/VCF，用于基因组学管道开发和执行。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/dnanexus-integration
@@ -659,7 +719,9 @@
     - documentation
   license: MIT
   name: "labarchive-integration"
-  description: "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows."
+  description:
+    en: "Electronic lab notebook API integration. Access notebooks, manage entries/attachments, backup notebooks, integrate with Protocols.io/Jupyter/REDCap, for programmatic ELN workflows."
+    cn: "电子实验室笔记本 API 集成。访问笔记本，管理条目/附件，备份笔记本，与 Protocols.io/Jupyter/REDCap 集成，用于编程 ELN 工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/labarchive-integration
@@ -680,7 +742,9 @@
     - serverless
   license: MIT
   name: "latchbio-integration"
-  description: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
+  description:
+    en: "Latch platform for bioinformatics workflows. Build pipelines with Latch SDK, @workflow/@task decorators, deploy serverless workflows, LatchFile/LatchDir, Nextflow/Snakemake integration."
+    cn: "Latch 生物信息学工作流平台。使用 Latch SDK、@workflow/@task 装饰器构建管道，部署无服务器工作流、LatchFile/LatchDir，Nextflow/Snakemake 集成。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/latchbio-integration
@@ -722,7 +786,9 @@
     - setup
   license: MIT
   name: "context-initialization"
-  description: "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task."
+  description:
+    en: "Always Auto-invoked skill that creates/updates workspace AGENTS.md to instruct the agent to always search for existing skills before attempting any scientific task."
+    cn: "始终自动调用的技能，创建/更新工作区 AGENTS.md 以指示代理在尝试任何科学任务之前始终搜索现有技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scientific-context-initialization
@@ -743,7 +809,9 @@
     - algorithms
   license: MIT
   name: "networkx"
-  description: "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships."
+  description:
+    en: "Comprehensive toolkit for creating, analyzing, and visualizing complex networks and graphs in Python. Use when working with network/graph data structures, analyzing relationships between entities, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks, or visualizing network topologies. Applicable to social networks, biological networks, transportation systems, citation networks, and any domain involving pairwise relationships."
+    cn: "在 Python 中创建、分析和可视化复杂网络和图的综合工具包。用于处理网络/图数据结构、分析实体之间的关系、计算图算法（最短路径、中心性、聚类）、检测社区、生成合成网络或可视化网络拓扑。适用于社交网络、生物网络、交通系统、引用网络以及任何涉及成对关系的领域。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/networkx
@@ -764,7 +832,9 @@
     - bioinformatics
   license: MIT
   name: "anndata"
-  description: "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census."
+  description:
+    en: "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census."
+    cn: "单细胞分析中带注释矩阵的数据结构。用于处理 .h5ad 文件或与 scverse 生态系统集成。这是数据格式技能——对于分析工作流使用 scanpy；对于概率模型使用 scvi-tools；对于大规模查询使用 cellxgene-census。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/anndata
@@ -785,7 +855,9 @@
     - medical-research
   license: MIT
   name: "scikit-survival"
-  description: "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library."
+  description:
+    en: "Comprehensive toolkit for survival analysis and time-to-event modeling in Python using scikit-survival. Use this skill when working with censored survival data, performing time-to-event analysis, fitting Cox models, Random Survival Forests, Gradient Boosting models, or Survival SVMs, evaluating survival predictions with concordance index or Brier score, handling competing risks, or implementing any survival analysis workflow with the scikit-survival library."
+    cn: "使用 scikit-survival 在 Python中进行生存分析和事件时间建模的综合工具包。用于处理审查的生存数据、执行事件时间分析、拟合 Cox 模型、随机生存森林、梯度提升模型或生存 SVM，使用一致性指数或 Brier 评分评估生存预测、处理竞争风险，或使用 scikit-survival 库实施任何生存分析工作流。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/scikit-survival
@@ -806,7 +878,9 @@
     - inference
   license: MIT
   name: "pymc-bayesian-modeling"
-  description: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
+  description:
+    en: "Bayesian modeling with PyMC. Build hierarchical models, MCMC (NUTS), variational inference, LOO/WAIC comparison, posterior checks, for probabilistic programming and inference."
+    cn: "使用 PyMC 进行贝叶斯建模。构建层次模型、MCMC (NUTS)、变分推理、LOO/WAIC 比较、后验检查，用于概率编程和推理。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/pymc
@@ -827,7 +901,9 @@
     - publication
   license: MIT
   name: "paper-2-web"
-  description: "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources."
+  description:
+    en: "This skill should be used when converting academic papers into promotional and presentation formats including interactive websites (Paper2Web), presentation videos (Paper2Video), and conference posters (Paper2Poster). Use this skill for tasks involving paper dissemination, conference preparation, creating explorable academic homepages, generating video abstracts, or producing print-ready posters from LaTeX or PDF sources."
+    cn: "此技能应用于将学术论文转换为宣传和演示格式，包括交互式网站（Paper2Web）、演示视频（Paper2Video）和会议海报（Paper2Poster）。用于论文传播、会议准备、创建可探索的学术主页、生成视频摘要或从 LaTeX 或 PDF 源制作打印就绪海报的任务。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/paper-2-web
@@ -848,7 +924,9 @@
     - feature-importance
   license: MIT
   name: "shap"
-  description: "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model."
+  description:
+    en: "Model interpretability and explainability using SHAP (SHapley Additive exPlanations). Use this skill when explaining machine learning model predictions, computing feature importance, generating SHAP plots (waterfall, beeswarm, bar, scatter, force, heatmap), debugging models, analyzing model bias or fairness, comparing models, or implementing explainable AI. Works with tree-based models (XGBoost, LightGBM, Random Forest), deep learning (TensorFlow, PyTorch), linear models, and any black-box model."
+    cn: "使用 SHAP（SHapley 加性解释）进行模型可解释性和可解释性。在解释机器学习模型预测、计算特征重要性、生成 SHAP 图（瀑布图、蜂群图、条形图、散点图、力图、热图）、调试模型、分析模型偏差或公平性、比较模型或实施可解释 AI 时使用此技能。适用于基于树的模型（XGBoost、LightGBM、随机森林）、深度学习（TensorFlow、PyTorch）、线性模型和任何黑盒模型。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/shap
@@ -890,7 +968,9 @@
     - manifold-learning
   license: MIT
   name: "umap-learn"
-  description: "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data."
+  description:
+    en: "UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clustering preprocessing (HDBSCAN), supervised/parametric UMAP, for high-dimensional data."
+    cn: "UMAP 降维。用于 2D/3D 可视化的快速非线性流形学习、聚类预处理（HDBSCAN）、监督/参数 UMAP，用于高维数据。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/umap-learn
@@ -911,7 +991,9 @@
     - physics
   license: MIT
   name: "sympy"
-  description: "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
+  description:
+    en: "Use this skill when working with symbolic mathematics in Python. This skill should be used for symbolic computation tasks including solving equations algebraically, performing calculus operations (derivatives, integrals, limits), manipulating algebraic expressions, working with matrices symbolically, physics calculations, number theory problems, geometry computations, and generating executable code from mathematical expressions. Apply this skill when the user needs exact symbolic results rather than numerical approximations, or when working with mathematical formulas that contain variables and parameters."
+    cn: "在 Python 中处理符号数学时使用此技能。此技能应用于符号计算任务，包括代数解方程、执行微积分运算（导数、积分、极限）、操作代数表达式、符号处理矩阵、物理计算、数论问题、几何计算，以及从数学表达式生成可执行代码。当用户需要精确的符号结果而非数值近似，或处理包含变量和参数的数学公式时应用此技能。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/sympy
@@ -932,7 +1014,9 @@
     - performance
   license: MIT
   name: "vaex"
-  description: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory."
+  description:
+    en: "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory."
+    cn: "此技能用于处理和分析超出可用 RAM 的大型表格数据集（数十亿行）。Vaex 擅长核心外 DataFrame 操作、惰性求值、快速聚合、大型数据的高效可视化和大型数据集的机器学习。当用户需要处理大型 CSV/HDF5/Arrow/Parquet 文件、对大型数据集执行快速统计、创建大数据可视化或构建不适合内存的 ML 管道时应用。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/vaex
@@ -953,7 +1037,9 @@
     - performance
   license: MIT
   name: "dask"
-  description: "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars."
+  description:
+    en: "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars."
+    cn: "用于大于内存的 pandas/NumPy 工作流的分布式计算。在需要将现有 pandas/NumPy 代码扩展到内存之外或跨集群时使用。适用于并行文件处理、分布式 ML、与现有 pandas 代码集成。对于单台机器的核心外分析使用 vaex；对于内存中速度使用 polars。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/dask
@@ -995,7 +1081,9 @@
     - systems-biology
   license: MIT
   name: "arboreto"
-  description: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
+  description:
+    en: "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets."
+    cn: "使用可扩展算法（GRNBoost2、GENIE3）从基因表达数据推断基因调控网络（GRN）。在分析转录组学数据（bulk RNA-seq、single-cell RNA-seq）以鉴定转录因子-靶基因关系和调控相互作用时使用。支持大规模数据集的分布式计算。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/arboreto
@@ -1016,7 +1104,9 @@
     - exploratory-analysis
   license: MIT
   name: "seaborn"
-  description: "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization."
+  description:
+    en: "Statistical visualization with pandas integration. Use for quick exploration of distributions, relationships, and categorical comparisons with attractive defaults. Best for box plots, violin plots, pair plots, heatmaps. Built on matplotlib. For interactive plots use plotly; for publication styling use scientific-visualization."
+    cn: "集成 pandas 的统计可视化。用于快速探索分布、关系和分类比较，具有吸引人的默认设置。最好用于箱线图、小提琴图、配对图、热图。基于 matplotlib 构建。对于交互式图表使用 plotly；对于出版样式使用 scientific-visualization。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/seaborn
@@ -1037,7 +1127,9 @@
     - chip-seq
   license: MIT
   name: "deeptools"
-  description: "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization."
+  description:
+    en: "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization."
+    cn: "NGS 分析工具包。BAM 到 bigWig 转换、QC（相关性、PCA、指纹）、热图/剖面图（TSS、峰），用于 ChIP-seq、RNA-seq、ATAC-seq 可视化。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/deeptools
@@ -1058,7 +1150,9 @@
     - cheminformatics
   license: MIT
   name: "medchem"
-  description: "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering."
+  description:
+    en: "Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexity metrics, for compound prioritization and library filtering."
+    cn: "药物化学过滤器。应用类药性规则（Lipinski、Veber）、PAINS 过滤器、结构警报、复杂性度量，用于化合物优先级排序和库筛选。"
   author: K-Dense-AI
   avatar: https://avatars.githubusercontent.com/u/238572432
   path: /k-dense-ai/medchem

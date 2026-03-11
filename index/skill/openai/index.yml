@@ -8,7 +8,9 @@
     - scaffold
   license: Apache-2.0
   name: chatgpt-apps
-  description: Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications
+  description:
+    en: Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications
+    cn: 构建、搭建、重构和排查 ChatGPT Apps SDK 应用程序
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/chatgpt-apps
@@ -26,7 +28,9 @@
     - pages
   license: Apache-2.0
   name: cloudflare-deploy
-  description: Deploy applications and infrastructure to Cloudflare using Workers, Pages
+  description:
+    en: Deploy applications and infrastructure to Cloudflare using Workers, Pages
+    cn: 使用 Workers、Pages 将应用程序和基础设施部署到 Cloudflare
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/cloudflare-deploy
@@ -44,7 +48,9 @@
     - testing
   license: Apache-2.0
   name: develop-web-game
-  description: Build or iterate on a web game with Playwright testing
+  description:
+    en: Build or iterate on a web game with Playwright testing
+    cn: 使用 Playwright 测试构建或迭代网页游戏
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/develop-web-game
@@ -61,7 +67,9 @@
     - office
   license: Apache-2.0
   name: doc
-  description: Read, create, or edit .docx documents
+  description:
+    en: Read, create, or edit .docx documents
+    cn: 读取、创建或编辑 .docx 文档
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/doc
@@ -79,7 +87,9 @@
     - assets
   license: Apache-2.0
   name: figma
-  description: Use Figma MCP server for design context, screenshots, assets
+  description:
+    en: Use Figma MCP server for design context, screenshots, assets
+    cn: 使用 Figma MCP 服务器获取设计上下文、截图、资产
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/figma
@@ -97,7 +107,9 @@
     - implementation
   license: Apache-2.0
   name: figma-implement-design
-  description: Translate Figma nodes into production-ready code
+  description:
+    en: Translate Figma nodes into production-ready code
+    cn: 将 Figma 节点转换为生产级代码
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/figma-implement-design
@@ -115,7 +127,9 @@
     - comments
   license: Apache-2.0
   name: gh-address-comments
-  description: Address comments in a GitHub PR review
+  description:
+    en: Address comments in a GitHub PR review
+    cn: 处理 GitHub PR 审查中的评论
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/gh-address-comments
@@ -133,7 +147,9 @@
     - debugging
   license: Apache-2.0
   name: gh-fix-ci
-  description: Fix failing Github CI actions
+  description:
+    en: Fix failing Github CI actions
+    cn: 修复失败的 Github CI 操作
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/gh-fix-ci
@@ -151,7 +167,9 @@
     - api
   license: Apache-2.0
   name: imagegen
-  description: Generate or edit images via OpenAI Image API
+  description:
+    en: Generate or edit images via OpenAI Image API
+    cn: 通过 OpenAI Image API 生成或编辑图像
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/imagegen
@@ -169,7 +187,9 @@
     - python
   license: Apache-2.0
   name: jupyter-notebook
-  description: Create, scaffold, or edit Jupyter notebooks
+  description:
+    en: Create, scaffold, or edit Jupyter notebooks
+    cn: 创建、搭建或编辑 Jupyter notebooks
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/jupyter-notebook
@@ -187,7 +207,9 @@
     - workflow
   license: Apache-2.0
   name: linear
-  description: Manage issues, projects & team workflows in Linear
+  description:
+    en: Manage issues, projects & team workflows in Linear
+    cn: 在 Linear 中管理问题、项目和团队工作流
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/linear
@@ -204,7 +226,9 @@
     - web
   license: Apache-2.0
   name: netlify-deploy
-  description: Deploy web projects to Netlify
+  description:
+    en: Deploy web projects to Netlify
+    cn: 将 Web 项目部署到 Netlify
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/netlify-deploy
@@ -222,7 +246,9 @@
     - wiki
   license: Apache-2.0
   name: notion-knowledge-capture
-  description: Capture conversations into structured Notion pages
+  description:
+    en: Capture conversations into structured Notion pages
+    cn: 将对话捕获到结构化的 Notion 页面中
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/notion-knowledge-capture
@@ -240,7 +266,9 @@
     - preparation
   license: Apache-2.0
   name: notion-meeting-intelligence
-  description: Prep meetings with Notion context and tailored agendas
+  description:
+    en: Prep meetings with Notion context and tailored agendas
+    cn: 使用 Notion 上下文和定制议程准备会议
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/notion-meeting-intelligence
@@ -258,7 +286,9 @@
     - briefs
   license: Apache-2.0
   name: notion-research-documentation
-  description: Research Notion content and produce briefs/reports
+  description:
+    en: Research Notion content and produce briefs/reports
+    cn: 研究 Notion 内容并制作简报/报告
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/notion-research-documentation
@@ -276,7 +306,9 @@
     - planning
   license: Apache-2.0
   name: notion-spec-to-implementation
-  description: Turn Notion specs into implementation plans
+  description:
+    en: Turn Notion specs into implementation plans
+    cn: 将 Notion 规范转换为实施计划
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/notion-spec-to-implementation
@@ -294,7 +326,9 @@
     - reference
   license: Apache-2.0
   name: openai-docs
-  description: Access up-to-date OpenAI official documentation
+  description:
+    en: Access up-to-date OpenAI official documentation
+    cn: 访问最新的 OpenAI 官方文档
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/openai-docs
@@ -311,7 +345,9 @@
     - reader
   license: Apache-2.0
   name: pdf
-  description: Read, create, or review PDF files
+  description:
+    en: Read, create, or review PDF files
+    cn: 读取、创建或审阅 PDF 文件
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/pdf
@@ -329,7 +365,9 @@
     - testing
   license: Apache-2.0
   name: playwright
-  description: Automate a real browser from the terminal
+  description:
+    en: Automate a real browser from the terminal
+    cn: 从终端自动化真实浏览器
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/playwright
@@ -347,7 +385,9 @@
     - infrastructure
   license: Apache-2.0
   name: render-deploy
-  description: Deploy applications to Render
+  description:
+    en: Deploy applications to Render
+    cn: 将应用程序部署到 Render
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/render-deploy
@@ -365,7 +405,9 @@
     - image
   license: Apache-2.0
   name: screenshot
-  description: Capture desktop or system screenshots
+  description:
+    en: Capture desktop or system screenshots
+    cn: 捕获桌面或系统截图
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/screenshot
@@ -383,7 +425,9 @@
     - audit
   license: Apache-2.0
   name: security-best-practices
-  description: Security best-practice reviews
+  description:
+    en: Security best-practice reviews
+    cn: 安全最佳实践审查
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/security-best-practices
@@ -401,7 +445,9 @@
     - git
   license: Apache-2.0
   name: security-ownership-map
-  description: Build security ownership topology from git
+  description:
+    en: Build security ownership topology from git
+    cn: 从 git 构建安全所有权拓扑
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/security-ownership-map
@@ -419,7 +465,9 @@
     - analysis
   license: Apache-2.0
   name: security-threat-model
-  description: Repository-grounded threat modeling
+  description:
+    en: Repository-grounded threat modeling
+    cn: 基于存储库的威胁建模
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/security-threat-model
@@ -437,7 +485,9 @@
     - debugging
   license: Apache-2.0
   name: sentry
-  description: Inspect Sentry issues and events
+  description:
+    en: Inspect Sentry issues and events
+    cn: 检查 Sentry 问题和事件
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/sentry
@@ -455,7 +505,9 @@
     - openai
   license: Apache-2.0
   name: sora
-  description: Generate, remix, poll, download Sora videos
+  description:
+    en: Generate, remix, poll, download Sora videos
+    cn: 生成、混音、投票、下载 Sora 视频
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/sora
@@ -473,7 +525,9 @@
     - narration
   license: Apache-2.0
   name: speech
-  description: Text-to-speech narration via OpenAI Audio API
+  description:
+    en: Text-to-speech narration via OpenAI Audio API
+    cn: 通过 OpenAI Audio API 进行文字转语音解说
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/speech
@@ -491,7 +545,9 @@
     - data
   license: Apache-2.0
   name: spreadsheet
-  description: Create, edit, analyze spreadsheets (.xlsx, .csv)
+  description:
+    en: Create, edit, analyze spreadsheets (.xlsx, .csv)
+    cn: 创建、编辑、分析电子表格 (.xlsx, .csv)
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/spreadsheet
@@ -509,7 +565,9 @@
     - speech-to-text
   license: Apache-2.0
   name: transcribe
-  description: Transcribe audio files to text
+  description:
+    en: Transcribe audio files to text
+    cn: 将音频文件转录为文本
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/transcribe
@@ -527,7 +585,9 @@
     - nextjs
   license: Apache-2.0
   name: vercel-deploy
-  description: Deploy applications and websites to Vercel
+  description:
+    en: Deploy applications and websites to Vercel
+    cn: 将应用程序和网站部署到 Vercel
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/vercel-deploy
@@ -545,7 +605,9 @@
     - workflow
   license: Apache-2.0
   name: yeet
-  description: Stage, commit, push, and open a GitHub PR
+  description:
+    en: Stage, commit, push, and open a GitHub PR
+    cn: 暂存、提交、推送并打开 GitHub PR
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.curated/yeet
@@ -562,7 +624,9 @@
     - skills
   license: Apache-2.0
   name: skill-installer
-  description: Install Codex skills from curated list or GitHub repo
+  description:
+    en: Install Codex skills from curated list or GitHub repo
+    cn: 从精选列表或 GitHub 仓库安装 Codex 技能
   author: OpenAI
   avatar: https://avatars.githubusercontent.com/u/14957082
   path: /openai/.system/skill-installer
