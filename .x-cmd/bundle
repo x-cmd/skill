@@ -26,7 +26,7 @@ bundle_xcmd_skill_data()(
     }
     x yq eval-all -o=tsv '[.[]
         | del(.path,.tag,.avatar,.installation)
-        | (. as $item | with_entries(select(.key != "description")) + {"type": "skill"} + {"description": $item.description} )
+        | (. as $item | with_entries(select(.key != "description")) + {"type": "skill"} + {"description": $item.description.en} )
       ]' index/skill/**/index.yml  \
     > "$tgtprefix/index.tsv" || {
         x:error "wrong: skill index"
@@ -34,7 +34,7 @@ bundle_xcmd_skill_data()(
     }
     x yq eval-all -o=tsv '[.[]
         | del(.path,.tag,.avatar,.installation)
-        | (. as $item | with_entries(select(.key != "description")) + {"type": "mcp"} + {"description": $item.description} )
+        | (. as $item | with_entries(select(.key != "description")) + {"type": "mcp"} + {"description": $item.description.en} )
       ]' index/mcp/index.yml  \
       | command tail -n +2 \
     >> "$tgtprefix/index.tsv" || {
@@ -48,7 +48,7 @@ bundle_xcmd_skill_data()(
                 "key": $i.name,
                 "value": (
                     $i.installation
-                    | with_entries(.value.description = $i.description)
+                    | with_entries(.value.description = $i.description.en)
                 )
             }
         ]
