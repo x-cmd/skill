@@ -11,19 +11,14 @@ metadata:
   category: core
   tags: [shell, cli, tools, rfc, network, protocol]
   repository: https://github.com/x-cmd/skill
-  website: https://www.x-cmd.com
+  display_name: RFC Document Assistant
 ---
 
 # x rfc - RFC Document Assistant
 
 ## Prerequisites
 
-1. If x-cmd is not installed, install it first:
-   ```bash
-   eval "$(curl https://get.x-cmd.com)"
-   ```
-
-2. Load x-cmd before use:
+1. Load x-cmd before use:
    ```bash
    . ~/.x-cmd.root/X
    ```
@@ -72,4 +67,14 @@ x rfc :: tls ssl
 
 ## Get Help
 
-Run `x rfc --help` or `x rfc -h` for full help documentation.
+Run `x rfc --help` for full help documentation.
+
+## X-CMD Sources & Verification
+
+| Component | Source | Verification |
+|-----------|--------|--------------|
+| Install script | https://get.x-cmd.com | User review + HTTPS |
+| Core binaries | https://github.com/x-cmd/release | SHA256 checksum |
+| Homebrew bottles | Homebrew official | Cryptographic signature |
+| Conda packages | https://conda.prefix.dev | Conda signature |
+
