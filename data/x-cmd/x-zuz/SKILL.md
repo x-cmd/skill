@@ -16,28 +16,26 @@ metadata:
   tags: [shell, cli, tools, compression, archive]
   repository: https://github.com/x-cmd/skill
   website: https://www.x-cmd.com
+  install_doc: data/install.md
+  display_name: Archive/Compression Assistant
 ---
 
 # x zuz - Archive/Compression Assistant
 
 ## Prerequisites
 
-1. If x-cmd is not installed, install it first:
-   ```bash
-   eval "$(curl https://get.x-cmd.com)"
-   ```
-
-2. Load x-cmd before use:
+1. Load x-cmd before use:
    ```bash
    . ~/.x-cmd.root/X
    ```
+
+2. x-cmd not installed? → [data/install.md](data/install.md)
 
 ## Core Functions
 
 - **Compress**: `x z <output> <files...>`
 - **Extract**: `x uz <archive> [destination]`
 - **List contents**: `x zuz ls <archive>`
-- **View file**: `x zuz cat <archive> <file>`
 
 ## Usage Examples
 
@@ -61,18 +59,11 @@ x zuz ls archive.zip
 x zuz ls archive.tar.gz
 ```
 
-### View a single file in archive
-```bash
-x zuz cat archive.zip readme.txt
-x zuz ls archive.tar.xz path/to/file
-```
-
 ## Common Scenarios
 
 - **Backup packaging**: `x z backup.tar.xz ./important_files/`
 - **Extract downloaded file**: `x uz downloaded.zip`
 - **View archive contents**: `x zuz ls old_backup.tar.gz`
-- **Extract single file**: `x zuz cat archive.zip config.json`
 
 ## Get Help
 

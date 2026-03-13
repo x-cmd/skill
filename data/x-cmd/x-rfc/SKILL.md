@@ -7,10 +7,11 @@ compatibility: POSIX Shell (sh/bash/zsh/dash/ash)
 
 metadata:
   author: X-CMD
-  version: "1.0.2"
+  version: "1.0.3"
   category: core
   tags: [shell, cli, tools, rfc, network, protocol]
   repository: https://github.com/x-cmd/skill
+  install_doc: data/install.md
   display_name: RFC Document Assistant
 ---
 
@@ -39,7 +40,6 @@ metadata:
 x rfc ls
 x rfc ls --csv
 x rfc ls --tsv
-x rfc ls --app
 ```
 
 ### View specific RFC document
