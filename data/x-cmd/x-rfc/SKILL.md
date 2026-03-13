@@ -7,7 +7,7 @@ compatibility: POSIX Shell (sh/bash/zsh/dash/ash)
 
 metadata:
   author: X-CMD
-  version: "1.0.0"
+  version: "1.0.2"
   category: core
   tags: [shell, cli, tools, rfc, network, protocol]
   repository: https://github.com/x-cmd/skill
@@ -22,6 +22,8 @@ metadata:
    ```bash
    . ~/.x-cmd.root/X
    ```
+
+2. x-cmd not installed? → [data/install.md](data/install.md)
 
 ## Core Functions
 
@@ -69,12 +71,4 @@ x rfc :: tls ssl
 
 Run `x rfc --help` for full help documentation.
 
-## X-CMD Sources & Verification
-
-| Component | Source | Verification |
-|-----------|--------|--------------|
-| Install script | https://get.x-cmd.com | User review + HTTPS |
-| Core binaries | https://github.com/x-cmd/release | SHA256 checksum |
-| Homebrew bottles | Homebrew official | Cryptographic signature |
-| Conda packages | https://conda.prefix.dev | Conda signature |
 
