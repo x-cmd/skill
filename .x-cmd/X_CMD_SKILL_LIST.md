@@ -58,12 +58,12 @@
 ## Hardware (硬件与资源)
 - [ ] `cpu` - CPU 信息与状态
 - [ ] `free` - 内存使用情况
-- [ ] `df` - 磁盘空间查看
+- ✅ `df` - 磁盘空间查看
 - [ ] `smart` - 磁盘健康 (S.M.A.R.T.)
 - [ ] `ncdu` - 交互式磁盘占用分析
 
 ## File & Storage (文件与存储)
-- [ ] `zuz` - 文件压缩与解压
+- ✅ `zuz` - 文件压缩与解压
 - [ ] `ls` - 增强型列表查看
 - [ ] `ll` - 详细列表查看
 - [ ] `lsof` - 打开文件查看
@@ -86,7 +86,7 @@
 - [ ] `proxy` - 代理配置与管理
 
 ## XaaS & Info (外部服务与信息)
-- [ ] `mirror` - 开源镜像站工具
+- ✅ `mirror` - 开源镜像站工具
 - [ ] `hub` - 中心化工具仓库
 - [ ] `ws` - Web 服务工具
 - [ ] `tldr` - 命令使用示例 (TL;DR)
@@ -97,7 +97,7 @@
 - [ ] `se` - Stack Exchange / Stack Overflow
 - [ ] `wkp` - 维基百科查询
 - [ ] `ddgo` - DuckDuckGo 搜索
-- [ ] `rfc` - IETF RFC 文档查询
+- ✅ `rfc` - IETF RFC 文档查询
 - [ ] `gtb` - Project Gutenberg 电子书
 - [ ] `coin` - 加密货币信息
 - [ ] `coincap` - CoinCap 市场数据
@@ -126,9 +126,9 @@
 - [ ] `colr` - 终端颜色处理
 - [ ] `pick` - 交互式选择工具
 - [ ] `cowsay` - 牛牛说工具
-- [ ] `install` - 软件安装工具
+- ✅ `install` - 软件安装工具
 - [ ] `uninstall` - 软件卸载工具
-- [ ] `env` - 环境管理 (envy)
+- ✅ `env` - 环境管理 (envy)
 - [ ] `cosmo` - Cosmopolitan Libc 工具
 - [ ] `asdf` - 多版本运行环境管理
 - [ ] `pixi` - Conda 兼容包管理
@@ -175,7 +175,7 @@
 - [ ] `tea` - Gitea CLI (alternative)
 - [ ] `cb` - Codeberg CLI
 - [ ] `fjo` - Forgejo CLI
-- [ ] `git` - 增强型 Git
+- ✅ `git` - 增强型 Git
 - [ ] `gitconfig` - Git 配置管理
 - [ ] `githook` - Git 钩子管理
 - [ ] `docker` - 容器管理
