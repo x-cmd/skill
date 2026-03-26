@@ -11,14 +11,14 @@ license: MIT
 The `claude` module extends the capabilities of Anthropic's `claude-code`, allowing users to connect to various AI model providers, manage sessions, and monitor token usage through a unified CLI.
 
 ## When to Activate
-- When the user wants to start a Claude Code session with a specific provider (e.g., DeepSeek, MiniMax, Zhipu).
+- When the user wants to start a Claude Code session with a specific provider (e.g., DeepSeek, Kimi, Moonshot, SiliconFlow, Doubao, MiniMax, Zhipu, etc.).
 - When the user needs to configure Claude Code to use a third-party model globally or per project.
 - When the user wants to track token consumption and costs for the last 7 days.
 - When the user needs to manage Model Context Protocol (MCP) servers.
 - When the user wants to clean up or customize Claude Code's status line or author attribution.
 
 ## Core Principles & Rules
-- **Provider Connection**: Use subcommands like `ds` (DeepSeek), `mm` (MiniMax), `zhipu`, or `or` (OpenRouter) to launch Claude Code with those specific backends.
+- **Provider Connection**: Use subcommands like `ds` (DeepSeek), `kimi`, `moonshot`, `sili` (SiliconFlow), `doubao`, `mm` (MiniMax), `zhipu` (GLM), `or` (OpenRouter), `ali` (Qwen), `baidu` (Ernie), `tencent` (Hunyuan), or `mt` (Mthreads) to launch Claude Code with those specific backends.
 - **Global vs. Project Config**: Use `use` for global settings and `use --project` for project-specific model overrides.
 - **Session Management**: Use `sess` (Interactive FZF App) or `resume` to manage and recover previous conversations.
 - **Security**: Be cautious when using the `--dangerously-skip-permissions` flag; it should only be recommended in trusted sandbox environments.
@@ -30,16 +30,25 @@ The `claude` module extends the capabilities of Anthropic's `claude-code`, allow
 
 ## Patterns & Examples
 
-### Launch with DeepSeek
+### Launch with Third-party Providers
 ```bash
 # Start Claude Code using the DeepSeek model
 x claude ds
+
+# Start Claude Code using SiliconFlow
+x claude sili
+
+# Start Claude Code using Kimi
+x claude kimi
 ```
 
 ### Configure Project Model
 ```bash
 # Set the current project to use Zhipu (GLM) model provider
 x claude use --project glm
+
+# Set the current project to use SiliconFlow
+x claude use --project sili
 ```
 
 ### Track Usage

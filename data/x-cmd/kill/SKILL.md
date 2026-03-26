@@ -25,7 +25,7 @@ The `kill` module extends the system's ability to terminate processes by providi
 
 ### Kill by Port
 ```bash
-# Terminate all processes listening on ports 80 and 443
+# Terminate all processes listening on common web ports (currently supports 80 and 443)
 x kill byport
 ```
 

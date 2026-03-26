@@ -11,7 +11,7 @@ license: MIT
 The `codex` module enhances OpenAI's `codex` terminal agent, enabling semantic code search, automated patch generation, and connection to various AI model providers within a secure, sandboxed environment.
 
 ## When to Activate
-- When the user wants to start a Codex session with a specific provider (e.g., DeepSeek, Kimi, Zhipu).
+- When the user wants to start a Codex session with a specific provider (e.g., DeepSeek, Kimi, Zhipu, Doubao, SiliconFlow).
 - When the user needs to execute shell commands or generate code based on natural language descriptions.
 - When the user requires a sandboxed execution environment (`read-only`, `workspace-write`) for safety.
 - When the user wants to apply generated diffs to their Git worktree.
@@ -20,7 +20,7 @@ The `codex` module enhances OpenAI's `codex` terminal agent, enabling semantic c
 ## Core Principles & Rules
 - **Sandboxing**: Always encourage using appropriate sandbox strategies (`--sandbox`) to prevent unintended system changes.
 - **Automation Levels**: Use `--full-auto` for a balance between speed and safety (approves on failure).
-- **Provider Switching**: Use subcommands like `ds` (DeepSeek), `kimi`, or `zhipu` to launch Codex with these providers.
+- **Provider Switching**: Use subcommands like `ds` (DeepSeek), `kimi`, `zhipu`, `doubao`, or `sili` (SiliconFlow) to launch Codex with these providers.
 - **Non-Interactive Execution**: Use `exec` or `e` for quick, one-off commands or code generation tasks.
 
 ## Additional Scenarios
@@ -36,10 +36,13 @@ The `codex` module enhances OpenAI's `codex` terminal agent, enabling semantic c
 x codex e "List all files larger than 10MB in the current directory"
 ```
 
-### Start with DeepSeek in Sandbox
+### Start with Third-party Providers
 ```bash
 # Launch Codex using DeepSeek with read-only sandbox protection
 x codex ds --sandbox read-only
+
+# Launch Codex using SiliconFlow
+x codex sili
 ```
 
 ### Apply Latest Patch

@@ -2,13 +2,17 @@
 name: gram
 description: >
   Forcefully terminate all AI agent processes, archive their memory data, and clean up source files.
+  **DANGEROUS**: This is a "kill-switch" tool. AI agents should ONLY use this if they identify an out-of-control situation or if the user explicitly requests a complete AI shutdown.
   Core Scenario: When the user needs to stop runaway or malfunctioning AI agents and reset their state or clean up memory.
 license: MIT
 ---
 
-# gram - AI Termination & Memory Cleanup
+# gram - AI Termination & Memory Cleanup (DANGEROUS)
 
 The `gram` module is a safety tool designed to forcefully terminate AI-related processes and manage their memory data in case of unexpected or dangerous behavior.
+
+> [!CAUTION]
+> **DANGEROUS OPERATION**: This tool will kill processes and delete data. It is meant as a "kill-switch". AI agents should proceed with extreme caution and always confirm with the user before using high safety levels (3-5).
 
 ## When to Activate
 - When the user reports that an AI agent is malfunctioning or out of control.
@@ -25,6 +29,7 @@ The `gram` module is a safety tool designed to forcefully terminate AI-related p
   - `4`: +Kill processes using those memory folders.
   - `5`: +Expand search to the entire root (/) directory.
 - **Archive Before Cleanup**: Always prefer commands that archive (`tar`) data before deletion to allow for later analysis.
+- **Confirmation**: AI agents MUST notify the user before executing `x gram stop`.
 
 ## Additional Scenarios
 - **Emergency Stop**: Instantly sever all AI-related network connections to prevent data leaks.
