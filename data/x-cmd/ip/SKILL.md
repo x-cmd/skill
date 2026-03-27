@@ -1,47 +1,53 @@
 ---
 name: ip
 description: >
-  Query IP address information, including local addresses, geolocation, and network scanning.
-  Core Scenario: When the user needs to identify their IP, find the location of an IP, or scan for active hosts in a subnet.
+  Network diagnostics and IP geolocation query.
+  Core Scenario: When AI needs to query local network configuration or geographic info of remote server IPs.
 license: MIT
 ---
 
-# ip - IP Address & Geolocation Utility
+# x ip - Network Diagnostics & Geolocation (AI Optimized)
 
-The `ip` module provides a comprehensive set of tools for identifying IP addresses and their geographical locations, as well as performing basic network reconnaissance like subnet mapping and port scanning.
+The `x ip` module provides a concise interface for querying IP-related information, covering both local NIC configurations and global IP geographic data.
 
 ## When to Activate
-- When the user wants to know their local or public IP address.
-- When retrieving geolocation data (country, city, ISP) for a specific IP.
-- When identifying active hosts within a CIDR range.
-- When performing fast TCP port scans on a target.
+- When retrieving the local public IP or internal network interface addresses.
+- When querying geographic location, ISP, or other info for a specific IP.
+- When scanning active hosts or open ports in a subnet (network diagnostics).
 
 ## Core Principles & Rules
-- **External Data**: Uses Geolite (ipinfo.io) for geolocation subcommands.
-- **Network Recon**: Supports `map` for discovering active IPs and `tps` for port scanning.
-- **Platform Agnostic**: Provides a unified interface for `ifconfig` and `ip addr` across different OS environments.
+- **Non-interactive First**: Avoid interactive configurations; retrieve data directly via subcommands.
+- **Structured Thinking**: Use subcommands like `geolite` for detailed geographic insights.
 
 ## Patterns & Examples
 
-### Local IP Info
+### Query Local Public IP and Location
 ```bash
-# List all local network interface IP addresses
-x ip ls
+# Get detailed geographic info for the current public IP
+x ip geolite
 ```
 
-### Geolocation
+### Query Geolocation for a Specific IP
 ```bash
-# Get the geographical location of a public IP (e.g., 8.8.8.8)
+# Query detailed location info for 8.8.8.8
 x ip geolite 8.8.8.8
 ```
 
-### Network Mapping
+### List All Local Interface Addresses
 ```bash
-# Discover active hosts in a specific subnet
+# Get a list of all IP addresses on the machine (non-interactive)
+x ip ls
+```
+
+### Network Scanning (Diagnostics)
+```bash
+# Scan active hosts in a subnet (may require privileges)
 x ip map 192.168.1.0/24
+
+# Quickly scan common ports for a specific IP
+x ip tps 127.0.0.1
 ```
 
 ## Checklist
-- [ ] Confirm if the user needs local info or geolocation for a remote IP.
-- [ ] Verify the CIDR range if performing a network map.
-- [ ] Ensure the user is aware that some subcommands rely on external web services.
+- [ ] Confirm whether querying a specific IP or the local egress IP.
+- [ ] Check privilege requirements before running scan tasks.

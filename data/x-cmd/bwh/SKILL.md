@@ -1,46 +1,55 @@
 ---
 name: bwh
 description: >
-  CLI manager for BandwagonHost VPS servers, providing lifecycle management and server diagnostics.
-  Core Scenario: When the user needs to start, stop, restart, or backup their BandwagonHost VPS.
+  BandwagonHost (BWH) VPS CLI management tool.
+  Core Scenario: When AI needs to manage VPS status, retrieve server info, or execute remote scripts.
 license: MIT
 ---
 
-# bwh - BandwagonHost VPS Management
+# x bwh - VPS Management Assistant (AI Optimized)
 
-The `bwh` module allows users to manage their BandwagonHost VPS servers directly from the command line. It supports common operations like viewing info, power management, and advanced features like snapshots and reinstallation.
+The `x bwh` module allows managing your BandwagonHost VPS via the command line. It's ideal for server status control, information retrieval, and remote command execution within AI workflows.
 
 ## When to Activate
-- When the user wants to check the status or details of their VPS.
-- When performing power operations (start, stop, restart) on a VPS.
-- When managing SSH keys or executing remote shell commands.
-- When performing advanced maintenance like creating backups, snapshots, or OS reinstallation.
+- When querying public IP, plan details, traffic limits, or real-time status of a VPS.
+- When remote restarting, starting, or stopping the server.
+- When retrieving SSH ports or resetting Root passwords.
 
 ## Core Principles & Rules
-- **Configuration Management**: Remind users to configure their VPS API details via `cfg` or `current`.
-- **Caution**: Subcommands like `kill`, `reinstall`, and `resetrootpassword` should be handled with extra care.
+- **Non-interactive First**: Directly use subcommands to get structured output.
+- **Environment Requirements**: This module requires an API Key and VEID. If not configured, AI should guide the user through initialization.
+- **Configuration Guidance**:
+  - Direct the user to the BandwagonHost portal to get API info.
+  - Suggest the user run `x bwh init` for configuration.
 
 ## Patterns & Examples
 
-### VPS Status
+### Get VPS Detailed Info
 ```bash
-# View detailed information about the current VPS
+# Get IP, traffic, expiry, and other info for the configured VPS
 x bwh info
 ```
 
-### Power Management
+### Control Server Status
 ```bash
-# Restart the active VPS instance
+# Restart the server
 x bwh restart
+
+# Start the server
+x bwh start
 ```
 
-### Remote Shell
+### Query SSH Port
 ```bash
-# Execute a command on the VPS via the manager
-x bwh sh "uptime"
+# Get the current SSH port, useful for subsequent SSH connections
+x bwh info | grep "SSH Port"
 ```
+
+## Configuration Guide (for AI)
+If an `Unauthorized` error occurs or configuration is missing, provide this guidance to the user:
+> Please obtain your API Key and VEID from the BandwagonHost website, then run the following command in your terminal to initialize:
+> `x bwh init`
 
 ## Checklist
-- [ ] Verify the target VPS configuration is active.
-- [ ] Confirm if the user intends to perform a destructive action (reinstall/kill).
-- [ ] Ensure API credentials are correctly set up.
+- [ ] Confirm if API Key and VEID are configured.
+- [ ] Confirm before performing destructive actions like `restart` or `reinstall`.

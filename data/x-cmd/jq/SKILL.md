@@ -1,46 +1,56 @@
 ---
 name: jq
 description: >
-  Lightweight and flexible JSON processor with an interactive REPL for data exploration.
-  Core Scenario: When the user needs to filter, transform, or interactively explore JSON data in the terminal.
+  Lightweight and flexible JSON processor.
+  Core Scenario: When the AI needs to filter, transform, format, or extract JSON data in the terminal. x-cmd version provides zero-dependency auto-installation.
 license: MIT
 ---
 
-# jq - JSON Processor & Interactive REPL
+# x jq - JSON Processor (AI Optimized)
 
-The `jq` module provides a powerful CLI interface for processing JSON data. The x-cmd version enhances the experience by providing an interactive REPL powered by FZF for exploring complex data structures.
+`x jq` is an enhanced module based on jq, with the core advantage of **zero-dependency auto-installation** and **optimization for scripted tasks**. It ensures JSON can be processed immediately in any environment.
 
 ## When to Activate
-- When the user needs to extract specific fields or transform JSON structures.
-- When interactively exploring large JSON files or API responses.
-- When filtering arrays or selecting objects based on specific criteria.
-- When pretty-printing JSON for better readability.
+- When specific fields need to be extracted from complex JSON responses.
+- When JSON structures need to be filtered, restructured, or transformed.
+- When unformatted JSON strings need to be beautified for further analysis.
+- When processing results need to be output as raw strings (`-r`) for other commands.
 
 ## Core Principles & Rules
-- **Interactive Exploration**: Use the `repl` (or `r`) subcommand to explore data with live feedback.
-- **Piping Support**: Highly optimized for consuming data from other commands (e.g., `curl ... | x jq`).
-- **Zero-Dependency**: Automatically handles `jq` installation if it is missing from the environment.
+- **Non-interactive First**: AI should avoid the interactive `repl` mode and use jq expressions directly.
+- **Pipe Integration**: Recommended for use with pipes, e.g., `cat data.json | x jq '.field'`.
+- **Format Control**:
+  - Use `-r` (raw-output) for raw values without quotes (ideal for getting single string values).
+  - Use `-c` (compact-output) for compact one-line JSON to save context Tokens.
+- **Environment Isolation**: `x jq` automatically downloads and runs jq when necessary, without polluting the system environment.
 
 ## Patterns & Examples
 
-### Extract Field
+### Extract and Output Raw String
 ```bash
-# Get the 'name' field from a JSON file
-x jq '.name' data.json
+# Get the value of the 'version' field (no quotes, suitable for script use)
+x jq -r '.version' package.json
 ```
 
-### Interactive REPL
+### Filter Array and Compact Output
 ```bash
-# Explore an API response interactively
-curl https://api.example.com/data | x jq r
+# Filter and output as a compact one-line JSON to save Tokens
+x jq -c '.items[] | select(.status == "active")' data.json
 ```
 
-### Filter Array
+### Construct New JSON Object
 ```bash
-# Select all users older than 18
-x jq '.[] | select(.age > 18)' users.json
+# Construct a new object containing status and timestamp
+x jq -n --arg ts "$(date)" '{"status": "ok", "timestamp": $ts}'
+```
+
+### Process Multiple Files
+```bash
+# Merge and process multiple JSON files
+x jq -s '.[0] * .[1]' config1.json config2.json
 ```
 
 ## Checklist
-- [ ] Confirm the JSON structure or path to the target field.
-- [ ] Verify if an interactive exploration (`repl`) is more suitable for the task.
+- [ ] Confirm that a non-interactive command is used (no `r` or `repl`).
+- [ ] Consider if `-r` is needed for plain text values.
+- [ ] Consider if `-c` is needed to reduce output volume.

@@ -1,47 +1,55 @@
 ---
 name: gddy
 description: >
-  Manage GoDaddy domains and DNS records from the CLI, supporting domain search and record modification.
-  Core Scenario: When the user needs to audit their domain list, check availability, or edit DNS records.
+  GoDaddy domain management tool.
+  Core Scenario: When AI needs to check domain availability, list owned domains, or update DNS records.
 license: MIT
 ---
 
-# gddy - GoDaddy Domain & DNS Management
+# x gddy - GoDaddy Domain Management (AI Optimized)
 
-The `gddy` module provides a CLI interface for the GoDaddy API, enabling users to manage their domains and DNS records securely from the terminal.
+The `x gddy` module allows managing your GoDaddy domains via the command line. It's ideal for DNS maintenance and domain querying within AI workflows.
 
 ## When to Activate
-- When the user wants to list all domains in their GoDaddy account.
-- When checking if a specific domain name is available for registration.
-- When adding, removing, or viewing DNS records (A, CNAME, etc.) for a domain.
-- When managing GoDaddy API keys and configurations.
+- When checking if a specific domain is available for purchase.
+- When listing all domains owned by the GoDaddy account.
+- When dynamically updating DNS resolution records (e.g., A records, CNAME).
 
 ## Core Principles & Rules
-- **API Credentials**: Remind users to configure their API key and secret via `init` or `--cfg`.
-- **Domain Search**: If a subcommand is not recognized, the module automatically treats it as a domain availability search.
-- **Destructive Edits**: Use caution when removing DNS records.
+- **Non-interactive First**: Use subcommands directly, avoiding unnecessary UI confirmations.
+- **Environment Requirements**: Requires API Key and Secret. If not configured, AI should guide the user through initialization.
+- **Configuration Guidance**:
+  - Direct the user to the GoDaddy Developer portal to get API info.
+  - Suggest the user run `x gddy init` for configuration.
 
 ## Patterns & Examples
 
-### List Domains
+### Check Domain Availability
 ```bash
-# View all domains in the current account
-x gddy domain ls
-```
-
-### Modify DNS Record
-```bash
-# Add a new DNS record to a domain
-x gddy domain record add --name dev --data "1.2.3.4" my-domain.com
-```
-
-### Domain Availability
-```bash
-# Check if a specific domain is available
+# Check if example.com is available for purchase
 x gddy search example.com
 ```
 
+### List Owned Domains
+```bash
+# List all domains under the account (non-interactive)
+x gddy domain ls
+```
+
+### Manage DNS Records
+```bash
+# View detailed info for a specific domain
+x gddy domain info example.com
+
+# Add an A record for a domain
+x gddy domain record add --name "www" --data "1.2.3.4" example.com
+```
+
+## Configuration Guide (for AI)
+If an API error occurs or configuration is missing, provide this guidance to the user:
+> Please obtain your API Key and Secret from the GoDaddy Developer portal (https://developer.godaddy.com/keys), then run the following command in your terminal to initialize:
+> `x gddy init`
+
 ## Checklist
-- [ ] Ensure GoDaddy API key and secret are properly initialized.
-- [ ] Confirm the target domain name and record details.
-- [ ] Verify if the production or sandbox environment is intended.
+- [ ] Confirm if API credentials are valid.
+- [ ] Confirm before modifying DNS records or performing purchases.

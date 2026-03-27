@@ -1,70 +1,63 @@
 ---
 name: x-zuz
-description: |
-  Handle archive/compression tasks including compressing, extracting, archiving, packaging, listing contents, and viewing files.
-  Supports formats: zip, tar, gz, 7z, rar, zst, xz, bz2 and more.
-  You MUST use this skill whenever the user mentions or implies any archive, compression, extraction, packaging, or archive viewing needs.
-  Even if the user doesn't explicitly mention x-zuz or specific commands, as long as there's an archive-related request, invoke this skill.
-
+description: >
+  Unified compression and decompression tool.
+  Core Scenario: When AI needs to handle various archive formats (zip, tar, gz, 7z, rar, zst, xz, bz2) in the terminal. x-cmd provides concise aliases and zero-dependency installation.
 license: Apache-2.0
-compatibility: POSIX Shell (sh/bash/zsh/dash/ash)
-
-metadata:
-  author: X-CMD
-  version: "1.0.0"
-  category: core
-  tags: [shell, cli, tools, compression, archive]
-  repository: https://github.com/x-cmd/skill
-  website: https://www.x-cmd.com
-  install_doc: data/install.md
-  display_name: Archive/Compression Assistant
 ---
 
-# x zuz - Archive/Compression Assistant
+# x-zuz - Unified Archive/Compression (AI Optimized)
 
-## Prerequisites
+`x-zuz` is a powerful archive processing module. Its core advantages are a **unified interface** and **zero-dependency auto-installation** (it automatically handles missing backends like 7zip or zstd).
 
-1. Load x-cmd before use:
-   ```bash
-   . ~/.x-cmd.root/X
-   ```
+## Core Aliases
+- `x z`: Alias for compression (zuz compress)
+- `x uz`: Alias for decompression (zuz decompress)
 
-2. x-cmd not installed? → [data/install.md](data/install.md)
+## When to Activate
+- When multiple files or directories need to be packed into a specific format.
+- When extracting any common archive format (zip, tar.gz, 7z, etc.).
+- When listing the contents of an archive without extracting it.
+- When extracting and immediately deleting the source file to save space.
 
-## Core Functions
+## Core Principles & Rules
+- **Non-interactive First**: Avoid interactive UIs; use command parameters directly.
+- **Universal Interface**: No need to remember different extraction commands (like `tar -zxvf` or `unzip`); use `x uz` for everything.
+- **Environment Isolation**: Automatically downloads required backends, ensuring operation in any minimal environment.
 
-- **Compress**: `x z <output> <files...>`
-- **Extract**: `x uz <archive> [destination]`
-- **List contents**: `x zuz ls <archive>`
+## Patterns & Examples
 
-## Usage Examples
-
-### Compress files and directories
+### Quick Compression
 ```bash
-x z output.zip file1.txt file2.txt dir/
-x z archive.tar.xz myfolder/
-x z backup.tar.gz ./src/*
+# Compress the 'src' directory into output.tar.gz
+x z output.tar.gz src/
+
+# Compress multiple files into a zip
+x z archive.zip file1.txt file2.txt
 ```
 
-### Extract archives
+### Quick Extraction
 ```bash
+# Extract to the current directory
 x uz archive.zip
-x uz archive.tar.xz ./target_dir/
-x uz file.7z /tmp/output/
+
+# Extract to a specific directory
+x uz backup.tar.xz ./target_dir/
 ```
 
-### List archive contents
+### View Archive Contents (Non-interactive)
 ```bash
-x zuz ls archive.zip
-x zuz ls archive.tar.gz
+# List files inside an archive
+x zuz ls archive.7z
 ```
 
-## Common Scenarios
+### Extract and Delete Source (Cleanup Mode)
+```bash
+# Ideal for handling temporary downloads
+x uzr data.zip
+```
 
-- **Backup packaging**: `x z backup.tar.xz ./important_files/`
-- **Extract downloaded file**: `x uz downloaded.zip`
-- **View archive contents**: `x zuz ls old_backup.tar.gz`
-
-## Get Help
-
-Run `x zuz --help` or `x zuz -h` for full help documentation.
+## Checklist
+- [ ] Prioritize using aliases `x z` or `x uz`.
+- [ ] Confirm the target path exists.
+- [ ] Consider using `x uzr` for automatic cleanup.

@@ -1,45 +1,51 @@
 ---
 name: wkp
 description: >
-  Search Wikipedia and retrieve article extracts or summaries directly from the terminal.
-  Core Scenario: When the user needs to quickly lookup terms or get summaries of Wikipedia entries.
+  Wikipedia search and summary extraction tool.
+  Core Scenario: When AI needs to quickly obtain definitions or official summaries in the terminal.
 license: MIT
 ---
 
-# wkp - Wikipedia Search & Extract Utility
+# x wkp - Wikipedia Assistant (AI Optimized)
 
-The `wkp` module allows users to search Wikipedia and extract text content from articles. It supports interactive browsing, automatic suggestions, and DuckDuckGo integration.
+`x wkp` provides a minimal interface for retrieving article lists, suggestions, and detailed summaries from Wikipedia via the command line.
 
 ## When to Activate
-- When the user wants a quick summary or extract of a specific Wikipedia topic.
-- When searching for articles by title or using fuzzy suggestions for typos.
-- When wanting to open a Wikipedia page directly in the browser from the CLI.
+- When a quick definition of a term, historical event, or technical concept is needed.
+- When retrieving the plain-text summary of a specific Wikipedia entry.
+- When getting search suggestions or related article lists via keywords.
 
 ## Core Principles & Rules
-- **Conciseness**: Prioritize `extract` or `hop` for immediate text summaries in the terminal.
-- **Search Assistance**: Use `suggest` to help users find the correct term for their query.
-- **Interactive UI**: Use `--app` mode for exploring search results.
+- **Non-interactive First**: Avoid the `--app` interactive UI; use `extract` or `hop` subcommands directly for plain text.
+- **Structured Retrieval**: Prioritize `extract` for detailed body text, or `hop` for a concise summary of the first matching item.
 
 ## Patterns & Examples
 
-### Fetch Summary
+### Extract Detailed Summary
 ```bash
-# Get a concise summary of 'OpenAI'
+# Get a detailed summary for "OpenAI"
 x wkp extract OpenAI
 ```
 
-### Direct Search and Summary
+### Search for Related Entries
 ```bash
-# Search for 'Python' and display the first result's extract
-x wkp hop Python
+# Search for the keyword "Large Language Model"
+x wkp search "Large Language Model"
 ```
 
-### Suggestions
+### Hop to the First Result's Summary
 ```bash
-# Get Wikipedia suggestions for a misspelled term
-x wkp suggest pythen
+# Search and output the summary of the first match (most efficient)
+x wkp hop "Rust Programming"
+```
+
+### Get Search Suggestions
+```bash
+# Get suggestions for related entries when unsure of exact spelling
+x wkp suggest "Quantom Computing"
 ```
 
 ## Checklist
-- [ ] Confirm if the user needs a text extract or a full search result list.
-- [ ] Verify if the term needs automatic suggestions for better accuracy.
+- [ ] Confirm if the query term needs to be quoted.
+- [ ] Choose between `search` (list) and `extract` (content) based on needs.
+- [ ] Default to English or Chinese queries for the most comprehensive info.

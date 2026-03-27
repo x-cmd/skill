@@ -1,46 +1,55 @@
 ---
 name: bwh
 description: >
-  BandwagonHost VPS 服务器的命令行管理器，提供生命周期管理和服务器诊断。
-  核心场景：当用户需要启动、停止、重启或备份其 BandwagonHost VPS 时。
+  BandwagonHost (搬瓦工) VPS 命令行管理工具。
+  核心场景：当 AI 需要管理 VPS 状态、获取服务器信息或在远程机器上执行简单脚本时。
 license: MIT
 ---
 
-# bwh - BandwagonHost VPS 管理工具
+# x bwh - VPS 管理助手 (AI 优化版)
 
-`bwh` 模块允许用户直接从命令行管理其 BandwagonHost VPS 服务器。它支持查看信息、电源管理等常用操作，以及快照和重装等高级功能。
+`x bwh` 模块允许通过命令行管理您的 BandwagonHost VPS 服务器。它非常适合在脚本或 AI 工作流中执行服务器启停、信息查询及远程命令。
 
 ## 激活时机
-- 当用户想要检查其 VPS 的状态或详情时。
-- 当对 VPS 执行电源操作（启动、停止、重启）时。
-- 当管理 SSH 密钥或执行远程 Shell 命令时。
-- 当执行高级维护（如创建备份、快照或 OS 重装）时。
+- 当需要查询 VPS 的公网 IP、套餐详情、流量限制或实时状态时。
+- 当需要远程重启、启动或停止服务器时。
+- 当需要获取 SSH 端口或重置 Root 密码时。
 
 ## 核心原则与规范
-- **配置管理**: 提醒用户通过 `cfg` 或 `current` 配置其 VPS API 详情。
-- **谨慎操作**: 应格外小心地处理 `kill`、`reinstall` 和 `resetrootpassword` 等子命令。
+- **非交互优先**: 直接使用子命令获取结构化输出。
+- **环境要求**: 此模块需要 API Key 和 VEID。如果未配置，AI 应引导用户初始化。
+- **配置引导**: 
+  - 引导用户访问 BandwagonHost 后台获取 API 信息。
+  - 建议用户运行 `x bwh init` 进行配置。
 
 ## 实战示例
 
-### VPS 状态
+### 获取 VPS 详细信息
 ```bash
-# 查看当前 VPS 的详细信息
+# 获取当前配置的 VPS 的 IP、流量、到期时间等信息
 x bwh info
 ```
 
-### 电源管理
+### 控制服务器状态
 ```bash
-# 重启当前激活的 VPS 实例
+# 重启服务器
 x bwh restart
+
+# 启动服务器
+x bwh start
 ```
 
-### 远程 Shell
+### 查询 SSH 端口
 ```bash
-# 通过管理器在 VPS 上执行命令
-x bwh sh "uptime"
+# 获取 VPS 当前的 SSH 端口，这对于后续使用 ssh 连接非常有用
+x bwh info | grep "SSH Port"
 ```
+
+## 配置指南 (针对 AI)
+如果遇到 `Unauthorized` 或找不到配置的错误，请向用户输出以下引导：
+> 请先在 BandwagonHost 官网获取 API Key 和 VEID，然后在终端运行以下命令进行初始化：
+> `x bwh init`
 
 ## 交付验证清单
-- [ ] 验证目标 VPS 配置是否已激活。
-- [ ] 确认用户是否打算执行破坏性操作（重装/强杀）。
-- [ ] 确保 API 凭据已正确设置。
+- [ ] 确认 API Key 和 VEID 是否已配置。
+- [ ] 在执行 `restart` 或 `reinstall` 等破坏性操作前确认。
