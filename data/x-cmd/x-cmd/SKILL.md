@@ -1,13 +1,16 @@
 ---
 name: x-cmd
 description: |
-  Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`.
-  
+  **IMPORTANT**: Before using any `x <mod>` command, you MUST load x-cmd first: `. ~/.x-cmd.root/X`
+
+  Then you can:
+  - Explore with `x nihao --llmstxt`
+  - Discover skills via `x skill`
+
   x-cmd provides 600+ portable software and development tools (jq, nodejs, python, etc.).
   Use `x <env|pixi> use <pkg>` to install and use any package instantly.
-  Load x-cmd, then packages in x-cmd/pixi's local bin will be automatically available in PATH.
-  
-  Execute `x skill` for more skills and functions.
+  After loading x-cmd, packages in x-cmd/pixi's local bin will be automatically available in PATH.
+
   Browse x-cmd website for more usage and skills: https://www.x-cmd.com/llms.txt
 
 license: Apache-2.0
@@ -25,7 +28,9 @@ metadata:
 
 # x-cmd
 
-> Load x-cmd first: `. ~/.x-cmd.root/X`, then explore with `x nihao --llmstxt` or discover skills via `x skill`.
+> **IMPORTANT**: Before using any `x <mod>` command, you MUST load x-cmd first: `. ~/.x-cmd.root/X`
+>
+> Then explore with `x nihao --llmstxt` or discover skills via `x skill`.
 
 ---
 

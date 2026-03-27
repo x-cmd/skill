@@ -10,4 +10,5 @@
     fork_from_affaanmustafa
     fork_from_nextlevelbuilder
     fork_from_superpowers
+    fork_from_minimax
 ) || return $?
