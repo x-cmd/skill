@@ -1,0 +1,262 @@
+# minimax
+
+- id: minimax/android-native-dev
+  url: x-cmd-skill-data:minimax/android-native-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - mobile
+    - android
+    - kotlin
+    - development
+  license: MIT
+  name: android-native-dev
+  description:
+    en: Android native application development and UI design guide. Covers Material Design 3, Kotlin/Compose development, project configuration, accessibility, and build troubleshooting.
+    cn: Android 原生应用开发和 UI 设计指南。涵盖 Material Design 3、Kotlin/Compose 开发、项目配置、无障碍功能和构建故障排除。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/android-native-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/android-native-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/android-native-dev.zip
+- id: minimax/flutter-dev
+  url: x-cmd-skill-data:minimax/flutter-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - mobile
+    - flutter
+    - cross-platform
+    - development
+  license: MIT
+  name: flutter-dev
+  description:
+    en: Flutter cross-platform development guide covering widget patterns, Riverpod/Bloc state management, GoRouter navigation, performance optimization, and platform-specific implementations. Includes const optimization, responsive layouts, testing strategies, and DevTools profiling.
+    cn: Flutter 跨平台开发指南，涵盖组件模式、 Riverpod/Bloc 状态管理、GoRouter 导航、性能优化和平台特定实现。包括 const 优化、响应式布局、测试策略和 DevTools 性能分析。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/flutter-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/flutter-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/flutter-dev.zip
+- id: minimax/frontend-dev
+  url: x-cmd-skill-data:minimax/frontend-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - frontend
+    - web-development
+    - ui-design
+    - animation
+  license: MIT
+  name: frontend-dev
+  description:
+    en: Full-stack frontend development combining premium UI design, cinematic animations, AI-generated media assets, persuasive copywriting, and visual art. Builds complete, visually striking web pages with real media, advanced motion, and compelling copy.
+    cn: 全栈前端开发，结合优质 UI 设计、电影级动画、AI 生成的多媒体资源、有说服力的文案和视觉艺术。构建具有真实媒体、高级动效和引人入胜文案的完整视觉效果网页。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/frontend-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/frontend-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/frontend-dev.zip
+- id: minimax/fullstack-dev
+  url: x-cmd-skill-data:minimax/fullstack-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - fullstack
+    - backend
+    - api
+    - development
+  license: MIT
+  name: fullstack-dev
+  description:
+    en: Full-stack backend architecture and frontend-backend integration guide. Covers REST API with frontend, scaffolding backend service, building todo/CRUD/real-time/chat apps, Express + React, Next.js API, Node.js/Python/Go backend, service layers, error handling, config/auth, API clients, auth flows, file uploads, real-time features (SSE/WebSocket), production hardening.
+    cn: 全栈后端架构和前后端集成指南。涵盖前端 REST API、后端服务脚手架、构建待办/CRUD/实时/聊天应用、Express + React、Next.js API、Node.js/Python/Go 后端、服务层、错误处理、配置/认证、API 客户端、认证流程、文件上传、实时功能（SSE/WebSocket）和生产环境强化。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/fullstack-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/fullstack-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/fullstack-dev.zip
+- id: minimax/gif-sticker-maker
+  url: x-cmd-skill-data:minimax/gif-sticker-maker
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - creative
+    - animation
+    - gif
+    - media
+  license: MIT
+  name: gif-sticker-maker
+  description:
+    en: Convert photos (people, pets, objects, logos) into 4 animated GIF stickers with captions. Uses Funko Pop / Pop Mart blind box style.
+    cn: 将照片（人物、宠物、物体、标志）转换为带标题的 4 格动画 GIF 贴纸。采用 Funko Pop / Pop Mart 盲盒风格。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/gif-sticker-maker
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/gif-sticker-maker.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/gif-sticker-maker.zip
+- id: minimax/ios-application-dev
+  url: x-cmd-skill-data:minimax/ios-application-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - mobile
+    - ios
+    - swift
+    - development
+  license: MIT
+  name: ios-application-dev
+  description:
+    en: iOS application development guide covering UIKit, SnapKit, and SwiftUI. Includes touch targets, safe areas, navigation patterns, Dynamic Type, Dark Mode, accessibility, collection views, common UI components, and SwiftUI design guidelines.
+    cn: iOS 应用开发指南，涵盖 UIKit、SnapKit 和 SwiftUI。包括触控目标、安全区域、导航模式、动态类型、深色模式、无障碍功能、集合视图、常见 UI 组件和 SwiftUI 设计指南。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/ios-application-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/ios-application-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/ios-application-dev.zip
+- id: minimax/minimax-docx
+  url: x-cmd-skill-data:minimax/minimax-docx
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - document
+    - office
+    - word
+    - processing
+  license: MIT
+  name: minimax-docx
+  description:
+    en: "Professional DOCX document creation, editing, and formatting using OpenXML SDK (.NET). Three pipelines: create new documents, fill/edit content in existing documents, apply template formatting with XSD validation."
+    cn: "使用 OpenXML SDK (.NET) 进行专业的 DOCX 文档创建、编辑和格式化。三种流程：创建新文档、填充/编辑现有文档内容、应用模板格式化（带 XSD 验证）。"
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/minimax-docx
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/minimax-docx.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/minimax-docx.zip
+- id: minimax/minimax-multimodal-toolkit
+  url: x-cmd-skill-data:minimax/minimax-multimodal-toolkit
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - multimedia
+    - ai
+    - generation
+    - media
+  license: MIT
+  name: minimax-multimodal-toolkit
+  description:
+    en: MiniMax multimodal model skill for speech, music, video, and image generation. Includes TTS (text-to-speech, voice cloning, voice design, multi-segment), music (songs, instrumentals), video (text-to-video, image-to-video, start-end frame, subject reference, templates, long-form multi-scene), image (text-to-image, image-to-image with character reference), and media processing (convert, concat, trim, extract).
+    cn: MiniMax 多模态模型技能，支持语音、音乐、视频和图像生成。包括 TTS（文本转语音、语音克隆、语音设计、多段）、音乐（歌曲、配乐）、视频（文生视频、图生视频、起止帧、主体参考、模板、长篇多场景）、图像（文生图、图生图带角色参考）和媒体处理（转换、合并、裁剪、提取）。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/minimax-multimodal-toolkit
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/minimax-multimodal-toolkit.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/minimax-multimodal-toolkit.zip
+- id: minimax/minimax-pdf
+  url: x-cmd-skill-data:minimax/minimax-pdf
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - document
+    - pdf
+    - design
+    - generation
+  license: MIT
+  name: minimax-pdf
+  description:
+    en: "PDF generation skill for visual quality and design identity. CREATE (generate from scratch), FILL (complete form fields), REFORMAT (apply design to existing doc). Uses token-based design system: color, typography, and spacing derived from document type. Output is print-ready."
+    cn: "PDF 生成技能，注重视觉质量和设计标识。CREATE（从头生成）、FILL（填写表单字段）、REFORMAT（将设计应用到现有文档）。使用基于 token 的设计系统：颜色、字体和间距从文档类型派生。输出为印刷就绪格式。"
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/minimax-pdf
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/minimax-pdf.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/minimax-pdf.zip
+- id: minimax/minimax-xlsx
+  url: x-cmd-skill-data:minimax/minimax-xlsx
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - productivity
+    - office
+    - spreadsheet
+    - excel
+  license: MIT
+  name: minimax-xlsx
+  description:
+    en: Open, create, read, analyze, edit, or validate Excel/spreadsheet files (.xlsx, .xlsm, .csv, .tsv). Covers creating new xlsx from scratch, reading and analyzing existing files, editing existing xlsx with zero format loss, formula recalculation and validation, and applying professional financial formatting standards.
+    cn: 打开、创建、读取、分析、编辑或验证 Excel/电子表格文件（.xlsx、.xlsm、.csv、.tsv）。涵盖从头创建新 xlsx、读取和分析现有文件、编辑现有 xlsx 且无格式损失、公式重新计算和验证，以及应用专业财务格式化标准。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/minimax-xlsx
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/minimax-xlsx.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/minimax-xlsx.zip
+- id: minimax/pptx-generator
+  url: x-cmd-skill-data:minimax/pptx-generator
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - productivity
+    - office
+    - presentation
+    - powerpoint
+  license: MIT
+  name: pptx-generator
+  description:
+    en: Generate, edit, and read PowerPoint presentations. Create from scratch with PptxGenJS (cover, TOC, content, section divider, summary Slides), edit existing PPTX via XML workflows, or extract text with markitdown.
+    cn: 生成、编辑和读取 PowerPoint 演示文稿。使用 PptxGenJS 从头创建（封面、目录、内容、分节符、总结幻灯片），通过 XML 工作流编辑现有 PPTX，或使用 markitdown 提取文本。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/pptx-generator
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/pptx-generator.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/pptx-generator.zip
+- id: minimax/react-native-dev
+  url: x-cmd-skill-data:minimax/react-native-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - mobile
+    - react-native
+    - expo
+    - development
+  license: MIT
+  name: react-native-dev
+  description:
+    en: React Native and Expo development guide covering components, styling, animations, navigation, state management, forms, networking, performance optimization, testing, native capabilities, and engineering (project structure, deployment, SDK upgrades, CI/CD).
+    cn: React Native 和 Expo 开发指南，涵盖组件、样式、动画、导航、状态管理、表单、网络、性能优化、测试、原生能力和工程（项目结构、部署、SDK 升级、CI/CD）。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/react-native-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/react-native-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/react-native-dev.zip
+- id: minimax/shader-dev
+  url: x-cmd-skill-data:minimax/shader-dev
+  reference: https://github.com/MiniMax-AI/skills
+  tag:
+    - graphics
+    - shader
+    - glsl
+    - webgl
+  license: MIT
+  name: shader-dev
+  description:
+    en: Comprehensive GLSL shader techniques for creating stunning visual effects — ray marching, SDF modeling, fluid simulation, particle systems, procedural generation, lighting, post-processing, and more. 36 techniques total.
+    cn: 全面的 GLSL 着色器技术，用于创建令人惊叹的视觉效果——光线步进、SDF 建模、流体模拟、粒子系统、程序化生成、光照、后处理等。共 36 种技术。
+  author: MiniMaxAI
+  avatar: https://avatars.githubusercontent.com/u/194880281
+  path: /minimax/shader-dev
+  installation:
+    zipball:
+      codeberg: https://codeberg.org/x-cmd/skill/releases/download/latest/shader-dev.zip
+      github: https://github.com/x-cmd/skill/releases/latest/download/shader-dev.zip

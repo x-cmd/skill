@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Comprehensive command-line tools collection for Git management, security assessment, network administration, system monitoring, and knowledge search through x-cmd CLI ecosystem",
-    "version": "0.0.16"
+    "version": "0.0.17"
   },
   "plugins": [
     {
@@ -48,6 +48,27 @@
         "./data/anthropics/theme-factory",
         "./data/anthropics/web-artifacts-builder",
         "./data/anthropics/webapp-testing"
+      ]
+    },
+    {
+      "name": "minimax-skills",
+      "description": "MiniMax AI skills library for frontend, fullstack, Android, iOS, shader, GIF sticker, document, presentation, spreadsheet, and multimodal media workflows",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./data/minimax/android-native-dev",
+        "./data/minimax/flutter-dev",
+        "./data/minimax/shader-dev",
+        "./data/minimax/frontend-dev",
+        "./data/minimax/fullstack-dev",
+        "./data/minimax/react-native-dev",
+        "./data/minimax/gif-sticker-maker",
+        "./data/minimax/ios-application-dev",
+        "./data/minimax/minimax-multimodal-toolkit",
+        "./data/minimax/minimax-docx",
+        "./data/minimax/minimax-pdf",
+        "./data/minimax/minimax-xlsx",
+        "./data/minimax/pptx-generator"
       ]
     }
   ]
