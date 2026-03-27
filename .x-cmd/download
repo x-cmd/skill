@@ -78,3 +78,14 @@ fork_from_superpowers(){
 
     ___x_cmd rm -rf superpowers
 }
+
+fork_from_minimax(){
+    ___x_cmd git clone --depth 1 https://github.com/MiniMax-AI/skills minimax
+
+    ___x_cmd rm -rf data/minimax
+    ___x_cmd mv minimax/skills data/minimax
+    ___x_cmd mv minimax/LICENSE data/minimax/LICENSE
+
+    ___x_cmd rm -rf minimax
+}
+
