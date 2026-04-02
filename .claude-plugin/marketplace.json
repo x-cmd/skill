@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Comprehensive command-line tools collection for Git management, security assessment, network administration, system monitoring, and knowledge search through x-cmd CLI ecosystem",
-    "version": "0.0.17"
+    "version": "0.1.0"
   },
   "plugins": [
     {
