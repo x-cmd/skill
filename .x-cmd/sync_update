@@ -11,4 +11,5 @@
     fork_from_nextlevelbuilder
     fork_from_superpowers
     fork_from_minimax
+    fork_from_vercel
 ) || return $?

@@ -89,3 +89,12 @@ fork_from_minimax(){
     ___x_cmd rm -rf minimax
 }
 
+fork_from_vercel(){
+    ___x_cmd git clone --depth 1 https://github.com/vercel-labs/agent-browser vercel
+
+    ___x_cmd rm -rf data/vercel
+    ___x_cmd mv vercel/skills data/vercel
+    ___x_cmd mv vercel/LICENSE data/vercel/LICENSE
+
+    ___x_cmd rm -rf vercel
+}
