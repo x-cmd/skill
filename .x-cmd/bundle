@@ -5,7 +5,7 @@ bundle_tmp2tgz()(
     x cd "$(x wsroot)/.tmp"
     x rmrf web_data/tmp
     # x ws onemin_data
-    x z "skills.tar.gz"  * || return
+    x z "skills.tar.gz" * || return $?
     x rmrf "${output}/skills.tar.gz"
     x mkdirp "${output}"
     x mv "skills.tar.gz" "${output}/skills.tar.gz"

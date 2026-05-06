@@ -7,7 +7,7 @@ release()(
     x:info "run cmd -> x cd $root_path"
 
     x cd "$root_path"
-    x ws bundle --version "$x_cmd_skill_version"
+    x ws bundle --version "$x_cmd_skill_version" || return $?
 
     x:info "Release on github."
     (
