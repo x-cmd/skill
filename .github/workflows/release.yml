@@ -6,7 +6,7 @@ on:
       x-cmd-skill-version:
           description: 'x-cmd skill version'
           required: true
-          default: 'v0.0.17'
+          default: 'v0.1.0'
 
 jobs:
   Bundle:
@@ -28,8 +28,7 @@ jobs:
         uses: x-cmd/action@main
         with:
           code: |
-            x ws bundle  || return
-            x ws release || return
+            x ws release || return $?
 
 
 

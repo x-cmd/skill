@@ -5,10 +5,11 @@ bundle_tmp2tgz()(
     x cd "$(x wsroot)/.tmp"
     x rmrf web_data/tmp
     # x ws onemin_data
-    x z "skills.tar.gz"  * || return
+    # x z "skills.tar.gz" * || return $?
+    tar -czvf "/tmp/skills.tar.gz" . || return $?
     x rmrf "${output}/skills.tar.gz"
     x mkdirp "${output}"
-    x mv "skills.tar.gz" "${output}/skills.tar.gz"
+    x mv "/tmp/skills.tar.gz" "${output}/skills.tar.gz"
     x touch "${output}/skills_hash.txt"
     x hash sha512 "${output}/skills.tar.gz" > "${output}/skills_hash.txt"
 
@@ -95,7 +96,7 @@ bundle_xcmd_skill_packages(){
 }
 
 bundle()(
-    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.0.17"}";
+    local x_cmd_skill_version="${___X_CMD_SKILL_RELEASE_VERSION:-"v0.1.0"}";
 
     local root; root="$(x wsroot)"
     local output; output="$root/dist"

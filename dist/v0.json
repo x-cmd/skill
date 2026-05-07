@@ -6635,6 +6635,36 @@
     }
   },
   {
+    "id": "vercel/agent-browser",
+    "reference": "https://github.com/vercel-labs/agent-browser",
+    "tag": [
+      "browser",
+      "automation",
+      "electron",
+      "sandbox",
+      "ai"
+    ],
+    "license": "Apache-2.0",
+    "name": "agent-browser",
+    "description": {
+      "en": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, fill forms, click buttons, take screenshots, extract data, test web apps, or automate browser tasks.",
+      "cn": "面向 AI 代理的浏览器自动化 CLI。用于用户需要与网站交互、填写表单、点击按钮、截取屏幕截图、提取数据、测试 Web 应用或自动化浏览器任务的场景。"
+    },
+    "author": "Vercel",
+    "avatar": "https://avatars.githubusercontent.com/u/108547162",
+    "path": "/vercel/agent-browser",
+    "installation": {
+      "claude_plugin": {
+        "registry": "/plugin marketplace add vercel-labs/agent-browser",
+        "install": "/plugin install agent-browser@agent-browser"
+      },
+      "zipball": {
+        "codeberg": "https://codeberg.org/x-cmd/skill/releases/download/latest/agent-browser.zip",
+        "github": "https://github.com/x-cmd/skill/releases/download/latest/agent-browser.zip"
+      }
+    }
+  },
+  {
     "id": "x-cmd/x-cmd",
     "reference": "https://github.com/x-cmd-skill/x-cmd",
     "tag": [
