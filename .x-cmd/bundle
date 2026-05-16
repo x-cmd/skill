@@ -21,10 +21,6 @@ bundle_xcmd_skill_data()(
     x:info "BEGIN ==== > bundle x-cmd/skill data"
 
     x mkdirp "$tgtprefix"
-    x cp -rf "data" "$tgtprefix/" || {
-        x:error "wrong: data"
-        return 1
-    }
     x yq eval-all -o=tsv '[.[]
         | del(.path,.tag,.avatar,.installation)
         | (. as $item | with_entries(select(.key != "description")) + {"type": "skill"} + {"description": $item.description.en} )
@@ -87,6 +83,7 @@ bundle_xcmd_skill_packages(){
             */affaanmustafa)        x cp -rf "data/affaanmustafa/LICENSE"       "$tgtprefix/.tmp/$skill_name/";;
             */nextlevelbuilder)     x cp -rf "data/nextlevelbuilder/LICENSE"    "$tgtprefix/.tmp/$skill_name/";;
             */superpowers)          x cp -rf "data/superpowers/LICENSE"         "$tgtprefix/.tmp/$skill_name/";;
+            */vercel/*)             x cp -rf "data/vercel/LICENSE"              "$tgtprefix/.tmp/$skill_name/";;
             */x-cmd/*)              x cp -rf LICENSE                            "$tgtprefix/.tmp/$skill_name/";;
         esac
         x z "$tgtprefix/${skill_name}.zip" "$tgtprefix/.tmp/$skill_name"
