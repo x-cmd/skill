@@ -87,6 +87,7 @@ bundle_xcmd_skill_packages(){
             */affaanmustafa)        x cp -rf "data/affaanmustafa/LICENSE"       "$tgtprefix/.tmp/$skill_name/";;
             */nextlevelbuilder)     x cp -rf "data/nextlevelbuilder/LICENSE"    "$tgtprefix/.tmp/$skill_name/";;
             */superpowers)          x cp -rf "data/superpowers/LICENSE"         "$tgtprefix/.tmp/$skill_name/";;
+            */vercel/*)             x cp -rf "data/vercel/LICENSE"              "$tgtprefix/.tmp/$skill_name/";;
             */x-cmd/*)              x cp -rf LICENSE                            "$tgtprefix/.tmp/$skill_name/";;
         esac
         x z "$tgtprefix/${skill_name}.zip" "$tgtprefix/.tmp/$skill_name"
