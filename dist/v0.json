@@ -5821,7 +5821,7 @@
   },
   {
     "id": "notion/spec-to-implementation",
-    "reference": "https://skillshunt.io/skills/notion/notion-spec-to-implementation",
+    "reference": "https://github.com/makenotion/claude-code-notion-plugin/tree/main/skills/notion/spec-to-implementation",
     "tag": [
       "notion",
       "specification",

@@ -1,7 +1,7 @@
 
 - id: notion/spec-to-implementation
   url: https://file.skillshunt.io/skills/notion-spec-to-implementation/notion-spec-to-implementation.zip
-  reference: https://skillshunt.io/skills/notion/notion-spec-to-implementation
+  reference: https://github.com/makenotion/claude-code-notion-plugin/tree/main/skills/notion/spec-to-implementation
   tag:
     - notion
     - specification
